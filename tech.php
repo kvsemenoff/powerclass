@@ -1,13 +1,15 @@
 ﻿<?php require_once('includes/header.php'); ?>
 
 <br><br>		
-<a href="#" class="button-1">Заказать звонок</a>	
+<a href="#" class="button-1">Узнать подробнее</a>	
 <br><br>	
-<h1>Пример заголовка</h1>
-<br><br>	
+<h2>Пример заголовка</h2>
+<br><br>
+<span class="podzagolovok">Подзаголовок</span>
+
 <form action="#">
-	<input type="text" value="" placeholder="Инпут тайп текст">		
-	<input type="submit" value="Значение" placeholder="Инпут тайп сабмит">		
+	<input class="dd-input" type="text" value="" placeholder="Инпут тайп текст">		
+	<input class="button-1 dd-submit" type="submit" value="Хочу попробовать" placeholder="">
 </form>		
 
 
