@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
