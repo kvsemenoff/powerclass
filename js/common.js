@@ -3,8 +3,7 @@
 $(document).ready(function(){
 $(this).scroll(function(){
     var $this = $(this), 
-        sT = $this.scrollTop();
-        console.log(sT);
+        sT = $this.scrollTop(); 
     if(sT > 0){
         $('.db-menu').css("background", "black");
     }
