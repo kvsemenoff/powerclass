@@ -101,6 +101,7 @@
 	}
 	.db-five{
 		padding-top: 53px;
+		position: relative;
 		.db-podr{
 			line-height: 73px !important;
 		}
@@ -120,6 +121,15 @@
 			border: 2px solid white; 
 			margin-top: 30px;
 		}
+	}
+	.db-five:after{
+		content: "";
+		position: absolute;
+		top: 20px;
+		right: 185px;
+		background: url("../img/header_price.png")no-repeat;
+		width: 192px;
+		height: 101px;
 	}
 
 }
