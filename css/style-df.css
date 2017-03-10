@@ -270,7 +270,8 @@
   .dfgirlbox {
     float: right;
     margin-right: 65px;
-    margin-top: 23px; }
+    margin-top: 23px;
+    text-align: left; }
 
   .dfbg2 {
     padding: 100px 0 180px 0;
@@ -312,7 +313,7 @@
     top: 155px;
     left: 35px;
     width: 1px;
-    height: 107%;
+    height: 95%;
     border-left: 1px dashed #fff;
     z-index: 9; }
 
