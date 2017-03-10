@@ -49,6 +49,21 @@ $('.db-burger').on("click", function(){
         $(this).toggleClass('az-select-focus');
     });
 
+    $("#owl-slider").owlCarousel({
+        loop:true,
+        dots:true,
+        items:1,
+        mouseDrag:true,
+        touchDrag: true,
+        nav:true,
+        responsive:{
+          770:{
+            nav:false,
+            items:3
+        }
+      }
+    });
+
  });
 
 
