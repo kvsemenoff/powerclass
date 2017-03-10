@@ -1,0 +1,107 @@
+.clear {
+  clear: both; }
+
+.dfbg1 {
+  padding: 30px 0;
+  background-color: #eaeaea; }
+
+.dfgirlbox {
+  text-align: center; }
+
+.dfcapgirl {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  color: #212121;
+  line-height: 50px; }
+  .dfcapgirl b {
+    font-weight: 800; }
+
+.dfcapgirl2 {
+  font-weight: 300;
+  font-size: 30px;
+  color: #212121;
+  line-height: 48px;
+  font-family: 'Open Sans', sans-serif; }
+  .dfcapgirl2 span {
+    font-weight: 800;
+    color: #e53935; }
+
+.dflink {
+  padding-top: 27px;
+  font-family: 'Open Sans', sans-serif; }
+  .dflink a {
+    display: inline-block;
+    font-weight: 600;
+    padding: 25px 55px;
+    font-size: 18px;
+    color: #272727;
+    line-height: 22px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    background-color: #fcc938;
+    background-image: linear-gradient(to top, #ffdc52 0%, #ffea72 100%);
+    border-radius: 33px 34px 34px 33px;
+    box-shadow: 0 4px 0 #ecc345, inset 0 0 4px rgba(255, 221, 82, 0.17); }
+
+.dfbg2 {
+  height: 250px;
+  background-image: url("../img/paralax1.jpg");
+  background-attachment: fixed;
+  background-position: center top 27%;
+  background-size: cover;
+  overflow: hidden; }
+
+.dffourbox {
+  text-align: center;
+  display: none; }
+
+.dfparalaxbox {
+  max-width: 230px;
+  width: 100%;
+  height: 131px;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding-top: 55px; }
+  .dfparalaxbox span {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: 22px; }
+
+@media only screen and (min-width: 992px) {
+  .dfbg1 {
+    padding: 120px 0;
+    background-image: url("../img/girl1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+
+  .dfcapgirl {
+    font-size: 46px; }
+
+  .dfcapgirl2 {
+    font-size: 40px; }
+
+  .dfgirlbox {
+    float: right;
+    margin-right: 65px;
+    margin-top: 23px; }
+
+  .dfbg2 {
+    padding: 100px 0 180px 0;
+    height: auto; }
+
+  .dfparalaxbox {
+    margin-right: 45px;
+    margin-bottom: 0;
+    padding-top: 55px; } }
+@media only screen and (min-width: 1248px) {
+  .dffourbox {
+    text-align: center;
+    display: block; } }
+
+/*# sourceMappingURL=style-df.css.map */
