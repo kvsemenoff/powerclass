@@ -1,7 +1,22 @@
 
 
 $(document).ready(function(){
+$(this).scroll(function(){
+    var $this = $(this), 
+        sT = $this.scrollTop();
+        console.log(sT);
+    if(sT > 0){
+        $('.db-menu').css("background", "black");
+    }
+    else{
+       $('.db-menu').css("background", "unset"); 
+    }
 
+});
+
+$('.db-burger').on("click", function(){
+    $('.db-up_menu_menu').slideToggle();
+});
     $('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');
