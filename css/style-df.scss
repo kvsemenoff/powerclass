@@ -290,6 +290,256 @@
 	}	
 }
 
+
+
+
+
+
+
+
+/*======================menu================*/
+
+
+.dfmenumobule{
+	font-family: 'Open Sans', sans-serif;
+}
+.dfmenucap{
+	font-size: 20px;
+	color: #212121;
+	line-height: 50px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.dfcallory{
+	text-align: center;
+}
+
+.dfcaloryesbox{
+	width: 70px;
+	margin-right: 5px;
+	display: inline-block;		
+	.dfborder{
+		border: 2px solid #212121;
+		border-radius: 25px;
+		padding: 8px 0;
+		display: inline-block;
+		width: 100%;
+		-o-transition:0.5s;
+		-webkit-transition:0.5s;
+		-moz-transition:0.5s;
+		transition:0.5s;
+		cursor: pointer;
+	}
+	a{
+		color: #212121;		
+		font-size: 10px;
+		font-weight: 700;
+		line-height: 11px;
+		display: inline-block;		
+		border-bottom: 1px dashed #212121;			
+	}	
+	span{
+		display: inline-block;
+		color: #212121;		
+		font-size: 10px;
+		font-weight: 300;
+		line-height: 8px;		
+	}
+}
+.dfborder:hover{
+	border: 2px solid #e53935;
+	a{
+		border-bottom: 1px dashed transparent;	
+		color: #e53935;
+	}
+}
+.dfcallory .dfcaloryesbox:last-child{	
+	margin-right: 0;		
+}
+
+
+.df3or5{
+	text-align: center;
+	padding: 15px 0 17px 0;
+	.df3{
+		color: #212121;		
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 18px;
+		display: inline-block;
+		width: 137px;
+		background-color: #ededed;
+		padding: 9px 0;
+		transition:0.4s;
+	}
+	.df5{
+		color: #212121;		
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 18px;
+		display: inline-block;
+		width: 137px;
+		background-color: #ededed;
+		padding: 9px 0;
+		transition:0.4s;
+	}
+	a:hover{
+		background-color: #e53935;
+		color: #fff;
+	}
+	span{
+		color:#212121;	
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 18px;
+		display: block;
+	}
+	
+}
+
+
+.dfweaks{
+	ul{
+		text-align: center;
+	}
+}
+.dfweak{
+	display: inline-block;
+	width: 38px;
+	text-align: center;
+	border-radius: 3px;
+	transition:0.4s;
+	padding: 3px 0;
+	a{
+		display: inline-block;
+		color: #212121;		
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 18px;
+		text-decoration: underline;
+	}
+}
+.dfweak:hover{
+	background-color: #ededed;
+	a{
+		text-decoration: none;
+	}
+}
+
+.dfblockmenu{
+	padding: 17px 0 0px 0;//12
+}
+.dfmenubox1{
+	width: 275px;
+	border-radius: 3px;	
+	margin: 0 auto;
+	height: 109px;
+	overflow: hidden;
+	margin-bottom: 11px;
+	background-color: #ededed;
+}
+.dfimgmenu{
+	width: 114px;
+	display: inline-block;	
+	vertical-align: top;
+	float: left;	
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+.dfmenutxt{
+	vertical-align: top;
+	float: left;
+	display: inline-block;
+	width: 160px;
+	padding: 9px 5px 9px 12px;
+	// background-color: #ededed;
+}
+.dfnameproduct{
+	color: #111;	
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 14px;
+}
+.dfcharmenu1{
+	color: #111;	
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 14px;
+	display: inline-block;
+	padding-top: 7px;
+}
+.dfcharmenu2{
+	color: #111;	
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 18px;
+	display: inline-block;
+}
+.dfcharmenu3{
+	color: rgba(17, 17, 17, 0.14);	
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 8px;
+	float: right;
+	display: inline-block;
+	padding-right: 16px;
+}
+
+
+.dfitogo{
+	background-color: #e53935;
+	border-radius: 3px;
+	width: 275px;
+	margin: 0 auto;
+	padding: 12px 0 10px 21px;
+	margin-bottom: 25px;
+}
+.dftxtitogo1{
+	color: white;	
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 700;
+	display: inline-block;
+	padding: 0 3px;
+}
+.dftxtitogo2{
+	color: white;	
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 300;
+	display: inline-block;
+	padding: 0 3px;
+	b{
+		font-weight: 700;
+	}
+}
+.dfmenulink{
+	text-align: center;
+	a{
+		color: #272727;		
+		font-size: 15px;
+		font-weight: 600;
+		line-height: 18px;
+		text-transform: uppercase;
+		display: inline-block;
+		padding: 22px 39px;
+		background-color: #ffe15e;
+		border-bottom: 3px solid #ecc345;
+		border-radius: 35px;
+		letter-spacing: 0.6px
+	}
+}
+
+
+
+
+
+
+
 @media only screen and (min-width : 320px) {
 }
 
