@@ -1,2 +1,33 @@
-@import url(reset.css);@import url(fonts.css);@import url(style2.css);@import url(style3.css);@import url(style4.css);@import url(style5.css);@import url(style6.css);@import url(style7.css);@import url(style8.css);@import url(style9.css);@import url(style10.css);.clear{clear:both}.center{text-align:center}h2{font-family:'Open Sans', sans-serif;font-weight:300;font-size:46px}.podzagolovok{font-family:'Open Sans', sans-serif;font-weight:500;font-size:26px}.button-1{display:inline-block;width:255px;height:68px;background-color:#8bc34a;background-image:linear-gradient(to top, #ffdc52 0%, #ffea72 100%);border-radius:33px;box-shadow:0 4px 0 #ecc345,inset 0 0 4px rgba(255,221,82,0.17);line-height:66px;text-transform:uppercase;font-weight:600;font-family:'Open Sans', sans-serif;font-size:18px;color:black;text-align:center}.section_padding{padding:25px 0px}.dd-input{outline:none;height:53px;background:#e6e6e6;border-radius:26px;border:none;border-top:2px solid #CECECE;padding-left:26px;font-family:'Open Sans', sans-serif;font-weight:500;font-size:15px}.dd-submit{outline:none;border:none}
-/*# sourceMappingURL=style.css.map */
+@import url(reset.css);
+@import url(fonts.css);
+@import url(style-db.css);
+@import url(style-dc.css);
+@import url(style-dd.css);
+@import url(style-de.css);
+@import url(style-df.css);
+@import url(style-dg.css);
+@import url(style-dh.css);
+@import url(style-dj.css);
+@import url(style3.css);
+@import url(style4.css);
+@import url(style5.css);
+@import url(style6.css);
+@import url(style7.css);
+@import url(style8.css);
+@import url(style9.css);
+@import url(style10.css);
+.clear { clear: both; }
+
+.center { text-align: center; }
+
+h2 { font-family: 'Open Sans', sans-serif; font-weight: 300; font-size: 46px; }
+
+.podzagolovok { font-family: 'Open Sans', sans-serif; font-weight: 500; font-size: 26px; }
+
+.button-1 { display: inline-block; width: 255px; height: 68px; background-color: #8bc34a; background-image: linear-gradient(to top, #ffdc52 0%, #ffea72 100%); border-radius: 33px; box-shadow: 0 4px 0 #ecc345, inset 0 0 4px rgba(255, 221, 82, 0.17); line-height: 66px; text-transform: uppercase; font-weight: 600; font-family: 'Open Sans', sans-serif; font-size: 18px; color: black; text-align: center; }
+
+.section_padding { padding: 25px 0px; }
+
+.dd-input { outline: none; height: 53px; background: #e6e6e6; border-radius: 26px; border: none; border-top: 2px solid #CECECE; padding-left: 26px; font-family: 'Open Sans', sans-serif; font-weight: 500; font-size: 15px; }
+
+.dd-submit { outline: none; border: none; }

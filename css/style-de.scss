@@ -1,5 +1,120 @@
-
-
+.questions, .dd-want-view{
+	background: url(../img/questions.jpg) top center/cover;
+	height: 521px;
+	padding: 83px 0 25px!important;
+	font-family: 'Open Sans', arial, sans-serif;
+	.form-wrap{
+		padding: 15px 0 20px;
+	}
+	.phone{
+		font-size: 36px;
+		color: #212121;
+		font-weight: 700;
+		display: block;
+		padding: 8px 0;
+	}
+	.input-wrap{
+		display: inline-block;
+    background: #fff;
+    margin-right: -39px;
+    padding-right: 28px;
+    border-radius: 26px;
+    margin-bottom: 15px;
+    input{
+    	background: none;
+    	box-shadow: none;
+    	border-top: none;
+    }
+	}
+}
+.in{
+	float: right;
+	width: 50%;
+	p{
+		font-size: 18px;
+		padding: 10px 0;
+		color: #7f7f81;
+		max-width: 485px;
+		line-height: 28px;
+		font-weight: 600;
+	}
+}
+.dd-want-view{
+	background-image: url(../img/want.jpg);
+	.descr{
+		font-size: 24px;
+		color: #212121;
+		font-weight: 900;
+		display: block;
+		padding: 10px 0 20px;
+		b{
+			display: block;
+		}
+		i{
+			color: #e53935;
+		}
+	}
+	.input-wrap{
+		background: #e6e6e6;
+		border-top: 2px solid #cdcdcd;
+	}
+}
+.testimonials{
+	font-family: 'Open Sans', arial, sans-serif;
+	padding: 50px 0 70px;
+	background: #e9e9e9;
+	&__head{
+		text-align: center;
+		padding: 10px 0 40px;
+		p{
+			color: #7d7d7d;
+			font-size: 26px;
+			max-width: 580px;
+			margin: 0 auto;
+		}
+		i{
+			font-weight: 900;
+		}
+	}
+	.item{
+		width: 270px;
+		height: 468px;
+		overflow: hidden;
+		margin: 0 auto;
+		img{
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+	}
+}
+.tarif{
+	font-family: 'Open Sans', arial, sans-serif;
+	padding: 50px 0 60px;
+	background: #e9e9e9 url(../img/tarif.jpg) top center/cover;
+	&__head{
+		text-align: center;
+		padding: 10px 0 40px;
+		h2{
+			color: #fff;
+		}
+		p{
+	    color: #7d7d7d;
+	    font-size: 26px;
+	    max-width: 686px;
+	    margin: 0 auto;
+	    line-height: 27px;
+	    padding: 25px 0 10px;
+		}
+	}
+	.individual{
+		display: block;
+		text-align: center;
+		font-size: 14px;
+		color: #fff;
+		text-decoration: underline;
+	}
+}
 @media only screen and (min-width : 320px) {
 }
 
