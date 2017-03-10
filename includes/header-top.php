@@ -1,14 +1,15 @@
+<div id="pitanie"></div>
 <section class="section section_padding section_header_top1">
 	<div class="db-up_menu">
 		<img src="../img/buter.png" alt="img" class="db-burger"> <span class="db-span-span-one">Меню</span><span class="db-span-span-two">+7 495 133 29 67</span>
 		<div class="clearfix"></div>
 		<ul class="db-up_menu_menu">
-			<li><a href="#">пробный тариф</a></li>
-			<li><a href="#">доставка</a></li>
-			<li><a href="#">тарифы</a></li>
-			<li><a href="#">отзывы</a></li>
-			<li><a href="#">меню</a></li>
-			<li><a href="#">вопросы и ответы</a></li>
+			<li><a href="#pitanie">пробный тариф</a></li>
+			<li><a href="#dostavka">доставка</a></li>
+			<li><a href="#tarif">тарифы</a></li>
+			<li><a href="#otziv">отзывы</a></li>
+			<li><a href="#menu">меню</a></li>
+			<li><a href="#vopros">вопросы и ответы</a></li>
 		</ul>
 	</div>
 	<div class="container">
@@ -40,12 +41,12 @@
 	</section>
 	<section class="section section_padding section_header_top">
 		<ul class="db-menu">
-			<li><a href="#">подобрать питание</a></li>
-			<li><a href="#">доставка</a></li>
-			<li><a href="#">тарифы</a></li>
-			<li><a href="#">отзывы</a></li>
-			<li><a href="#">меню</a></li>
-			<li><a href="#">вопросы и ответы</a></li>
+			<li><a href="#pitanie">подобрать питание</a></li>
+			<li><a href="#dostavka">доставка</a></li>
+			<li><a href="#tarif">тарифы</a></li>
+			<li><a href="#otziv">отзывы</a></li>
+			<li><a href="#menu">меню</a></li>
+			<li><a href="#vopros">вопросы и ответы</a></li>
 		</ul>
 		<div class=" container">
 			<div class="row">

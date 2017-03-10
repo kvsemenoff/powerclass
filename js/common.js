@@ -1,21 +1,35 @@
 
 
 $(document).ready(function(){
-$(this).scroll(function(){
-    var $this = $(this), 
+    $(this).scroll(function(){
+        var $this = $(this), 
         sT = $this.scrollTop(); 
-    if(sT > 0){
-        $('.db-menu').css("background", "black");
-    }
-    else{
-       $('.db-menu').css("background", "unset"); 
-    }
+        if(sT > 0){
+            $('.db-menu').css("background", "black");
+        }
+        else{
+           $('.db-menu').css("background", "unset"); 
+       }
 
-});
+   });
 
-$('.db-burger').on("click", function(){
-    $('.db-up_menu_menu').slideToggle();
-});
+    $('.db-menu a, .db-up_menu_menu a').on("click", function(e){
+        e.preventDefault();
+        var $this = $(this), 
+        $href = $this.attr('href'),
+        $scrollTop = $($href).offset().top;
+
+        $('html, body').animate({
+
+            scrollTop: $scrollTop
+        },
+        800
+        );
+    });
+
+    $('.db-burger').on("click", function(){
+        $('.db-up_menu_menu').slideToggle();
+    });
     $('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');
@@ -60,9 +74,9 @@ $('.db-burger').on("click", function(){
             nav:false,
             items:3
         }
-      }
-    });
+    }
+});
 
- });
+});
 
 
