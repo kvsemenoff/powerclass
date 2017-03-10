@@ -72,6 +72,187 @@
     color: #000000;
     line-height: 22px; }
 
+/*===============how=============*/
+.dfbghow1 {
+  background-image: url("../img/dfbg1mob.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px 0 20px 0 !important;
+  position: relative;
+  border-bottom: 4px solid #fff; }
+
+.dfbghow1:after {
+  content: "";
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff; }
+
+.dfcontainer {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto; }
+
+.dfcaphow {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 20px !important;
+  padding-top: 50px; }
+
+.dfcapbottom {
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  font-size: 26px;
+  color: #ffffff;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+  display: none; }
+
+.dfhowblock {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  text-align: center; }
+
+.dfhownumber {
+  font-size: 73.6px;
+  color: #fff;
+  line-height: 75px;
+  font-weight: 600;
+  display: inline-block;
+  text-shadow: 0 0 12.2px rgba(0, 0, 0, 0.34);
+  vertical-align: top;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  top: 67px;
+  left: -5px;
+  display: none; }
+
+.dfcaptionbox {
+  display: inline-block;
+  max-width: 480px;
+  width: 100%;
+  padding-top: 70px; }
+
+.dfhcap1 {
+  font-size: 20px;
+  color: #000;
+  line-height: 36px;
+  font-weight: 600; }
+  .dfhcap1 span {
+    font-weight: 400; }
+
+.dfhcap2 {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8c8c8c;
+  margin: 15px 0 25px 0; }
+
+.dfhcap3 {
+  font-size: 15px;
+  line-height: 22px;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 40px; }
+  .dfhcap3 b {
+    font-weight: 700; }
+
+.dfboxchar {
+  margin-bottom: 50px;
+  display: none; }
+
+.dfimgcahr {
+  display: inline-block;
+  width: 115px;
+  height: 115px;
+  vertical-align: top; }
+
+.dftxtbox {
+  display: inline-block;
+  padding-left: 5px;
+  max-width: 405px;
+  width: 100%; }
+  .dftxtbox .dfcaptxtbox {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: top; }
+  .dftxtbox p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #c7c7c7;
+    color: #000000;
+    font-weight: 400; }
+    .dftxtbox p b {
+      font-weight: 600; }
+
+/*section bg2*/
+.dfbghow2 {
+  background-image: url("../img/dfbg2mob.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px 0 50px 0 !important;
+  position: relative;
+  border-bottom: 4px solid #fff;
+  font-family: 'Open Sans', sans-serif; }
+
+.colorwhite {
+  display: block;
+  color: #fff;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400; }
+  .colorwhite b {
+    font-weight: 600; }
+
+.dfcapbottom2 {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 28px;
+  font-weight: 600;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 50px; }
+
+.dfcolor {
+  color: #c5c5c5 !important;
+  top: 0; }
+
+.dfcolor2 .dfcaptxtbox {
+  color: #fff !important; }
+.dfcolor2 p {
+  color: #fff !important; }
+
+.dfbghow3 {
+  background-image: url("../img/dfbg3mob.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px 0 50px 0 !important;
+  position: relative;
+  border-bottom: none;
+  font-family: 'Open Sans', sans-serif; }
+  .dfbghow3 .dfhowblock:after {
+    display: none; }
+
+@media only screen and (min-width: 768px) {
+  .dfbghow1 {
+    background-image: url("../img/dfbg1.jpg"); }
+
+  .dfbghow2 {
+    background-image: url("../img/dfbg2.jpg"); }
+
+  .dfbghow3 {
+    background-image: url("../img/dfbg3.jpg"); } }
 @media only screen and (min-width: 992px) {
   .dfbg1 {
     padding: 120px 0;
@@ -89,7 +270,8 @@
   .dfgirlbox {
     float: right;
     margin-right: 65px;
-    margin-top: 23px; }
+    margin-top: 23px;
+    text-align: left; }
 
   .dfbg2 {
     padding: 100px 0 180px 0;
@@ -98,7 +280,89 @@
   .dfparalaxbox {
     margin-right: 45px;
     margin-bottom: 0;
-    padding-top: 55px; } }
+    padding-top: 55px; }
+
+  /*===============how=============*/
+  .dfbghow1 {
+    padding: 55px 0 27px 0 !important;
+    border-bottom: 7px solid #fff; }
+
+  .dfbghow1:after {
+    top: 210px;
+    left: 0;
+    height: 4px;
+    display: block; }
+
+  .dfcaphow {
+    font-size: 46px !important;
+    padding-top: 0px;
+    margin-bottom: 7px; }
+
+  .dfcapbottom {
+    display: block; }
+
+  .dfhowblock {
+    padding-left: 131px;
+    position: relative;
+    padding-top: 70px;
+    text-align: left; }
+
+  .dfhowblock:after {
+    content: "";
+    position: absolute;
+    top: 155px;
+    left: 35px;
+    width: 1px;
+    height: 95%;
+    border-left: 1px dashed #fff;
+    z-index: 9; }
+
+  .dfhownumber {
+    display: block; }
+
+  .dfcaptionbox {
+    padding-top: 0px; }
+
+  .dfhcap1 {
+    font-size: 28px; }
+
+  .dfhcap2 {
+    font-size: 18px; }
+
+  .dfboxchar {
+    display: block;
+    margin-left: -10px; }
+
+  /*================== section2*/
+  .dfbghow2 {
+    padding: 50px 0 167px 0 !important;
+    border-bottom: 7px solid #fff; }
+    .dfbghow2 .dfhowblock:after {
+      display: none; }
+
+  .dfhowblock2 {
+    position: relative;
+    padding-top: 0px !important; }
+
+  .dfhowblock2:before {
+    content: "";
+    position: absolute;
+    top: 85px;
+    left: 35px;
+    width: 1px;
+    height: 140%;
+    z-index: 99;
+    border-left: 1px dashed #6a6a70; }
+
+  /*================== section3*/
+  .dfbghow3 {
+    padding: 0px 0 320px 0 !important; }
+    .dfbghow3 .dfhowblock {
+      padding-top: 55px;
+      padding-left: 125px; }
+
+  .postop {
+    top: 50px; } }
 @media only screen and (min-width: 1248px) {
   .dffourbox {
     text-align: center;
