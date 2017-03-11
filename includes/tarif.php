@@ -6,13 +6,414 @@
 				<h2>Тарифы</h2>
 				<p>Комплексы питания POWERCLASS идеально подходят как мужчинам, так и женщинам</p>
 			</div>
-			<div class="tarif__items clearfix">
-				<div class="col-md-3">
-					<div class="item">
-						
-					</div>
-				</div>
-			</div>
+	    <div class="tabs-block">
+	      <div class="tabs clearfix">
+	        <div class="tab tab-0 active">
+	        	<div class="tab-in">
+	        		<span><b>Фит</b></span><i>1 400 ккал/день</i>
+	        	</div>
+	        </div>
+	        <div class="tab tab-1">
+	        	<div class="tab-in">
+	        		<span><b>Фит плюс</b></span><i>1 700 ккал/день</i>
+	        	</div>
+	        </div>
+	        <div class="tab tab-2">
+	        	<div class="tab-in">
+	        		<span><b>Спорт</b></span><i>2 500 ккал/день</i>
+	        	</div>
+	        </div>
+	        <div class="tab tab-3">
+	        	<div class="tab-in">
+	        		<span><b>Спорт плюс</b></span><i>3 500 ккал/день</i>
+	        	</div>
+	        </div>
+	      </div>
+	      <div class="tabs-content clearfix">
+	        <div class="tab-content tab-0 col-md-12">
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>4 600</i> руб.</span>
+									<span><b>920</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>5 850</i> руб.</span>
+									<span><b>1 170</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>1 400</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - разовое питание</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>6 405</i> руб.</span>
+									<span><b>915</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>7</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>8 204</i> руб.</span>
+									<span><b>1 172</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>1 400</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - разовое питание</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>7</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Пт, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="tabs-content clearfix">
+	        <div class="tab-content tab-1 col-md-12">
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>5 850</i> руб.</span>
+									<span><b>1 170</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>1 400</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - разовое питание</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>4 600</i> руб.</span>
+									<span><b>920</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>4 600</i> руб.</span>
+									<span><b>920</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>4 600</i> руб.</span>
+									<span><b>920</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="tabs-content clearfix">
+	        <div class="tab-content tab-2 col-md-12">
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>4 600</i> руб.</span>
+									<span><b>920</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>4 600</i> руб.</span>
+									<span><b>920</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>4 600</i> руб.</span>
+									<span><b>920</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>4 600</i> руб.</span>
+									<span><b>920</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="tabs-content clearfix">
+	        <div class="tab-content tab-3 col-md-12">
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>4 600</i> руб.</span>
+									<span><b>920</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>4 600</i> руб.</span>
+									<span><b>920</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>4 600</i> руб.</span>
+									<span><b>920</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	          <div class="col-md-3">
+	          	<div class="inner">
+	          		<div class="price block">
+		          		<span><i>4 600</i> руб.</span>
+									<span><b>920</b> руб. в день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>840</b> ккал/день</span>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>3</b> - разовое питание</span>
+		          		<div class="de-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block">
+		          		<span><b>5</b> - дней</span>
+		          		<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+		          	</div>
+		          	<div class="block last-block">
+		          		<span><b>Дни доставки</b>Ср, Вс</span>
+		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          	</div>
+	          	</div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
 			<a href="#" class="individual">Рассчитать индивидуальный тариф</a>
 		</div>
 	</div>

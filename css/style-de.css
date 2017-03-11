@@ -27,7 +27,7 @@
 .tarif__head { text-align: center; padding: 10px 0 40px; }
 .tarif__head h2 { color: #fff; }
 .tarif__head p { color: #7d7d7d; font-size: 26px; max-width: 686px; margin: 0 auto; line-height: 27px; padding: 25px 0 10px; }
-.tarif .individual { display: block; text-align: center; font-size: 14px; color: #fff; text-decoration: underline; }
+.tarif .individual { padding-top: 25px; display: block; text-align: center; font-size: 14px; color: #707070; text-decoration: underline; }
 
 .shtraf-mini { display: none; }
 
@@ -108,6 +108,34 @@
 .shtraf-mini .border-red select { border: 2px solid #e53935; }
 .shtraf-mini .dd-submit { height: 52px; line-height: 52px; width: 100%; font-size: 13px; margin: 5px 0; }
 .shtraf-mini .link { font-size: 14px; color: #b7b7b7; display: block; text-align: center; padding: 15px 0; }
+
+.tab { padding: 20px 20px 0; float: left; width: 25%; }
+.tab:first-child .tab-in { margin-left: -20px; }
+.tab:last-child .tab-in { margin-right: -20px; }
+.tab .tab-in { border-radius: 40px 40px 0 0; padding: 15px; }
+.tab img { position: absolute; display: none; top: 0; left: 0; }
+.tab span { cursor: pointer; border-radius: 35px; border: 2px solid #fff; color: #fff; font-size: 16px; font-weight: 900; text-align: center; width: 100%; line-height: 55px; display: block; margin: 0 auto; }
+.tab span b { border-bottom: 1px dashed #fff; }
+.tab i { display: block; text-align: center; padding: 8px 0; font-size: 14px; font-weight: 300; color: #fff; }
+
+.tab.active .tab-in { background: rgba(0, 0, 0, 0.25); }
+.tab.active img { display: block; }
+.tab.active span { color: #ffe76b; border-color: #ffe76b; }
+.tab.active span b { border: none; }
+
+.tab-content .price i { font-size: 36px; color: #e53935; font-weight: 900; }
+.tab-content .price b { font-size: 14px !important; }
+.tab-content .price span { display: block; }
+.tab-content .block { padding: 15px 23px 23px; background: rgba(0, 0, 0, 0.75); border-bottom: 1px solid rgba(39, 39, 40, 0.7); color: #fff; }
+.tab-content .block span { font-size: 14px; }
+.tab-content .block b { font-size: 30px; font-weight: 900; }
+.tab-content .block .dd-submit { width: 100%; font-size: 18px; line-height: 52px; height: 52px; margin-top: 15px; }
+.tab-content .block .de-dots i { border-radius: 50%; width: 8px; height: 8px; background: #ffe76b; display: inline-block; margin: 4px; }
+.tab-content .block .de-dots .empty { background: none; border: 1px solid #ffe76b; }
+.tab-content .last-block { border-bottom: none; }
+.tab-content .last-block b { display: block; font-size: 18px; }
+
+.tab-content { background: rgba(0, 0, 0, 0.25); padding: 27px 10px; -webkit-box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.3); -moz-box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.3); box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.3); }
 
 @media only screen and (max-width: 1200px) { .shtraf .end__item { padding: 0 15px; }
   .shtraf .delivery .input--home { margin: 0 13px 15px 0; } }

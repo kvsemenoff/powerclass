@@ -64,6 +64,28 @@ $('.db-burger').on("click", function(){
       }
     });
 
+    $('.tabs-content > .tab-content').each(function(index){
+        if (index != 0) {
+            $(this).css('display','none');
+        };
+    });
+
+    $('.tab').click(function(){
+    $('.tab').removeClass('active');
+    $('.tabs-content').find('div').removeClass('active');
+    $('.tabs-content > .tab-content').css('display','none');
+    $(this).addClass('active');
+
+    for (var i = 0; i < 4; i++) {
+        if($('.tabs > .tab-' + i).hasClass('active')){
+            $('.tabs-content > .tab-' + i).addClass('active');
+    };
+    
+    $('.tabs-content > .active').css('display','block');
+    };
+});
+
+
  });
 
 
