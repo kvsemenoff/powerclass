@@ -109,25 +109,25 @@
 .shtraf-mini .dd-submit { height: 52px; line-height: 52px; width: 100%; font-size: 13px; margin: 5px 0; }
 .shtraf-mini .link { font-size: 14px; color: #b7b7b7; display: block; text-align: center; padding: 15px 0; }
 
-.tab { padding: 25px 25px 0; float: left; width: 25%; position: relative; }
+.tab { padding: 0 29px 0; float: left; width: 25%; position: relative; }
+.tab:first-child { padding-right: 45px; }
 .tab:first-child .tab-in { margin-left: -25px; }
+.tab:last-child { padding-left: 45px; }
 .tab:last-child .tab-in { margin-right: -25px; }
-.tab .tab-in { border-radius: 40px 40px 0 0; padding: 15px; }
+.tab .tab-in { border-radius: 12px 19px 0; padding: 15px 20px 0; }
 .tab img { position: absolute; display: none; top: 0; left: 0; }
 .tab span { cursor: pointer; border-radius: 35px; border: 2px solid #fff; color: #fff; font-size: 16px; font-weight: 900; text-align: center; width: 100%; line-height: 55px; display: block; margin: 0 auto; }
 .tab span b { border-bottom: 1px dashed #fff; }
 .tab i { display: block; text-align: center; padding: 8px 0; font-size: 14px; font-weight: 300; color: #fff; }
 
-.tab.active .tab-in { background: rgba(0, 0, 0, 0.34); }
+.tab.active { background: url(../img/tab-bg.png) no-repeat; background-size: cover; }
 .tab.active img { display: block; }
 .tab.active span { color: #ffe76b; border-color: #ffe76b; }
 .tab.active span b { border: none; }
-.tab.active::before { content: ""; display: block; background: url(../img/tab-bg-r.png) no-repeat; width: 51px; height: 46px; right: auto; left: -26px; bottom: 0; position: absolute; transform: scale(-1, 1); }
-.tab.active::after { content: ""; display: block; background: url(../img/tab-bg-r.png) no-repeat; width: 51px; height: 46px; right: -26px; bottom: 0; position: absolute; }
 
-.tab:first-child.active::before { display: none; }
+.tab:first-child.active { background-image: url("../img/tab-bg-first.png"); }
 
-.tab:last-child.active::after { display: none; }
+.tab:last-child.active { background-image: url("../img/tab-bg-last.png"); }
 
 .tab-content .price i { font-size: 36px; color: #e53935; font-weight: 900; }
 .tab-content .price b { font-size: 14px !important; }

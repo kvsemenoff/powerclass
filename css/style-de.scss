@@ -542,23 +542,25 @@
 	}
 }
 .tab{
-	padding: 25px 25px 0;
+	padding: 0 29px 0;
 	float: left;
 	width: 25%;
 	position: relative;
 	&:first-child{
+		padding-right: 45px;
 		.tab-in{
 			margin-left: -25px;
 		}
 	}
 	&:last-child{
+		padding-left: 45px;
 		.tab-in{
 			margin-right: -25px;
 		}
 	}
 	.tab-in{
-		border-radius: 40px 40px 0 0;
-		padding: 15px;
+		border-radius: 12px 19px 0;
+		padding: 15px 20px 0;
 	}
 	img{
 		position: absolute;
@@ -592,8 +594,10 @@
 	}
 }
 .tab.active{
+	background: url(../img/tab-bg.png) no-repeat;
+	background-size: cover;
 	.tab-in{
-		background: rgba(0,0,0,0.34);
+		// background: rgba(0,0,0,0.34);
 	}
 	img{
 		display: block;
@@ -605,34 +609,12 @@
 			border: none;
 		}
 	}
-	&::before{
-		content: "";
-		display: block;
-		background: url(../img/tab-bg-r.png) no-repeat;
-		width: 51px;
-		height: 46px;
-		right: auto;
-		left: -26px;
-		bottom: 0;
-		position: absolute;
-		transform: scale(-1,1);
-	}
-	&::after{
-		content: "";
-		display: block;
-		background: url(../img/tab-bg-r.png) no-repeat;
-		width: 51px;
-		height: 46px;
-		right: -26px;
-		bottom: 0;
-		position: absolute;
-	}
 }
-.tab:first-child.active::before{
-	display: none;
+.tab:first-child.active{
+	background-image: url("../img/tab-bg-first.png");
 }
-.tab:last-child.active::after{
-	display: none;
+.tab:last-child.active{
+	background-image: url("../img/tab-bg-last.png");
 }
 .tab-content{
 	.price{
