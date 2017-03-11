@@ -129,6 +129,7 @@
 
 .tab:last-child.active { background-image: url("../img/tab-bg-last.png"); }
 
+.tab-content { background: rgba(0, 0, 0, 0.2); padding: 27px 10px; -webkit-box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.3); -moz-box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.3); box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.3); }
 .tab-content .price i { font-size: 36px; color: #e53935; font-weight: 900; }
 .tab-content .price b { font-size: 14px !important; }
 .tab-content .price span { display: block; }
@@ -141,14 +142,36 @@
 .tab-content .last-block { border-bottom: none; }
 .tab-content .last-block b { display: block; font-size: 18px; }
 
-.tab-content { background: rgba(0, 0, 0, 0.25); padding: 27px 10px; -webkit-box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.3); -moz-box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.3); box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.3); }
-
 @media only screen and (max-width: 1200px) { .shtraf .end__item { padding: 0 15px; }
-  .shtraf .delivery .input--home { margin: 0 13px 15px 0; } }
+  .shtraf .delivery .input--home { margin: 0 13px 15px 0; }
+  .tab span { line-height: 39px; } }
 @media only screen and (max-width: 1000px) { .shtraf-item { display: none; }
   .shtraf-mini { display: block; }
   .questions h2, .dd-want-view h2, .testimonials h2 { font-size: 20px; }
-  .testimonials .item { padding: 0 10px; } }
+  .testimonials .item { padding: 0 10px; }
+  .tarif h2 { font-size: 20px; }
+  .tarif .tarif__head p { display: none; }
+  .tarif .tab { padding: 0 !important; background: none !important; }
+  .tarif .tab .tab-in { padding: 10px; margin: 0; }
+  .tarif .tab .tab-in span { display: none; }
+  .tarif .tab .tab-in i { font-size: 10px; opacity: 0.8; }
+  .tarif .tab .tab-in em { cursor: pointer; border-radius: 35px; border: 2px solid #fff; color: #fff; font-size: 10px; font-weight: 900; text-align: center; width: 100%; line-height: 34px; display: block; margin: 0 auto 5px; }
+  .tarif .tab .tab-in em strong { border-bottom: 1px dashed #fff; }
+  .tarif .tab.active em { color: #fae76b; border-color: #fae76b; }
+  .tarif .tab.active em strong { border: none; }
+  .tab-content { background: none; padding: 0; box-shadow: none; }
+  .tab-content .col-md-3 { display: none; }
+  .tab-content .inner { background: rgba(0, 0, 0, 0.75); padding: 15px; }
+  .tab-content .block { background: none; border: none; padding: 0; }
+  .tab-content .block span { display: block; font-size: 10px; padding: 3px; }
+  .tab-content .block span b { font-size: 16px; }
+  .tab-content .block span em { font-size: 10px; font-weight: 900; color: #fff; display: inline-block; padding-right: 8px; }
+  .tab-content .col-md-12 { padding: 0; margin-bottom: 20px; }
+  .tab-content .right { float: left; width: 50%; }
+  .tab-content .price { float: left; width: 50%; }
+  .tab-content .price i { font-size: 19px; }
+  .tab-content .price span { font-size: 8px; }
+  .tab-content .price input.dd-submit { font-size: 11px; max-width: 120px; line-height: 32px; height: 32px; margin-bottom: 10px; } }
 @media only screen and (max-width: 770px) { .questions, .dd-want-view, .testimonials { padding: 35px 0 30px !important; height: auto; }
   .questions h2, .dd-want-view h2, .testimonials h2 { font-size: 20px; }
   .testimonials { background: none; }

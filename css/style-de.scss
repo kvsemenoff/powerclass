@@ -617,6 +617,11 @@
 	background-image: url("../img/tab-bg-last.png");
 }
 .tab-content{
+	background: rgba(0,0,0,0.2);
+	padding: 27px 10px;
+	-webkit-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.3);
+	box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.3);
 	.price{
 		i{
 			font-size: 36px;
@@ -672,19 +677,17 @@
 		}
 	}
 }
-.tab-content{
-	background: rgba(0,0,0,0.25);
-	padding: 27px 10px;
-	-webkit-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.3);
-	-moz-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.3);
-	box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.3);
-}
 @media only screen and (max-width : 1200px) {
 	.shtraf .end__item{
 		padding: 0 15px;
 	}
 	.shtraf .delivery .input--home{
 		margin: 0 13px 15px 0;
+	}
+	.tab{
+		span{
+			line-height: 39px;
+		}
 	}
 }
 @media only screen and (max-width : 1000px) {
@@ -702,6 +705,109 @@
 	.testimonials{
 		.item{
 			padding: 0 10px;
+		}
+	}
+	.tarif{
+		h2{
+			font-size: 20px;
+		}
+		.tarif__head p{
+			display: none;
+		}
+		.tab{
+			padding: 0!important;
+			background: none!important;
+			.tab-in{
+				padding: 10px;
+				margin: 0;
+			}
+			.tab-in span{
+				display: none;
+			}
+			.tab-in i{
+				font-size: 10px;
+				opacity: 0.8;
+			}
+			.tab-in em{
+				cursor: pointer;
+				border-radius: 35px;
+				border: 2px solid #fff;
+				color: #fff;
+				font-size: 10px;
+				font-weight: 900;
+				text-align: center;
+				width: 100%;
+				line-height: 34px;
+				display: block;
+				margin: 0 auto 5px;
+				strong{
+					border-bottom: 1px dashed #fff;
+				}
+			}
+		}
+		.tab.active em{
+			color: #fae76b;
+			border-color: #fae76b;
+			strong{
+				border: none;
+			}
+		}
+	}
+	.tab-content{
+		background: none;
+		padding: 0;
+		box-shadow: none;
+		.col-md-3{
+			display: none;
+		}
+		.inner{
+   	  background: rgba(0, 0, 0, 0.75);
+			padding: 15px;
+		}
+		.block{
+			background: none;
+			border: none;
+			padding: 0;
+			span{
+				display: block;
+				font-size: 10px;
+				padding: 3px;
+				b{
+					font-size: 16px;
+				}
+				em{
+					font-size: 10px;
+					font-weight: 900;
+					color: #fff;
+					display: inline-block;
+					padding-right: 8px;
+				}
+			}
+		}
+		.col-md-12{
+			padding: 0;
+			margin-bottom: 20px;
+		}
+		.right{
+			float: left;
+			width: 50%;
+		}
+		.price{
+			float: left;
+			width: 50%;
+			i{
+				font-size: 19px;
+			}
+			span{
+				font-size: 8px;
+			}
+			input.dd-submit{
+				font-size: 11px;
+				max-width: 120px;
+				line-height: 32px;
+				height: 32px;
+				margin-bottom: 10px;
+			}
 		}
 	}
 }
