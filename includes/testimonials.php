@@ -8,13 +8,13 @@
 			</div>
 			<div class="testimonilas__items owl-theme clearfix" id="owl-slider">
 				<div class="item">
-					<img src="img/testimonilals-1.jpg" alt="">
+					<img src="img/feedback-1.jpg" alt="">
 				</div>
 				<div class="item">
-					<img src="img/testimonilals-1.jpg" alt="">
+					<img src="img/feedback-2.jpg" alt="">
 				</div>
 				<div class="item">
-					<img src="img/testimonilals-1.jpg" alt="">
+					<img src="img/feedback-3.jpg" alt="">
 				</div>
 			</div>
 		</div>
