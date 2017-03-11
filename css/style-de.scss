@@ -877,13 +877,15 @@
 		text-align: center;
 		.in{
 			float: none;
-			width: 320px;
+			max-width: 320px;
+			width: 100%;
 			color: #fff;
 			padding: 0 22px;
 			margin: 0 auto;
 			.input-wrap{
 				margin-right: 0;
 				padding-right: 0;
+				width: 100%;
 			}
 			input{
 				width: 277px;
@@ -891,6 +893,8 @@
 				line-height: 48px;
 				font-size: 15px;
 				text-align: center;
+				padding-left: 0;
+				width: 100%;
 			}
 		}
 		p{

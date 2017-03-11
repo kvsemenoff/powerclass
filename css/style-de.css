@@ -189,9 +189,9 @@
   .dd-want-view .input-wrap .dd-input { font-size: 14px; padding: 0 15px; height: 43px; }
   .dd-want-view .dd-submit { height: 43px; width: 186px; font-size: 14px; line-height: 43px; }
   .questions { background: url(../img/questions-mini.jpg) no-repeat; background-size: cover; text-align: center; }
-  .questions .in { float: none; width: 320px; color: #fff; padding: 0 22px; margin: 0 auto; }
-  .questions .in .input-wrap { margin-right: 0; padding-right: 0; }
-  .questions .in input { width: 277px; height: 48px; line-height: 48px; font-size: 15px; text-align: center; }
+  .questions .in { float: none; max-width: 320px; width: 100%; color: #fff; padding: 0 22px; margin: 0 auto; }
+  .questions .in .input-wrap { margin-right: 0; padding-right: 0; width: 100%; }
+  .questions .in input { width: 277px; height: 48px; line-height: 48px; font-size: 15px; text-align: center; padding-left: 0; width: 100%; }
   .questions p { color: #fff; font-size: 14px; text-align: center; font-weight: 300; line-height: 18px; }
   .questions .phone { font-size: 30px; color: #fff; } }
 @media only screen and (max-width: 400px) { .testimonials .owl-prev { left: -10px; }
