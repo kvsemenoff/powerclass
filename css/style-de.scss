@@ -542,17 +542,18 @@
 	}
 }
 .tab{
-	padding: 20px 20px 0;
+	padding: 25px 25px 0;
 	float: left;
 	width: 25%;
+	position: relative;
 	&:first-child{
 		.tab-in{
-			margin-left: -20px;
+			margin-left: -25px;
 		}
 	}
 	&:last-child{
 		.tab-in{
-			margin-right: -20px;
+			margin-right: -25px;
 		}
 	}
 	.tab-in{
@@ -592,7 +593,7 @@
 }
 .tab.active{
 	.tab-in{
-		background: rgba(0,0,0,0.25);
+		background: rgba(0,0,0,0.34);
 	}
 	img{
 		display: block;
@@ -604,6 +605,34 @@
 			border: none;
 		}
 	}
+	&::before{
+		content: "";
+		display: block;
+		background: url(../img/tab-bg-r.png) no-repeat;
+		width: 51px;
+		height: 46px;
+		right: auto;
+		left: -26px;
+		bottom: 0;
+		position: absolute;
+		transform: scale(-1,1);
+	}
+	&::after{
+		content: "";
+		display: block;
+		background: url(../img/tab-bg-r.png) no-repeat;
+		width: 51px;
+		height: 46px;
+		right: -26px;
+		bottom: 0;
+		position: absolute;
+	}
+}
+.tab:first-child.active::before{
+	display: none;
+}
+.tab:last-child.active::after{
+	display: none;
 }
 .tab-content{
 	.price{

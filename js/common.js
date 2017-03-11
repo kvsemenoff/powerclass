@@ -77,7 +77,6 @@ $(document).ready(function(){
     }
 });
 
-<<<<<<< HEAD
     $('.tabs-content > .tab-content').each(function(index){
         if (index != 0) {
             $(this).css('display','none');
@@ -101,8 +100,5 @@ $(document).ready(function(){
 
 
  });
-=======
-});
->>>>>>> 2c36476233e91da185e8f911a8f498bd3758fe9b
 
 
