@@ -669,6 +669,9 @@
 			}
 		}
 	}
+	.col-md-12{
+		display: none;
+	}
 	.last-block{
 		border-bottom: none;
 		b{
@@ -759,6 +762,9 @@
 		box-shadow: none;
 		.col-md-3{
 			display: none;
+		}
+		.col-md-12{
+			display: block;
 		}
 		.inner{
    	  background: rgba(0, 0, 0, 0.75);

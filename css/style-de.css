@@ -139,6 +139,7 @@
 .tab-content .block .dd-submit { width: 100%; font-size: 18px; line-height: 52px; height: 52px; margin-top: 15px; }
 .tab-content .block .de-dots i { border-radius: 50%; width: 8px; height: 8px; background: #ffe76b; display: inline-block; margin: 4px; }
 .tab-content .block .de-dots .empty { background: none; border: 1px solid #ffe76b; }
+.tab-content .col-md-12 { display: none; }
 .tab-content .last-block { border-bottom: none; }
 .tab-content .last-block b { display: block; font-size: 18px; }
 
@@ -161,6 +162,7 @@
   .tarif .tab.active em strong { border: none; }
   .tab-content { background: none; padding: 0; box-shadow: none; }
   .tab-content .col-md-3 { display: none; }
+  .tab-content .col-md-12 { display: block; }
   .tab-content .inner { background: rgba(0, 0, 0, 0.75); padding: 15px; }
   .tab-content .block { background: none; border: none; padding: 0; }
   .tab-content .block span { display: block; font-size: 10px; padding: 3px; }
