@@ -9,7 +9,7 @@
 	padding: 25px 0px 40px 0 !important;
 }
 .db-up_menu{
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	background: #000;
@@ -161,8 +161,7 @@
 		display: block;
 	}
 	.db-menu{
-		position: fixed;
-		z-index: 1000;
+		position: absolute;
 		text-align: center;
 		top:0;
 		left: 0;

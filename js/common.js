@@ -1,17 +1,17 @@
 
 
 $(document).ready(function(){
-    $(this).scroll(function(){
-        var $this = $(this), 
-        sT = $this.scrollTop(); 
-        if(sT > 0){
-            $('.db-menu').css("background", "black");
-        }
-        else{
-           $('.db-menu').css("background", "unset"); 
-       }
+   //  $(this).scroll(function(){
+   //      var $this = $(this), 
+   //      sT = $this.scrollTop(); 
+   //      if(sT > 0){
+   //          $('.db-menu').css("background", "black");
+   //      }
+   //      else{
+   //         $('.db-menu').css("background", "unset"); 
+   //     }
 
-   });
+   // });
 
     $('.db-menu a, .db-up_menu_menu a').on("click", function(e){
         e.preventDefault();
