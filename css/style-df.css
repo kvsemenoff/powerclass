@@ -610,7 +610,7 @@
       -webkit-transition: 0.5s;
       -moz-transition: 0.5s;
       transition: 0.5s;
-      cursor: pointer; }
+      cursor: default; }
     .dfcaloryesbox a {
       color: #212121;
       font-size: 14px;
@@ -629,6 +629,16 @@
 
   .dfhoverbox1 {
     margin-left: -13px; }
+
+  .dfactivelink {
+    background-image: url("../img/hoveronbutton1.png");
+    background-repeat: no-repeat;
+    background-position: top 1px right 181%; }
+
+  .dfactivelink2 {
+    background-image: url("../img/hoveronbutton2.png");
+    background-repeat: no-repeat;
+    background-position: top center; }
 
   .dfhoverbox1:hover {
     background-image: url("../img/hoveronbutton1.png");
@@ -815,6 +825,11 @@
       color: #212121;
       background-color: #fff;
       text-decoration: none; }
+
+  .jsweakactive {
+    color: #212121 !important;
+    background-color: #fff;
+    text-decoration: none !important; }
 
   .dfmenulink {
     background-color: #e53935;
