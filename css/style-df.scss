@@ -316,7 +316,7 @@
 	text-align: center;
 }
 
-.dfcaloryesbox{
+.dfcaloryesbox, .dfcaloryesbox2{
 	width: 70px;
 	margin-right: 5px;
 	display: inline-block;		
@@ -355,7 +355,18 @@
 		color: #e53935;
 	}
 }
+.dfactivelinkmob{
+	border: 2px solid #e53935 !important;
+	a{
+		border-bottom: 1px dashed transparent !important;	
+		color: #e53935 !important;
+	}
+}
+
 .dfcallory .dfcaloryesbox:last-child{	
+	margin-right: 0;		
+}
+.dfcallory .dfcaloryesbox2:last-child{	
 	margin-right: 0;		
 }
 
@@ -398,7 +409,14 @@
 	}
 	
 }
-
+.df3active{
+	background-color: #e53935 !important;
+	color: #fff !important;
+}
+.df5active{
+	background-color: #e53935 !important;
+	color: #fff !important;
+}
 
 .dfweaks{
 	ul{
@@ -407,7 +425,7 @@
 }
 .dfweak{
 	display: inline-block;
-	width: 38px;
+	
 	text-align: center;
 	border-radius: 3px;
 	transition:0.4s;
@@ -415,18 +433,25 @@
 	a{
 		display: inline-block;
 		color: #212121;		
+		width: 38px;
 		font-size: 18px;
 		font-weight: 300;
 		line-height: 18px;
 		text-decoration: underline;
 	}
-}
-.dfweak:hover{
-	background-color: #ededed;
-	a{
-		text-decoration: none;
+	a:hover{
+		background-color: #ededed;	
+		text-decoration: none !important;
+		padding: 4px 6px;
+		border-radius: 3px;
 	}
 }
+// .dfweak:hover{
+// 	background-color: #ededed;
+// 	a{
+// 		text-decoration: none;
+// 	}
+// }
 
 .dfblockmenu{
 	padding: 17px 0 0px 0;//12
@@ -455,7 +480,9 @@
 	float: left;
 	display: inline-block;
 	width: 160px;
+	height: 109px;
 	padding: 9px 5px 9px 12px;
+	position: relative;
 	// background-color: #ededed;
 }
 .dfnameproduct{
@@ -487,6 +514,9 @@
 	float: right;
 	display: inline-block;
 	padding-right: 16px;
+	position: absolute;
+    bottom: 15px;
+    right: -7px;
 }
 
 
@@ -541,6 +571,12 @@
 	display: none;
 }
 
+.jsmobactive{
+	background-color: #ededed;	
+	text-decoration: none !important;
+	padding: 4px 6px;
+	border-radius: 3px;
+}
 
 //////////////////////////////jquery menu
 
@@ -549,6 +585,16 @@
 }
 .dftabtop .dfmenuproducts{
 	display: none;
+}
+
+/////////////////mob============
+.dftabmob, .dfblockmenu{
+	display: none;
+}
+
+
+.jsdisabled{
+	opacity: 0.3;
 }
 @media only screen and (min-width : 320px) {
 }
@@ -709,6 +755,7 @@
 	}
 	.dfmenudesktop{
 		display: block;
+		padding: 70px 0 !important;
 	}
 	.dfcontainer2{
 		max-width: 1172px;
@@ -721,12 +768,15 @@
 		.dfcaloryesbox{
 			text-align: center;
 		}
+		.dfcaloryesbox2{
+			text-align: center;
+		}
 	}
 	.dfmenucap{
 		font-size: 46px;
 		margin-bottom: 45px;
 	}
-	.dfcaloryesbox{
+	.dfcaloryesbox, .dfcaloryesbox2{
 		// width: 147px;
 		width: auto;
 		// margin-right: 50px;
@@ -770,9 +820,9 @@
 		margin-left: -13px;
 	}
 	.dfactivelink{
-		background-image: url("../img/hoveronbutton1.png");
-		background-repeat: no-repeat;		
-		background-position: top 1px right 181%;
+		background-image: url("../img/hoveronbutton1.png") !important;
+		background-repeat: no-repeat !important;		
+		background-position: top 1px right 181% !important;
 	}	
 	.dfactivelink2{
 		background-image: url("../img/hoveronbutton2.png");
@@ -809,7 +859,7 @@
 
 
 
-	.dfcaloryesbox:hover{
+	.dfcaloryesbox:hover, .dfcaloryesbox2:hover{
 		.dfborder{
 			border: 2px solid #e53935;
 		}
@@ -854,13 +904,43 @@
 			background-color: #fff;
 		}
 	}
+	.df3priem:hover{
+		border: 2px solid #e53935;
+		color:  #e53935;
+		.dfdots{			
+			display: inline-block;
+			background-color: #e53935;
+			border: 1px solid  #e53935;
+		}		
+		.dfdots:last-child{
+			background-color: #fff;
+		}
+		.dfdots:nth-child(2){
+			background-color: #fff;
+		}
+	}
+	.df3priemactive{
+		border: 2px solid #e53935;
+		color:  #e53935;
+		.dfdots{			
+			display: inline-block;
+			background-color: #e53935;
+			border: 1px solid  #e53935;
+		}		
+		.dfdots:last-child{
+			background-color: #fff;
+		}
+		.dfdots:nth-child(2){
+			background-color: #fff;
+		}
+	}
 	.df5priem{
 		display: inline-block;
-		border: 2px solid #e53935;
+		border: 2px solid  #212121;		
 		padding: 12px 14px 3px 15px;
 		border-radius: 0 25px 25px 0;
 		text-align: left;
-		color: #e53935;
+		color:  #212121;		
 		font-size: 14px;
 		font-weight: 700;
 		line-height: 18px;
@@ -868,10 +948,26 @@
 			width: 7px;
 			height: 8px;
 			display: inline-block;
-			background-color: #e53935;
-			border: 1px solid #e53935;
+			background-color: #000;
+			border: 1px solid  #212121;		
 			border-radius: 50%;
 			margin-right: 2px;
+		}
+	}
+	.df5priem:hover{
+		border: 2px solid #e53935;
+		color: #e53935;
+		.dfdots{
+			background-color: #e53935;
+			border: 1px solid #e53935;
+		}
+	}
+	.df5priemactive{
+		border: 2px solid #e53935;
+		color: #e53935;
+		.dfdots{
+			background-color: #e53935;
+			border: 1px solid #e53935;
 		}
 	}
 
