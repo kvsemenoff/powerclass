@@ -8,7 +8,7 @@
 				<h3 class="dfmenucap">Меню на эту неделю</h3>
 				<div class="dfcallory">
 					<div class="dfcaloryesbox2">
-					<span class="dfborder osobiymob"><a href="#js-fitmob" class="dfactivelinkmob">1 400</a></span>
+					<span class="dfborder "><a href="#js-fitmob" class="dfactivelinkmob">1 400</a></span>
 						<span>ккал/день</span>
 					</div>
 					<div class="dfcaloryesbox2">
@@ -16,7 +16,7 @@
 						<span>ккал/день</span>
 					</div>
 					<div class="dfcaloryesbox2">
-					<span class="dfborder"><a href="#js-sportmob">2 500</a></span>
+					<span class="dfborder osobiymob"><a href="#js-sportmob">2 500</a></span>
 						<span>ккал/день</span>
 					</div>
 					<div class="dfcaloryesbox2">
@@ -1551,16 +1551,16 @@
 				<div class="dfmenumobule">
 					<h3 class="dfmenucap">Меню на эту неделю</h3>
 					<div class="dfcallory">
-						<div class="dfcaloryesbox dfhoverbox1 osobiy dfactivelink">
-							<span class="dfborder dfactivelinkmob"><a href="#jsfit">Фит</a></span>
+						<div class="dfcaloryesbox dfhoverbox1 ">
+							<span class="dfborder "><a href="#jsfit">Фит</a></span>
 							<span>1400 ккал/день</span>
 						</div>
 						<div class="dfcaloryesbox dfhoverbox2">
 							<span class="dfborder"><a href="#jsfitplus">Фит Плюс</a></span>
 							<span>1700 ккал/день</span>
 						</div>
-						<div class="dfcaloryesbox dfhoverbox3">
-							<span class="dfborder"><a href="#jssport">Спорт</a></span>
+						<div class="dfcaloryesbox dfhoverbox3 osobiy dfactivelink">
+							<span class="dfborder dfactivelinkmob"><a href="#jssport">Спорт</a></span>
 							<span>2500 ккал/день</span>
 						</div>
 						<div class="dfcaloryesbox dfhoverbox4">
