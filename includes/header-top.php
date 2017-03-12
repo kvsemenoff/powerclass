@@ -3,7 +3,7 @@
 		<img src="../img/buter.png" alt="img" class="db-burger"> <span class="db-span-span-one">Меню</span><span class="db-span-span-two">+7 495 133 29 67</span>
 		<div class="clearfix"></div>
 		<ul class="db-up_menu_menu">
-			<li><a href="#pitanie">пробный тариф</a></li>
+			<li><a href="#pitanie">подобрать питание</a></li>
 			<li><a href="#delivery">доставка</a></li>
 			<li><a href="#tariff">тарифы</a></li>
 			<li><a href="#testimonials">отзывы</a></li>
@@ -18,8 +18,8 @@
 				<p class="db-two1">
 					<img src="img/header_logo.png" alt="img">
 					<span>
-						<img src="img/header_vk.png" alt="img">
-						<img src="img/header_insta.png" alt="img">
+						<a href="#"><img src="img/header_vk.png" alt="img"></a>
+						<a href="#"><img src="img/header_insta.png" alt="img"></a>
 					</span>
 				</p>
 				<div class="clearfix"></div>
