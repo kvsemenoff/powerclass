@@ -6,21 +6,15 @@
 				<h2>Отзывы о нас</h2>
 				<p>POWERCLASS входит в ежедневный рацион более <i>1500</i> профессиональных спорстменов</p>
 			</div>
-			<div class="testimonilas__items clearfix">
-				<div class="col-md-4">
-					<div class="item">
-						<img src="img/testimonilals-1.jpg" alt="">
-					</div>
+			<div class="testimonilas__items owl-theme clearfix" id="owl-slider">
+				<div class="item">
+					<img src="img/feedback-1.jpg" alt="">
 				</div>
-				<div class="col-md-4">
-					<div class="item">
-						<img src="img/testimonilals-1.jpg" alt="">
-					</div>
+				<div class="item">
+					<img src="img/feedback-2.jpg" alt="">
 				</div>
-				<div class="col-md-4">
-					<div class="item">
-						<img src="img/testimonilals-1.jpg" alt="">
-					</div>
+				<div class="item">
+					<img src="img/feedback-3.jpg" alt="">
 				</div>
 			</div>
 		</div>
