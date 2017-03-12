@@ -1,3 +1,5 @@
+
+<div id="menu"></div>
 <section class="section section_padding dfmenumobulehidden">
 <div class=" container">
 	<div class="row">
@@ -120,19 +122,19 @@
 				<h3 class="dfmenucap">Меню на эту неделю</h3>
 				<div class="dfcallory">
 					<div class="dfcaloryesbox dfhoverbox1 osobiy">
-						<span class="dfborder"><a href="#jstab1">Фит</a></span>
+						<span class="dfborder"><a href="#jsfit">Фит</a></span>
 						<span>1400 ккал/день</span>
 					</div>
 					<div class="dfcaloryesbox dfhoverbox2">
-						<span class="dfborder"><a href="#jstab2">Фит Плюс</a></span>
+						<span class="dfborder"><a href="#jsfitplus">Фит Плюс</a></span>
 						<span>1700 ккал/день</span>
 					</div>
 					<div class="dfcaloryesbox dfhoverbox3">
-						<span class="dfborder"><a href="#jstab3">Спорт</a></span>
+						<span class="dfborder"><a href="#jssport">Спорт</a></span>
 						<span>2500 ккал/день</span>
 					</div>
 					<div class="dfcaloryesbox dfhoverbox4">
-						<span class="dfborder"><a href="#jstab4">Спорт Плюс</a></span>
+						<span class="dfborder"><a href="#jssportplus">Спорт Плюс</a></span>
 						<span>3500 ккал/день</span>
 					</div>
 
@@ -154,291 +156,1921 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-
 				
-				<div class="dfmenuproducts"	id="jstab1">
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu1.jpg" alt="">
-						</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">1</span>
+
+
+
+			<!-- ======================1========================= -->
+				<div class="df-fit-block dftabtop" id="jsfit">
+					<div class="dfmenuproducts"	id="jsfitfood1">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">450 гр. fit</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu2.jpg" alt="">
-						</div>
+					<div class="dfmenuproducts"	id="jsfitfood2">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">2</span>
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">452 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu3.jpg" alt="">
-						</div>
+					<div class="dfmenuproducts"	id="jsfitfood3">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">3</span>
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">453 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu4.jpg" alt="">
-						</div>
+					<div class="dfmenuproducts"	id="jsfitfood4">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">4</span>
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">454 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu5.jpg" alt="">
-						</div>
+					<div class="dfmenuproducts"	id="jsfitfood5">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">5</span>
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">fitness гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+					<div class="dfmenuproducts"	id="jsfitfood6">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">454 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+					<div class="dfmenuproducts"	id="jsfitfood7">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">fitness гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="dfmenuproducts"	id="jstab2">
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu1.jpg" alt="">
-						</div>
+			<!--====================2================  -->
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-							<span class="dfcharmenu2">452 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">1</span>
+				<div class="df-fitplus-block dftabtop" id="jsfitplus">
+					<div class="dfmenuproducts"	id="jsfitplusfood1">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">450 гр.jsfitplus</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu2.jpg" alt="">
-						</div>
+					<div class="dfmenuproducts"	id="jsfitplusfood2">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">2</span>
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">452 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu3.jpg" alt="">
-						</div>
+					<div class="dfmenuproducts"	id="jsfitplusfood3">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">3</span>
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">453 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu4.jpg" alt="">
-						</div>
+					<div class="dfmenuproducts"	id="jsfitplusfood4">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">4</span>
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">454 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu5.jpg" alt="">
-						</div>
+					<div class="dfmenuproducts"	id="jsfitplusfood5">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">5</span>
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">fitness гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+					<div class="dfmenuproducts"	id="jsfitplusfood6">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">454 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+					<div class="dfmenuproducts"	id="jsfitplusfood7">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">fitness гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="dfmenuproducts"	id="jstab3">
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu1.jpg" alt="">
-						</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-							<span class="dfcharmenu2">453 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">1</span>
+			<!-- ====================3=============== -->
+
+				<div class="df-sport-block dftabtop" id="jssport">
+					<div class="dfmenuproducts"	id="jssportfood1">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">450 гр.jssport</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu2.jpg" alt="">
-						</div>
+					<div class="dfmenuproducts"	id="jssportfood2">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">2</span>
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">452 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu3.jpg" alt="">
-						</div>
+					<div class="dfmenuproducts"	id="jssportfood3">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">3</span>
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">453 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu4.jpg" alt="">
-						</div>
+					<div class="dfmenuproducts"	id="jssportfood4">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">4</span>
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">454 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu5.jpg" alt="">
-						</div>
+					<div class="dfmenuproducts"	id="jssportfood5">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">5</span>
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">fitness гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+					<div class="dfmenuproducts"	id="jssportfood6">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">454 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+					<div class="dfmenuproducts"	id="jssportfood7">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">fitness гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+				</div>	
+
+			<!-- ====================4========================= -->
+
+				<div class="df-sportplus-block dftabtop" id="jssportplus">
+					<div class="dfmenuproducts"	id="jssportplusfood1">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">sportplus гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+					<div class="dfmenuproducts"	id="jssportplusfood2">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">452 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+					<div class="dfmenuproducts"	id="jssportplusfood3">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">453 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+					<div class="dfmenuproducts"	id="jssportplusfood4">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">454 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+					<div class="dfmenuproducts"	id="jssportplusfood5">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">fitness гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+					<div class="dfmenuproducts"	id="jssportplusfood6">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">454 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
+						</div>
+					</div>
+					<div class="dfmenuproducts"	id="jssportplusfood7">
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu1.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
+								<span class="dfcharmenu2">fitness гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">1</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu2.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">2</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu3.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">3</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu4.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">4</span>
+							</div>
+						</div>
+						<div class="dfmenuproductbox">
+							<div class="dfimgproduct">
+								<img src="img/menu5.jpg" alt="">
+							</div>
+
+							<div class="dfmenucharacteristic">
+								<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
+								<span class="dfcharmenu2">450 гр.</span>
+								<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
+								<span class="dfcharmenu2">564 ккал</span>
+								<span class="dfcharmenu3">5</span>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="dfmenuproducts"	id="jstab4">
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu1.jpg" alt="">
-						</div>
 
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-							<span class="dfcharmenu2">454 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">1</span>
-						</div>
-					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu2.jpg" alt="">
-						</div>
-
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">2</span>
-						</div>
-					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu3.jpg" alt="">
-						</div>
-
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">3</span>
-						</div>
-					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu4.jpg" alt="">
-						</div>
-
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">4</span>
-						</div>
-					</div>
-					<div class="dfmenuproductbox">
-						<div class="dfimgproduct">
-							<img src="img/menu5.jpg" alt="">
-						</div>
-
-						<div class="dfmenucharacteristic">
-							<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
-							<span class="dfcharmenu2">450 гр.</span>
-							<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-							<span class="dfcharmenu2">564 ккал</span>
-							<span class="dfcharmenu3">5</span>
-						</div>
-					</div>
-				</div>
+			<!-- =================================================== -->
 
 
-				<div class="dfmenudateweak">
+
+
+					<div class="dfmenudateweak">
 						<a href="#" class="dfmenuprev"></a>
 						<ul>
-							<li class="dfdaysmenu first"><a href="#" class="jsweakactive">Понедельник  </a></li>
-							<li class="dfdaysmenu"><a href="#" >Вторник</a></li>
-							<li class="dfdaysmenu"><a href="#">Среда</a></li>
-							<li class="dfdaysmenu"><a href="#">Четверг</a></li>
-							<li class="dfdaysmenu"><a href="#">Пятница</a></li>
-							<li class="dfdaysmenu"><a href="#">Суббота</a></li>
-							<li class="dfdaysmenu last"><a href="#">Воскресенье</a></li>
-						</ul>
-
-						
+							<li class="dfdaysmenu first"><a href="#" class="dfoneclass jsweakactive">Понедельник  </a></li>
+							<li class="dfdaysmenu"><a href="#" class="dfoneclass">Вторник</a></li>
+							<li class="dfdaysmenu"><a href="#" class="dfoneclass">Среда</a></li>
+							<li class="dfdaysmenu"><a href="#" class="dfoneclass">Четверг</a></li>
+							<li class="dfdaysmenu"><a href="#" class="dfoneclass">Пятница</a></li>
+							<li class="dfdaysmenu"><a href="#" class="dfoneclass">Суббота</a></li>
+							<li class="dfdaysmenu last"><a href="#" class="dfoneclass">Воскресенье</a></li>
+						</ul>						
 						<a href="#" class="dfmenunext"></a>
 					</div>
 
@@ -482,19 +2114,79 @@
 
         }
 
+        $('.dftabtop').hide();
         var tab = $(this).attr('href');
-        $('.dfmenuproducts').not(tab).fadeOut(100);
+        $('.dftabtop').not(tab).hide(100);
         $(tab).fadeIn(100);
+
+       
+      if ($('#jsfit').css('display')==='block') { 	    
+				
+			    var id = "";
+				$('#jsfit .dfmenuproducts').each(function() {
+					id = $(this).attr('id');					
+				});
+
+				$('.dfoneclass').each(function(index) {
+					index +=1;
+					$(this).attr('href', '#jsfitfood' + index);
+				});			     		
+			 	
+    	}
+    	else if($('#jsfitplus').css('display')==='block'){
+    			
+    			var id = "";
+				$('#jsfitplus .dfmenuproducts').each(function() {
+					id = $(this).attr('id');					
+				});
+
+				$('.dfoneclass').each(function(index) {
+					index +=1;
+					$(this).attr('href', '#jsfitplusfood' + index);
+				});
+    	}
+    	else if($('#jssport').css('display')==='block'){
+    			
+    			var id = "";
+				$('#jssport .dfmenuproducts').each(function() {
+					id = $(this).attr('id');					
+				});
+
+				$('.dfoneclass').each(function(index) {
+					index +=1;
+					$(this).attr('href', '#jssportfood' + index);
+				});
+    	}
+    	else if($('#jssportplus').css('display')==='block'){
+    			
+    			var id = "";
+				$('#jssportplus .dfmenuproducts').each(function() {
+					id = $(this).attr('id');
+									
+				});
+
+				$('.dfoneclass').each(function(index) {
+					index +=1;
+					$(this).attr('href', '#jssportplusfood' + index);
+				});
+    	}
+       
+        $('.jsweakactive').click();
     });
 
     $('.osobiy a').click();
 
+	 
 
+		
+
+
+
+  
 
 
     $('.dfmenuprev').on('click', function(evt){
-    	evt.preventDefault();
-    	 
+    	evt.preventDefault();    	 
     	
     	 if ($('.first a').hasClass('jsweakactive')) {
     	 		return false;
@@ -507,7 +2199,7 @@
     	 		.find('a')
     	 		.addClass('jsweakactive');
     	 }
-    	 
+    	  $('.jsweakactive').click();
     });
 
 
@@ -524,17 +2216,23 @@
     	 		.find('a')
     	 		.addClass('jsweakactive');	
     	 }    		
-
+    	 $('.jsweakactive').click();
     });
 
     $('.dfdaysmenu a').on('click', function(evt){
     	evt.preventDefault();
 
-    	 // var ind2 = $('.dfdaysmenu a').index(this);
-    	 // console.log(ind2);
-    	 // if (ind2===0 && ind2===5) {
-    	 // 	return false;
-    	 // }
+    	$('.jsweakactive').removeClass('jsweakactive');
+    	$(this).addClass('jsweakactive');
+
+
+    	var attrlink2 = $(this);
+    	var attrlink = $(this).attr('href');
+  
+        $('.dfmenuproducts').not(attrlink).fadeOut(100);
+        $(attrlink).show(100);
+
     });
+     $('.jsweakactive').click();
 
 </script>

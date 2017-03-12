@@ -456,6 +456,12 @@
 .dfmenudesktop {
   display: none; }
 
+.df-fit-block, .df-fitplus-block, .df-sport-block, .df-sportplus-block {
+  display: none; }
+
+.dftabtop .dfmenuproducts {
+  display: none; }
+
 @media only screen and (min-width: 768px) {
   .dfbghow1 {
     background-image: url("../img/dfbg1.jpg"); }

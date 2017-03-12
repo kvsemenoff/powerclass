@@ -542,8 +542,14 @@
 }
 
 
+//////////////////////////////jquery menu
 
-
+.df-fit-block, .df-fitplus-block, .df-sport-block, .df-sportplus-block{
+	display: none;
+}
+.dftabtop .dfmenuproducts{
+	display: none;
+}
 @media only screen and (min-width : 320px) {
 }
 
