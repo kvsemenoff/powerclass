@@ -53,8 +53,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">fit 114 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal">114 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -63,8 +63,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">114 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal">114 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -73,8 +73,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -83,8 +83,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -93,8 +93,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -105,8 +105,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -115,8 +115,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -125,8 +125,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -135,8 +135,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -145,8 +145,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -157,8 +157,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -167,8 +167,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -177,8 +177,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -187,8 +187,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -197,8 +197,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -209,8 +209,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -219,8 +219,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -229,8 +229,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -239,8 +239,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -249,8 +249,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -261,8 +261,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -271,8 +271,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -281,8 +281,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -291,8 +291,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -301,8 +301,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -313,8 +313,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -323,8 +323,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -333,8 +333,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -343,8 +343,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -353,8 +353,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -365,8 +365,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -375,8 +375,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -385,8 +385,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -395,8 +395,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -405,8 +405,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -422,8 +422,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">fitplusmob 224 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal">224 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -432,8 +432,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -442,8 +442,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -452,8 +452,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -462,8 +462,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -474,8 +474,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -484,8 +484,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -494,8 +494,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -504,8 +504,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -514,8 +514,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -526,8 +526,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -536,8 +536,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -546,8 +546,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -556,8 +556,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -566,8 +566,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -578,8 +578,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -588,8 +588,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -598,8 +598,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -608,8 +608,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -618,8 +618,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -630,8 +630,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -640,8 +640,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -650,8 +650,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -660,8 +660,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -670,8 +670,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -682,8 +682,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -692,8 +692,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -702,8 +702,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -712,8 +712,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -722,8 +722,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -734,8 +734,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -744,8 +744,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -754,8 +754,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -764,8 +764,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -774,8 +774,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -792,8 +792,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">sportmob 564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal">14 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -802,8 +802,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">334 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal">334 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -812,8 +812,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -822,8 +822,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -832,8 +832,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -844,8 +844,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -854,8 +854,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -864,8 +864,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -874,8 +874,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -884,8 +884,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -896,8 +896,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -906,8 +906,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -916,8 +916,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -926,8 +926,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -936,8 +936,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -948,8 +948,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -958,8 +958,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -968,8 +968,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -978,8 +978,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -988,8 +988,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -1000,8 +1000,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -1010,8 +1010,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -1020,8 +1020,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -1030,8 +1030,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -1040,8 +1040,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -1052,8 +1052,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -1062,8 +1062,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -1072,8 +1072,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -1082,8 +1082,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -1092,8 +1092,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -1104,8 +1104,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -1114,8 +1114,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -1124,8 +1124,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -1134,8 +1134,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -1144,8 +1144,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -1162,8 +1162,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">sportplusmob 444 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal">444 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -1172,8 +1172,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -1182,8 +1182,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -1192,8 +1192,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -1202,8 +1202,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -1214,8 +1214,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -1224,8 +1224,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -1234,8 +1234,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -1244,8 +1244,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -1254,8 +1254,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -1266,8 +1266,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -1276,8 +1276,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -1286,8 +1286,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -1296,8 +1296,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -1306,8 +1306,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -1318,8 +1318,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -1328,8 +1328,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -1338,8 +1338,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -1348,8 +1348,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -1358,8 +1358,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -1370,8 +1370,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -1380,8 +1380,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -1390,8 +1390,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -1400,8 +1400,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -1410,8 +1410,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -1422,8 +1422,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -1432,8 +1432,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -1442,8 +1442,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -1452,8 +1452,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -1462,8 +1462,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -1474,8 +1474,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">1</span>
 						</div>
 						<div class="clear"></div>
@@ -1484,8 +1484,8 @@
 						<div class="dfimgmenu"><img src="img/menumob2.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">2</span>
 						</div>
 						<div class="clear"></div>
@@ -1494,8 +1494,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">3</span>
 						</div>
 						<div class="clear"></div>
@@ -1504,8 +1504,8 @@
 						<div class="dfimgmenu"><img src="img/menumob3.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Индейка гриль / перловка с овощами /соус тар тар</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">4</span>
 						</div>
 						<div class="clear"></div>
@@ -1514,8 +1514,8 @@
 						<div class="dfimgmenu"><img src="img/menumob1.jpg" alt=""></div>
 						<div class="dfmenutxt">
 							<h4 class="dfnameproduct">Гречневая каша на молоке</h4>
-							<span class="dfcharmenu1">Белки: 40 г. Жиры: 18 г. Углеводы: 59 г.</span><br>
-							<span class="dfcharmenu2">564 ккал</span>
+							<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <span class="jiry">Жиры: 18 г.</span> <span class="yglevodi">Углеводы: 59 г.</span></span><br>
+							<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 							<span class="dfcharmenu3">5</span>
 						</div>
 						<div class="clear"></div>
@@ -1530,10 +1530,10 @@
 
 				<div class="dfitogo">
 					<span class="dftxtitogo1"><b>Итого:</b></span>
-					<span class="dftxtitogo2"><b>3 495 </b>Ккал</span> <br>
-					<span class="dftxtitogo2"><b>245 </b>Белки</span>
-					<span class="dftxtitogo2"><b>96 </b>Жиры</span>
-					<span class="dftxtitogo2"><b>411 </b>Углеводы</span>
+					<span class="dftxtitogo2"><b class="dfkkalmob">3 495 </b>Ккал</span> <br>
+					<span class="dftxtitogo2"><b class="dfbelkimob">245 </b>Белки</span>
+					<span class="dftxtitogo2"><b class="dfjirimob">96 </b>Жиры</span>
+					<span class="dftxtitogo2"><b class="dfyglevodimob">411 </b>Углеводы</span>
 				</div>
 
 				<div class="dfmenulink">
@@ -1551,7 +1551,7 @@
 				<div class="dfmenumobule">
 					<h3 class="dfmenucap">Меню на эту неделю</h3>
 					<div class="dfcallory">
-						<div class="dfcaloryesbox dfhoverbox1 ">
+						<div class="dfcaloryesbox dfhoverbox1 perviyosobiy">
 							<span class="dfborder "><a href="#jsfit">Фит</a></span>
 							<span>1400 ккал/день</span>
 						</div>
@@ -1601,9 +1601,9 @@
 
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-									<span class="dfcharmenu2">450 гр. fit</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu2">450 гр.</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">111 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -1615,8 +1615,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">524 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -1628,8 +1628,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">514 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -1641,8 +1641,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -1654,8 +1654,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -1669,8 +1669,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">452 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">504 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -1682,8 +1682,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">224 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -1695,8 +1695,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">444 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -1708,8 +1708,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -1721,8 +1721,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -1736,8 +1736,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">453 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">224 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -1749,8 +1749,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -1762,8 +1762,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -1775,8 +1775,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">524 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -1788,8 +1788,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -1803,8 +1803,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">454 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">114 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -1816,8 +1816,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -1829,8 +1829,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -1842,8 +1842,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -1855,8 +1855,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -1870,8 +1870,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">fitness гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -1883,8 +1883,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -1896,8 +1896,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -1909,8 +1909,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -1922,8 +1922,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -1937,8 +1937,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">454 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -1950,8 +1950,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -1963,8 +1963,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -1976,8 +1976,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -1989,8 +1989,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2004,8 +2004,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">fitness гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2017,8 +2017,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2030,8 +2030,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2043,8 +2043,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2056,8 +2056,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2074,9 +2074,9 @@
 
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-									<span class="dfcharmenu2">450 гр.jsfitplus</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu2">450 гр.</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">222 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2088,8 +2088,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2101,8 +2101,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2114,8 +2114,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2127,8 +2127,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2142,8 +2142,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">452 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2155,8 +2155,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2168,8 +2168,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2181,8 +2181,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2194,8 +2194,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2209,8 +2209,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">453 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2222,8 +2222,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2235,8 +2235,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2248,8 +2248,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2261,8 +2261,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2276,8 +2276,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">454 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2289,8 +2289,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2302,8 +2302,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2315,8 +2315,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2328,8 +2328,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2343,8 +2343,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">fitness гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2356,8 +2356,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2369,8 +2369,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2382,8 +2382,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2395,8 +2395,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2410,8 +2410,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">454 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2423,8 +2423,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2436,8 +2436,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2449,8 +2449,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2462,8 +2462,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2477,8 +2477,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">fitness гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2490,8 +2490,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2503,8 +2503,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2516,8 +2516,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2529,8 +2529,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2548,9 +2548,9 @@
 
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-									<span class="dfcharmenu2">450 гр.jssport</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu2">450 гр.</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">333 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2562,8 +2562,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">157 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2575,8 +2575,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2588,8 +2588,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2601,8 +2601,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2616,8 +2616,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">452 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2629,8 +2629,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2642,8 +2642,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2655,8 +2655,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2668,8 +2668,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2683,8 +2683,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">453 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2696,8 +2696,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2709,8 +2709,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2722,8 +2722,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2735,8 +2735,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2750,8 +2750,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">454 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2763,8 +2763,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2776,8 +2776,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2789,8 +2789,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2802,8 +2802,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2817,8 +2817,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">fitness гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2830,8 +2830,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2843,8 +2843,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2856,8 +2856,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2869,8 +2869,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2884,8 +2884,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">454 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2897,8 +2897,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2910,8 +2910,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2923,8 +2923,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -2936,8 +2936,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -2951,8 +2951,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">fitness гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -2964,8 +2964,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -2977,8 +2977,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -2990,8 +2990,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -3003,8 +3003,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -3022,9 +3022,9 @@
 
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-									<span class="dfcharmenu2">sportplus гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu2">450 гр.</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">444 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -3036,8 +3036,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -3049,8 +3049,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -3062,8 +3062,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -3075,8 +3075,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -3090,8 +3090,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">452 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -3103,8 +3103,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -3116,8 +3116,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -3129,8 +3129,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -3142,8 +3142,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -3157,8 +3157,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">453 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -3170,8 +3170,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -3183,8 +3183,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -3196,8 +3196,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -3209,8 +3209,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -3224,8 +3224,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">454 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -3237,8 +3237,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -3250,8 +3250,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -3263,8 +3263,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -3276,8 +3276,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -3291,8 +3291,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">fitness гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -3304,8 +3304,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -3317,8 +3317,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -3330,8 +3330,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -3343,8 +3343,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -3358,8 +3358,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">454 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -3371,8 +3371,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -3384,8 +3384,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -3397,8 +3397,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -3410,8 +3410,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -3425,8 +3425,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
 									<span class="dfcharmenu2">fitness гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
 								</div>
 							</div>
@@ -3438,8 +3438,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Бананово-творожный пирог/фрукты сезонные</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">2</span>
 								</div>
 							</div>
@@ -3451,8 +3451,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Индейка гриль /перловка с овощами/соус тар тар</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">3</span>
 								</div>
 							</div>
@@ -3464,8 +3464,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Ванильный маффин. Джем. Яичница болтунья.</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">4</span>
 								</div>
 							</div>
@@ -3477,8 +3477,8 @@
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Зразы куриные с яйцом /чечевица с овощами</h4>
 									<span class="dfcharmenu2">450 гр.</span>
-									<span class="dfcharmenu1">Белки: 40 г. <br>  Жиры: 18 г.  <br> Углеводы: 59 г. <br></span><br>
-									<span class="dfcharmenu2">564 ккал</span>
+									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
+									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">5</span>
 								</div>
 							</div>
@@ -3507,11 +3507,16 @@
 
 					<div class="dfmenulink">
 						<div class="dfitogobox">
-							<span class="dftxtitogo1">Итого понедельник:</span>
-							<span class="dftxtitogo2"><b>245 </b>Белки </span>
+							<span class="dftxtitogo1">Итого <em>понедельник:</em></span>
+							<!-- <span class="dftxtitogo2"><b>245 </b>Белки </span>
 							<span class="dftxtitogo2"><b>96 </b>Жиры</span>
 							<span class="dftxtitogo2"><b>411 </b>Углеводы</span>
-							<span class="dftxtitogo2"><b>3 495 </b>Калории</span>
+							<span class="dftxtitogo2"><b>3 495 </b>Калории</span> -->
+							
+							<span class="dftxtitogo2"><b class="dfbelki">245 </b>Белки</span>
+							<span class="dftxtitogo2"><b class="dfjiri">96 </b>Жиры</span>
+							<span class="dftxtitogo2"><b class="dfyglevodi">411 </b>Углеводы</span>
+							<span class="dftxtitogo2"><b class="dfkkalitogo">3 495 </b>Ккал</span> 
 						</div>
 						<a href="#" class="dflink">хочу попробовать</a>
 
