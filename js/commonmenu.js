@@ -8,7 +8,7 @@ $(document).ready(function(){
         e.preventDefault();
 
         var ind = $('.dfcaloryesbox a').index(this);
-      
+       
         $('.dfactivelink2').removeClass('dfactivelink2');
         $('.dfactivelink').removeClass('dfactivelink');       	
 
@@ -17,7 +17,7 @@ $(document).ready(function(){
         	//4
         if (ind===0) {
         	$('.dfactivelink2').removeClass('dfactivelink2');
-        	$('.osobiy').addClass('dfactivelink');
+        	$('.perviyosobiy').addClass('dfactivelink');
 
         }
 
@@ -84,6 +84,122 @@ $(document).ready(function(){
     $('.osobiy a').click();
 
 
+    // , '.dfitogo .dfkkal' , '.dfweak a'
+
+    $('.dfdaysmenu a').on('click', function(e){
+             var active = $(this).attr('href');
+             var days = $(this).text().toLowerCase();   
+            $('.dftxtitogo1 em').text(days+': ');    
+
+            var belki = $(active).find('.dfmenuproductbox')
+            .find('.dfmenucharacteristic')
+            .find('.dfcharmenu1')
+            .find('.belki');   
+
+             var masbelki = []; 
+             var number = 0;     
+
+             $(belki).each(function(index, el) {
+                masbelki.push( $(this).text().replace(/[^-0-9]/gim,'') );
+             });             
+
+             if ($('.df3priem').hasClass('df3priemactive')) {
+                 masbelki.splice(0, 1);
+                 masbelki.pop();
+             }
+
+
+             for(var i = 0; i < masbelki.length; i++){
+                   number+= +masbelki[i];
+             }
+
+
+             // alert(number);
+             $('.dfbelki').text(number + " ");
+
+            ////////////////////////////////
+
+            var jiry = $(active).find('.dfmenuproductbox')
+            .find('.dfmenucharacteristic')
+            .find('.dfcharmenu1')
+            .find('.jiry');  
+
+             var masjiry = []; 
+             number = 0;     
+
+             $(jiry).each(function(index, el) {
+                masjiry.push( $(this).text().replace(/[^-0-9]/gim,'') );
+             });             
+
+             if ($('.df3priem').hasClass('df3priemactive')) {
+                 masjiry.splice(0, 1);
+                 masjiry.pop();
+             }
+
+
+             for(var i = 0; i < masjiry.length; i++){
+                   number+= +masjiry[i];
+             }
+            
+             $('.dfjiri').text(number + " ");
+
+
+             /////////////////////////
+
+            var yglevodi = $(active).find('.dfmenuproductbox')
+            .find('.dfmenucharacteristic')
+            .find('.dfcharmenu1')
+            .find('.yglevodi');
+
+             var masyglevodi = []; 
+             number = 0;     
+
+             $(yglevodi).each(function(index, el) {
+                masyglevodi.push( $(this).text().replace(/[^-0-9]/gim,'') );
+             });             
+
+              if ($('.df3priem').hasClass('df3priemactive')) {
+                 masyglevodi.splice(0, 1);
+                 masyglevodi.pop();
+              }
+
+
+             for(var i = 0; i < masyglevodi.length; i++){
+                   number+= +masyglevodi[i];
+             }
+             
+             $('.dfyglevodi').text(number + " ");
+
+
+             ////////////////////////////
+
+             var kkal = $(active).find('.dfmenuproductbox')
+            .find('.dfmenucharacteristic')
+            .find('.dfkkal');
+            
+
+             var maskkal = []; 
+             number = 0;     
+
+             $(kkal).each(function(index, el) {
+                maskkal.push( $(this).text().replace(/[^-0-9]/gim,'') );
+             });             
+
+              if ($('.df3priem').hasClass('df3priemactive')) {
+                 maskkal.splice(0, 1);
+                 maskkal.pop();
+              }
+
+             for(var i = 0; i < maskkal.length; i++){
+                   number+= +maskkal[i];
+             }
+             
+             $('.dfkkalitogo').text(number + " ");
+     });
+
+////////////////////////////////////////////////////////
+
+
     $('.dfmenuprev').on('click', function(evt1){
     	evt1.preventDefault();    	 
     	
@@ -135,6 +251,10 @@ $(document).ready(function(){
      $('.jsweakactive').click();
 
 
+
+     
+
+
      $('.df3priem').on('click', function(evt3){
      		evt3.preventDefault();
      		$('.df5priemactive').removeClass('df5priemactive');
@@ -142,13 +262,17 @@ $(document).ready(function(){
      		$('.dfmenuproducts > .dfmenuproductbox:nth-child(5)').addClass('jsdisabled');
      		$(this).addClass('df3priemactive');
 
+            $('.jsweakactive').click();
+
      });
 
       $('.df5priem').on('click', function(evt4){
      		evt4.preventDefault();
      		$('.df3priemactive').removeClass('df3priemactive');
      		$('.jsdisabled').removeClass('jsdisabled');	  
-     		$(this).addClass('df5priemactive');   		
+     		$(this).addClass('df5priemactive');  
+
+            $('.jsweakactive').click(); 		
      });
 
 
@@ -162,7 +286,7 @@ $(document).ready(function(){
 
 
 
-	//////////////////////mobversion==========
+	//////////////////////mobileversion==========
 
 
 
@@ -242,6 +366,127 @@ $(document).ready(function(){
     $('.osobiymob a').click();
 
 
+
+        // , '.dfitogo .dfkkal' , '.dfweak a'
+
+    $('.dfweak a').on('click', function(e){
+             var active = $(this).attr('href');
+             // var days = $(this).text().toLowerCase();   
+            // $('.dfitogo .dfkkal').text(days+': ');    
+
+            var belki = $(active).find('.dfmenubox1')
+            .find('.dfmenutxt')
+            .find('.dfcharmenu1')
+            .find('.belki');   
+
+             var masbelki = []; 
+             var number = 0;     
+
+             $(belki).each(function(index, el) {
+                masbelki.push( $(this).text().replace(/[^-0-9]/gim,'') );
+             });             
+
+             
+             if ($('.df3').hasClass('df3active')) {
+                 masbelki.splice(0, 1);
+                 masbelki.pop();
+              }
+
+
+             for(var i = 0; i < masbelki.length; i++){
+                   number+= +masbelki[i];
+             }
+
+
+            
+             $('.dfbelkimob').text(number + " ");
+
+            ////////////////////////////////
+
+             var jiry = $(active).find('.dfmenubox1')
+            .find('.dfmenutxt')
+            .find('.dfcharmenu1')
+            .find('.jiry');    
+
+             var masjiry = []; 
+             number = 0;     
+
+             $(jiry).each(function(index, el) {
+                masjiry.push( $(this).text().replace(/[^-0-9]/gim,'') );
+             });             
+
+             if ($('.df3').hasClass('df3active')) {
+                 masjiry.splice(0, 1);
+                 masjiry.pop();
+              }
+
+
+             for(var i = 0; i < masjiry.length; i++){
+                   number+= +masjiry[i];
+             }
+            
+             $('.dfjirimob').text(number + " ");
+
+
+            //  /////////////////////////
+
+             var yglevodi = $(active).find('.dfmenubox1')
+            .find('.dfmenutxt')
+            .find('.dfcharmenu1')
+            .find('.yglevodi');  
+
+             var masyglevodi = []; 
+             number = 0;     
+
+             $(yglevodi).each(function(index, el) {
+                masyglevodi.push( $(this).text().replace(/[^-0-9]/gim,'') );
+             });             
+
+              if ($('.df3').hasClass('df3active')) {
+                 masyglevodi.splice(0, 1);
+                 masyglevodi.pop();
+              }
+
+
+             for(var i = 0; i < masyglevodi.length; i++){
+                   number+= +masyglevodi[i];
+             }
+             
+             $('.dfyglevodimob').text(number + " ");
+
+
+            //  ////////////////////////////
+
+            var kkal = $(active).find('.dfmenubox1')
+            .find('.dfmenutxt')           
+            .find('.dfkkal');
+            
+
+             var maskkal = []; 
+             number = 0;     
+
+             $(kkal).each(function(index, el) {
+                maskkal.push( $(this).text().replace(/[^-0-9]/gim,'') );
+             });             
+
+              if ($('.df3').hasClass('df3active')) {
+                 maskkal.splice(0, 1);
+                 maskkal.pop();
+              }
+
+             for(var i = 0; i < maskkal.length; i++){
+                   number+= +maskkal[i];
+             }
+             
+             $('.dfkkalmob').text(number + " ");
+     });
+
+////////////////////////////////////////////////////////
+
+
+
+
+
      $('.dfweak a').on('click', function(evt){
     	evt.preventDefault();
 
@@ -268,13 +513,17 @@ $(document).ready(function(){
      		$('.dfblockmenu > .dfmenubox1:nth-child(5)').addClass('jsdisabled');
      		$(this).addClass('df3active');
 
+             $('.jsmobactive').click();
+
      });
 
       $('.df5').on('click', function(evt4){
      		evt4.preventDefault();
      		$('.df3active').removeClass('df3active');
      		$('.jsdisabled').removeClass('jsdisabled');	  
-     		$(this).addClass('df5active');   		
+     		$(this).addClass('df5active'); 
+
+             $('.jsmobactive').click();  		
      });
 
 
