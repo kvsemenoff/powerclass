@@ -1,9 +1,10 @@
 <?php
-$to = "sinnapsteam@yandex.ru ";
+$to = "powerclass17@gmail.com";
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 $uname = $_POST['uname'];
 $text = $_POST['text'];
+$checkbox_1 = $_POST['checkbox'];
 // Формирование заголовка письма
 $subject  = "Новое сообщение";
 $headers  = "From: info@starlight.space" . "\r\n";
@@ -17,6 +18,7 @@ $msg .= "<p><strong>Телефон:</strong> ".$phone."</p>\r\n";
 $msg .= "<p><strong>Имя:</strong> ".$uname."</p>\r\n";
 $msg .= "<p><strong>Email:</strong> ".$email."</p>\r\n";
 $msg .= "<p><strong>Сообщение:</strong> ".$text."</p>\r\n";
+$msg .= "<p><strong>Отмечен чекбокс:</strong> ".$checkbox_1."</p>\r\n";
 $msg .= "</body></html>";
 
 

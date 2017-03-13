@@ -52,7 +52,7 @@
 					</div>
 
 					<div class="dd-el-1 dd-el-1_inp">
-						<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя">
+						<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
 						<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
 						<input class="button-1 dd-submit" type="submit" name="submit" value="перезвоните мне">
 					</div>
@@ -92,7 +92,7 @@
 						<span class="dd-grey-txt">5-разовое питание, на 5 дней</span><br>
 						<span class="dd-main-txt-2">Сумма заказа: <span>7 400 руб.</span></span>
 					</div>
-					<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя">
+					<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
 					<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
 					<input class="button-1 dd-submit" type="submit" name="submit" value="оформить по телефону">
 				</div>
@@ -134,7 +134,7 @@
 					</div>
 
 					<label class="dd-label">
-						<input class="checkbox checkbox-js" type="radio" name="checkbox-test">
+						<input class="checkbox checkbox-js" type="radio" value="Выбран тариф пробный день" name="checkbox">
 						<span class="checkbox-custom"></span>
 						<span class="dd-txt-radio dd-txt-radio-js">Пробный день</span><br>
 						<span class="dd-grey-txt dd-grey-txt_2">(Четверг)</span>
@@ -142,7 +142,7 @@
 						<span class="label"></span>
 					</label>
 					<label class="dd-label mb25">
-						<input class="checkbox checkbox-js" type="radio" name="checkbox-test" checked>
+						<input class="checkbox checkbox-js" type="radio" value="Выбран тариф на неделю" name="checkbox" checked>
 						<span class="checkbox-custom"></span>
 						<span class="dd-txt-radio dd-txt-radio-js activeRed">На неделю</span>
 						<span class="label"></span>

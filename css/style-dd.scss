@@ -425,6 +425,12 @@ div[data-val]:hover{
 	padding-top: 35px;
 	display: none;
 }
+.error-input{
+	border:1px solid #FB5151 !important;
+}
+
+
+
 
 @media only screen and (min-width : 320px) {
 	.faq{
@@ -506,7 +512,7 @@ div[data-val]:hover{
 		float: right;
 	}
 	.mr_inp{
-		margin-right: 36px;
+		margin-right: 35px;
 	}
 	.dd-pop_left_5{
 		width: 279px !important;
