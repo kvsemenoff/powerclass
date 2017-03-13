@@ -75,6 +75,7 @@
 								<p class="db-five">
 									<a href="#" class="button-1 db-podr">Узнать подробнее</a><br>
 									<a href="#" class="db-tarif">Выбрать тариф</a>
+									<a href="#"><img src="../img/header_price.png" alt="" class="db-price-five"></a>
 								</p>
 							</div>
 						</div>
