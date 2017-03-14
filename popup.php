@@ -71,7 +71,7 @@
 
 <!-- Pop-2 -->
 <!-- /////////////////////////// -->
-<div id="log-in-2" class="window win_1">
+<div id="log-in-2" class="window">
 
 	<div class="dd-form-wrap">
 
@@ -688,8 +688,8 @@
 	});
 	$('.online-replace').click(function(e){
 		e.preventDefault();
-		$('.win_1').hide();
-		$('.win_2').show();
+		$('#log-in-2').hide();
+		$('#log-in-5').show();
 	
 	});
 </script>

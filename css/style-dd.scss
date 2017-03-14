@@ -147,7 +147,9 @@
     	}
     }
 }
+
 .window_2{
+
 	width: 320px !important;
 		.dd-form_box{
 			margin-right: 0;
@@ -622,7 +624,10 @@ div[data-val]:hover{
 .error-input{
 	border:1px solid #FB5151 !importantF;
 }
-
+.win_2{
+	top:50px;
+	left:396px;
+}
 
 
 
@@ -745,6 +750,7 @@ div[data-val]:hover{
 	}
 	.window{
 		width: 808px;
+		margin: 0 auto !important;
 	}
 	.dd-el_wrap{
 		padding: 40px;
@@ -842,6 +848,7 @@ div[data-val]:hover{
 	.window{ 
 		.form-wrap-main_5{
 			width: 805px;
+			margin: 0 auto;
 			padding-left: 74px;
 			padding-right: 74px;
 			padding-bottom: 74px;
