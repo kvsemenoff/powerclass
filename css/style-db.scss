@@ -148,9 +148,6 @@
 }
 
 @media only screen and (min-width : 992px) {
-}
-
-@media only screen and (min-width : 1248px) {
 	.section_header_top1{
 		display: none;
 	}
@@ -159,6 +156,8 @@
 		font-family: 'Open Sans', sans-serif;
 		padding-bottom: 107px !important;
 		display: block;
+		max-width: 2560px;
+		width: 100%;
 	}
 	.db-menu{
 		position: absolute;
@@ -172,7 +171,7 @@
 		background-color: rgba(0, 0, 0, 0.31);
 		li{
 			display: inline-block;
-			padding-left: 100px;
+			padding-left: 85px;
 
 			a{
 				color:#fff;
@@ -180,8 +179,9 @@
 				text-decoration: underline;
 				font-size: 14px;
 				line-height: 24px;
-
-
+			}
+			a:hover{
+				color:#ffe76a;
 			}
 		}
 		li:first-child{
@@ -228,6 +228,9 @@
 			padding-bottom: 10px;
 			display: inline-block;
 		}
+		.db-link-one:hover{
+			color:#ffe76a;
+		}
 		.db-link-two{
 			padding-right:10px; 
 		}
@@ -243,7 +246,7 @@
 			font-weight: 600;
 			padding-bottom: 30px;
 			span{
-				font-weight: 700;
+				font-weight: bolder;
 			}
 		}
 		.db-four{
@@ -258,6 +261,11 @@
 		.db-five{
 			padding-top: 53px;
 			position: relative;
+			.db-price-five{
+				position: absolute;
+				top: 28px;
+				right: 184px;
+			}
 			.db-podr{
 				line-height: 73px !important;
 			}
@@ -278,17 +286,12 @@
 				margin-top: 30px;
 			}
 		}
-		.db-five:after{
-			content: "";
-			position: absolute;
-			top: 20px;
-			right: 188px;
-			background: url("../img/header_price.png")no-repeat;
-			width: 192px;
-			height: 101px;
-		}
-
+		
 	}
+}
+
+@media only screen and (min-width : 1248px) {
+
 
 }
 

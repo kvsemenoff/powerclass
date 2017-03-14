@@ -23,7 +23,7 @@ $(document).ready(function(){
 
             scrollTop: $scrollTop
         },
-        800
+        200
         );
     });
 
