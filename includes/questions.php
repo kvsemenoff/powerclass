@@ -1,24 +1,24 @@
 <section class="section section_padding questions">
-<div class=" container">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="in">
-				<h2>Остались вопросы?</h2>
-				<p>Оставьте ваш номер телефона и наш менеджер свяжется с вами в течении 15 мин.</p>
-				<div class="form-wrap">
-					<form action="#">
-						<div class="input-wrap">
-							<input class="dd-input" type="text" value="" placeholder="Введите ваш телефон">	
-						</div>	
-						<input class="button-1 dd-submit" type="submit" value="Перезвоните мне" placeholder="">
-					</form>		
+	<div class=" container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="in">
+					<h2>Остались вопросы?</h2>
+					<p>Оставьте ваш номер телефона и наш менеджер свяжется с вами в течении 15 мин.</p>
+					<div class="form-wrap">
+						<form action="#">
+							<div class="input-wrap">
+								<input class="dd-input" type="text" value="" placeholder="Введите ваш телефон">	
+							</div>	
+							<input class="button-1 dd-submit" type="submit" value="Перезвоните мне" placeholder="">
+						</form>		
+					</div>
+					<p>Или позвоните сами по номеру</p>
+					<span class="phone">+ 7 499 133 29 56</span>
 				</div>
-				<p>Или позвоните сами по номеру</p>
-				<span class="phone">+ 7 499 133 29 56</span>
 			</div>
 		</div>
 	</div>
-</div>
 </section>
 
 
@@ -104,9 +104,9 @@
 						<span class="dd-title-2">
 							Заказать комплект питания
 						</span>
-						<span class="dd-bold-title_pop">Спорт плюс, <span>3 500 ккал/день</span></span><br>
-						<span class="dd-grey-txt">5-разовое питание, на 5 дней</span><br>
-						<span class="dd-main-txt-2">Сумма заказа: <span>7 400 руб.</span></span>
+						<span class="dd-bold-title_pop"><b class="tarif_name">Название Тарифа</b>, <span><b class="dd-kal">1 400</b> ккал/день</span></span><br>
+						<span class="dd-grey-txt"><span class="dd-much_1">5</span>-разовое питание, на <span class="dd-much_2">5</span> дней</span><br>
+						<span class="dd-main-txt-2">Сумма заказа: <span class="dd-price">7 400</span><span> руб.</span></span>
 					</div>
 					<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
 					<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
@@ -335,6 +335,26 @@
 	</div>
 </div>
 <a href="#thanks" name="modal"></a>
+
+
+
+<script>
+
+	$('.last-block .button-1').click(function(){
+		var price = $(this).parents('.inner').find('.price').find('i').text();
+		var much_1 = $(this).parents('.inner').find('.block_much_1 .dd-m_1 b').text();
+		var much_2 = $(this).parents('.inner').find('.block_much_2 .dd-m_2 b').text();
+		var tarif_name = $(this).parents('.tabs-block').find('.active .tab-in span b').text();
+		var kalory = $(this).parents('.tabs-block').find('.active .tab-in i em strong').text();
+
+		$('#log-in-2 .dd-price').text(price);
+		$('#log-in-2 .dd-grey-txt .dd-much_1').text(much_1);
+		$('#log-in-2 .dd-grey-txt .dd-much_2').text(much_2);
+		$('#log-in-2 .dd-bold-title_pop .tarif_name').text(tarif_name);
+		$('#log-in-2 .dd-bold-title_pop span .dd-kal').text(kalory);
+	});
+	
+</script>
 
 <script>
 	$('.checkbox-js').click(function(){
