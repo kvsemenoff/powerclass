@@ -71,7 +71,13 @@
 	z-index:9998; 
 	border:none;
 	// width: 260px;
-
+	.dd-form-tariff{
+		background:#fff;
+		border-radius:3px;
+		width: 945px;
+		padding-left: 73px;
+		padding-right: 73px;
+	}
 	.form-wrap-main{
 		background: #F4F4F4;
 		border-radius:3px;
@@ -97,6 +103,9 @@
 	.dd-close:hover{
     	// background:url(../img/kres.png) #5F7C0B no-repeat center;
     }
+}
+.table_left{
+	float: left;
 }
 .dd-title-1{
 	text-align: center;
@@ -210,6 +219,84 @@
 .dd-bg{
 	background:#F4F4F4;
 	padding-bottom: 15px;
+}
+
+//Поп ап тарифы
+//////////////////////////////////
+.dd-title_tr{
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 20px;
+}
+.dd-title_tr_sp{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	color: #222;
+}
+.dd-table_pop{
+
+	td{
+		border:1px solid #929292;
+		width: 170px;
+		height: 66px;
+		vertical-align: middle;
+		padding-left: 20px;
+		.dd-table-title{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 800;
+			color:black;
+			font-size: 24px;
+			i{
+				font-size: 18px;
+			}
+			span{
+				font-weight: 300;
+				font-size: 14px;
+			}
+		}
+		.dd-days{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 800;
+			font-size: 18px;
+			color: #222;
+		}
+		.dd-days_2{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			font-size: 14px;
+			color: #222;
+			b{
+				font-weight: 800;
+			}
+		}
+		.dd-table-title_red{
+			color:red;
+			span{
+				color: #222;
+			}
+		}
+		.dd-price_td{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 800;
+			font-size: 14px;
+			color: #222;
+		}
+		.tr-title{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			font-size: 14px;
+			color: #222;
+		}
+	}
+	.border-none{
+		border:none;
+		line-height: 16px;
+	}
+}
+
+.dd-table_left{
+	padding-right: 10px;
 }
 
 //Чекбоксы
@@ -426,7 +513,7 @@ div[data-val]:hover{
 	display: none;
 }
 .error-input{
-	border:1px solid #FB5151 !important;
+	border:1px solid #FB5151 !importantF;
 }
 
 
