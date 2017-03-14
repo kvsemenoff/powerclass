@@ -23,8 +23,8 @@ $(document).ready(function(){
 
         $('.dftabtop').hide();
         var tab = $(this).attr('href');
-        $('.dftabtop').not(tab).hide(100);
-        $(tab).fadeIn(100);
+        $('.dftabtop').not(tab).hide(20);
+        $(tab).show(10);
 
        
       if ($('#jsfit').css('display')==='block') { 	    
@@ -244,8 +244,8 @@ $(document).ready(function(){
     	var attrlink2 = $(this);
     	var attrlink = $(this).attr('href');
   
-        $('.dfmenuproducts').not(attrlink).fadeOut(100);
-        $(attrlink).show(100);
+        $('.dfmenuproducts').not(attrlink).hide(20);
+        $(attrlink).show(10);
 
     });
      $('.jsweakactive').click();
@@ -302,12 +302,10 @@ $(document).ready(function(){
 
         $(this).parent('.dfborder').addClass('dfactivelinkmob');
 
-        
-
         $('.dftabmob').hide();
         var tab = $(this).attr('href');
-        $('.dftabmob').not(tab).hide(100);
-        $(tab).fadeIn(100);
+        $('.dftabmob').not(tab).hide(20);
+        $(tab).show(10);
 
        
       	if ($('#js-fitmob').css('display')==='block') { 	    
@@ -397,8 +395,6 @@ $(document).ready(function(){
                    number+= +masbelki[i];
              }
 
-
-            
              $('.dfbelkimob').text(number + " ");
 
             ////////////////////////////////
@@ -497,8 +493,8 @@ $(document).ready(function(){
     	var attrlink2 = $(this);
     	var attrlink3 = $(this).attr('href');
   
-        $('.dfblockmenu').not(attrlink3).fadeOut(100);
-        $(attrlink3).show(100);
+        $('.dfblockmenu').not(attrlink3).hide(20);
+        $(attrlink3).show(10);
 
     });
      $('.jsmobactive').click();

@@ -3,7 +3,7 @@
 <section class="section section_padding dfmenumobulehidden">
 <div class=" container">
 	<div class="row">
-		<div class="col-md-12">
+		
 			<div class="dfmenumobule">
 				<h3 class="dfmenucap">Меню на эту неделю</h3>
 				<div class="dfcallory">
@@ -1540,7 +1540,7 @@
 					<a href="#" class="dflink">хочу попробовать</a>
 				</div>
 			</div>
-		</div>
+		
 	</div>
 </div>
 </section>
@@ -1869,7 +1869,7 @@
 
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-									<span class="dfcharmenu2">fitness гр.</span>
+									<span class="dfcharmenu2">450 гр.</span>
 									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
 									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
@@ -2003,7 +2003,7 @@
 
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-									<span class="dfcharmenu2">fitness гр.</span>
+									<span class="dfcharmenu2">450 гр.</span>
 									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
 									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
@@ -2342,7 +2342,7 @@
 
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-									<span class="dfcharmenu2">fitness гр.</span>
+									<span class="dfcharmenu2">450 гр.</span>
 									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
 									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
@@ -2476,7 +2476,7 @@
 
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-									<span class="dfcharmenu2">fitness гр.</span>
+									<span class="dfcharmenu2">450 гр.</span>
 									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
 									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
@@ -2816,7 +2816,7 @@
 
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-									<span class="dfcharmenu2">fitness гр.</span>
+									<span class="dfcharmenu2">450 гр.</span>
 									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
 									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
@@ -2950,7 +2950,7 @@
 
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-									<span class="dfcharmenu2">fitness гр.</span>
+									<span class="dfcharmenu2">450 гр.</span>
 									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
 									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
@@ -3290,7 +3290,7 @@
 
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-									<span class="dfcharmenu2">fitness гр.</span>
+									<span class="dfcharmenu2">450 гр.</span>
 									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
 									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>
@@ -3424,7 +3424,7 @@
 
 								<div class="dfmenucharacteristic">
 									<h4 class="dfnameproduct">Гречневая каша <br> на молоке</h4>
-									<span class="dfcharmenu2">fitness гр.</span>
+									<span class="dfcharmenu2">450 гр.</span>
 									<span class="dfcharmenu1"><span class="belki">Белки: 40 г.</span> <br>  <span class="jiry">Жиры: 18 г.</span>  <br> <span class="yglevodi">Углеводы: 59 г.</span> <br></span><br>
 									<span class="dfcharmenu2 dfkkal ">564 ккал</span>
 									<span class="dfcharmenu3">1</span>

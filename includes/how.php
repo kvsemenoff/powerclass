@@ -61,7 +61,7 @@
 				<div class="dfimgcahr">
 					<img src="img/howimg4.png" alt="">
 				</div>
-				<div class="dftxtbox dfcolor2">
+				<div class="dftxtbox dfcolor2 dfshowmob">
 					<span class="dfcaptxtbox">Забудьте про чувство голода в середине дня</span>
 					<p>Комплекты готовой еды бережно упакованы
 						в прочные <b>герметичные упаковки</b>. Вы легко 
@@ -83,7 +83,7 @@
 				<div class="dfimgcahr">
 					<img src="img/howimg5.png" alt="">
 				</div>
-				<div class="dftxtbox dfcolor2">
+				<div class="dftxtbox dfcolor2 dfshowmob">
 					<span class="dfcaptxtbox">Больше не  нужно готовить</span>
 					<p>Самостоятельное приготовление сбалансированной
 						пищи занимает более 20 часов в неделю. С готовыми
