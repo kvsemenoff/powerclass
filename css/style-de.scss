@@ -81,7 +81,6 @@
 	}
 	.item{
 		width: 100%;
-		max-width: 270px;
 		overflow: hidden;
 		margin: 0 auto;
 		img{
@@ -90,6 +89,9 @@
 			display: block;
 		}
 	}
+	.owl-item{
+		padding: 0 15px;
+	}
 	.owl-prev,
 	.owl-next{
 		cursor: pointer;
@@ -97,7 +99,7 @@
 		position: absolute;
 		top: 50%;
 		margin-top: -14px;
-		left: 10px;
+		left: 0;
 		display: block;
 		width: 14px;
 		height: 28px;
@@ -106,8 +108,24 @@
 	}
 	.owl-next{
 		left: auto;
-		right: 10px;
+		right: 0;
 		transform: scale(-1,1);
+	}
+	.owl-dots{
+		display: none!important;
+		text-align: center;
+		padding: 10px;
+	}
+	.owl-dot{
+		width: 10px;
+		height: 10px;
+		display: inline-block;
+		margin: 3px 5px 4px 3px;
+		background: #cbcbcb;
+		border-radius: 50%;
+	}
+	.owl-dot.active{
+		background: #e53935;
 	}
 }
 .tarif{
@@ -894,6 +912,7 @@
 		}
 		.item{
 			padding: 0;
+			border: 1px solid #e9ecf1;
 		}
 		p{
 			display: none;
@@ -901,6 +920,9 @@
 		.owl-prev,
 		.owl-next{
 			display: block;
+		}
+		.owl-dots{
+			display: block!important;
 		}
 	}
 	.dd-want-view{
@@ -979,6 +1001,11 @@
 		}
 		.owl-next{
 			right: -10px;
+		}
+		.owl-dot{
+			width: 6px;
+			height: 6px;
+			margin: 3px 2px 3px 3px;
 		}
 	}
 }

@@ -18,10 +18,14 @@
 .testimonials__head p { color: #7d7d7d; font-size: 26px; max-width: 580px; margin: 0 auto; }
 .testimonials__head i { font-weight: 900; }
 .testimonials__items { position: relative; }
-.testimonials .item { width: 100%; max-width: 270px; overflow: hidden; margin: 0 auto; }
+.testimonials .item { width: 100%; overflow: hidden; margin: 0 auto; }
 .testimonials .item img { width: 100%; height: auto; display: block; }
-.testimonials .owl-prev, .testimonials .owl-next { cursor: pointer; display: none; position: absolute; top: 50%; margin-top: -14px; left: 10px; display: block; width: 14px; height: 28px; background: url(../img/owl-arrow.png); color: transparent; }
-.testimonials .owl-next { left: auto; right: 10px; transform: scale(-1, 1); }
+.testimonials .owl-item { padding: 0 15px; }
+.testimonials .owl-prev, .testimonials .owl-next { cursor: pointer; display: none; position: absolute; top: 50%; margin-top: -14px; left: 0; display: block; width: 14px; height: 28px; background: url(../img/owl-arrow.png); color: transparent; }
+.testimonials .owl-next { left: auto; right: 0; transform: scale(-1, 1); }
+.testimonials .owl-dots { display: none !important; text-align: center; padding: 10px; }
+.testimonials .owl-dot { width: 10px; height: 10px; display: inline-block; margin: 3px 5px 4px 3px; background: #cbcbcb; border-radius: 50%; }
+.testimonials .owl-dot.active { background: #e53935; }
 
 .tarif { font-family: 'Open Sans', arial, sans-serif; padding: 50px 0 60px; background: #e9e9e9 url(../img/tarif.jpg) top center/cover; }
 .tarif__head { text-align: center; padding: 10px 0 40px; }
@@ -188,9 +192,10 @@
   .questions h2, .dd-want-view h2, .testimonials h2 { font-size: 20px; }
   .testimonials { background: none; }
   .testimonials__head { padding-bottom: 20px; }
-  .testimonials .item { padding: 0; }
+  .testimonials .item { padding: 0; border: 1px solid #e9ecf1; }
   .testimonials p { display: none; }
   .testimonials .owl-prev, .testimonials .owl-next { display: block; }
+  .testimonials .owl-dots { display: block !important; }
   .dd-want-view { background: url(../img/want-mini.jpg) right bottom no-repeat; padding-bottom: 40px; }
   .dd-want-view .in { float: none; width: 70%; }
   .dd-want-view .descr { font-size: 14px; width: 180px; }
@@ -205,4 +210,5 @@
   .questions p { color: #fff; font-size: 14px; text-align: center; font-weight: 300; line-height: 18px; }
   .questions .phone { font-size: 30px; color: #fff; } }
 @media only screen and (max-width: 400px) { .testimonials .owl-prev { left: -10px; }
-  .testimonials .owl-next { right: -10px; } }
+  .testimonials .owl-next { right: -10px; }
+  .testimonials .owl-dot { width: 6px; height: 6px; margin: 3px 2px 3px 3px; } }
