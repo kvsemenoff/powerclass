@@ -71,7 +71,7 @@
 
 <!-- Pop-2 -->
 <!-- /////////////////////////// -->
-<div id="log-in-2" class="window">
+<div id="log-in-2" class="window win_1">
 
 	<div class="dd-form-wrap">
 
@@ -99,7 +99,7 @@
 					<input class="button-1 dd-submit" type="submit" name="submit" value="оформить по телефону">
 				</div>
 				<div class="dd-but_online">
-					<a class="button-2" href="#">Оформить онлайн</a>
+					<a class="button-2 online-replace" href="#">Оформить онлайн</a>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -202,7 +202,7 @@
 
 <!-- Pop-5 оплата заказа с селектами -->
 <!-- /////////////////////////// -->
-<div id="log-in-5" class="window">
+<div id="log-in-5" class="window win_2">
 
 	<div class="dd-form-wrap">
 
@@ -685,6 +685,12 @@
 	});
 	$('.dd-dost_span').hover(function(){
 		$('.dd-podskazka').toggleClass('blocked');
+	});
+	$('.online-replace').click(function(e){
+		e.preventDefault();
+		$('.win_1').hide();
+		$('.win_2').show();
+	
 	});
 </script>
 
