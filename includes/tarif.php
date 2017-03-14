@@ -1481,8 +1481,6 @@
 	      </div>
 	    </div>
 			<a href="#" class="individual">Рассчитать индивидуальный тариф</a>
-=======
->>>>>>> ca7a96d2718a61d803c49d443aeed711889f959c
 		</div>
 	</div>
 </section>
