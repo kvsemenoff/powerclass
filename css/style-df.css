@@ -524,6 +524,19 @@
   background-position: center;
   background-size: cover; }
 
+/*========================shtraffdemo js*/
+.shtraf-item {
+  display: none; }
+
+.disabledinputjs {
+  border: 1px solid red !important; }
+
+#jsmobversion {
+  display: block; }
+
+#jstarif1 {
+  display: none; }
+
 @media only screen and (min-width: 768px) {
   .dfmenutxt {
     width: 73%; } }
@@ -1005,7 +1018,13 @@
     transition: 0.4s; }
 
   .dflinktarif:hover {
-    border-bottom: 1px dashed transparent; } }
+    border-bottom: 1px dashed transparent; }
+
+  #jstarif1 {
+    display: block; }
+
+  #jsmobversion {
+    display: none; } }
 @media only screen and (min-width: 1248px) {
   .dffourbox {
     text-align: center;
