@@ -8,22 +8,22 @@
 				</div>
 	    <div class="tabs-block">
 	      <div class="tabs clearfix">
-	        <div class="tab tab-0">
+	        <div id="tb1"  class="tab tab-0">
 	        	<div class="tab-in">
 	        		<span><b>Фит</b></span><i><em><strong>1 400</strong></em> ккал/день</i>
 	        	</div>
 	        </div>
-	        <div class="tab tab-1">
+	        <div id="tb2" class="tab tab-1">
 	        	<div class="tab-in">
 	        		<span><b>Фит плюс</b></span><i><em><strong>1 700</strong></em> ккал/день</i>
 	        	</div>
 	        </div>
-	        <div class="tab tab-2 active">
+	        <div id="tb3" class="tab tab-2 active">
 	        	<div class="tab-in">
 	        		<span><b>Спорт</b></span><i><em><strong>2 500</strong></em> ккал/день</i>
 	        	</div>
 	        </div>
-	        <div class="tab tab-3">
+	        <div id="tb4" class="tab tab-3">
 	        	<div class="tab-in">
 	        		<span><b>Спорт плюс</b></span><i><em><strong>3 500</strong></em> ккал/день</i>
 	        	</div>
@@ -50,7 +50,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -73,7 +73,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -96,7 +96,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -119,7 +119,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Пт, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -136,7 +136,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>3 450</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -154,7 +154,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>4 200</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -172,7 +172,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>4 802</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -190,7 +190,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>5 852</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -218,7 +218,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -241,7 +241,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -264,7 +264,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -287,7 +287,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Пт, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -304,7 +304,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>3 800</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -322,7 +322,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>4 700</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -340,7 +340,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>5 300</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -358,7 +358,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>6 600</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -386,7 +386,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -409,7 +409,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -432,7 +432,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -455,7 +455,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Пт, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -472,7 +472,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>4 600</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -490,7 +490,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>5 850</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -508,7 +508,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>6 405</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -526,7 +526,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>8 204</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -554,7 +554,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -577,7 +577,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -600,7 +600,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -623,7 +623,7 @@
 		          	</div>
 		          	<div class="block last-block">
 		          		<span><b>Дни доставки</b>Ср, Пт, Вс</span>
-		          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+		          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          	</div>
 	          	</div>
 	          </div>
@@ -640,7 +640,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>5 650</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -658,7 +658,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>7 400</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -676,7 +676,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>9 910</i> руб.</span>
 		          	</div>
 	          	</div>
@@ -694,7 +694,7 @@
 			          	</div>
 	          		</div>
 		          	<div class="block price">
-	          			<input class="button-1 dd-submit" type="submit" value="Заказать" placeholder="">
+	          			<a class="button-1 dd-submit"  href="#log-in-2" name=modal>Заказать</a>
 		          		<span><i>10 304</i> руб.</span>
 		          	</div>
 	          	</div>
