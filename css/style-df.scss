@@ -636,8 +636,23 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	
+}
 
+
+
+/*========================shtraffdemo js*/
+.shtraf-item{
+	display: none;
+}
+
+.disabledinputjs{
+	border: 1px solid red !important;
+}
+#jsmobversion{
+	display: block;
+}
+#jstarif1{
+	display: none;
 }
 @media only screen and (min-width : 320px) {
 }
@@ -882,15 +897,7 @@
 			// padding: 15px 0;	
 			border-bottom: 1px dashed #212121;
 		}
-		// a:after{
-		// 	content: "";
-		// 	position: absolute;
-		// 	bottom: 5px;
-		// 	left: 20px;
-		// 	width: 50%;
-		// 	height: 2px;
-		// 	border-bottom: 1px dashed #212121;
-		// }	
+		
 
 		span{
 			display: inline-block;
@@ -1248,7 +1255,19 @@
 	.dflinktarif:hover{
 		border-bottom: 1px dashed transparent;
 	}
+	
+	///////////////////////shtrafdemo
+	#jstarif1{
+		display: block;
+	}
+	#jsmobversion{
+		display: none;
+	}
+
+
 }
+
+
 @media only screen and (min-width : 1248px) {
 	.dffourbox{
 		text-align: center;
