@@ -73,7 +73,7 @@
 .shtraf .end .kkal { font-size: 36px; font-weight: 900; display: block; }
 .shtraf .end .input-block { margin-bottom: 10px; margin-right: 10px; }
 .shtraf .end .input-block input[type="text"] { max-width: 386px; width: 100%; }
-.shtraf .end .input-block input[type="submit"] { width: auto; font-size: 13px; line-height: 50px; height: 53px; padding: 0 20px; }
+.shtraf .end .input-block input[type="submit"] { width: auto; font-size: 13px; line-height: 50px; height: 53px; padding: 0 22px; }
 .shtraf .end .input-block--half { width: 48%; max-width: 200px; display: inline-block; }
 .shtraf .choose-wrap { max-width: 650px; }
 .shtraf .choose { float: left; min-width: 220px; padding-bottom: 20px; }
@@ -84,7 +84,7 @@
 .shtraf .about a::before { content: "?"; color: #e53935; font-size: 14px; position: absolute; top: -4px; right: 0; font-weight: 900; }
 .shtraf .delivery { border: none; }
 .shtraf .delivery .dd-input { margin: 0 15px 15px; font-weight: 400; color: #222; font-size: 14px; padding: 0 10px 0 16px; }
-.shtraf .delivery .input--city { font-weight: 900; width: 185px; }
+.shtraf .delivery .input--city { width: 185px; }
 .shtraf .delivery .input--str { width: 265px; }
 .shtraf .delivery .input--home { width: 110px; margin: 0 15px 0 0; }
 .shtraf .delivery .input--pod { width: 110px; }
@@ -96,7 +96,7 @@
 .shtraf .end__pay .dd-submit { float: left; line-height: 50px; height: 50px; width: 173px; font-size: 13px; }
 .shtraf .end__pay .img-wrap { float: right; padding-top: 8px; }
 .shtraf .btn-wrap-mini { max-width: 460px; }
-.shtraf .btn-wrap-mini button { width: 205px; height: 50px; line-height: 50px; }
+.shtraf .btn-wrap-mini button { width: 205px; height: 50px; }
 
 .shtraf-mini { margin: 0 auto; width: 320px; padding: 0 22px; }
 .shtraf-mini h2 { font-weight: 400; font-size: 20px; text-align: center; padding-bottom: 15px; }

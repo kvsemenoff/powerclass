@@ -84,7 +84,7 @@
 							</div>
 							<div class="input-wrap">
 								<span>Вес:</span>
-								<input type="number" value="176" class="input-number" style="width:88px">
+								<input type="number" value="76" class="input-number" style="width:88px">
 							</div>
 							<button class="shtraf__btn shtraf__btn--black shtraf__btn--next">Далее</button>
 						</div>
@@ -226,7 +226,7 @@
 								</div>
 							</div>
 							<div class="col-md-6 end__item">
-								<span class="end__title">Оставьте ваши контактные данные для уточнения адреса и времени бесплатной доставки</span>
+								<span class="end__title">Оставьте ваши контактные данные для уточнения адреса <br> и времени бесплатной доставки</span>
 								<div class="form-wrap">
 									<form action="#">
 										<div class="input-block">
