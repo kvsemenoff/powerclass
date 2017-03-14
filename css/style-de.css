@@ -1,6 +1,6 @@
 .questions, .dd-want-view { background: url(../img/questions.jpg) top center/cover; height: 521px; padding: 83px 0 25px !important; font-family: 'Open Sans', arial, sans-serif; }
 .questions .form-wrap, .dd-want-view .form-wrap { padding: 15px 0 20px; }
-.questions .phone, .dd-want-view .phone { font-size: 36px; color: #212121; font-weight: 700; display: block; padding: 8px 0; }
+.questions .phone, .dd-want-view .phone { font-size: 36px; color: #212121; font-weight: 700; display: block; margin-top: -8px; }
 .questions .input-wrap, .dd-want-view .input-wrap { display: inline-block; background: #fff; margin-right: -39px; padding-right: 28px; border-radius: 26px; margin-bottom: 15px; }
 .questions .input-wrap input, .dd-want-view .input-wrap input { background: none; box-shadow: none; border-top: none; }
 
@@ -8,6 +8,7 @@
 .in p { font-size: 18px; padding: 10px 0; color: #7f7f81; max-width: 485px; line-height: 28px; font-weight: 600; }
 
 .dd-want-view { background-image: url(../img/want.jpg); }
+.dd-want-view h2 { line-height: 48px; }
 .dd-want-view .descr { font-size: 24px; color: #212121; font-weight: 900; display: block; padding: 10px 0 20px; }
 .dd-want-view .descr b { display: block; }
 .dd-want-view .descr i { color: #e53935; }
@@ -164,6 +165,14 @@
   .shtraf-mini { display: block; }
   .questions h2, .dd-want-view h2, .testimonials h2 { font-size: 20px; }
   .testimonials .item { padding: 0 10px; }
+  .dd-want-view { background: url(../img/want.jpg) bottom left no-repeat; }
+  .dd-want-view h2 { line-height: 1.3; width: 240px; }
+  .dd-want-view .in { float: none; width: 70%; }
+  .dd-want-view .descr { font-size: 20px; width: 240px; }
+  .dd-want-view p { display: none; }
+  .dd-want-view .input-wrap { margin-right: 0; width: 186px; display: block; }
+  .dd-want-view .input-wrap .dd-input { font-size: 14px; padding: 0 15px; height: 43px; }
+  .dd-want-view .dd-submit { height: 43px; width: 186px; font-size: 14px; line-height: 43px; }
   .tarif h2 { font-size: 20px; }
   .tarif .tarif__head p { display: none; }
   .tarif .tab { padding: 0 !important; background: none !important; }
@@ -174,6 +183,7 @@
   .tarif .tab .tab-in em strong { border-bottom: 1px dashed #fff; }
   .tarif .tab.active em { color: #fae76b; border-color: #fae76b; }
   .tarif .tab.active em strong { border: none; }
+  .tabs-block { width: 100%; max-width: 480px; margin: 0 auto; }
   .tab-content { background: none; padding: 0; box-shadow: none; }
   .tab-content .col-md-3 { display: none; }
   .tab-content .col-md-12 { display: block; }
@@ -184,10 +194,13 @@
   .tab-content .block span em { font-size: 10px; font-weight: 900; color: #fff; display: inline-block; padding-right: 8px; }
   .tab-content .col-md-12 { padding: 0; margin-bottom: 20px; }
   .tab-content .right { float: left; width: 50%; }
-  .tab-content .price { float: left; width: 50%; }
+  .tab-content .price { float: left; width: 50%; text-align: right; }
   .tab-content .price i { font-size: 19px; }
-  .tab-content .price span { font-size: 8px; }
-  .tab-content .price input.dd-submit { font-size: 11px; max-width: 120px; line-height: 32px; height: 32px; margin-bottom: 10px; } }
+  .tab-content .price span { font-size: 8px; padding-right: 50px; }
+  .tab-content .price input.dd-submit { font-size: 11px; max-width: 120px; line-height: 32px; height: 32px; margin-bottom: 10px; }
+  .questions .in p { font-size: 14px; line-height: 18px; }
+  .questions .in .button-1 { font-size: 15px; width: 170px; } }
+@media (min-width: 770px) and (max-width: 1000px) { .questions .in .button-1 { font-size: 15px; width: 170px; } }
 @media only screen and (max-width: 770px) { .questions, .dd-want-view, .testimonials { padding: 35px 0 30px !important; height: auto; }
   .questions h2, .dd-want-view h2, .testimonials h2 { font-size: 20px; }
   .testimonials { background: none; }
@@ -196,18 +209,14 @@
   .testimonials p { display: none; }
   .testimonials .owl-prev, .testimonials .owl-next { display: block; }
   .testimonials .owl-dots { display: block !important; }
-  .dd-want-view { background: url(../img/want-mini.jpg) right bottom no-repeat; padding-bottom: 40px; }
-  .dd-want-view .in { float: none; width: 70%; }
-  .dd-want-view .descr { font-size: 14px; width: 180px; }
-  .dd-want-view p { display: none; }
-  .dd-want-view .input-wrap { margin-right: 0; width: 186px; }
-  .dd-want-view .input-wrap .dd-input { font-size: 14px; padding: 0 15px; height: 43px; }
-  .dd-want-view .dd-submit { height: 43px; width: 186px; font-size: 14px; line-height: 43px; }
+  .dd-want-view { background: url(../img/want-mini.jpg) right bottom 40px no-repeat; padding-bottom: 40px; }
+  .dd-want-view .descr { font-size: 14px; }
   .questions { background: url(../img/questions-mini.jpg) no-repeat; background-size: cover; text-align: center; }
-  .questions .in { float: none; max-width: 320px; width: 100%; color: #fff; padding: 0 22px; margin: 0 auto; }
+  .questions .in { float: none; max-width: 320px; width: 100%; color: #fff; padding: 0 12px; margin: 0 auto; }
   .questions .in .input-wrap { margin-right: 0; padding-right: 0; width: 100%; }
   .questions .in input { width: 277px; height: 48px; line-height: 48px; font-size: 15px; text-align: center; padding-left: 0; width: 100%; }
-  .questions p { color: #fff; font-size: 14px; text-align: center; font-weight: 300; line-height: 18px; }
+  .questions p { color: #fff; text-align: center; font-weight: 300; }
+  .questions p span { display: inline-block; }
   .questions .phone { font-size: 30px; color: #fff; } }
 @media only screen and (max-width: 400px) { .testimonials .owl-prev { left: -10px; }
   .testimonials .owl-next { right: -10px; }

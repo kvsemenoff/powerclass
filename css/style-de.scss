@@ -11,7 +11,7 @@
 		color: #212121;
 		font-weight: 700;
 		display: block;
-		padding: 8px 0;
+		margin-top: -8px;
 	}
 	.input-wrap{
 		display: inline-block;
@@ -41,6 +41,9 @@
 }
 .dd-want-view{
 	background-image: url(../img/want.jpg);
+	h2{
+		line-height: 48px;
+	}
 	.descr{
 		font-size: 24px;
 		color: #212121;
@@ -790,6 +793,40 @@
 			padding: 0 10px;
 		}
 	}
+	.dd-want-view{
+		background: url(../img/want.jpg) bottom left no-repeat;
+		h2{
+			line-height: 1.3;
+			width: 240px;
+		}
+		.in{
+			float: none;
+			width: 70%;
+		}
+		.descr{
+			font-size: 20px;
+			width: 240px;
+		}
+		p{
+			display: none;
+		}
+		.input-wrap{
+			margin-right: 0;
+			width: 186px;
+			display: block;
+			.dd-input{
+				font-size: 14px;
+				padding: 0 15px;
+				height: 43px;
+			}
+		}
+		.dd-submit{
+			height: 43px;
+			width: 186px;
+			font-size: 14px;
+			line-height: 43px;
+		}
+	}
 	.tarif{
 		h2{
 			font-size: 20px;
@@ -836,6 +873,11 @@
 			}
 		}
 	}
+	.tabs-block{
+		width: 100%;
+		max-width: 480px;
+		margin: 0 auto;
+	}
 	.tab-content{
 		background: none;
 		padding: 0;
@@ -881,11 +923,13 @@
 		.price{
 			float: left;
 			width: 50%;
+			text-align: right;
 			i{
 				font-size: 19px;
 			}
 			span{
 				font-size: 8px;
+				padding-right: 50px;
 			}
 			input.dd-submit{
 				font-size: 11px;
@@ -893,6 +937,28 @@
 				line-height: 32px;
 				height: 32px;
 				margin-bottom: 10px;
+			}
+		}
+	}
+	.questions{
+		.in{
+			p{
+				font-size: 14px;
+				line-height: 18px;
+			}
+			.button-1{
+				font-size: 15px;
+				width: 170px;
+			}
+		}
+	}
+}
+@media (min-width: 770px) and (max-width: 1000px) {
+	.questions{
+		.in{
+			.button-1{
+				font-size: 15px;
+				width: 170px;
 			}
 		}
 	}
@@ -926,33 +992,10 @@
 		}
 	}
 	.dd-want-view{
-		background: url(../img/want-mini.jpg) right bottom no-repeat;
+		background: url(../img/want-mini.jpg) right bottom 40px no-repeat;
 		padding-bottom: 40px;
-		.in{
-			float: none;
-			width: 70%;
-		}
 		.descr{
 			font-size: 14px;
-			width: 180px;
-		}
-		p{
-			display: none;
-		}
-		.input-wrap{
-			margin-right: 0;
-			width: 186px;
-			.dd-input{
-				font-size: 14px;
-				padding: 0 15px;
-				height: 43px;
-			}
-		}
-		.dd-submit{
-			height: 43px;
-			width: 186px;
-			font-size: 14px;
-			line-height: 43px;
 		}
 	}
 	.questions{
@@ -964,7 +1007,7 @@
 			max-width: 320px;
 			width: 100%;
 			color: #fff;
-			padding: 0 22px;
+			padding: 0 12px;
 			margin: 0 auto;
 			.input-wrap{
 				margin-right: 0;
@@ -983,10 +1026,11 @@
 		}
 		p{
 			color: #fff;
-			font-size: 14px;
 			text-align: center;
 			font-weight: 300;
-			line-height: 18px;
+			span{
+				display: inline-block;
+			}
 		}
 		.phone{
 			font-size: 30px;
