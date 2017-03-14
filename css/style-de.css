@@ -75,13 +75,18 @@
 .shtraf .end .input-block input[type="text"] { max-width: 386px; width: 100%; }
 .shtraf .end .input-block input[type="submit"] { width: auto; font-size: 13px; line-height: 50px; height: 53px; padding: 0 22px; }
 .shtraf .end .input-block--half { width: 48%; max-width: 200px; display: inline-block; }
-.shtraf .choose-wrap { max-width: 650px; }
+.shtraf .choose-wrap { max-width: 650px; position: relative; }
 .shtraf .choose { float: left; min-width: 220px; padding-bottom: 20px; }
 .shtraf .choose span { font-size: 14px; color: #212121; font-weight: 300; }
-.shtraf .choose select { cursor: pointer; font-size: 18px; color: #e53935; font-weight: 900; border: none; }
+.shtraf .choose select { width: auto; -webkit-appearance: menulist-button; cursor: pointer; font-size: 18px; color: #e53935; font-weight: 900; border: none; }
 .shtraf .about { float: right; padding-bottom: 20px; }
 .shtraf .about a { color: #212121; font-size: 14px; text-decoration: underline; position: relative; padding-right: 8px; }
-.shtraf .about a::before { content: "?"; color: #e53935; font-size: 14px; position: absolute; top: -4px; right: 0; font-weight: 900; }
+.shtraf .about a::before { content: "?"; color: #e53935; font-size: 14px; position: absolute; top: -4px; right: -9px; font-weight: 900; }
+.shtraf .about-in:hover .has-tooltip { display: block; }
+.shtraf .has-tooltip { display: none; width: 300px; padding: 15px 22px 7px; background: #f5f5f5; border: 1px solid #ededed; position: absolute; bottom: 31px; right: -305px; }
+.shtraf .has-tooltip p { font-family: 'Open Sans', arial, sans-serif; font-weight: 300; font-size: 14px; color: #212121; padding: 0 0 15px; }
+.shtraf .has-tooltip::before { content: ""; position: absolute; background: url(../img/corner-tooltip.png); width: 24px; height: 35px; left: -6px; bottom: -14px; }
+.shtraf .has-tooltip::after { display: none; content: ""; position: absolute; background: url(../img/corner-tooltip.png); width: 24px; height: 35px; right: -6px; bottom: -14px; transform: scale(-1, 1); }
 .shtraf .delivery { border: none; }
 .shtraf .delivery .dd-input { margin: 0 15px 15px; font-weight: 400; color: #222; font-size: 14px; padding: 0 10px 0 16px; }
 .shtraf .delivery .input--city { width: 185px; }
@@ -102,12 +107,14 @@
 .shtraf-mini h2 { font-weight: 400; font-size: 20px; text-align: center; padding-bottom: 15px; }
 .shtraf-mini .select-wrap { width: 276px; }
 .shtraf-mini .border-red { border-color: #e53935; }
-.shtraf-mini select { cursor: pointer; border: 2px solid #222; background: #f4f4f4; margin: 0 auto 10px; width: 100%; border-radius: 3px; padding: 0 14px; color: #222; font-size: 12px; font-weight: 900; height: 37px; }
+.shtraf-mini select { cursor: pointer; border: 2px solid #222; background: #f4f4f4; margin: 0 auto 10px; width: 100%; border-radius: 3px; padding: 0 14px; color: #222; font-size: 12px; font-weight: 900; height: 37px; -webkit-appearance: menulist-button; }
 .shtraf-mini .input-mini { width: 85px; border: 2px solid #222; float: left; border-radius: 3px; margin-bottom: 10px; padding: 0 14px; color: #222; font-size: 12px; font-weight: 900; line-height: 37px; background: #f4f4f4; }
 .shtraf-mini .input-mini.border-red { border: 2px solid #e53935; margin: 0 10px 10px; }
 .shtraf-mini .border-red select { border: 2px solid #e53935; }
 .shtraf-mini .dd-submit { height: 52px; line-height: 52px; width: 100%; font-size: 13px; margin: 5px 0; }
-.shtraf-mini .link { font-size: 14px; color: #b7b7b7; display: block; text-align: center; padding: 15px 0; }
+.shtraf-mini .link { font-size: 14px; color: #b7b7b7; display: block; text-align: center; padding: 15px 0; text-decoration: underline; }
+.shtraf-mini input::-webkit-input-placeholder { color: #222; }
+.shtraf-mini input:-moz-placeholder { color: #222; }
 
 .tab { padding: 0 29px 0; float: left; width: 25%; position: relative; }
 .tab:first-child { padding-right: 45px; }
@@ -143,6 +150,9 @@
 .tab-content .last-block { border-bottom: none; }
 .tab-content .last-block b { display: block; font-size: 18px; }
 
+@media only screen and (max-width: 1450px) { .shtraf .has-tooltip { right: 0; }
+  .shtraf .has-tooltip::before { display: none; }
+  .shtraf .has-tooltip::after { display: block; } }
 @media only screen and (max-width: 1200px) { .shtraf .end__item { padding: 0 15px; }
   .shtraf .delivery .input--home { margin: 0 13px 15px 0; }
   .tab span { line-height: 39px; } }

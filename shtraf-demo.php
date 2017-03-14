@@ -297,28 +297,27 @@
 												<span>День 1-й доставки:</span>
 												<select>
 												  <option>ВС</option>
-												  <option>ПН</option>
-												  <option>ВТ</option>
 												  <option>СР</option>
-												  <option>ЧТ</option>
 												  <option>ПТ</option>
-												  <option>СБ</option>
 												</select>
 											</div>
 											<div class="choose">
-												<span>День 1-й доставки:</span>
+												<span>Время:</span>
 												<select>
 												  <option>21:30</option>
-												  <option>ПН</option>
-												  <option>ВТ</option>
-												  <option>СР</option>
-												  <option>ЧТ</option>
-												  <option>ПТ</option>
-												  <option>СБ</option>
+												  <option>22:30</option>
+												  <option>24:40</option>
 												</select>
 											</div>
 											<div class="about">
-												<a href="#">О доставке</a>
+												<a href="#">
+													<span class="about-in">О доставке
+														<div class="has-tooltip">
+															<p>Доставка осуществляется после Вашей оплаты заказа, по согласовыванию с Вами</p>
+															<p>После оформления заказа с Вами обязательно свяжется оператор и уточнит более подробно условия доставки. В день доставки с Вами свяжется курьер и сообщит о точном времени приезда. Если у Вас нет возможности принять заказ в ранее оговоренное время, просьба сообщить об этом</p>
+														</div>
+													</span>
+												</a>
 											</div>
 										</div>
 										<div class="end__pay clearfix">
@@ -358,9 +357,9 @@
 								</select>
 							</div>
 							<div class="select-wrap clearfix">
-								<input type="text" class="input-mini" value="Возраст">
-								<input type="text" class="input-mini border-red" value="Рост">
-								<input type="text" class="input-mini" value="Вес">
+								<input type="number" class="input-mini" placeholder="Возраст">
+								<input type="number" class="input-mini border-red" placeholder="Рост">
+								<input type="number" class="input-mini" placeholder="Вес">
 							</div>
 							<div class="select-wrap">
 								<select>
