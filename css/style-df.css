@@ -45,11 +45,12 @@
     box-shadow: 0 4px 0 #ecc345, inset 0 0 4px rgba(255, 221, 82, 0.17); }
 
 .dfbg2 {
-  height: 250px;
+  height: 245px;
   background-image: url("../img/paralax1.jpg");
   background-attachment: fixed;
-  background-position: center top 27%;
-  background-size: cover;
+  background-position: right 65% top 65%;
+  background-size: 190%;
+  background-repeat: no-repeat;
   overflow: hidden; }
 
 .dffourbox {
@@ -129,7 +130,7 @@
   font-family: 'Open Sans', sans-serif;
   position: absolute;
   top: 67px;
-  left: -5px;
+  left: 5px;
   display: none; }
 
 .dfcaptionbox {
@@ -162,9 +163,15 @@
   .dfhcap3 b {
     font-weight: 700; }
 
-.dfboxchar {
-  margin-bottom: 50px;
+.dfboxchar .dfimgcahr {
   display: none; }
+.dfboxchar .dftxtbox {
+  display: none; }
+.dfboxchar .dfshowmob {
+  display: block;
+  margin: 0 auto; }
+  .dfboxchar .dfshowmob .dfcaptxtbox {
+    display: none; }
 
 .dfimgcahr {
   display: inline-block;
@@ -221,7 +228,7 @@
   font-weight: 600;
   display: block;
   margin-top: 12px;
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
 
 .dfcolor {
   color: #c5c5c5 !important;
@@ -259,11 +266,11 @@
 .dfcallory {
   text-align: center; }
 
-.dfcaloryesbox {
-  width: 70px;
+.dfcaloryesbox, .dfcaloryesbox2 {
+  width: 65px;
   margin-right: 5px;
   display: inline-block; }
-  .dfcaloryesbox .dfborder {
+  .dfcaloryesbox .dfborder, .dfcaloryesbox2 .dfborder {
     border: 2px solid #212121;
     border-radius: 25px;
     padding: 8px 0;
@@ -274,14 +281,14 @@
     -moz-transition: 0.5s;
     transition: 0.5s;
     cursor: pointer; }
-  .dfcaloryesbox a {
+  .dfcaloryesbox a, .dfcaloryesbox2 a {
     color: #212121;
     font-size: 10px;
     font-weight: 700;
     line-height: 11px;
     display: inline-block;
     border-bottom: 1px dashed #212121; }
-  .dfcaloryesbox span {
+  .dfcaloryesbox span, .dfcaloryesbox2 span {
     display: inline-block;
     color: #212121;
     font-size: 10px;
@@ -294,19 +301,30 @@
     border-bottom: 1px dashed transparent;
     color: #e53935; }
 
+.dfactivelinkmob {
+  border: 2px solid #e53935 !important; }
+  .dfactivelinkmob a {
+    border-bottom: 1px dashed transparent !important;
+    color: #e53935 !important; }
+
 .dfcallory .dfcaloryesbox:last-child {
+  margin-right: 0; }
+
+.dfcallory .dfcaloryesbox2:last-child {
   margin-right: 0; }
 
 .df3or5 {
   text-align: center;
-  padding: 15px 0 17px 0; }
+  padding: 15px 0 17px 0;
+  max-width: 480px;
+  margin: 0 auto; }
   .df3or5 .df3 {
     color: #212121;
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
     display: inline-block;
-    width: 137px;
+    width: 45%;
     background-color: #ededed;
     padding: 9px 0;
     transition: 0.4s; }
@@ -316,7 +334,7 @@
     font-weight: 700;
     line-height: 18px;
     display: inline-block;
-    width: 137px;
+    width: 45%;
     background-color: #ededed;
     padding: 9px 0;
     transition: 0.4s; }
@@ -330,45 +348,59 @@
     line-height: 18px;
     display: block; }
 
+.df3active {
+  background-color: #e53935 !important;
+  color: #fff !important; }
+
+.df5active {
+  background-color: #e53935 !important;
+  color: #fff !important; }
+
 .dfweaks ul {
-  text-align: center; }
+  text-align: center;
+  max-width: 480px;
+  margin: 0 auto; }
 
 .dfweak {
   display: inline-block;
-  width: 38px;
   text-align: center;
   border-radius: 3px;
   transition: 0.4s;
-  padding: 3px 0; }
+  padding: 3px 0;
+  width: 12%; }
   .dfweak a {
     display: inline-block;
     color: #212121;
+    width: 38px;
     font-size: 18px;
     font-weight: 300;
     line-height: 18px;
     text-decoration: underline; }
-
-.dfweak:hover {
-  background-color: #ededed; }
-  .dfweak:hover a {
-    text-decoration: none; }
+  .dfweak a:hover {
+    background-color: #ededed;
+    text-decoration: none !important;
+    padding: 4px 6px;
+    border-radius: 3px; }
 
 .dfblockmenu {
   padding: 17px 0 0px 0; }
 
 .dfmenubox1 {
-  width: 275px;
+  max-width: 480px;
+  width: 100%;
   border-radius: 3px;
   margin: 0 auto;
   height: 109px;
-  overflow: hidden;
   margin-bottom: 11px;
   background-color: #ededed; }
 
 .dfimgmenu {
-  width: 114px;
+  width: 20%;
+  min-width: 114px;
   display: inline-block;
   vertical-align: top;
+  overflow: hidden;
+  height: 109px;
   float: left; }
   .dfimgmenu img {
     width: 100%;
@@ -378,8 +410,10 @@
   vertical-align: top;
   float: left;
   display: inline-block;
-  width: 160px;
-  padding: 9px 5px 9px 12px; }
+  width: 62%;
+  height: 109px;
+  padding: 9px 5px 9px 12px;
+  position: relative; }
 
 .dfnameproduct {
   color: #111;
@@ -409,12 +443,16 @@
   line-height: 8px;
   float: right;
   display: inline-block;
-  padding-right: 16px; }
+  padding-right: 16px;
+  position: absolute;
+  bottom: 15px;
+  right: -7px; }
 
 .dfitogo {
   background-color: #e53935;
   border-radius: 3px;
-  width: 275px;
+  max-width: 480px;
+  width: 100%;
   margin: 0 auto;
   padding: 12px 0 10px 21px;
   margin-bottom: 25px; }
@@ -456,15 +494,39 @@
 .dfmenudesktop {
   display: none; }
 
+.jsmobactive {
+  background-color: #ededed;
+  text-decoration: none !important;
+  padding: 4px 6px;
+  border-radius: 3px; }
+
+.df-fit-block, .df-fitplus-block, .df-sport-block, .df-sportplus-block {
+  display: none; }
+
+.dftabtop .dfmenuproducts {
+  display: none; }
+
+.dftabmob, .dfblockmenu {
+  display: none; }
+
+.jsdisabled {
+  position: relative; }
+
+.jsdisabled:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url("../img/waterblank.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
 @media only screen and (min-width: 768px) {
-  .dfbghow1 {
-    background-image: url("../img/dfbg1.jpg"); }
-
-  .dfbghow2 {
-    background-image: url("../img/dfbg2.jpg"); }
-
-  .dfbghow3 {
-    background-image: url("../img/dfbg3.jpg"); } }
+  .dfmenutxt {
+    width: 73%; } }
 @media only screen and (min-width: 992px) {
   .dfbg1 {
     padding: 120px 0;
@@ -486,8 +548,10 @@
     text-align: left; }
 
   .dfbg2 {
-    padding: 100px 0 180px 0;
-    height: auto; }
+    background-position: center top 27%;
+    background-size: cover;
+    padding: 0;
+    height: 415px; }
 
   .dfparalaxbox {
     margin-right: 45px;
@@ -495,6 +559,18 @@
     padding-top: 55px; }
 
   /*===============how=============*/
+  .dfbghow1 {
+    background-image: url("../img/dfbg1.jpg"); }
+
+  .dfbghow2 {
+    background-image: url("../img/dfbg2.jpg"); }
+
+  .dfbghow3 {
+    background-image: url("../img/dfbg3.jpg"); }
+
+  .dfcapbottom2 {
+    margin-bottom: 50px; }
+
   .dfbghow1 {
     padding: 55px 0 27px 0 !important;
     border-bottom: 7px solid #fff; }
@@ -523,7 +599,7 @@
     content: "";
     position: absolute;
     top: 155px;
-    left: 35px;
+    left: 45px;
     width: 1px;
     height: 95%;
     border-left: 1px dashed #fff;
@@ -545,6 +621,18 @@
     display: block;
     margin-left: -10px; }
 
+  .dfboxchar {
+    margin-bottom: 50px; }
+    .dfboxchar .dfimgcahr {
+      display: inline-block; }
+    .dfboxchar .dftxtbox {
+      display: inline-block; }
+    .dfboxchar .dfshowmob {
+      display: inline-block;
+      margin: 0; }
+      .dfboxchar .dfshowmob .dfcaptxtbox {
+        display: block; }
+
   /*================== section2*/
   .dfbghow2 {
     padding: 50px 0 167px 0 !important;
@@ -560,7 +648,7 @@
     content: "";
     position: absolute;
     top: 85px;
-    left: 35px;
+    left: 45px;
     width: 1px;
     height: 140%;
     z-index: 99;
@@ -575,12 +663,13 @@
 
   .postop {
     top: 50px; } }
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1024px) {
   .dfmenumobulehidden {
     display: none; }
 
   .dfmenudesktop {
-    display: block; }
+    display: block;
+    padding: 70px 0 !important; }
 
   .dfcontainer2 {
     max-width: 1172px;
@@ -590,19 +679,22 @@
       text-align: left; }
     .dfcontainer2 .dfcaloryesbox {
       text-align: center; }
+    .dfcontainer2 .dfcaloryesbox2 {
+      text-align: center; }
 
   .dfmenucap {
     font-size: 46px;
     margin-bottom: 45px; }
 
-  .dfcaloryesbox {
+  .dfcaloryesbox, .dfcaloryesbox2 {
     width: auto;
     display: inline-block;
     position: relative;
     padding: 15px 30px 34px 30px; }
-    .dfcaloryesbox .dfborder {
+    .dfcaloryesbox .dfborder, .dfcaloryesbox2 .dfborder {
       border: 2px solid #212121;
       border-radius: 25px;
+      padding: 0;
       padding: 15px 0;
       display: block;
       width: 149px;
@@ -611,14 +703,15 @@
       -moz-transition: 0.5s;
       transition: 0.5s;
       cursor: default; }
-    .dfcaloryesbox a {
+    .dfcaloryesbox a, .dfcaloryesbox2 a {
       color: #212121;
       font-size: 14px;
       font-weight: 800;
       line-height: 18px;
       display: inline-block;
+      position: relative;
       border-bottom: 1px dashed #212121; }
-    .dfcaloryesbox span {
+    .dfcaloryesbox span, .dfcaloryesbox2 span {
       display: inline-block;
       color: #212121;
       font-size: 14px;
@@ -631,9 +724,9 @@
     margin-left: -13px; }
 
   .dfactivelink {
-    background-image: url("../img/hoveronbutton1.png");
-    background-repeat: no-repeat;
-    background-position: top 1px right 181%; }
+    background-image: url("../img/hoveronbutton1.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: top 1px right 181% !important; }
 
   .dfactivelink2 {
     background-image: url("../img/hoveronbutton2.png");
@@ -660,26 +753,25 @@
     background-repeat: no-repeat;
     background-position: top center; }
 
-  .dfcaloryesbox:hover .dfborder {
+  .dfcaloryesbox:hover .dfborder, .dfcaloryesbox2:hover .dfborder {
     border: 2px solid #e53935; }
-  .dfcaloryesbox:hover a {
+  .dfcaloryesbox:hover a, .dfcaloryesbox2:hover a {
     border-bottom: 1px dashed transparent;
     color: #e53935; }
 
   .dfpriemi {
-    max-width: 245px;
+    max-width: 145px;
     width: 100%;
     display: inline-block;
-    float: right;
     margin-right: 20px;
     padding-top: 15px; }
 
   .df3priem {
-    display: inline-block;
+    display: block;
     border: 2px solid #212121;
-    padding: 12px 13px 3px 25px;
-    border-radius: 25px 0 0 25px;
-    text-align: left;
+    padding: 12px 10px 3px 10px;
+    border-radius: 25px;
+    text-align: center;
     color: #212121;
     font-size: 14px;
     font-weight: 700;
@@ -687,7 +779,7 @@
     margin-right: -3px; }
     .df3priem .dfdots {
       width: 7px;
-      height: 8px;
+      height: 7px;
       display: inline-block;
       background-color: #000;
       border: 1px solid #000;
@@ -698,40 +790,81 @@
     .df3priem .dfdots:nth-child(2) {
       background-color: #fff; }
 
-  .df5priem {
-    display: inline-block;
+  .df3priem:hover {
     border: 2px solid #e53935;
-    padding: 12px 14px 3px 15px;
-    border-radius: 0 25px 25px 0;
-    text-align: left;
-    color: #e53935;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 18px; }
-    .df5priem .dfdots {
-      width: 7px;
-      height: 8px;
+    color: #e53935; }
+    .df3priem:hover .dfdots {
       display: inline-block;
       background-color: #e53935;
-      border: 1px solid #e53935;
+      border: 1px solid  #e53935; }
+    .df3priem:hover .dfdots:last-child {
+      background-color: #fff; }
+    .df3priem:hover .dfdots:nth-child(2) {
+      background-color: #fff; }
+
+  .df3priemactive {
+    border: 2px solid #e53935;
+    color: #e53935; }
+    .df3priemactive .dfdots {
+      display: inline-block;
+      background-color: #e53935;
+      border: 1px solid  #e53935; }
+    .df3priemactive .dfdots:last-child {
+      background-color: #fff; }
+    .df3priemactive .dfdots:nth-child(2) {
+      background-color: #fff; }
+
+  .df5priem {
+    display: block;
+    border: 2px solid  #212121;
+    padding: 12px 10px 3px 10px;
+    border-radius: 25px;
+    text-align: center;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 5px; }
+    .df5priem .dfdots {
+      width: 7px;
+      height: 7px;
+      display: inline-block;
+      background-color: #000;
+      border: 1px solid  #212121;
       border-radius: 50%;
       margin-right: 2px; }
+
+  .df5priem:hover {
+    border: 2px solid #e53935;
+    color: #e53935; }
+    .df5priem:hover .dfdots {
+      background-color: #e53935;
+      border: 1px solid #e53935; }
+
+  .df5priemactive {
+    border: 2px solid #e53935;
+    color: #e53935; }
+    .df5priemactive .dfdots {
+      background-color: #e53935;
+      border: 1px solid #e53935; }
 
   .dfmenuproducts {
     text-align: left;
     background-color: #efefef;
     padding: 18px 17px;
     border-radius: 5px 5px 0 0;
-    margin-top: -12.3px;
-    box-shadow: inset 0 0px 5px rgba(0, 0, 0, 0.23); }
+    margin-top: -13.3px;
+    box-shadow: inset 0 0px 5px rgba(0, 0, 0, 0.23);
+    text-align: center; }
 
   .dfmenuproductbox {
     max-width: 212px;
+    max-width: 191px;
     width: 100%;
     display: inline-block;
     background-color: #fff;
-    min-height: 330px;
-    margin-right: 15px;
+    min-height: 345px;
+    margin-right: 3px;
     vertical-align: top; }
 
   .dfmenuproducts .dfmenuproductbox:last-child {
@@ -747,7 +880,8 @@
 
   .dfmenucharacteristic {
     padding: 18px 12px 12px 17px;
-    position: relative; }
+    position: relative;
+    text-align: left; }
 
   .dfnameproduct {
     font-size: 14px;
@@ -807,7 +941,7 @@
 
   .dfdaysmenu {
     display: inline-block;
-    margin: 4px 44px 0 0; }
+    margin: 4px 20px 0 0; }
     .dfdaysmenu a {
       padding: 1px 16px;
       display: inline-block;
@@ -875,6 +1009,32 @@
 @media only screen and (min-width: 1248px) {
   .dffourbox {
     text-align: center;
-    display: block; } }
+    display: block; }
+
+  .dfmenuproductbox {
+    max-width: 212px;
+    margin-right: 15px;
+    min-height: 330px; }
+
+  .dfdaysmenu {
+    margin: 4px 44px 0 0; }
+
+  .dfpriemi {
+    max-width: 245px;
+    width: 100%;
+    float: right; }
+
+  .df3priem {
+    display: inline-block;
+    padding: 12px 13px 3px 25px;
+    border-radius: 25px 0 0 25px;
+    text-align: left; }
+
+  .df5priem {
+    display: inline-block;
+    padding: 12px 14px 3px 15px;
+    border-radius: 0 25px 25px 0;
+    text-align: left;
+    margin-top: 0px; } }
 
 /*# sourceMappingURL=style-df.css.map */
