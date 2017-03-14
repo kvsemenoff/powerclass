@@ -71,13 +71,7 @@
 	z-index:9998; 
 	border:none;
 	// width: 260px;
-	.dd-form-tariff{
-		background:#fff;
-		border-radius:3px;
-		width: 945px;
-		padding-left: 73px;
-		padding-right: 73px;
-	}
+
 	.form-wrap-main{
 		background: #F4F4F4;
 		border-radius:3px;
@@ -103,6 +97,86 @@
 	.dd-close:hover{
     	// background:url(../img/kres.png) #5F7C0B no-repeat center;
     }
+    .dd-form-tariff{
+    	background:#fff;
+    	border-radius:3px 3px 0px 0px;
+    	width: 945px;
+    	padding-left: 73px;
+    	padding-right: 73px;
+    	.dd-close{
+    		right: -128px;
+    	}
+    }
+    .dd-form-tariff_mobile{
+    	width: 320px;
+    	padding: 0;
+
+    	.dd-title_tr_sp{
+    		font-size: 20px;
+    	}
+    	.dd-close{
+    		right: 145px;
+    	}
+    	.dd-price_td{
+			font-size: 12px;
+    	}
+    	.dd-days{
+			font-size: 13px;
+    	}
+    	td{
+    		width: 80px;
+    		height: unset;
+    		padding-left: 4px;
+    		.tr-title{
+    			font-size: 9px;
+    		}
+    	}
+    	.dd-table-title{
+			font-size: 11px;
+			span{
+				font-size: 11px;
+			}
+			i{
+				font-size: 8px;
+			}
+    	}
+    	.tr-title{
+    		td{
+				height: 35px;
+    		}
+    	}
+    }
+}
+.window_2{
+	width: 320px !important;
+		.dd-form_box{
+			margin-right: 0;
+			padding-bottom: 20px;
+			padding-top: 20px;
+			span:first-child{
+				font-size: 15px;
+			}
+		}
+	  	.dd-tarif-form{
+    		width: 320px;
+    		padding: 0;
+    		padding-bottom: 20px;
+    		text-align: center;	
+    		.dd-input_tr{
+    			width: 235px;
+    			height: 35px;
+    		}
+    		.dd-submit{
+				width: 235px;
+				height: 35px;
+				margin: 0 auto;
+				line-height: 10px;
+    		}
+    		.button-1{
+    			margin-top: 15px;
+    			font-size: 10px !important;
+    		}
+    	}
 }
 .table_left{
 	float: left;
@@ -298,7 +372,40 @@
 .dd-table_left{
 	padding-right: 10px;
 }
-
+.dd-tarif-form{
+	padding: 36px 0px;
+	background:#E6E6E6; 
+	width: 945px;
+	padding-left: 73px;
+	padding-right: 73px;
+	border-radius: 0px 0px 3px 3px;
+	.dd-input_tr{
+		background:#fff;
+		width: 294px;
+	}
+	.dd-submit{
+		font-size: 12px !important;
+		height: 60px;
+		width: 283px;
+		margin-left: -36px;
+	}
+}
+.dd-form_box{
+	margin-right: 30px;
+	span:first-child{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 24px;
+		font-weight: 900;
+		color: #222;
+	}
+	span:last-child{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		font-weight: 300;
+		color: #222;
+	}
+	
+}
 //Чекбоксы
 .checkbox {
 	display: none;
