@@ -783,7 +783,7 @@
 				</div>
 				<a href="#" class="individual">Рассчитать индивидуальный тариф</a>
 			</div>
-<<<<<<< HEAD
+
 	    <div class="tabs-block">
 	      <div class="tabs clearfix">
 	        <div class="tab tab-0">
