@@ -84,44 +84,44 @@
 
 	<!-- Pop-2 -->
 	<!-- /////////////////////////// -->
-<div id="log-in-2" class="window">
+	<div id="log-in-2" class="window">
 
-	<div class="dd-form-wrap">
+		<div class="dd-form-wrap">
 
-		<form class="form1 dd-bg" action="#" method="post">
+			<form class="form1 dd-bg" action="#" method="post">
 
-			<div class="dd-img-2">
-				<img src="img/bag.png" alt="">	
-			</div>
-
-			<div class="form-wrap-main form-wrap-main-2">
-
-				<div class="dd-close"></div>
-
-				<div class="dd-el-1 dd-el-1_inp pr28">
-					<div class="dd-title-2_wrap">
-						<span class="dd-title-2">
-							Заказать комплект питания
-						</span>
-						<span class="dd-bold-title_pop">Спорт плюс, <span>3 500 ккал/день</span></span><br>
-						<span class="dd-grey-txt">5-разовое питание, на 5 дней</span><br>
-						<span class="dd-main-txt-2">Сумма заказа: <span>7 400 руб.</span></span>
-					</div>
-					<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
-					<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
-					<input class="button-1 dd-submit" type="submit" name="submit" value="оформить по телефону">
+				<div class="dd-img-2">
+					<img src="img/bag.png" alt="">	
 				</div>
-				<div class="dd-but_online">
-					<a class="button-2 online-replace" name="modal" href="#log-in-5">Оформить онлайн</a>
+
+				<div class="form-wrap-main form-wrap-main-2">
+
+					<div class="dd-close"></div>
+
+					<div class="dd-el-1 dd-el-1_inp pr28">
+						<div class="dd-title-2_wrap">
+							<span class="dd-title-2">
+								Заказать комплект питания
+							</span>
+							<span class="dd-bold-title_pop">Спорт плюс, <span>3 500 ккал/день</span></span><br>
+							<span class="dd-grey-txt">5-разовое питание, на 5 дней</span><br>
+							<span class="dd-main-txt-2">Сумма заказа: <span>7 400 руб.</span></span>
+						</div>
+						<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
+						<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
+						<input class="button-1 dd-submit" type="submit" name="submit" value="оформить по телефону">
+					</div>
+					<div class="dd-but_online">
+						<a class="button-2 online-replace" name="modal" href="#log-in-5">Оформить онлайн</a>
+					</div>
+					<div class="clearfix"></div>
 				</div>
 				<div class="clearfix"></div>
-			</div>
-			<div class="clearfix"></div>
 
-		</form>
+			</form>
 
+		</div>
 	</div>
-</div>
 
 	<!-- Pop-3 -->
 	<!-- /////////////////////////// -->
@@ -212,201 +212,114 @@
 
 		</div>
 	</div>
-<!-- Pop-3 -->
-<!-- /////////////////////////// -->
-<div id="log-in-3" class="window">
 
-	<div class="dd-form-wrap">
 
-		<form class="form1 dd-bg" action="#" method="post">
+	<!-- Pop-5 оплата заказа с селектами -->
+	<!-- /////////////////////////// -->
+	<div id="log-in-5" class="window win_2">
 
-			<div class="dd-img-2">
-				<img src="img/bag.png" alt="">	
-			</div>
+		<div class="dd-form-wrap">
 
-			<div class="form-wrap-main form-wrap-main-2">
+			<form class="form1" action="#" method="post">
+				<div class="form-wrap-main form-wrap-main_5">
 
-				<div class="dd-close"></div>
+					<div class="dd-close"></div>
 
-				<div class="dd-el-1 dd-el-1_inp pr28">
+					<div class="dd-el-1">
 
-					<div class="dd-title-2_wrap">
-						<span class="dd-title-2">
-							Заказать комплект питания
-						</span>
-						<span class="dd-bold-title_pop">Спорт плюс, <span>3 500 ккал/день</span></span><br>
-					</div>
-
-					<label class="dd-label">
-						<input class="checkbox checkbox-js" type="radio" value="Выбран тариф пробный день" name="checkbox">
-						<span class="checkbox-custom"></span>
-						<span class="dd-txt-radio dd-txt-radio-js">Пробный день</span><br>
-						<span class="dd-grey-txt dd-grey-txt_2">(Четверг)</span>
-						
-						<span class="label"></span>
-					</label>
-					<label class="dd-label mb25">
-						<input class="checkbox checkbox-js" type="radio" value="Выбран тариф на неделю" name="checkbox" checked>
-						<span class="checkbox-custom"></span>
-						<span class="dd-txt-radio dd-txt-radio-js activeRed">На неделю</span>
-						<span class="label"></span>
-					</label>
-					<div class="clearfix"></div>
-					<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя">
-					<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
-					<input class="button-1 dd-submit" type="submit" name="submit" value="Заказать питание">
-
-				</div>
-
-				<div class="clearfix"></div>
-			</div>
-			<div class="clearfix"></div>
-
-		</form>
-
-	</div>
-</div>
-
-<!-- Pop-4 -->
-<!-- /////////////////////////// -->
-<div id="log-in-4" class="window">
-
-	<div class="dd-form-wrap">
-
-		<form class="form1" action="#" method="post">
-			<div class="form-wrap-main form-wrap-main_bg">
-
-				<div class="dd-close"></div>
-
-				<div class="dd-el-1 dd-el-1_inp pr28">
-
-					<div class="dd-title-2_wrap">
-						<span class="dd-title-2">
-							Начните питаться 
-							сбалансированной пищей 
-							5 раз в день, и ваше тело 
-							скажет вам «Спасибо» 
-						</span>
-					</div>
-					<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя">
-					<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
-					<input class="button-1 dd-submit" type="submit" name="submit" value="Заказать питание">
-
-				</div>
-
-				<div class="clearfix"></div>
-			</div>
-
-		</form>
-
-	</div>
-</div>
-<!-- Pop-5 оплата заказа с селектами -->
-<!-- /////////////////////////// -->
-<div id="log-in-5" class="window win_2">
-
-	<div class="dd-form-wrap">
-
-		<form class="form1" action="#" method="post">
-			<div class="form-wrap-main form-wrap-main_5">
-
-				<div class="dd-close"></div>
-
-				<div class="dd-el-1">
-
-					<div class="dd-title-2_wrap">
-						<span class="dd-title-2">
-							Укажите точный адрес доставки
-						</span>
-					</div>
-
-					<input class="dd-input dd-input_pop dd-pop_left_5" type="text" name="uname" placeholder="Москва" required>
-					<input class="dd-input dd-input_pop dd-pop_right_5" type="text" placeholder="Улица..." required>
-					<div class="clearfix"></div>
-
-					<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" placeholder="Дом..." required>
-					<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" placeholder="Подъезд..." required>
-					<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" placeholder="Домофон..."required >
-					<input class="dd-input dd-input_pop dd-inp-small_2 mr_inp" type="text" placeholder="Этаж..." required>
-					<input class="dd-input dd-input_pop dd-inp-small " type="text" placeholder="Кв/Офис..." required>
-
-					<div class="clearfix"></div>
-				</div>
-
-				<div class="clearfix"></div>
-
-				<div class="dd-select">
-
-					<label class="dd-select-box pt-label">
-						<input class="checkbox checkbox_2" type="checkbox" name="checkbox-test" checked>
-						<span class="checkbox-custom checkbox-custom_2"></span>
-						<span class="dd-chek">Нужен пропуск на территорию</span>
-						<span class="label"></span>
-					</label>
-
-					<div class="dd-select-box">
-
-						<div class="dd-select-txt floats">
-							<span class="dd-chek line-height26">День 1-й доставки: </span>
+						<div class="dd-title-2_wrap">
+							<span class="dd-title-2">
+								Укажите точный адрес доставки
+							</span>
 						</div>
 
-						<div  class="az-select floats">
-							<select name="" id="">
-								<option value="1">Вс</option>
-								<option value="2">Пн</option>
-								<option value="3">Ср</option>
-							</select>
-						</div>
+						<input class="dd-input dd-input_pop dd-pop_left_5" type="text" name="uname" placeholder="Москва" required>
+						<input class="dd-input dd-input_pop dd-pop_right_5" type="text" placeholder="Улица..." required>
+						<div class="clearfix"></div>
+
+						<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" placeholder="Дом..." required>
+						<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" placeholder="Подъезд..." required>
+						<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" placeholder="Домофон..."required >
+						<input class="dd-input dd-input_pop dd-inp-small_2 mr_inp" type="text" placeholder="Этаж..." required>
+						<input class="dd-input dd-input_pop dd-inp-small " type="text" placeholder="Кв/Офис..." required>
 
 						<div class="clearfix"></div>
 					</div>
 
-					<div class="dd-select-box dd-select-box_last">
-
-						<div class="dd-select-txt floats">
-							<span class="dd-chek line-height26">Время: </span>
-						</div>
-
-						<div  class="az-select az-select_2 floats">
-							<select name="" id="">
-								<option value="1">21:30</option>
-								<option value="2">21:40</option>
-								<option value="3">22:30</option>
-								<option value="3">24:40</option>
-							</select>
-						</div>
-
-					</div>
 					<div class="clearfix"></div>
 
-					<div class="dd-select-but">
-						<input class="button-1 dd-submit" type="submit" name="submit" value="Оплатить онлайн">
-					</div>
+					<div class="dd-select">
 
-					<div class="dd-dost">
-						<span class="dd-dost_span">О доставке</span>
-						<div class="dd-podskazka">
-							<div class="dd-p-span">
-								<span>Доставка осуществляется после Вашей оплаты заказа, по согласованию с Вами.
-									<br><br>
-									После оформления заказа с Вами обязательно свяжется оператор и уточнит более подробно условия доставки. В день доставки с Вами свяжется курьер и сообщит о точном времени приезда. Если у Вас нет возможности принять заказ в ранее оговоренное с время, просьба сообщить об этом.
-								</span>
+						<label class="dd-select-box pt-label">
+							<input class="checkbox checkbox_2" type="checkbox" name="checkbox-test" checked>
+							<span class="checkbox-custom checkbox-custom_2"></span>
+							<span class="dd-chek">Нужен пропуск на территорию</span>
+							<span class="label"></span>
+						</label>
+
+						<div class="dd-select-box">
+
+							<div class="dd-select-txt floats">
+								<span class="dd-chek line-height26">День 1-й доставки: </span>
+							</div>
+
+							<div  class="az-select floats">
+								<select name="" id="">
+									<option value="1">Вс</option>
+									<option value="2">Пн</option>
+									<option value="3">Ср</option>
+								</select>
+							</div>
+
+							<div class="clearfix"></div>
+						</div>
+
+						<div class="dd-select-box dd-select-box_last">
+
+							<div class="dd-select-txt floats">
+								<span class="dd-chek line-height26">Время: </span>
+							</div>
+
+							<div  class="az-select az-select_2 floats">
+								<select name="" id="">
+									<option value="1">21:30</option>
+									<option value="2">21:40</option>
+									<option value="3">22:30</option>
+									<option value="3">24:40</option>
+								</select>
+							</div>
+
+						</div>
+						<div class="clearfix"></div>
+
+						<div class="dd-select-but">
+							<input class="button-1 dd-submit" type="submit" name="submit" value="Оплатить онлайн">
+						</div>
+
+						<div class="dd-dost">
+							<span class="dd-dost_span">О доставке</span>
+							<div class="dd-podskazka">
+								<div class="dd-p-span">
+									<span>Доставка осуществляется после Вашей оплаты заказа, по согласованию с Вами.
+										<br><br>
+										После оформления заказа с Вами обязательно свяжется оператор и уточнит более подробно условия доставки. В день доставки с Вами свяжется курьер и сообщит о точном времени приезда. Если у Вас нет возможности принять заказ в ранее оговоренное с время, просьба сообщить об этом.
+									</span>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="clearfix"></div>
-					
-					<div class="dd-payments">
-						<img src="img/pay.png" alt="">
-					</div>
+						<div class="clearfix"></div>
+						
+						<div class="dd-payments">
+							<img src="img/pay.png" alt="">
+						</div>
 
+					</div>
 				</div>
-			</div>
 
-		</form>
+			</form>
 
+		</div>
 	</div>
-</div>
 
 	<!-- Тарифы -->
 	<!-- /////////////////////////// -->
@@ -948,6 +861,17 @@
 
 
 <script>
+	$(function() {
+		$("#js-nav a").click(function(e){
+			e.preventDefault();
+			var currentBlock = $(this).attr("href");
+			currentBlockoffset = $(currentBlock).offset().top;
+			$("html, body").animate({
+				scrollTop: currentBlockoffset
+			}, 500);
+		});
+	}); 
+
 	$('.checkbox-js').click(function(){
 		$('.dd-txt-radio-js').toggleClass('activeRed');
 	});
@@ -962,7 +886,6 @@
 		var much_2 = $(this).parents('.inner').find('.block_much_2 .dd-m_2 b').text();
 		var tarif_name = $(this).parents('.tabs-block').find('.active .tab-in span b').text();
 		var kalory = $(this).parents('.tabs-block').find('.active .tab-in i em strong').text();
-
 		$('#log-in-2 .dd-price').text(price);
 		$('#log-in-2 .dd-grey-txt .dd-much_1').text(much_1);
 		$('#log-in-2 .dd-grey-txt .dd-much_2').text(much_2);
@@ -982,13 +905,6 @@
 </script>
 
 <script>
-	// $('.online-replace').click(function(e){
-	// 	e.preventDefault();
-	// 	$('#log-in-2').hide();
-	// 	$('#log-in-5').show();
-	// });
-
-
 	$('a[name=modal]').click(function(e) {
 		e.preventDefault();
 		var id = $(this).attr('href');
