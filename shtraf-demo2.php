@@ -1,4 +1,4 @@
-﻿<?php require_once('includes/header.php'); ?>
+﻿
 
 <section class="section shtraf">
 	<div class="shtraf-item" id="jstarif1">
@@ -228,9 +228,9 @@
 							<div class="col-md-6 end__item">
 								<span class="end__title">Оставьте ваши контактные данные для уточнения адреса <br> и времени бесплатной доставки</span>
 								<div class="form-wrap">
-									<form action="#">
+									<form class="jssubmit" action="#" method="post">
 										<div class="input-block">
-											<input class="dd-input" type="text" value="" placeholder="Введите ваше имя" required>	
+											<input class="dd-input" name="uname" type="text" value="" placeholder="Введите ваше имя" required>	
 										</div>
 										<div class="input-block">
 											<input class="dd-input phone" name="phone" type="text" value="" placeholder="Введите ваш телефон">		
@@ -238,11 +238,21 @@
 										<div class="input-block input-block--half">
 											<input class="button-1 dd-submit" type="submit" value="Заказать по телефону" placeholder="">
 										</div>
+
+
+										<input type="hidden" name="kkalklient" class="jskkalklient"> 
+										<input type="hidden" name="tarif" class="jsnametarif"> 
+										<input type="hidden" name="food" class="jsklientfood"> 
+										<input type="hidden" name="days" class="jsklientdays"> 
+										
+
+
+									
 										<div class="input-block input-block--half">
-											<input class="button-1 dd-submit" type="submit" value="Заказать онлайн" placeholder="" 
-											id="jsonline">
+											<a href="#"><input class="button-1 dd-submit" type="submit" value="Заказать онлайн" placeholder="" 
+											id="jsonline"></a>
 										</div>
-									</form>		
+									</form>	
 								</div>
 							</div>
 						</div>
@@ -286,15 +296,28 @@
 							</div>
 							<div class="col-md-9 end__item delivery">
 								<div class="form-wrap">
-									<form action="#">
+									<form class="jssubmit" action="#" method="post">	
 										<span class="end__title">Введите адрес доставки:</span>
-										<input class="dd-input input--city" type="text" value="Москва" required name="">
-										<input class="dd-input input--str" type="text" value="" placeholder="Улица..." required name="">
-										<input class="dd-input input--home" type="text" value="" placeholder="Дом..." required name="">
-										<input class="dd-input input--pod" type="text" value="" placeholder="Подъезд...">
-										<input class="dd-input input--phone" type="text" value="" placeholder="Домофон...">
-										<input class="dd-input input--stage" type="text" value="" placeholder="Этаж...">
-										<input class="dd-input input--kv" type="text" value="" placeholder="Кв/Офис...">
+										<input class="dd-input input--city" type="text" value="Москва" required name="city">
+
+										<input class="dd-input input--str" type="text" value="" placeholder="Улица..." required name="ylica">
+
+										<input class="dd-input input--home" type="text" value="" placeholder="Дом..." required name="house">
+
+										<input class="dd-input input--pod" type="text" value="" placeholder="Подъезд..." name="podezd">
+
+										<input class="dd-input input--phone" type="text" value="" placeholder="Домофон..." name="domofon">
+
+										<input class="dd-input input--stage" type="text" value="" placeholder="Этаж..." name="etaj">
+
+										<input class="dd-input input--kv" type="text" value="" placeholder="Кв/Офис..." name="numberkv">
+
+										<input type="hidden" name="kkalklient" class="jskkalklient"> 
+										<input type="hidden" name="tarif" class="jsnametarif"> 
+										<input type="hidden" name="food" class="jsklientfood"> 
+										<input type="hidden" name="days" class="jsklientdays"> 
+										
+
 										<div class="choose-wrap clearfix">
 											<div class="choose">
 												<span>День 1-й доставки:</span>
@@ -402,7 +425,7 @@
 
 
 	<div class="form-order jsmob" id="jsmobversion2">
-		<form class="jssubmit" action="#" method="post">
+		
 			<span class="title">Рассчитайте ваш персональный тариф</span>
 			<span class="subtitle">Ваша дневная норма: <i>3 472</i>ккал/день</span>
 			<div class="info clearfix">
@@ -422,7 +445,7 @@
 				</div>
 				<p>Оставьте ваши контактные данные для уточнения адреса и времени бесплатной доставки</p>
 
-				
+			<form class="jssubmit" action="#" method="post">
 				<div class="input-wrap">
 					<input type="text" placeholder="Введите Ваше Имя" name="uname" required>
 				</div>
@@ -431,9 +454,16 @@
 				</div>
 				<input class="button-1 dd-submit dd-submit-left" type="submit" value="Заказать по телефону">
 
+				
+				<input type="hidden" name="kkalklient" class="jskkalklientmob"> 
+				<input type="hidden" name="tarif" class="jsnametarifmob"> 
+				<input type="hidden" name="food" class="jsklientfoodmob"> 
+				<input type="hidden" name="days" class="jsklientdaysmob"> 
+	
 
-			<input class="button-1 dd-submit" id="jsnextmobwindow" type="submit" value="Заказать онлайн" placeholder="">
+			<a href="#"><input class="button-1 dd-submit" id="jsnextmobwindow" type="submit" value="Заказать онлайн" placeholder=""></a>
 			</form>
+		
 		</div>
 	
 	</div>
@@ -462,13 +492,21 @@
 			<form class="jssubmit" action="#" method="post">
 				<div class="address">
 					<span class="end__title">Введите адрес доставки:</span>
-					<input class="dd-input input--city" type="text" value="Москва" required name="">
-					<input class="dd-input input--str" type="text" value="" placeholder="Улица..." required name="">
-					<input class="dd-input input--home" type="text" value="" placeholder="Дом..." required name="">
-					<input class="dd-input input--pod" type="text" value="" placeholder="Подъезд...">
-					<input class="dd-input input--phone" type="text" value="" placeholder="Домофон...">
-					<input class="dd-input input--stage" type="text" value="" placeholder="Этаж...">
-					<input class="dd-input input--kv" type="text" value="" placeholder="Кв/Офис...">
+					<input class="dd-input input--city" type="text" value="Москва" required name="city">
+					<input class="dd-input input--str" type="text" value="" placeholder="Улица..." required name="ylica">
+					<input class="dd-input input--home" type="text" value="" placeholder="Дом..." required name="house">
+					<input class="dd-input input--pod" type="text" value="" placeholder="Подъезд..." name="podezd">
+					<input class="dd-input input--phone" type="text" value="" placeholder="Домофон..." name="domofon">
+					<input class="dd-input input--stage" type="text" value="" placeholder="Этаж..." name="etaj">
+					<input class="dd-input input--kv" type="text" value="" placeholder="Кв/Офис..." name="numberkv">
+
+
+					<input type="hidden" name="kkalklient" class="jskkalklientmob"> 
+					<input type="hidden" name="tarif" class="jsnametarifmob"> 
+					<input type="hidden" name="food" class="jsklientfoodmob"> 
+					<input type="hidden" name="days" class="jsklientdaysmob"> 
+
+
 					<span class="about-in">О доставке</span>
 					<div class="choose-wrap clearfix">
 						<div class="choose">
@@ -500,14 +538,26 @@
 
 </section>
 	
-</body>
-</html>
+
 
 
 <script>
 	$('.jssubmit').submit(function(){
-    alert(1);
         var phone = $(this).find('input[name="phone"]');
+
+        var sendnametarif = $(this).parents('.end ')
+						        .find('.end__item')
+						        .find('.jskkalday b')
+						        .text();
+		$('.jsnametarif').val(sendnametarif);	
+
+		  var sendnametarifmob = $(this).parents('#jsmobversion2')
+						        .find('.info')
+						        .find('.half')
+						        .find('.jsmobkallday b')
+						        .text();
+		$('.jsnametarifmob').val(sendnametarifmob);	
+
 
         if(phone.val() == ""){
           phone.focus();

@@ -39,10 +39,13 @@ $(document).ready(function(){
 		else if($('#jstarif5').css('display')==='block'){
 			food += $(this).attr('myfood');
 			$('.jsrazdney b').text(food);
+			$('.jsklientfood').val(food);
+			
 		}
 		else if($('#jstarif6').css('display')==='block'){
 			days += $(this).attr('days');
 			$('.jsrazdney em').text(days);
+			$('.jsklientdays').val(days);
 		}
 		
 		if (!$('.shtraf__btn').hasClass('disabledjs')) {
@@ -55,6 +58,8 @@ $(document).ready(function(){
 			if (male==5) {
 				var itogo = (10 * +mass + 6.25 * +rost - 5 * +age + 5) * +activity;
 				$('.jsitogo').text(Math.round(itogo));
+				$('.jskkalklient').val(itogo);
+
 
 				if (itogo <= 1400) {
 					$('.end__tarif').text('Фит');
@@ -139,6 +144,9 @@ $(document).ready(function(){
 
 				var itogo = (10 * +mass + 6.25 * +rost - 5 * +age - 161) * +activity;
 				$('.jsitogo').text(Math.round(itogo));
+				$('.jskkalklient').val(itogo);
+				
+
 
 				if (itogo <= 1400) {
 					$('.end__tarif').text('Фит');
@@ -220,6 +228,8 @@ $(document).ready(function(){
 		}
 
 	});
+
+	
 	$('.nav a i').on("click", function(){
 		$(this).parents('.shtraf-item').hide().prev().show();
 	});
@@ -275,12 +285,16 @@ $(document).ready(function(){
 				.attr('daysmob');
 
 		$('.jsrazdneymob b').text(foodmob);		
-		$('.jsrazdneymob em').text(daysmob);		
+		$('.jsrazdneymob em').text(daysmob);
+
+		$('.jsklientfoodmob').val(foodmob);		
+		$('.jsklientdaysmob').val(daysmob);
 	
 	if (malemob==5) {
 		var itogomob = (10 * +massmob + 6.25 * +rostmob - 5 * +agemob + 5) * +activitymob;
 
 		$('.subtitle i').text(Math.round(itogomob));
+		$('.jskkalklientmob').val(itogomob);
 
 				if (itogomob <= 1400) {
 					$('.jsmobtarif').text('Фит');
@@ -364,6 +378,7 @@ $(document).ready(function(){
 	else {		
 	var itogomob = (10 * +massmob + 6.25 * +rostmob - 5 * +agemob - 161) * +activitymob;	
 		$('.subtitle i').text(Math.round(itogomob));
+		$('.jskkalklientmob').val(itogomob);
 
 				if (itogomob <= 1400) {
 					$('.jsmobtarif').text('Фит');
