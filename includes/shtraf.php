@@ -22,7 +22,7 @@
 							<button class="shtraf__btn shtraf__btn--black" pol="5"><span>Мужской</span></button>
 							<button class="shtraf__btn shtraf__btn--red" pol="161">Женский</button>
 						</div>
-						<a href="#" class="shtraf__link">Полный прайс-лист</a>
+						<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
 					</div>
 				</div>
 			</div>
@@ -50,7 +50,7 @@
 							<button class="shtraf__btn shtraf__btn--red">Поддержать форму</button>
 							<button class="shtraf__btn shtraf__btn--black"><span>Набрать массу</span></button>
 						</div>
-						<a href="#" class="shtraf__link">Полный прайс-лист</a>
+						<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
 					</div>
 				</div>
 			</div>
@@ -88,7 +88,7 @@
 							</div>
 							<button class="shtraf__btn shtraf__btn--black shtraf__btn--next">Далее</button>
 						</div>
-						<a href="#" class="shtraf__link">Полный прайс-лист</a>
+						<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
 					</div>
 				</div>
 			</div>
@@ -118,7 +118,7 @@
 							<button activity="1.725" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Высокая активность</span><i>тяжелые тренировки 6-7 р/нед</i></button>
 							<button activity="1.9" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Экстремальная активность</span><i>тяжелые тренировки 2 раза в день</i></button>
 						</div>
-						<a href="#" class="shtraf__link">Полный прайс-лист</a>
+						<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
 					</div>
 				</div>
 			</div>
@@ -151,7 +151,7 @@
 								<div class="btn-dots"><i></i><i></i><i></i><i></i><i></i></div>
 							</div>
 						</div>
-						<a href="#" class="shtraf__link">Полный прайс-лист</a>
+						<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
 					</div>
 				</div>
 			</div>
@@ -184,7 +184,7 @@
 								<div class="btn-dots"><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
 							</div>
 						</div>
-						<a href="#" class="shtraf__link">Полный прайс-лист</a>
+						<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
 					</div>
 				</div>
 			</div>
@@ -256,7 +256,7 @@
 								</div>
 							</div>
 						</div>
-						<a href="#" class="shtraf__link">Полный прайс-лист</a>
+						<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
 					</div>
 				</div>
 			</div>
@@ -356,7 +356,7 @@
 								</div>
 							</div>
 						</div>
-						<a href="#" class="shtraf__link">Полный прайс-лист</a>
+						<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
 					</div>
 				</div>
 			</div>
@@ -417,7 +417,7 @@
 								</select>
 							</div>
 							<input class="button-1 dd-submit" id="jsrasschitat" type="submit" value="Рассчитать тариф">
-							<a href="#" class="link">Полный прайс-лист</a>
+							<a href="#log-in-7" name="modal" class="link">Полный прайс-лист</a>
 						</form>		
 					</div>
 		</div>
