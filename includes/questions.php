@@ -112,7 +112,7 @@
 					<input class="button-1 dd-submit" type="submit" name="submit" value="оформить по телефону">
 				</div>
 				<div class="dd-but_online">
-					<a class="button-2 online-replace" href="#">Оформить онлайн</a>
+					<a class="button-2 online-replace" name="modal" href="#log-in-5">Оформить онлайн</a>
 				</div>
 				<div class="clearfix"></div>
 			</div>
