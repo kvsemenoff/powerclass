@@ -86,7 +86,7 @@
 	<!-- /////////////////////////// -->
 <div id="log-in-2" class="window">
 
-	<div class="dd-form-wrap">
+	<div id="log-in-2_form" class="dd-form-wrap">
 
 		<form class="form1 dd-bg" action="#" method="post">
 
@@ -217,7 +217,7 @@
 <!-- /////////////////////////// -->
 <div id="log-in-5" class="window win_2">
 
-	<div class="dd-form-wrap">
+	<div  id="log-in-5_form" class="dd-form-wrap">
 
 		<form class="form1" action="#" method="post">
 			<div class="form-wrap-main form-wrap-main_5">
@@ -896,8 +896,8 @@
 <script>
 	$('.online-replace').click(function(e){
 		e.preventDefault();
-		$('#log-in-2').hide();
-		$('#log-in-5').show();
+		// $('#log-in-2_form').hide();
+		// $('#log-in-5_form').show();
 	});
 
 
