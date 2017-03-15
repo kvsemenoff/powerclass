@@ -37,4 +37,5 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 	<script src="js/commonmenu.js"></script>
+	<script src="js/commoncalc.js"></script>
 	

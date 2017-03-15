@@ -537,6 +537,14 @@
 #jstarif1 {
   display: none; }
 
+.form-order {
+  display: none; }
+
+.jsrazdneymob b, .jsrazdneymob em {
+  display: inline-block !important;
+  font-weight: 300 !important;
+  font-size: 15px !important; }
+
 @media only screen and (min-width: 768px) {
   .dfmenutxt {
     width: 73%; } }
