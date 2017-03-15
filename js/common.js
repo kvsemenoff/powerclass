@@ -13,6 +13,9 @@ $(document).ready(function(){
 
    // });
 
+   $(".phone").mask("+7 (999) 999 - 99 - 99?");
+
+   
     $('.db-menu a, .db-up_menu_menu a').on("click", function(e){
         e.preventDefault();
         var $this = $(this), 
