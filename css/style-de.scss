@@ -1169,6 +1169,9 @@
 		width: 100%;
 		margin: 0 auto 10px;
 		input{
+			margin: 0 auto;
+			display: block;
+			max-width: 270px;
 			border: 1px solid #cecece;
 			-webkit-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.75);
 			-moz-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.75);
@@ -1186,9 +1189,11 @@
 		font-size: 10px;
 		height: 40px;
 		line-height: 40px;
-		width: 48%;
+		width: 120px;
 	}
 	.dd-submit-left{
-		margin-right: 4%;
+		width: 140px;
+		margin-left: 23px;
+		margin-right: 14px;
 	}
 }
