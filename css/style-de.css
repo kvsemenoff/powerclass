@@ -221,3 +221,22 @@
 @media only screen and (max-width: 400px) { .testimonials .owl-prev { left: -10px; }
   .testimonials .owl-next { right: -10px; }
   .testimonials .owl-dot { width: 6px; height: 6px; margin: 3px 2px 3px 3px; } }
+.form-order { font-family: 'Open Sans', arial, sans-serif; width: 320px; margin: 0 auto; }
+.form-order .title { display: block; margin: 0 auto; color: #222; font-size: 20px; text-align: center; max-width: 240px; padding: 20px 0; }
+.form-order .subtitle { text-align: center; display: block; padding-bottom: 18px; border-bottom: 2px solid #d8d8d8; font-size: 13px; font-weight: 300; color: #212121; }
+.form-order .subtitle i { color: #e53935; font-weight: 900; font-size: 18px; display: inline-block; padding: 0 2px; }
+.form-order .info { padding: 18px 0 20px; }
+.form-order .info .half { width: 50%; float: left; padding: 0 5px 0 20px; }
+.form-order .info span { display: block; font-size: 13px; font-weight: 300; color: #212121; padding-bottom: 2px; }
+.form-order .info b { font-weight: 900; color: #212121; font-size: 18px; display: block; }
+.form-order .info em { font-weight: 300; font-size: 10px; color: #212121; display: block; }
+.form-order .info i { font-weight: 300; font-size: 13px; color: rgba(33, 33, 33, 0.5); display: block; }
+.form-order .info .price { margin-top: 20px; float: left; width: 100%; padding: 8px 10px 8px 20px; background: #717171; }
+.form-order .info .price span { display: inline-block; width: 40%; color: #fff; margin-right: 5%; }
+.form-order .info .price span i { display: inline-block; padding: 0 2px; color: #fff; font-size: 18px; font-weight: 900; }
+.form-order .info .price span b { display: inline-block; padding: 0 2px; color: #fff; font-size: 12px; font-weight: 900; }
+.form-order .info p { float: left; font-weight: 300; padding: 20px; font-size: 13px; color: #212121; }
+.form-order .input-wrap { float: left; width: 100%; margin: 0 auto 10px; }
+.form-order .input-wrap input { border: 1px solid #cecece; -webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.75); -moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.75); box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.75); background: #e9e9e9; padding: 10px; font-size: 13px; color: #545454; width: 100%; line-height: 40px; }
+.form-order .dd-submit { float: left; font-size: 10px; height: 40px; line-height: 40px; width: 48%; }
+.form-order .dd-submit-left { margin-right: 4%; }
