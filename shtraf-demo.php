@@ -285,9 +285,9 @@
 								<div class="form-wrap">
 									<form action="#">
 										<span class="end__title">Введите адрес доставки:</span>
-										<input class="dd-input input--city" type="text" value="Москва">
-										<input class="dd-input input--str" type="text" value="" placeholder="Улица...">
-										<input class="dd-input input--home" type="text" value="" placeholder="Дом...">
+										<input class="dd-input input--city" type="text" value="Москва" required name="">
+										<input class="dd-input input--str" type="text" value="" placeholder="Улица..." required name="">
+										<input class="dd-input input--home" type="text" value="" placeholder="Дом..." required name="">
 										<input class="dd-input input--pod" type="text" value="" placeholder="Подъезд...">
 										<input class="dd-input input--phone" type="text" value="" placeholder="Домофон...">
 										<input class="dd-input input--stage" type="text" value="" placeholder="Этаж...">
