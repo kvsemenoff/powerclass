@@ -3518,9 +3518,9 @@
 							<span class="dftxtitogo2"><b class="dfyglevodi">411 </b>Углеводы</span>
 							<span class="dftxtitogo2"><b class="dfkkalitogo">3 495 </b>Ккал</span> 
 						</div>
-						<a href="#" class="dflink">хочу попробовать</a>
+						<a href="#log-in-3" name="modal" class="dflink">хочу попробовать</a>
 
-						<a href="#" class="dflinktarif">Тарифы PowerClass</a>
+						<a href="#"  class="dflinktarif">Тарифы PowerClass</a>
 
 					</div>
 				</div>

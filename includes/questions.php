@@ -86,7 +86,7 @@
 	<!-- /////////////////////////// -->
 <div id="log-in-2" class="window">
 
-	<div id="log-in-2_form" class="dd-form-wrap">
+	<div class="dd-form-wrap">
 
 		<form class="form1 dd-bg" action="#" method="post">
 
@@ -212,12 +212,100 @@
 
 		</div>
 	</div>
+<!-- Pop-3 -->
+<!-- /////////////////////////// -->
+<div id="log-in-3" class="window">
 
+	<div class="dd-form-wrap">
+
+		<form class="form1 dd-bg" action="#" method="post">
+
+			<div class="dd-img-2">
+				<img src="img/bag.png" alt="">	
+			</div>
+
+			<div class="form-wrap-main form-wrap-main-2">
+
+				<div class="dd-close"></div>
+
+				<div class="dd-el-1 dd-el-1_inp pr28">
+
+					<div class="dd-title-2_wrap">
+						<span class="dd-title-2">
+							Заказать комплект питания
+						</span>
+						<span class="dd-bold-title_pop">Спорт плюс, <span>3 500 ккал/день</span></span><br>
+					</div>
+
+					<label class="dd-label">
+						<input class="checkbox checkbox-js" type="radio" value="Выбран тариф пробный день" name="checkbox">
+						<span class="checkbox-custom"></span>
+						<span class="dd-txt-radio dd-txt-radio-js">Пробный день</span><br>
+						<span class="dd-grey-txt dd-grey-txt_2">(Четверг)</span>
+						
+						<span class="label"></span>
+					</label>
+					<label class="dd-label mb25">
+						<input class="checkbox checkbox-js" type="radio" value="Выбран тариф на неделю" name="checkbox" checked>
+						<span class="checkbox-custom"></span>
+						<span class="dd-txt-radio dd-txt-radio-js activeRed">На неделю</span>
+						<span class="label"></span>
+					</label>
+					<div class="clearfix"></div>
+					<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя">
+					<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
+					<input class="button-1 dd-submit" type="submit" name="submit" value="Заказать питание">
+
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+
+		</form>
+
+	</div>
+</div>
+
+<!-- Pop-4 -->
+<!-- /////////////////////////// -->
+<div id="log-in-4" class="window">
+
+	<div class="dd-form-wrap">
+
+		<form class="form1" action="#" method="post">
+			<div class="form-wrap-main form-wrap-main_bg">
+
+				<div class="dd-close"></div>
+
+				<div class="dd-el-1 dd-el-1_inp pr28">
+
+					<div class="dd-title-2_wrap">
+						<span class="dd-title-2">
+							Начните питаться 
+							сбалансированной пищей 
+							5 раз в день, и ваше тело 
+							скажет вам «Спасибо» 
+						</span>
+					</div>
+					<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя">
+					<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
+					<input class="button-1 dd-submit" type="submit" name="submit" value="Заказать питание">
+
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+
+		</form>
+
+	</div>
+</div>
 <!-- Pop-5 оплата заказа с селектами -->
 <!-- /////////////////////////// -->
 <div id="log-in-5" class="window win_2">
 
-	<div  id="log-in-5_form" class="dd-form-wrap">
+	<div class="dd-form-wrap">
 
 		<form class="form1" action="#" method="post">
 			<div class="form-wrap-main form-wrap-main_5">
@@ -894,11 +982,11 @@
 </script>
 
 <script>
-	$('.online-replace').click(function(e){
-		e.preventDefault();
-		// $('#log-in-2_form').hide();
-		// $('#log-in-5_form').show();
-	});
+	// $('.online-replace').click(function(e){
+	// 	e.preventDefault();
+	// 	$('#log-in-2').hide();
+	// 	$('#log-in-5').show();
+	// });
 
 
 	$('a[name=modal]').click(function(e) {
