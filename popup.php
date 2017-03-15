@@ -5,6 +5,8 @@
 <a href="#log-in-3" name="modal">Заказать комплект питания 2</a><br><br>
 <a href="#log-in-4" name="modal">5 раз в день</a><br><br>
 <a href="#log-in-5" name="modal">Укажите точный адрес доставки</a><br><br>
+<a href="#log-in-6" name="modal">Тарифы</a><br><br>
+<a href="#log-in-7" name="modal">Тарифы мобайл</a><br><br>
 
 <div id="mask"></div>
 
@@ -97,7 +99,7 @@
 					<input class="button-1 dd-submit" type="submit" name="submit" value="оформить по телефону">
 				</div>
 				<div class="dd-but_online">
-					<a class="button-2" href="#">Оформить онлайн</a>
+					<a class="button-2 online-replace" href="#">Оформить онлайн</a>
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -200,7 +202,7 @@
 
 <!-- Pop-5 оплата заказа с селектами -->
 <!-- /////////////////////////// -->
-<div id="log-in-5" class="window">
+<div id="log-in-5" class="window win_2">
 
 	<div class="dd-form-wrap">
 
@@ -305,20 +307,377 @@
 	</div>
 </div>
 
-<div id="thanks" class="window window_thanks">
-	<div class="form-wrap-main">
+<!-- Тарифы -->
+<div id="log-in-6" class="window">
+
+	<div class="dd-form-tariff">
 		<div class="dd-close"></div>
-		<div class="form-title dd-align_center">
-			<span class="dd-title-2 dd-bold">
-				Спасибо за заявку!
-			</span>
-		</div>
-		<div class="dd-title-2 dd-align_center">
-			Наш менеджер свяжется с вами в ближайшее время!
-		</div>
+		<div class="dd-title_tr">
+			<span class="dd-title_tr_sp"s>Тарифы PowerClass</span>
+		</div>	
+		<table class="dd-table_pop">
+			<tr class="tr-title">
+				<td class="border-none">
+				</td>
+
+				<td>
+					<span class="dd-table-title">Фит</span><br>
+					<span class="tr-title">1 400 ккал/день</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title">Фит <i>Плюс</i></span><br>
+					<span class="tr-title">1 700 ккал/день</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title">Спорт</span><br>
+					<span class="tr-title">2 500 ккал/день</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title">Спорт <i>Плюс</i></span><br>
+					<span class="tr-title">3 500 ккал/день</span>
+				</td>
+				
+			</tr>
+
+			<tr>
+				<td class="border-none">
+					<span class="dd-days">Пн - Пт</span><br>
+					<span class="dd-days_2"><b>3</b> из <b>5</b> Приемов<br> в сутки</span>
+				</td>
+				<td>
+					<span class="dd-table-title  dd-table-title_red">690 <span>руб/день</span></span><br>
+					<span  class="dd-price_td">3 450 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">760 <span>руб/день</span></span><br>
+					<span class="dd-price_td">3 800 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">920 <span>руб/день</span></span><br>
+					<span class="dd-price_td">4 600 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">1130 <span>руб/день</span></span><br>
+					<span class="dd-price_td">5 650 руб.</span>
+				</td>
+				
+			</tr>
+
+			<tr>
+				<td class="border-none">
+					<span class="dd-days">Пн - Пт</span><br>
+					<span class="dd-days_2"><b>5</b> из <b>5</b> Приемов<br> в сутки</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">840 <span>руб/день</span></span><br>
+					<span class="dd-price_td">4 200 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">940 <span>руб/день</span></span><br>
+					<span class="dd-price_td">4 700 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">1170 <span>руб/день</span></span><br>
+					<span class="dd-price_td">5 850 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">1480 <span>руб/день</span></span><br>
+					<span class="dd-price_td">7 400 руб.</span>
+				</td>
+				
+			</tr>
+
+			<tr>
+				<td class="border-none">
+					<span class="dd-days">Пн - Вс</span><br>
+					<span class="dd-days_2"><b>3</b> из <b>5</b> Приемов<br> в сутки</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">840 <span>руб/день</span></span><br>
+					<span class="dd-price_td">4 200 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">940 <span>руб/день</span></span><br>
+					<span class="dd-price_td">4 700 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">1170 <span>руб/день</span></span><br>
+					<span class="dd-price_td">5 850 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">1480 <span>руб/день</span></span><br>
+					<span class="dd-price_td">7 400 руб.</span>
+				</td>
+				
+			</tr>
+			
+			<tr>
+				<td class="border-none">
+					<span class="dd-days">Пн - Вс</span><br>
+					<span class="dd-days_2"><b>5</b> из <b>5</b> Приемов<br> в сутки</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">836 <span>руб/день</span></span><br>
+					<span class="dd-price_td">5 852 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">943 <span>руб/день</span></span><br>
+					<span class="dd-price_td">6 600 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">1172 <span>руб/день</span></span><br>
+					<span class="dd-price_td">8 204 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title dd-table-title_red">1472 <span>руб/день</span></span><br>
+					<span class="dd-price_td">10 304 руб.</span>
+				</td>
+				
+			</tr>
+		</table>
+
+		
+	</div>
+	<div class="dd-tarif-form">
+
+		<form class="form1" action="#" method="post">
+			<div class="dd-form_box table_left">
+				<span>Оставьте заявку,</span><br>
+				<span>и менеджер PowerClass поможет<br>
+					вам выбрать подходящий тариф
+				</span>
+			</div>
+			<div class="dd-form_input table_left">
+				<label>
+					<input class="phone dd-input dd-input_tr" type="text" name="phone" placeholder="Введите ваш телефон">
+					<input class="button-1 dd-submit" type="submit" value="подобрать персональный тариф">
+				</label>
+			</div>
+			<div class="clearfix"></div>
+		</form>
 	</div>
 </div>
-<a href="#thanks" name="modal"></a>
+
+<!-- Тарифы мобильная -->
+<div id="log-in-7" class="window window_2">
+
+	<div class="dd-form-tariff dd-form-tariff_mobile">
+		<div class="dd-close"></div>
+		<div class="dd-title_tr">
+			<span class="dd-title_tr_sp">Тарифы PowerClass</span>
+		</div>	
+		<table class="dd-table_pop">
+			<tr class="tr-title">
+
+				<td>
+					<span class="dd-table-title">Фит</span><br>
+					<span class="tr-title">1 400 ккал/день</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title">Фит <i>Плюс</i></span><br>
+					<span class="tr-title">1 700 ккал/день</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title">Спорт</span><br>
+					<span class="tr-title">2 500 ккал/день</span>
+				</td>
+
+				<td>
+					<span class="dd-table-title">Спорт <i>Плюс</i></span><br>
+					<span class="tr-title">3 500 ккал/день</span>
+				</td>
+				
+			</tr>
+
+			<tr>
+			<!-- 	<td class="border-none">
+					<span class="dd-days">Пн - Пт</span><br>
+					<span class="dd-days_2"><b>3</b> из <b>5</b> Приемов<br> в сутки</span>
+				</td> -->
+				<td>
+					<span class="dd-days">Пн - Пт</span><br>
+					<span class="dd-days_2"><b>3</b> из <b>5</b></span><br>
+					<span class="dd-table-title  dd-table-title_red">690 <span>руб/день</span></span><br>
+					<span  class="dd-price_td">3 450 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-days">Пн - Пт</span><br>
+					<span class="dd-days_2"><b>3</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">760 <span>руб/день</span></span><br>
+					<span class="dd-price_td">3 800 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-days">Пн - Пт</span><br>
+					<span class="dd-days_2"><b>3</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">920 <span>руб/день</span></span><br>
+					<span class="dd-price_td">4 600 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-days">Пн - Пт</span><br>
+					<span class="dd-days_2"><b>3</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">1130 <span>руб/день</span></span><br>
+					<span class="dd-price_td">5 650 руб.</span>
+				</td>
+				
+			</tr>
+
+			<tr>
+			<!-- 	<td class="border-none">
+					<span class="dd-days">Пн - Пт</span><br>
+					<span class="dd-days_2"><b>5</b> из <b>5</b> Приемов<br> в сутки</span>
+				</td> -->
+
+				<td>
+					<span class="dd-days">Пн - Пт</span><br>
+					<span class="dd-days_2"><b>5</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">840 <span>руб/день</span></span><br>
+					<span class="dd-price_td">4 200 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-days">Пн - Пт</span><br>
+					<span class="dd-days_2"><b>5</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">940 <span>руб/день</span></span><br>
+					<span class="dd-price_td">4 700 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-days">Пн - Пт</span><br>
+					<span class="dd-days_2"><b>5</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">1170 <span>руб/день</span></span><br>
+					<span class="dd-price_td">5 850 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-days">Пн - Пт</span><br>
+					<span class="dd-days_2"><b>5</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">1480 <span>руб/день</span></span><br>
+					<span class="dd-price_td">7 400 руб.</span>
+				</td>
+				
+			</tr>
+
+			<tr>
+			<!-- 	<td class="border-none">
+					<span class="dd-days">Пн - Вс</span><br>
+					<span class="dd-days_2"><b>3</b> из <b>5</b> Приемов<br> в сутки</span>
+				</td> -->
+
+				<td>
+					<span class="dd-days">Пн - Вс</span><br>
+					<span class="dd-days_2"><b>3</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">686 <span>руб/день</span></span><br>
+					<span class="dd-price_td">4 802 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-days">Пн - Вс</span><br>
+					<span class="dd-days_2"><b>3</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">757 <span>руб/день</span></span><br>
+					<span class="dd-price_td">5 300 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-days">Пн - Вс</span><br>
+					<span class="dd-days_2"><b>3</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">915 <span>руб/день</span></span><br>
+					<span class="dd-price_td">6 405 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-days">Пн - Вс</span><br>
+					<span class="dd-days_2"><b>3</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">1130 <span>руб/день</span></span><br>
+					<span class="dd-price_td">9 910 руб.</span>
+				</td>
+				
+			</tr>
+			
+			<tr>
+			<!-- 	<td class="border-none">
+					<span class="dd-days">Пн - Вс</span><br>
+					<span class="dd-days_2"><b>5</b> из <b>5</b> Приемов<br> в сутки</span>
+				</td> -->
+
+				<td>
+					<span class="dd-days">Пн - Вс</span><br>
+					<span class="dd-days_2"><b>5</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">836 <span>руб/день</span></span><br>
+					<span class="dd-price_td">5 852 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-days">Пн - Вс</span><br>
+					<span class="dd-days_2"><b>5</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">943 <span>руб/день</span></span><br>
+					<span class="dd-price_td">6 600 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-days">Пн - Вс</span><br>
+					<span class="dd-days_2"><b>5</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">1172 <span>руб/день</span></span><br>
+					<span class="dd-price_td">8 204 руб.</span>
+				</td>
+
+				<td>
+					<span class="dd-days">Пн - Вс</span><br>
+					<span class="dd-days_2"><b>5</b> из <b>5</b></span><br>
+					<span class="dd-table-title dd-table-title_red">1472 <span>руб/день</span></span><br>
+					<span class="dd-price_td">10 304 руб.</span>
+				</td>
+				
+			</tr>
+		</table>
+
+		
+	</div>
+	<div class="dd-tarif-form">
+
+		<form class="form1" action="#" method="post">
+			<div class="dd-form_box ">
+				<span>Оставьте заявку,</span><br>
+				<span>и менеджер PowerClass поможет<br>
+					вам выбрать подходящий тариф
+				</span>
+			</div>
+			<div class="dd-form_input ">
+				<label>
+					<input class="phone dd-input dd-input_tr" type="text" name="phone" placeholder="Введите ваш телефон">
+					<input class="button-1 dd-submit" type="submit" value="подобрать персональный тариф">
+				</label>
+			</div>
+			<div class="clearfix"></div>
+		</form>
+	</div>
+</div>
+
+
+
+
 
 <script>
 	$('.checkbox-js').click(function(){
@@ -326,6 +685,12 @@
 	});
 	$('.dd-dost_span').hover(function(){
 		$('.dd-podskazka').toggleClass('blocked');
+	});
+	$('.online-replace').click(function(e){
+		e.preventDefault();
+		$('#log-in-2').hide();
+		$('#log-in-5').show();
+	
 	});
 </script>
 
@@ -387,12 +752,12 @@
 			$('input[type="text"]').removeClass("error-input");
 			$("input[type=text], textarea").val("");
 			$('.window').hide();
-			$('a[href=#thanks]').trigger('click');
-				// location = "spasibo.php";
-			};
-		});
+			// $('a[href=#thanks]').trigger('click');
+			location = "spasibo.php";
+		};
+	});
 
-	</script>
+</script>
 
 </body>
 </html>

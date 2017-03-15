@@ -27,7 +27,7 @@ $(document).ready(function(){
 
             scrollTop: $scrollTop
         },
-        200
+        1000
         );
     });
 

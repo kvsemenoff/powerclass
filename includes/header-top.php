@@ -59,7 +59,7 @@
 					<div class="col-md-6">
 						<p class="db-two">
 							<span>+7 (495) 133 29 67</span><br>
-							<a href="#" class="db-link-one">Заказать звонок</a><br>
+							<a href="#log-in-1" name="modal" class="db-link-one">Заказать звонок</a><br>
 							<a href="#" target="_blank" class="db-link-two"><img src="img/header_vk.png" alt="img"></a>
 							<a href="#" target="_blank"><img src="img/header_insta.png" alt="img"></a>
 						</p>
