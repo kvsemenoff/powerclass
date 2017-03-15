@@ -402,7 +402,7 @@
 
 
 	<div class="form-order jsmob" id="jsmobversion2">
-		<form class="form1" action="#" method="post">
+		<form class="jssubmit" action="#" method="post">
 			<span class="title">Рассчитайте ваш персональный тариф</span>
 			<span class="subtitle">Ваша дневная норма: <i>3 472</i>ккал/день</span>
 			<div class="info clearfix">
@@ -502,3 +502,36 @@
 	
 </body>
 </html>
+
+
+<script>
+	$('.jssubmit').submit(function(){
+    alert(1);
+        var phone = $(this).find('input[name="phone"]');
+
+        if(phone.val() == ""){
+          phone.focus();
+          return false;
+      }
+
+      else{
+          var form_data = $(this).serialize(); 
+          $.ajax({
+            type: "POST", 
+            url: "/sendmessage.php", 
+            data: form_data,
+            success: function() {
+              cleanTnanks(this);
+          }
+      });
+      }
+      return false;
+  });
+
+     function cleanTnanks(form){
+        $('.js-window').hide();
+        // $('a[href=#thanks]').trigger('click');
+        location = "spasibo.php";
+    };
+
+</script>

@@ -102,33 +102,6 @@ $(document).ready(function(){
 });
 
 
-$('.jssubmit').submit(function(){
-        var phone = $(this).find('input[name="phone"]');
-
-        if(phone.val() == ""){
-          phone.focus();
-          return false;
-      }
-
-      else{
-          var form_data = $(this).serialize(); 
-          $.ajax({
-            type: "POST", 
-            url: "/sendmessage.php", 
-            data: form_data,
-            success: function() {
-              cleanTnanks(this);
-          }
-      });
-      }
-      return false;
-  });
-
-     function cleanTnanks(form){
-        $('.js-window').hide();
-        // $('a[href=#thanks]').trigger('click');
-        location = "spasibo.php";
-    };
 
  });
 
