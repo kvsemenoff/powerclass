@@ -233,13 +233,14 @@
 											<input class="dd-input" type="text" value="" placeholder="Введите ваше имя" required>	
 										</div>
 										<div class="input-block">
-											<input class="dd-input" type="text" value="" placeholder="Введите ваш телефон">		
+											<input class="dd-input phone" name="phone" type="text" value="" placeholder="Введите ваш телефон">		
 										</div>
 										<div class="input-block input-block--half">
 											<input class="button-1 dd-submit" type="submit" value="Заказать по телефону" placeholder="">
 										</div>
 										<div class="input-block input-block--half">
-											<input class="button-1 dd-submit" type="submit" value="Заказать онлайн" placeholder="">
+											<input class="button-1 dd-submit" type="submit" value="Заказать онлайн" placeholder="" 
+											id="jsonline">
 										</div>
 									</form>		
 								</div>
@@ -271,10 +272,12 @@
 							<div class="col-md-3 end__item">
 								<span class="end__title">Рекомендуемый тариф:</span>
 								<span class="end__tarif">Спорт Плюс</span>
-								<span class="end__title">3500 ккал/день</span>
+								<span class="end__title jskkalday"><b>3500</b> ккал/день</span>
 								<div class="end__info">
-									<span>5-разовое питание, 7 дней</span>
+									<span class="jsrazdney"><b>5</b>-разовое питание, <em>7</em> дней</span>
 									<i>Дни доставки: Пн, Ср, Пт</i>
+
+
 								</div>
 								<div class="end__price">
 									<span>Цена: <b>7400</b> руб.</span>
@@ -411,7 +414,7 @@
 	food="", 
 	days="";
 
-	$('.shtraf__btn').on('click', function(e){
+	$('.shtraf__btn, #jsonline').on('click', function(e){
 
 		if ($('#jstarif1').css('display')==='block') {
 			male += $(this).attr('pol');
