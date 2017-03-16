@@ -89,7 +89,7 @@
 	.db-three1{
 		padding-top: 20px;
 		color:#fff;
-		font-size: 28px;
+		font-size: 27px;
 		line-height: 30px;
 		text-shadow: 0 0 19.7px rgba(0, 0, 0, 0.43);
 		font-weight: 300;
@@ -154,7 +154,7 @@
 	.section_header_top{
 		background: url("../img/header_top.jpg")no-repeat center center;
 		font-family: 'Open Sans', sans-serif;
-		padding-bottom: 107px !important;
+		padding-bottom: 114px !important;
 		display: block;
 		max-width: 2560px;
 		width: 100%;
@@ -263,8 +263,8 @@
 			position: relative;
 			.db-price-five{
 				position: absolute;
-				top: 28px;
-				right: 85px;
+				top: 104px;
+				right: 42px;
 			}
 			.db-podr{
 				line-height: 73px !important;
@@ -291,9 +291,9 @@
 }
 
 @media only screen and (min-width : 1200px) {
-.db-price-five{
-			
-				right: 184px !important;
-			}
+	.db-price-five{
+
+		    right: 143px !important;
+	}
 }
 
