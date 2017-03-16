@@ -1,7 +1,7 @@
 ﻿<?php require_once('includes/header.php'); ?>
 
 <br><br>		
-<a href="#" class="button-1 ripplelink">Узнать подробнее</a>	
+<a href="#" class="button-1 ripplelink">Узнать подробне <span class="ink"></span></a>	
 <br><br>	
 <h2>Пример заголовка</h2>
 <br><br>
