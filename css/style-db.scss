@@ -264,7 +264,7 @@
 			.db-price-five{
 				position: absolute;
 				top: 28px;
-				right: 184px;
+				right: 85px;
 			}
 			.db-podr{
 				line-height: 73px !important;
@@ -290,8 +290,10 @@
 	}
 }
 
-@media only screen and (min-width : 1248px) {
-
-
+@media only screen and (min-width : 1200px) {
+.db-price-five{
+			
+				right: 184px !important;
+			}
 }
 
