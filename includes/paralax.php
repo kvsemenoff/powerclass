@@ -8,7 +8,7 @@
 			</h4>
 			 
 			 <div class="dflink">
-			 	<a href="#log-in-4" name="modal">НАЧАТЬ СЕЙЧАС</a>
+			 	<a href="#log-in-4" name="modal" class="ripplelink">НАЧАТЬ СЕЙЧАС</a>
 			 </div>
 		 </div>
 	</div>
