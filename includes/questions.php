@@ -1,4 +1,3 @@
-<div id="faq"></div>
 <section class="section section_padding questions">
 	<div class=" container">
 		<div class="row">
