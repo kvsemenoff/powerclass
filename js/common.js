@@ -16,7 +16,7 @@ $(document).ready(function(){
    $(".phone").mask("+7 (999) 999 - 99 - 99?");
 
    
-    $('.db-menu a, .db-up_menu_menu a').on("click", function(e){
+    $('.db-menu a, .db-up_menu_menu a, .db-want, .db-podr, .db-tarif, .db-podr1, .db-tarif1').on("click", function(e){
         e.preventDefault();
         var $this = $(this), 
         $href = $this.attr('href'),
