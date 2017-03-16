@@ -505,8 +505,8 @@ $(document).ready(function(){
      $('.df3').on('click', function(evt3){
      		evt3.preventDefault();
      		$('.df5active').removeClass('df5active');
-     		$('.dfblockmenu > .dfmenubox1:nth-child(1)').addClass('jsdisabled');	
-     		$('.dfblockmenu > .dfmenubox1:nth-child(5)').addClass('jsdisabled');
+     		$('.dfblockmenu > .dfmenubox1:nth-child(1)').addClass('jsdisabled2');	
+     		$('.dfblockmenu > .dfmenubox1:nth-child(5)').addClass('jsdisabled2');
      		$(this).addClass('df3active');
 
              $('.jsmobactive').click();
@@ -516,7 +516,7 @@ $(document).ready(function(){
       $('.df5').on('click', function(evt4){
      		evt4.preventDefault();
      		$('.df3active').removeClass('df3active');
-     		$('.jsdisabled').removeClass('jsdisabled');	  
+     		$('.jsdisabled2').removeClass('jsdisabled2');	  
      		$(this).addClass('df5active'); 
 
              $('.jsmobactive').click();  		

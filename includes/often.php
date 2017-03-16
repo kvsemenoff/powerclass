@@ -1,3 +1,4 @@
+<div id="faq"></div>
 <div class="clear"></div>
 <section class="section dd-akkordeon">
 	<div class=" container">

@@ -1,3 +1,4 @@
+<div id="testimonials"></div>
 <section class="section testimonials">
 <div class=" container">
 	<div class="row">

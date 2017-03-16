@@ -1,3 +1,4 @@
+<div id="how"></div>
 <section class="section section_padding dfbghow1">
 	<div class="dfcontainer">
 		<h2 class="dfcaphow">Как это работает</h2>
@@ -38,7 +39,7 @@
 		</div>
 	</div>
 </section>
-
+<div id="delivery"></div>
 <section class="section dfbghow2">
 	<div class="dfcontainer">		
 		<div class="dfhowblock dfhowblock2">
