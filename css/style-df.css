@@ -517,6 +517,9 @@
 .dftabmob, .dfblockmenu {
   display: none; }
 
+.jsdisabled2 {
+  opacity: 0.3; }
+
 .jsdisabled {
   position: relative; }
 
@@ -553,15 +556,25 @@
   font-weight: 300 !important;
   font-size: 15px !important; }
 
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 470px) {
   .dfweak {
-    width: 15%; }
+    width: 15.67%; }
 
   .dfcaloryesbox, .dfcaloryesbox2 {
     width: 23%; }
 
+  .dfcallory {
+    max-width: 480px; }
+
+  .df3or5 {
+    max-width: 485px; }
+
   .dfweaks ul {
-    text-align: left; } }
+    max-width: 467px;
+    text-align: left; }
+
+  .dfmenubox1, .dfitogo {
+    max-width: 470px; } }
 @media only screen and (min-width: 768px) {
   .dfmenutxt {
     width: 70%; } }
@@ -981,7 +994,7 @@
     transition: 0.4s; }
 
   .dfmenuprev:hover, .dfmenunext:hover {
-    background-color: #e53935; }
+    background-color: #9a9a9a; }
 
   .dfmenunext {
     background-image: url("../img/next.png");
