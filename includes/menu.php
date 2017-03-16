@@ -1538,7 +1538,7 @@
 				</div>
 
 				<div class="dfmenulink">
-					<a href="#" class="dflink">хочу попробовать</a>
+					<a href="#" class="dflink ripplelink">хочу попробовать</a>
 				</div>
 			</div>
 		
@@ -1553,19 +1553,19 @@
 					<h3 class="dfmenucap">Меню на эту неделю</h3>
 					<div class="dfcallory">
 						<div class="dfcaloryesbox dfhoverbox1 perviyosobiy">
-							<span class="dfborder "><a href="#jsfit">Фит</a></span>
+							<span class="dfborder "><a href="#jsfit"><em>Фит</em></a></span>
 							<span>1400 ккал/день</span>
 						</div>
 						<div class="dfcaloryesbox dfhoverbox2">
-							<span class="dfborder"><a href="#jsfitplus">Фит Плюс</a></span>
+							<span class="dfborder"><a href="#jsfitplus"><em>Фит Плюс</em></a></span>
 							<span>1700 ккал/день</span>
 						</div>
 						<div class="dfcaloryesbox dfhoverbox3 osobiy dfactivelink">
-							<span class="dfborder dfactivelinkmob"><a href="#jssport">Спорт</a></span>
+							<span class="dfborder dfactivelinkmob"><a href="#jssport"><em>Спорт</em></a></span>
 							<span>2500 ккал/день</span>
 						</div>
 						<div class="dfcaloryesbox dfhoverbox4">
-							<span class="dfborder"><a href="#jssportplus">Спорт Плюс</a></span>
+							<span class="dfborder"><a href="#jssportplus"><em>Спорт Плюс</em></a></span>
 							<span>3500 ккал/день</span>
 						</div>
 
@@ -3518,17 +3518,13 @@
 					<div class="dfmenulink">
 						<div class="dfitogobox">
 							<span class="dftxtitogo1">Итого <em>понедельник:</em></span>
-							<!-- <span class="dftxtitogo2"><b>245 </b>Белки </span>
-							<span class="dftxtitogo2"><b>96 </b>Жиры</span>
-							<span class="dftxtitogo2"><b>411 </b>Углеводы</span>
-							<span class="dftxtitogo2"><b>3 495 </b>Калории</span> -->
 							
 							<span class="dftxtitogo2"><b class="dfbelki">245 </b>Белки</span>
 							<span class="dftxtitogo2"><b class="dfjiri">96 </b>Жиры</span>
 							<span class="dftxtitogo2"><b class="dfyglevodi">411 </b>Углеводы</span>
 							<span class="dftxtitogo2"><b class="dfkkalitogo">3 495 </b>Ккал</span> 
 						</div>
-						<a href="#log-in-3" name="modal" class="dflink">хочу попробовать</a>
+						<a href="#log-in-3" name="modal" class="dflink ripplelink">хочу попробовать</a>
 
 						<a href="#"  class="dflinktarif">Тарифы PowerClass</a>
 
