@@ -1,3 +1,4 @@
+<div id="tariff"></div>
 <section class="section tarif">
 	<div class=" container">
 		<div class="row">

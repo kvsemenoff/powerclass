@@ -3,7 +3,7 @@
 		<img src="../img/buter.png" alt="img" class="db-burger"> <span class="db-span-span-one">Меню</span><a href="#"><span class="db-span-span-two">+7 495 133 29 67</span></a>
 		<div class="clearfix"></div>
 		<ul class="db-up_menu_menu">
-			<li><a href="#pitanie">подобрать питание</a></li>
+			<li><a href="#calc">подобрать питание</a></li>
 			<li><a href="#delivery">доставка</a></li>
 			<li><a href="#tariff">тарифы</a></li>
 			<li><a href="#testimonials">отзывы</a></li>
@@ -73,9 +73,9 @@
 									и твоё <span>тело скажет «Cпасибо!»</span>
 								</p>
 								<p class="db-five">
-									<a href="#" class="button-1 db-podr">Узнать подробнее</a><br>
-									<a href="#" class="db-tarif">Выбрать тариф</a>
-									<a href="#"><img src="../img/header_price.png" alt="" class="db-price-five"></a>
+									<a href="#how" class="button-1 db-podr">Узнать подробнее</a><br>
+									<a href="#tariff" class="db-tarif">Выбрать тариф</a>
+									<a href="#want"><img src="../img/header_price.png" alt="" class="db-price-five"></a>
 								</p>
 							</div>
 						</div>
