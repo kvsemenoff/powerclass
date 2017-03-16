@@ -54,6 +54,7 @@
 	// padding: 125px 0;
 	height: 245px;
 	background-image: url("../img/paralax1.jpg");	
+    -webkit-background-attachment: fixed;    
     background-attachment: fixed;    
 	background-position:right 65% top 65%;
 	background-size: 190%;
@@ -329,11 +330,13 @@
 
 .dfcallory{
 	text-align: center;
+	max-width: 410px;
+	margin: 0 auto;
 }
 
-.dfcaloryesbox, .dfcaloryesbox2{
-	// width: 70px;
-	width: 65px;
+.dfcaloryesbox, .dfcaloryesbox2{	
+	// width: 65px;
+	width: 22%;
 	margin-right: 5px;
 	display: inline-block;		
 	.dfborder{
@@ -390,7 +393,8 @@
 .df3or5{
 	text-align: center;
 	padding: 15px 0 17px 0;
-	max-width: 480px;
+	// max-width: 480px;
+	max-width: 425px;
 	margin: 0 auto;
 	.df3{
 		color: #212121;		
@@ -399,7 +403,7 @@
 		line-height: 18px;
 		display: inline-block;
 		// width: 137px;
-		width: 45%;
+		width: 48%;
 		background-color: #ededed;
 		padding: 9px 0;
 		transition:0.4s;
@@ -411,7 +415,7 @@
 		line-height: 18px;
 		display: inline-block;
 		// width: 137px;
-		width: 45%;
+		width: 48%;
 		background-color: #ededed;
 		padding: 9px 0;
 		transition:0.4s;
@@ -441,7 +445,8 @@
 .dfweaks{
 	ul{
 		text-align: center;
-		max-width: 480px;
+		// max-width: 480px;
+		max-width: 410px;
 		margin: 0 auto;
 	}
 }
@@ -451,7 +456,8 @@
 	border-radius: 3px;
 	transition:0.4s;
 	padding: 3px 0;
-	width: 12%;
+	// width: 12%;	
+	width: 13.7%;
 	a{
 		display: inline-block;
 		color: #212121;		
@@ -469,18 +475,29 @@
 	}
 }
 
+.dfweaks{
+	ul{
+
+		.dfweak:first-child{
+			width: auto;
+		}
+		.dfweak:last-child{
+			width: auto;
+		}
+	}
+}
 
 .dfblockmenu{
 	padding: 17px 0 0px 0;//12
 }
 .dfmenubox1{
-	max-width: 480px;
+	// max-width: 480px;
+	max-width: 410px;
 	// width: 275px;
 	width: 100%;
 	border-radius: 3px;	
 	margin: 0 auto;
-	height: 109px;
-	
+	height: 109px;	
 	margin-bottom: 11px;
 	background-color: #ededed;
 }
@@ -549,7 +566,8 @@
 	background-color: #e53935;
 	border-radius: 3px;
 	// width: 275px;
-	max-width: 480px;
+	// max-width: 480px;
+	max-width: 410px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 12px 0 10px 21px;
@@ -654,20 +672,36 @@
 #jstarif1{
 	display: none;
 }
+.form-order{
+	display: none;
+}
+.jsrazdneymob{
+	b, em{
+		display: inline-block !important;
+		font-weight: 300!important;
+		font-size: 15px !important;
+	}
+}
 @media only screen and (min-width : 320px) {
 }
 
-@media only screen and (min-width : 550px) {
-
-
-
-
-
+@media only screen and (min-width : 430px) {
+	.dfweak{		
+		width: 15%;
+	}
+	.dfcaloryesbox, .dfcaloryesbox2{		
+		width: 23%;
+	}
+	.dfweaks{
+		ul{
+			text-align: left;
+		}
+	}
 }
 
 @media only screen and (min-width : 768px) {
 	.dfmenutxt{		
-		width: 73%;		
+		width: 70%;		
 	}
 	
 	
@@ -681,7 +715,7 @@
 		padding: 120px 0 ;
 		background-image: url("../img/girl1.png");
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: center right 40%;
 		background-size: cover;
 	}
 	.dfcapgirl{	
@@ -691,8 +725,10 @@
 		font-size: 40px;		
 	}
 	.dfgirlbox{
-		float: right;			
-		margin-right: 65px;
+		// float: right;			
+		// margin-right: 65px;
+		// margin-left: 270px;
+		margin-left: 222px;
 		margin-top: 23px;
 		text-align: left;
 	}
@@ -839,6 +875,22 @@
 
 //1100
 @media only screen and (min-width : 1024px) {
+	/*girl box*/	
+	.dfbg1{			
+		background-position: center;		
+	}
+	// .dfgirlbox{		
+	// 	margin-left: 270px;		
+	// }
+	.dfgirlbox{
+		float: right;			
+		margin-right: 65px;
+		// margin-left: 270px;
+		margin-left: 0px;		
+	}	
+	
+	/*menu=============================*/
+	
 	.dfmenumobulehidden{
 		display: none;
 	}
@@ -852,6 +904,7 @@
 		margin: 0 auto;
 		.dfcallory{
 			text-align: left;
+			max-width: unset;
 			// padding-left: 30px;
 		}
 		.dfcaloryesbox{
@@ -1115,13 +1168,14 @@
 		}	
 	}
 	.dfmenucharacteristic{
-		padding: 18px 12px 12px 17px;
+		padding: 18px 15px 12px 15px;
 		position: relative;
 		text-align: left;
 	}
 	.dfnameproduct{
 		font-size: 14px;
 		line-height: 18px;
+		min-height: 72px;
 	}
 	.dfcharmenu1{
 		font-size: 14px;
@@ -1267,8 +1321,8 @@
 
 }
 
-
-@media only screen and (min-width : 1248px) {
+//1248
+@media only screen and (min-width : 1175px) {
 	.dffourbox{
 		text-align: center;
 		display: block;
