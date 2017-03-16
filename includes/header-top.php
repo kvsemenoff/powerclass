@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="db-up_menu">
-						<img src="../img/buter.png" alt="img" class="db-burger"> <span class="db-span-span-one">Меню</span><a href="#"><span class="db-span-span-two">+7 495 133 29 67</span></a>
+						<img src="../img/buter.png" alt="img" class="db-burger"> <span class="db-span-span-one">Меню</span><a href="tel:+74951332967"<span class="db-span-span-two">+7 495 133 29 67</span></a>
 						<div class="clearfix"></div>
 						<ul class="db-up_menu_menu">
 							<li><a href="#calc">подобрать питание</a></li>
