@@ -6,6 +6,9 @@
 	.form-wrap{
 		padding: 15px 0 20px;
 	}
+	.second{
+		display: none;
+	}
 	.phone{
 		font-size: 36px;
 		color: #212121;
@@ -60,6 +63,8 @@
 	.input-wrap{
 		background: #e6e6e6;
 		border-top: 2px solid #cdcdcd;
+		border-radius: 26px 0 0 26px;
+		margin-right: -20px;
 	}
 }
 .testimonials{
@@ -689,11 +694,11 @@
 	background-image: url("../img/tab-bg-last.png");
 }
 .tab-content{
-	background: rgba(0,0,0,0.2);
+	background: rgba(0,0,0,0.33);
 	padding: 27px 10px;
-	-webkit-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.3);
-	-moz-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.3);
-	box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.18);
+	-moz-box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.18);
+	box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.18);
 	.price{
 		i{
 			font-size: 36px;
@@ -777,15 +782,23 @@
 	}
 }
 @media only screen and (max-width : 1000px) {
+	.descr{
+		.second{
+		display: inline;
+		}
+		.first{
+			display: none;
+		}
+	}
 	.shtraf-item{
 		display: none;
 	}
 	.shtraf-mini{
 		display: block;
 	}
-	.questions, .dd-want-view, .testimonials{
+	.questions, .dd-want-view{
 		h2{
-			font-size: 20px;
+			font-size: 24px;
 		}
 	}
 	.testimonials{
@@ -794,7 +807,7 @@
 		}
 	}
 	.dd-want-view{
-		background: url(../img/want.jpg) bottom left no-repeat;
+		background: url(../img/want.jpg) bottom left/cover no-repeat;
 		h2{
 			line-height: 1.3;
 			width: 240px;
@@ -814,6 +827,7 @@
 			margin-right: 0;
 			width: 186px;
 			display: block;
+			border-radius: 26px;
 			.dd-input{
 				font-size: 14px;
 				padding: 0 15px;
@@ -992,8 +1006,6 @@
 		}
 	}
 	.dd-want-view{
-		background: url(../img/want-mini.jpg) right bottom 40px no-repeat;
-		padding-bottom: 40px;
 		.descr{
 			font-size: 14px;
 		}
@@ -1036,6 +1048,15 @@
 			font-size: 30px;
 			color: #fff;
 		}
+	}
+}
+@media only screen and (max-width : 700px) {
+	.dd-want-view{
+		background: url(../img/want-mini.jpg) right bottom 40px no-repeat;
+		padding-bottom: 40px;
+		margin: 0 auto;
+		max-width: 480px;
+		width: 100%;
 	}
 }
 @media only screen and (max-width : 400px) {

@@ -76,15 +76,15 @@
 						<div class="btn-wrap">
 							<div class="input-wrap">
 								<span>Возраст:</span>
-								<input type="number" value="25"  min="12" max="99" class="input-number" id="jsage" style="width:88px">
+								<input type="number" placeholder="25"  min="12" max="99" class="input-number" id="jsage" style="width:88px">
 							</div>
 							<div class="input-wrap">
 								<span>Рост:</span>
-								<input type="number" value="175" min="50" max="300" class="input-number" style="width:88px" id="jsrost">
+								<input type="number" placeholder="175" min="50" max="300" class="input-number" style="width:88px" id="jsrost">
 							</div>
 							<div class="input-wrap">
 								<span>Вес:</span>
-								<input type="number" value="75" min="30" max="300" class="input-number" style="width:88px" id="jsmass">
+								<input type="number" placeholder="75" min="30" max="300" class="input-number" style="width:88px" id="jsmass">
 							</div>
 							<button class="shtraf__btn shtraf__btn--black shtraf__btn--next">Далее</button>
 						</div>
@@ -364,9 +364,9 @@
 								</select>
 							</div>
 							<div class="select-wrap clearfix">
-								<input type="number" value="25" min="12" max="99" class="input-mini" placeholder="Возраст" id="agemob">
-								<input type="number" value="175" min="50" max="300" class="input-mini border-red" placeholder="Рост" id="rostmob">
-								<input type="number" value="75" min="30" max="300" class="input-mini" placeholder="Вес" id="massmob">
+								<input type="number" placeholder="25" min="12" max="99" class="input-mini" id="agemob">
+								<input type="number" placeholder="175" min="50" max="300" class="input-mini border-red" id="rostmob">
+								<input type="number" placeholder="75" min="30" max="300" class="input-mini" id="massmob">
 							</div>
 							<div class="select-wrap">
 								<select class="jsselected2">

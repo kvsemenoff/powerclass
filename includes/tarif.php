@@ -15,7 +15,7 @@
 						</div>
 						<div id="tb2" class="tab tab-1">
 							<div class="tab-in">
-								<span><b>Фит плюс</b></span><i><em><strong>1 700</strong></em> ккал/день</i>
+								<span><b>Фит Плюс</b></span><i><em><strong>1 700</strong></em> ккал/день</i>
 							</div>
 						</div>
 						<div id="tb3" class="tab tab-2 active">
@@ -25,7 +25,7 @@
 						</div>
 						<div id="tb4" class="tab tab-3">
 							<div class="tab-in">
-								<span><b>Спорт плюс</b></span><i><em><strong>3 500</strong></em> ккал/день</i>
+								<span><b>Спорт Плюс</b></span><i><em><strong>3 500</strong></em> ккал/день</i>
 							</div>
 						</div>
 					</div>
