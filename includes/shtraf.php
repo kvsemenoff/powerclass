@@ -312,6 +312,13 @@
 										<input class="dd-input input--stage" type="text" value="" placeholder="Этаж..." name="etaj">
 
 										<input class="dd-input input--kv" type="text" value="" placeholder="Кв/Офис..." name="numberkv">
+										
+
+
+
+
+										<input type="hidden" name="uname" class="jsunameonline"> 
+										<input type="hidden" name="phone" class="jsphoneonline"> 
 
 										<input type="hidden" name="kkalklient" class="jskkalklient"> 
 										<input type="hidden" name="tarif" class="jsnametarif"> 
@@ -501,6 +508,9 @@
 					<input class="dd-input input--stage" type="text" value="" placeholder="Этаж..." name="etaj">
 					<input class="dd-input input--kv" type="text" value="" placeholder="Кв/Офис..." name="numberkv">
 
+					
+					<input type="hidden" name="uname" class="jsunameonlinemob"> 
+					<input type="hidden" name="phone" class="jsphoneonlinemob"> 
 
 					<input type="hidden" name="kkalklient" class="jskkalklientmob"> 
 					<input type="hidden" name="tarif" class="jsnametarifmob"> 
@@ -558,6 +568,17 @@
 						        .find('.jsmobkallday b')
 						        .text();
 		$('.jsnametarifmob').val(sendnametarifmob);	
+
+
+		var unametoonline = $(this).find('.input-block').find('uname').val();
+		var phonetoonline = $(this).find('.input-block').find('phone').val();
+
+		$('.jsunameonlinemob').val(unametoonline);
+		$('.jsphoneonlinemob').val(phonetoonline);
+
+		$('.jsunameonline').val(unametoonline);
+		$('.jsphoneonline').val(phonetoonline);
+
 
 
         if(phone.val() == ""){

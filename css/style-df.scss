@@ -377,8 +377,11 @@
 .dfactivelinkmob{
 	border: 2px solid #e53935 !important;
 	a{
-		border-bottom: 1px dashed transparent !important;	
+		
 		color: #e53935 !important;
+		em{
+			border-bottom: 1px dashed transparent !important;	
+		}
 	}
 }
 
@@ -711,7 +714,7 @@
 	}
 	
 }
-
+// ripplelink
 @media only screen and (min-width : 768px) {
 	.dfmenutxt{		
 		width: 70%;		
@@ -721,8 +724,8 @@
 		padding: 12% 0 12% 0 !important;
 	}
 	.dfbghow3{
-		background-position: center 60%;
-		padding: 12% 0 12% 0 !important;
+		background-position: center 75%;
+   		padding: 7% 0 12% 0 !important;
 	}
 	
 	
@@ -772,7 +775,8 @@
 
 	/*===============how=============*/
 	.dfbghow1{
-		background-image: url("../img/dfbg1.jpg");				
+		background-image: url("../img/dfbg1.jpg");	
+		background-position: center left 27%;			
 	}
 	.dfbghow2{
 		background-image: url("../img/dfbg2.jpg");
@@ -905,13 +909,11 @@
 	.dfbg1{			
 		background-position: center;		
 	}
-	// .dfgirlbox{		
-	// 	margin-left: 270px;		
-	// }
+	
+
 	.dfgirlbox{
 		float: right;			
-		margin-right: 65px;
-		// margin-left: 270px;
+		margin-right: 65px;		
 		margin-left: 0px;		
 	}	
 	
@@ -955,10 +957,10 @@
 			border: 2px solid #212121;
 			border-radius: 25px;
 			padding: 0;	
-			padding: 15px 0;			
+			// padding: 15px 0;			
 			display:block;
 			// width: 100%;
-			width: 149px;
+			// width: 149px;
 			-o-transition:0.5s;
 			-webkit-transition:0.5s;
 			-moz-transition:0.5s;
@@ -966,15 +968,18 @@
 			cursor: default;
 		}
 		a{
-			// width: 149px;			
+			width: 149px;			
 			color: #212121;		
 			font-size: 14px;
 			font-weight: 800;
 			line-height: 18px;
 			display: inline-block;		
 			position: relative;	
-			// padding: 15px 0;	
-			border-bottom: 1px dashed #212121;
+			padding: 16px 0;	
+			border: none;
+			em{
+				border-bottom: 1px dashed #212121;
+			}
 		}
 		
 
@@ -994,7 +999,7 @@
 	.dfactivelink{
 		background-image: url("../img/hoveronbutton1.png") !important;
 		background-repeat: no-repeat !important;		
-		background-position: top 1px right 181% !important;
+		background-position: top 1px right 205% !important;
 	}	
 	.dfactivelink2{
 		background-image: url("../img/hoveronbutton2.png");
@@ -1007,7 +1012,7 @@
 		background-image: url("../img/hoveronbutton1.png");
 		background-repeat: no-repeat;
 		// background-position: top left -1.5%;
-		background-position: top 1px right 181%;		
+		background-position: top 1px right 205%;		
 	}
 	.dfhoverbox2:hover{		
 		background-image: url("../img/hoveronbutton2.png");
@@ -1034,31 +1039,27 @@
 	.dfcaloryesbox:hover, .dfcaloryesbox2:hover{
 		.dfborder{
 			border: 2px solid #e53935;
-		}
-		
+		}		
 		a{
-			border-bottom: 1px dashed transparent;	
+			border: none;
 			color: #e53935;
+			em{
+				border-bottom: 1px dashed transparent;	
+			}
 		}
 	}
-	.dfpriemi{
-		// max-width: 245px;//
+	.dfpriemi{		
 		max-width: 145px;
-		width: 100%;//
-		display: inline-block;
-		// float: right;//
+		width: 100%;
+		display: inline-block;		
 		margin-right: 20px;
 		padding-top: 15px;
 	}
-	.df3priem{
-		// display: inline-block; //
+	.df3priem{		
 		display: block;
-		border: 2px solid #212121;
-		// padding: 12px 13px 3px 25px;//
-		padding: 12px 10px 3px 10px;
-		// border-radius: 25px 0 0 25px;//25
-		border-radius: 25px;
-		// text-align: left;
+		border: 2px solid #212121;		
+		padding: 12px 10px 3px 10px;		
+		border-radius: 25px;		
 		text-align: center;
 		color: #212121;		
 		font-size: 14px;
@@ -1084,17 +1085,7 @@
 	.df3priem:hover{
 		border: 2px solid #e53935;
 		color:  #e53935;
-		// .dfdots{			
-		// 	display: inline-block;
-		// 	background-color: #e53935;
-		// 	border: 1px solid  #e53935;
-		// }		
-		// .dfdots:last-child{
-		// 	background-color: #fff;
-		// }
-		// .dfdots:nth-child(2){
-		// 	background-color: #fff;
-		// }
+		
 	}
 	.df3priemactive{
 		border: 2px solid #e53935;
@@ -1160,11 +1151,8 @@
 		text-align: left; 
 		background-color: #efefef;	
 		padding: 18px 17px;
-		border-radius: 5px 5px 0 0;			
-		// margin-top: 27px;
-		// margin-top: -12.3px;
-		margin-top: -13.3px;
-		// border-top: 3px solid #c6c6c7;
+		border-radius: 5px 5px 0 0;		
+		margin-top: -13.1px;	
 		box-shadow: inset 0 0px 5px rgba(0, 0, 0, 0.23);
 		text-align: center;		
 	}
@@ -1307,6 +1295,8 @@
 		max-width: 680px;
 		width: 100%;
 		text-align: left;
+		vertical-align: top;
+   		padding-top: 20px;
 	}
 	.dftxtitogo1{
 		font-size: 18px;
@@ -1327,6 +1317,8 @@
 		display: inline-block;
 		margin-left: 25px;
 		border-bottom: 1px dashed #fff;
+		vertical-align: top;
+    	padding-top: 20px;
 		-o-transition:0.4s;
 		-moz-transition:0.4s;
 		-webkit-transition:0.4s;
@@ -1353,8 +1345,11 @@
 		text-align: center;
 		display: block;
 	}
+	.dfbghow1{
+		background-image: url("../img/dfbg1.jpg");	
+		background-position: center center;			
+	}	
 	
-
 	.dfmenuproductbox{
 		max-width: 212px;			
 		margin-right: 15px;	

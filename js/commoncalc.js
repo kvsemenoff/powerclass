@@ -459,6 +459,18 @@ $(document).ready(function(){
 
 			}
 		// console.log(itogomob);
+			if ($('#agemob').val() >= 99 || $('#agemob').val() <= 12) {
+				$('#agemob').addClass('disabledinputjs');
+				$(this).addClass('disabledjs');	
+			}else if($('#rostmob').val() >= 300 || $('#rostmob').val() <= 50){
+				$('#rostmob').addClass('disabledinputjs');
+				$(this).addClass('disabledjs');		
+			}else if($('#massmob').val() >= 300 || $('#massmob').val() <= 30){
+				$('#massmob').addClass('disabledinputjs');
+				$(this).addClass('disabledjs');		
+			}else{
+				$('#jsrasschitat').removeClass('disabledjs');
+			}
 
 		if (!$('#jsrasschitat').hasClass('disabledjs')) {
 			$(this).parents('.jsmob').hide().next().show();

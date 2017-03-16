@@ -12,7 +12,7 @@
 							<div class="input-wrap">
 								<input class="dd-input" type="text" value="" placeholder="Введите ваш телефон">	
 							</div>	
-							<input class="button-1 dd-submit" type="submit" value="Перезвоните мне" placeholder="">
+							<input class="button-1 dd-submit ripplelink" type="submit" value="Перезвоните мне" placeholder="">
 						</form>		
 					</div>
 				</div>

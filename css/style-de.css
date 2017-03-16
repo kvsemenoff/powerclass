@@ -162,8 +162,8 @@
 @media only screen and (max-width: 1200px) { .shtraf .end__item { padding: 0 15px; }
   .shtraf .delivery .input--home { margin: 0 13px 15px 0; }
   .tab span { line-height: 39px; } }
-@media only screen and (max-width: 1000px) { .descr .second { display: inline; }
-  .descr .first { display: none; }
+@media only screen and (max-width: 1000px) { .second { display: inline !important; }
+  .first { display: none; }
   .shtraf-item { display: none; }
   .shtraf-mini { display: block; }
   .questions h2, .dd-want-view h2 { font-size: 24px; }
@@ -192,6 +192,7 @@
   .tab-content .col-md-12 { display: block; }
   .tab-content .inner { background: rgba(0, 0, 0, 0.75); padding: 15px; }
   .tab-content .block { background: none; border: none; padding: 0; }
+  .tab-content .block .dd-submit { font-size: 10px; height: 32px; line-height: 32px; width: 90px; margin-top: 10px; }
   .tab-content .block span { display: block; font-size: 10px; padding: 3px; }
   .tab-content .block span b { font-size: 16px; }
   .tab-content .block span em { font-size: 10px; font-weight: 900; color: #fff; display: inline-block; padding-right: 8px; }
@@ -199,7 +200,7 @@
   .tab-content .right { float: left; width: 50%; }
   .tab-content .price { float: left; width: 50%; text-align: right; }
   .tab-content .price i { font-size: 19px; }
-  .tab-content .price span { font-size: 8px; padding-right: 50px; }
+  .tab-content .price span { font-size: 8px; padding-top: 8px; padding-right: 20px; }
   .tab-content .price input.dd-submit { font-size: 11px; max-width: 120px; line-height: 32px; height: 32px; margin-bottom: 10px; }
   .questions .in p { font-size: 14px; line-height: 18px; }
   .questions .in .button-1 { font-size: 15px; width: 170px; } }
