@@ -1,6 +1,6 @@
 <section class="section section_padding section_header_top1">
 	<div class="db-up_menu">
-		<img src="../img/buter.png" alt="img" class="db-burger"> <span class="db-span-span-one">Меню</span><span class="db-span-span-two">+7 495 133 29 67</span>
+		<img src="../img/buter.png" alt="img" class="db-burger"> <span class="db-span-span-one">Меню</span><a href="#"><span class="db-span-span-two">+7 495 133 29 67</span></a>
 		<div class="clearfix"></div>
 		<ul class="db-up_menu_menu">
 			<li><a href="#pitanie">подобрать питание</a></li>
@@ -58,7 +58,7 @@
 					</div>
 					<div class="col-md-6">
 						<p class="db-two">
-							<span>+7 (495) 133 29 67</span><br>
+							<a href="#log-in-1" name="modal"><span>+7 (495) 133 29 67</span></a><br>
 							<a href="#log-in-1" name="modal" class="db-link-one">Заказать звонок</a><br>
 							<a href="#" target="_blank" class="db-link-two"><img src="img/header_vk.png" alt="img"></a>
 							<a href="#" target="_blank"><img src="img/header_insta.png" alt="img"></a>
