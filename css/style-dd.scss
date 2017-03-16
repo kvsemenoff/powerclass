@@ -1,4 +1,55 @@
 
+/* ховер для кнопки
+=====================*/
+.ripplelink{
+	text-align:center;
+	color:#fff;
+	text-decoration:none;
+	position:relative;
+	overflow:hidden;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	z-index:0;
+}
+.ripplelink:hover{
+	z-index:1000;
+}
+.ink {
+	display: block;
+	position: absolute;
+	background:rgba(255, 255, 255, 0.3);
+	border-radius: 100%;
+	-webkit-transform:scale(0);
+	-moz-transform:scale(0);
+	-o-transform:scale(0);
+	transform:scale(0);
+}
+.animate {
+	-webkit-animation:ripple 0.65s linear;
+	-moz-animation:ripple 0.65s linear;
+	-ms-animation:ripple 0.65s linear;
+	-o-animation:ripple 0.65s linear;
+	animation:ripple 0.65s linear;
+}
+
+@-webkit-keyframes ripple {
+	100% {opacity: 0; -webkit-transform: scale(2.5);}
+}
+@-moz-keyframes ripple {
+	100% {opacity: 0; -moz-transform: scale(2.5);}
+}
+@-o-keyframes ripple {
+	100% {opacity: 0; -o-transform: scale(2.5);}
+}
+@keyframes ripple {
+	100% {opacity: 0; transform: scale(2.5);}
+}
+
+
+//////////////////////////////////////////
+
 .dd-want-view{
 	background:#fff;
 }
@@ -125,10 +176,10 @@
     		right: 145px;
     	}
     	.dd-price_td{
-			font-size: 12px;
+    		font-size: 12px;
     	}
     	.dd-days{
-			font-size: 13px;
+    		font-size: 13px;
     	}
     	td{
     		width: 80px;
@@ -139,17 +190,17 @@
     		}
     	}
     	.dd-table-title{
-			font-size: 11px;
-			span{
-				font-size: 11px;
-			}
-			i{
-				font-size: 8px;
-			}
+    		font-size: 11px;
+    		span{
+    			font-size: 11px;
+    		}
+    		i{
+    			font-size: 8px;
+    		}
     	}
     	.tr-title{
     		td{
-				height: 35px;
+    			height: 35px;
     		}
     	}
     }
@@ -158,34 +209,34 @@
 .window_2{
 
 	width: 320px !important;
-		.dd-form_box{
-			margin-right: 0;
-			padding-bottom: 20px;
-			padding-top: 20px;
-			span:first-child{
-				font-size: 15px;
-			}
+	.dd-form_box{
+		margin-right: 0;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		span:first-child{
+			font-size: 15px;
 		}
-	  	.dd-tarif-form{
-    		width: 320px;
-    		padding: 0;
-    		padding-bottom: 20px;
-    		text-align: center;	
-    		.dd-input_tr{
-    			width: 235px;
-    			height: 35px;
-    		}
-    		.dd-submit{
-				width: 235px;
-				height: 35px;
-				margin: 0 auto;
-				line-height: 10px;
-    		}
-    		.button-1{
-    			margin-top: 15px;
-    			font-size: 10px !important;
-    		}
-    	}
+	}
+	.dd-tarif-form{
+		width: 320px;
+		padding: 0;
+		padding-bottom: 20px;
+		text-align: center;	
+		.dd-input_tr{
+			width: 235px;
+			height: 35px;
+		}
+		.dd-submit{
+			width: 235px;
+			height: 35px;
+			margin: 0 auto;
+			line-height: 10px;
+		}
+		.button-1{
+			margin-top: 15px;
+			font-size: 10px !important;
+		}
+	}
 }
 .table_left{
 	float: left;
