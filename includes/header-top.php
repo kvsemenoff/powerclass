@@ -15,16 +15,16 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="db-div-two1">
-				<p class="db-two1">
-					<img src="img/header_logo.png" alt="img">
-					<span>
-						<a href="#"><img src="img/header_vk.png" alt="img"></a>
-						<a href="#"><img src="img/header_insta.png" alt="img"></a>
-					</span>
-				</p>
-				<div class="clearfix"></div>
+					<p class="db-two1">
+						<img src="img/header_logo.png" alt="img">
+						<span>
+							<a href="#"><img src="img/header_vk.png" alt="img"></a>
+							<a href="#"><img src="img/header_insta.png" alt="img"></a>
+						</span>
+					</p>
+					<div class="clearfix"></div>
 					<p class="db-three1">Наполним твой холодильник 
-					готовой, <br><span>правильной едой</span></p>
+						готовой, <br><span>правильной едой</span></p>
 						<p class="db-four1">
 							Забудь про чувство голода<br> и вечные перекусы
 							и твоё<br> <span>тело скажет «Cпасибо!»</span>
@@ -39,16 +39,19 @@
 		</div>
 	</section>
 	<section class="section section_padding section_header_top">
-		<ul class="db-menu">
-			<li><a href="#calc">подобрать питание</a></li>
-			<li><a href="#delivery">доставка</a></li>
-			<li><a href="#tariff">тарифы</a></li>
-			<li><a href="#testimonials">отзывы</a></li>
-			<li><a href="#menu">меню</a></li>
-			<li><a href="#faq">вопросы и ответы</a></li>
-		</ul>
+		
 		<div class=" container">
 			<div class="row">
+				<div class="col-md-12">
+					<ul class="db-menu">
+						<li><a href="#calc">подобрать питание</a></li>
+						<li><a href="#delivery">доставка</a></li>
+						<li><a href="#tariff">тарифы</a></li>
+						<li><a href="#testimonials">отзывы</a></li>
+						<li><a href="#menu">меню</a></li>
+						<li><a href="#faq">вопросы и ответы</a></li>
+					</ul>
+				</div>
 				<div class="col-md-6">
 					<p class="db-one"><img src="img/header_logo2.png" alt="img">
 						<span>Здоровый рацион на неделю <br>
