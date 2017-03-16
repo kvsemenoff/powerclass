@@ -4,7 +4,7 @@
 			<div class="col-md-12">
 				<div class="in">
 					<h2>Остались вопросы?</h2>
-					<p>Оставьте ваш номер телефона и наш <span>менеджер свяжется с вами</span> <span>в течении <em class="first">15</em><em class="second">30</em> мин.</span></p>
+					<p>Оставьте ваш номер телефона и наш <span>менеджер свяжется с вами</span> <span>в течение <em class="first">15</em><em class="second">30</em> мин.</span></p>
 					<div class="form-wrap">
 						<form action="#">
 							<div class="input-wrap">
@@ -14,7 +14,7 @@
 						</form>		
 					</div>
 					<p>Или позвоните сами по номеру</p>
-					<span class="phone">+ 7 499 133 29 56</span>
+					<span class="phone">+ <em class="first">7 499 133 29 56</em><em class="second">7 499 133 29 67</em></span>
 				</div>
 			</div>
 		</div>
