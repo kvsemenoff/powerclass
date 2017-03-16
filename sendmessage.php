@@ -8,7 +8,6 @@ $checkbox_1 = $_POST['checkbox'];
 
 $kkalklient = $_POST['kkalklient'];
 $tarif = $_POST['tarif'];
-$tarif = $_POST['tarif'];
 $food = $_POST['food'];
 $days = $_POST['days'];
 $tarif_price = $_POST['tarif_price'];

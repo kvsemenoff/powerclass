@@ -1,4 +1,31 @@
 $(document).ready(function(){
+
+	$('#jsonline').on('click', function(e){
+		var unametoonline = $(this).parents('.jssubmit').find('.input-block').find('.nametosend').val();
+		var phonetoonline = $(this).parents('.jssubmit').find('.input-block').find('.phonetosend').val();
+
+		  if(unametoonline == "" ){		  
+	          $('.nametosend').focus();	         
+	          	return false;
+	          
+	      }else if(phonetoonline == ""){ 			
+	          $('.phonetosend').focus();
+	          	return false;			
+	      }else{
+	  //     	$('.jsunameonlinemob').val(unametoonline);
+			// $('.jsphoneonlinemob').val(phonetoonline);
+
+			$('.jsunameonline').val(unametoonline);
+			$('.jsphoneonline').val(phonetoonline);
+			$(this).parents('.shtraf-item').hide().next().show();
+			return true;
+	      }
+	});
+
+
+/////////////////////////////////////////
+
+
  var male="",
 	cel="", 
 	age="", 
@@ -7,8 +34,8 @@ $(document).ready(function(){
 	activity="", 
 	food="", 
 	days="";
-
-	$('.shtraf__btn, #jsonline').on('click', function(e){
+// #jsonline
+	$('.shtraf__btn').on('click', function(e){
 
 		if ($('#jstarif1').css('display')==='block') {
 			male += $(this).attr('pol');
@@ -480,8 +507,36 @@ $(document).ready(function(){
 	});
 
 	$('#jsnextmobwindow').on('click', function(e){
-		e.preventDefault();
-		$(this).parents('.jsmob').hide().next().show();
+		
+		var unametoonlinemob = $(this).parents('.jssubmit').find('.input-wrap').find('.nametosendmob').val();
+		var phonetoonlinemob = $(this).parents('.jssubmit').find('.input-wrap').find('.phonetosendmob').val();
+
+		 var sendtarfname = $(this).parents('#jsmobversion2')
+						        .find('.info')
+						        .find('.half')
+						        .find('.jsmobkallday')
+						        .find('b')
+						        .text();
+		$('.jsnametarifmob').val(sendtarfname);	
+
+
+		  if(unametoonlinemob == "" ){		  
+	        $('.nametosendmob').focus();	         
+	          	return false;
+	          
+	      }else if(phonetoonlinemob == ""){ 			
+	          $('.phonetosendmob').focus();
+	          	return false;			
+	      }else{
+
+			$('.jsunameonline').val(unametoonlinemob);
+			$('.jsphoneonline').val(phonetoonlinemob);
+			$(this).parents('.jsmob').hide().next().show();
+
+			return true;
+	      }
 	});
+
+	
 
 });

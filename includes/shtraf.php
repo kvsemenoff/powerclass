@@ -231,10 +231,10 @@
 								<div class="form-wrap">
 									<form class="jssubmit" action="#" method="post">
 										<div class="input-block">
-											<input class="dd-input" name="uname" type="text" value="" placeholder="Введите ваше имя" required>	
+											<input class="dd-input nametosend" name="uname" type="text" value="" placeholder="Введите ваше имя" required>	
 										</div>
 										<div class="input-block">
-											<input class="dd-input phone" name="phone" type="text" value="" placeholder="Введите ваш телефон">		
+											<input class="dd-input phone phonetosend" name="phone" type="text" value="" placeholder="Введите ваш телефон">		
 										</div>
 										<div class="input-block input-block--half">
 											<input class="button-1 dd-submit" type="submit" value="Заказать по телефону" placeholder="">
@@ -250,8 +250,10 @@
 
 									
 										<div class="input-block input-block--half">
-											<a href="#"><input class="button-1 dd-submit" type="submit" value="Заказать онлайн" placeholder="" 
-											id="jsonline"></a>
+											<!-- <span><input class="button-1 dd-submit" type="submit" value="Заказать онлайн" placeholder="" 
+											id="jsonline" ></span> -->
+
+											<button  class=" dd-submit" type="button" id="jsonline"> Заказать онлайн</button>
 										</div>
 									</form>	
 								</div>
@@ -319,7 +321,7 @@
 
 										<input type="hidden" name="uname" class="jsunameonline"> 
 										<input type="hidden" name="phone" class="jsphoneonline"> 
-
+<!-- phoneonline -->
 										<input type="hidden" name="kkalklient" class="jskkalklient"> 
 										<input type="hidden" name="tarif" class="jsnametarif"> 
 										<input type="hidden" name="food" class="jsklientfood"> 
@@ -455,10 +457,10 @@
 
 			<form class="jssubmit" action="#" method="post">
 				<div class="input-wrap">
-					<input type="text" placeholder="Введите Ваше Имя" name="uname" required>
+					<input type="text" class="nametosendmob" placeholder="Введите Ваше Имя" name="uname" required>
 				</div>
 				<div class="input-wrap">
-					<input type="text" placeholder="Введите Ваш Телефон" class="phone" name="phone" required >
+					<input type="text" placeholder="Введите Ваш Телефон" class="phone phonetosendmob" name="phone" required >
 				</div>
 				<input class="button-1 dd-submit dd-submit-left" type="submit" value="Заказать по телефону">
 
@@ -469,7 +471,10 @@
 				<input type="hidden" name="days" class="jsklientdaysmob"> 
 	
 
-			<a href="#"><input class="button-1 dd-submit" id="jsnextmobwindow" type="submit" value="Заказать онлайн" placeholder=""></a>
+			<!-- <a href="#"><input class="button-1 dd-submit" id="jsnextmobwindow" type="submit" value="Заказать онлайн" placeholder=""></a> -->
+
+			<button  class="button-1 dd-submit" type="button" id="jsnextmobwindow"> Заказать онлайн</button>
+
 			</form>
 		
 		</div>
@@ -509,8 +514,10 @@
 					<input class="dd-input input--kv" type="text" value="" placeholder="Кв/Офис..." name="numberkv">
 
 					
-					<input type="hidden" name="uname" class="jsunameonlinemob"> 
-					<input type="hidden" name="phone" class="jsphoneonlinemob"> 
+					<input type="hidden" name="uname" class="jsunameonline"> 
+					<input type="hidden" name="phone" class="jsphoneonline"> 
+
+					 
 
 					<input type="hidden" name="kkalklient" class="jskkalklientmob"> 
 					<input type="hidden" name="tarif" class="jsnametarifmob"> 
@@ -568,17 +575,6 @@
 						        .find('.jsmobkallday b')
 						        .text();
 		$('.jsnametarifmob').val(sendnametarifmob);	
-
-
-		var unametoonline = $(this).find('.input-block').find('uname').val();
-		var phonetoonline = $(this).find('.input-block').find('phone').val();
-
-		$('.jsunameonlinemob').val(unametoonline);
-		$('.jsphoneonlinemob').val(phonetoonline);
-
-		$('.jsunameonline').val(unametoonline);
-		$('.jsphoneonline').val(phonetoonline);
-
 
 
         if(phone.val() == ""){
