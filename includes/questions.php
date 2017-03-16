@@ -109,17 +109,19 @@
 						</div>
 						<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
 						<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
-						<input class="button-1 dd-submit" type="submit" name="submit" value="оформить по телефону">
+						<input class="button-1 ripplelink dd-submit" type="submit" name="submit" value="оформить по телефону">
 
 						<!-- Hidden -->
 						<input class="tarif_name_hide" name="tarif" type="hidden" value="empty">
 						<input class="tarif_price" name="tarif_price" type="hidden" value="empty">
 						<input class="tarif_kalory" name="tarif_kalory" type="hidden" value="empty">
+						<input class="how_much" name="how_much" type="hidden" value="empty">
+						<input class="how_much_day" name="how_much_day" type="hidden" value="empty">
 						<!-- end hidden -->
 
 					</div>
 					<div class="dd-but_online">
-						<a class="button-2 online-replace" name="modal" href="#log-in-5">Оформить онлайн</a>
+						<a class="button-2  online-replace" name="modal" href="#log-in-5">Оформить онлайн</a>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -240,15 +242,23 @@
 							</span>
 						</div>
 
-						<input class="dd-input dd-input_pop dd-pop_left_5" type="text" name="uname" placeholder="Москва" required>
-						<input class="dd-input dd-input_pop dd-pop_right_5" type="text" placeholder="Улица..." required>
+						<input class="dd-input dd-input_pop dd-pop_left_5" type="text" name="city" placeholder="Москва" required>
+						<input class="dd-input dd-input_pop dd-pop_right_5" type="text" name="ylica" placeholder="Улица..." required>
 						<div class="clearfix"></div>
 
-						<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" placeholder="Дом..." required>
-						<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" placeholder="Подъезд..." required>
-						<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" placeholder="Домофон..."required >
-						<input class="dd-input dd-input_pop dd-inp-small_2 mr_inp" type="text" placeholder="Этаж..." required>
-						<input class="dd-input dd-input_pop dd-inp-small " type="text" placeholder="Кв/Офис..." required>
+						<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" name="house" placeholder="Дом..." required>
+						<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" name="podezd" placeholder="Подъезд...">
+						<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" name="domofon" placeholder="Домофон...">
+						<input class="dd-input dd-input_pop dd-inp-small_2 mr_inp" type="text"  name="etaj"  placeholder="Этаж...">
+						<input class="dd-input dd-input_pop dd-inp-small " type="text" name="numberkv"  placeholder="Кв/Офис...">
+						
+						<!-- Hidden -->
+						<input class="tarif_name_hide" name="tarif" type="hidden" value="empty">
+						<input class="tarif_price" name="tarif_price" type="hidden" value="empty">
+						<input class="tarif_kalory" name="tarif_kalory" type="hidden" value="empty">
+						<input class="how_much" name="how_much" type="hidden" value="empty">
+						<input class="how_much_day" name="how_much_day" type="hidden" value="empty">
+						<!-- end hidden -->
 
 						<div class="clearfix"></div>
 					</div>
@@ -258,7 +268,7 @@
 					<div class="dd-select">
 
 						<label class="dd-select-box pt-label">
-							<input class="checkbox checkbox_2" type="checkbox" name="checkbox-test" checked>
+							<input class="checkbox checkbox_2" type="checkbox" name="checkbox2" value="Нужен пропуск на территорию" checked>
 							<span class="checkbox-custom checkbox-custom_2"></span>
 							<span class="dd-chek">Нужен пропуск на территорию</span>
 							<span class="label"></span>
@@ -271,10 +281,10 @@
 							</div>
 
 							<div  class="az-select floats">
-								<select name="" id="">
-									<option value="1">Вс</option>
-									<option value="2">Пн</option>
-									<option value="3">Ср</option>
+								<select name="whatday" id="">
+									<option value="Воскресенье">Вс</option>
+									<option value="Понедельник">Пн</option>
+									<option value="Среда">Ср</option>
 								</select>
 							</div>
 
@@ -288,20 +298,20 @@
 							</div>
 
 							<div  class="az-select az-select_2 floats">
-								<select name="" id="">
-									<option value="1">19:00</option>
-									<option value="2">19:15</option>
-									<option value="3">19:30</option>
-									<option value="3">19:45</option>
-									<option value="1">20:00</option>
-									<option value="2">20:15</option>
-									<option value="3">20:30</option>
-									<option value="3">21:45</option>
-									<option value="1">22:00</option>
-									<option value="2">22:15</option>
-									<option value="3">22:30</option>
-									<option value="3">22:45</option>
-									<option value="3">23:00</option>
+								<select name="timepackage" id="">
+									<option value="19:00">19:00</option>
+									<option value="19:15">19:15</option>
+									<option value="19:30">19:30</option>
+									<option value="19:45">19:45</option>
+									<option value="20:00">20:00</option>
+									<option value="20:15">20:15</option>
+									<option value="20:30">20:30</option>
+									<option value="21:45">21:45</option>
+									<option value="22:00">22:00</option>
+									<option value="22:15">22:15</option>
+									<option value="22:30">22:30</option>
+									<option value="22:45">22:45</option>
+									<option value="23:00">23:00</option>
 								</select>
 							</div>
 
@@ -749,6 +759,8 @@
 		$('.tarif_name_hide').val(tarif_name);
 		$('.tarif_price').val(price);
 		$('.tarif_kalory').val(kalory);
+		$('.how_much').val(much_1);
+		$('.how_much_day').val(much_2);
 	});
 
 
