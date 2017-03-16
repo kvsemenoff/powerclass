@@ -30,7 +30,7 @@
 							и твоё<br> <span>тело скажет «Cпасибо!»</span>
 						</p>
 						<p class="db-five1">
-							<a href="#how" class="button-1 db-podr1">Узнать подробнее</a><br>
+							<a href="#how" class="button-1 db-podr1 ripplelink">Узнать подробнее</a><br>
 							<a href="#tariff" class="db-tarif1">Выбрать тариф</a>
 						</p>
 					</div>
@@ -50,7 +50,7 @@
 		<div class=" container">
 			<div class="row">
 				<div class="col-md-6">
-					<p class="db-one"><img src="img/header_logo.png" alt="img">
+					<p class="db-one"><img src="img/header_logo2.png" alt="img">
 						<span>Здоровый рацион на неделю <br>
 							с доставкой на дом</span>
 							<div class="clearfix"></div>
@@ -58,7 +58,7 @@
 					</div>
 					<div class="col-md-6">
 						<p class="db-two">
-							<a href="#log-in-1" name="modal"><span class="ripplelink">+7 (495) 133 29 67</span></a><br>
+							<a href="#log-in-1" name="modal"><span>+7 (495) 133 29 67</span></a><br>
 							<a href="#log-in-1" name="modal" class="db-link-one">Заказать звонок</a><br>
 							<a href="#" target="_blank" class="db-link-two"><img src="img/header_vk.png" alt="img"></a>
 							<a href="#" target="_blank"><img src="img/header_insta.png" alt="img"></a>
@@ -73,7 +73,7 @@
 									и твоё <span>тело скажет «Cпасибо!»</span>
 								</p>
 								<p class="db-five">
-									<a href="#how" class="button-1 db-podr">Узнать подробнее</a><br>
+									<a href="#how" class="button-1 db-podr ripplelink">Узнать подробнее</a><br>
 									<a href="#tariff" class="db-tarif">Выбрать тариф</a>
 									<a href="#want" class="db-want"><img src="../img/header_price.png" alt="" class="db-price-five"></a>
 								</p>
