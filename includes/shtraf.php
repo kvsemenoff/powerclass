@@ -237,7 +237,7 @@
 											<input class="dd-input phone phonetosend" name="phone" type="text" value="" placeholder="Введите ваш телефон">		
 										</div>
 										<div class="input-block input-block--half">
-											<input class="button-1 dd-submit" type="submit" value="Заказать по телефону" placeholder="">
+											<input class="button-1 dd-submit ripplelink" type="submit" value="Заказать по телефону" placeholder="">
 										</div>
 
 
@@ -253,7 +253,7 @@
 											<!-- <span><input class="button-1 dd-submit" type="submit" value="Заказать онлайн" placeholder="" 
 											id="jsonline" ></span> -->
 
-											<button  class=" dd-submit" type="button" id="jsonline"> Заказать онлайн</button>
+											<button  class="ripplelink dd-submit ripplelink" type="button" id="jsonline"> Заказать онлайн</button>
 										</div>
 									</form>	
 								</div>
@@ -357,7 +357,7 @@
 											</div>
 										</div>
 										<div class="end__pay clearfix">
-											<input class="button-1 dd-submit" type="submit" value="Оплатить online" placeholder="">
+											<input class="button-1 dd-submit ripplelink" type="submit" value="Оплатить online" placeholder="">
 											<div class="img-wrap">
 												<img src="img/end-img.jpg" alt="">
 											</div>
@@ -462,7 +462,7 @@
 				<div class="input-wrap">
 					<input type="text" placeholder="Введите Ваш Телефон" class="phone phonetosendmob" name="phone" required >
 				</div>
-				<input class="button-1 dd-submit dd-submit-left" type="submit" value="Заказать по телефону">
+				<input class="button-1 dd-submit dd-submit-left ripplelink" type="submit" value="Заказать по телефону">
 
 				
 				<input type="hidden" name="kkalklient" class="jskkalklientmob"> 
@@ -473,7 +473,7 @@
 
 			<!-- <a href="#"><input class="button-1 dd-submit" id="jsnextmobwindow" type="submit" value="Заказать онлайн" placeholder=""></a> -->
 
-			<button  class="button-1 dd-submit" type="button" id="jsnextmobwindow"> Заказать онлайн</button>
+			<button  class="button-1 dd-submit ripplelink" type="button" id="jsnextmobwindow"> Заказать онлайн</button>
 
 			</form>
 		
@@ -545,7 +545,7 @@
 						</div>
 					</div>
 					<div class="end__pay clearfix">
-						<input class="button-1 dd-submit" type="submit" value="Оплатить online" placeholder="">
+						<input class="button-1 dd-submit ripplelink" type="submit" value="Оплатить online" placeholder="">
 						<div class="img-wrap">
 							<img src="img/order-variant.jpg" alt="">
 						</div>
