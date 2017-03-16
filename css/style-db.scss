@@ -8,11 +8,14 @@
 	font-family: 'Open Sans', sans-serif;
 	padding: 0px 0px 40px 0 !important;
 }
+.menu_block_up{
+	background: #000;
+	height: 40px;
+}
 .db-up_menu{
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #000;
 	padding: 10px 0;
 	width: 100%;
 	z-index: 1000;
@@ -152,24 +155,22 @@
 		display: none;
 	}
 	.section_header_top{
-		padding-top: 0px !important;
 		background: url("../img/header_top.jpg")no-repeat center center;
 		font-family: 'Open Sans', sans-serif;
-		padding-bottom: 110px !important;
+		padding-bottom: 85px !important;
 		display: block;
 		max-width: 2560px;
 		width: 100%;
 	}
+	.block_menu_down{
+		background-color: rgba(0, 0, 0, 0.31);
+
+	}
 	.db-menu{
-		position: absolute;
 		text-align: center;
-		top:0;
-		left: 0;
-		width: 100%;
 		text-transform: uppercase;
 		height: 50px;
 		padding: 10px 0;
-		background-color: rgba(0, 0, 0, 0.31);
 		li{
 			display: inline-block;
 			padding-left: 85px;
@@ -264,8 +265,8 @@
 			position: relative;
 			.db-price-five{
 				position: absolute;
-				top: 104px;
-				right: 42px;
+				top: 85px;
+				right: 41px;
 			}
 			.db-podr{
 				line-height: 73px !important;
@@ -299,7 +300,7 @@
 	}
 	.db-price-five{
 
-		right: 143px !important;
+		right: 141px !important;
 	}
 }
 

@@ -1,19 +1,28 @@
 <section class="section section_padding section_header_top1">
+	<div class="menu_block_up">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="db-up_menu">
+						<img src="../img/buter.png" alt="img" class="db-burger"> <span class="db-span-span-one">Меню</span><a href="#"><span class="db-span-span-two">+7 495 133 29 67</span></a>
+						<div class="clearfix"></div>
+						<ul class="db-up_menu_menu">
+							<li><a href="#calc">подобрать питание</a></li>
+							<li><a href="#delivery">доставка</a></li>
+							<li><a href="#tariff">тарифы</a></li>
+							<li><a href="#testimonials">отзывы</a></li>
+							<li><a href="#menu">меню</a></li>
+							<li><a href="#faq">вопросы и ответы</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="cleardix"></div>
+			</div>
+		</div>
+	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="db-up_menu">
-					<img src="../img/buter.png" alt="img" class="db-burger"> <span class="db-span-span-one">Меню</span><a href="#"><span class="db-span-span-two">+7 495 133 29 67</span></a>
-					<div class="clearfix"></div>
-					<ul class="db-up_menu_menu">
-						<li><a href="#calc">подобрать питание</a></li>
-						<li><a href="#delivery">доставка</a></li>
-						<li><a href="#tariff">тарифы</a></li>
-						<li><a href="#testimonials">отзывы</a></li>
-						<li><a href="#menu">меню</a></li>
-						<li><a href="#faq">вопросы и ответы</a></li>
-					</ul>
-				</div>
 				<div class="db-div-two1">
 					<p class="db-two1">
 						<img src="img/header_logo.png" alt="img">
@@ -38,20 +47,26 @@
 			</div>
 		</div>
 	</section>
-	<section class="section section_padding section_header_top">
+	<section class="section section_header_top">
+		<div class="block_menu_down">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="db-menu">
+							<li><a href="#calc">подобрать питание</a></li>
+							<li><a href="#delivery">доставка</a></li>
+							<li><a href="#tariff">тарифы</a></li>
+							<li><a href="#testimonials">отзывы</a></li>
+							<li><a href="#menu">меню</a></li>
+							<li><a href="#faq">вопросы и ответы</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>	
+		</div>
 		<div class=" container">
 			<div class="row">
-				<div class="col-md-12">
-					<ul class="db-menu">
-						<li><a href="#calc">подобрать питание</a></li>
-						<li><a href="#delivery">доставка</a></li>
-						<li><a href="#tariff">тарифы</a></li>
-						<li><a href="#testimonials">отзывы</a></li>
-						<li><a href="#menu">меню</a></li>
-						<li><a href="#faq">вопросы и ответы</a></li>
-					</ul>
-				</div>
-				<div class="clearfix"></div>
 				<div class="col-md-6">
 					<p class="db-one"><img src="img/header_logo2.png" alt="img">
 						<span>Здоровый рацион на неделю <br>
