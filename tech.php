@@ -1,7 +1,7 @@
 ﻿<?php require_once('includes/header.php'); ?>
 
 <br><br>		
-<a href="#" class="button-1 ripplelink">Узнать подробне <span class="ink"></span></a>	
+<a href="#" class="ripplelink">dawdawdnawoidaowdopi</span></a>	
 <br><br>	
 <h2>Пример заголовка</h2>
 <br><br>
@@ -101,16 +101,9 @@
 	</form>		
 </div>
 
-<?php require_once('includes/footer.php'); ?>
-
-	
-</body>
-</html>
 
 <script>
-	 /*
-            Анимация кнопки .ripplelink
-        */
+	alert(1);
  
         $('.ripplelink').each(function() {
             var $this = $(this);
@@ -140,3 +133,7 @@
             }, 3000)
         });
 </script>
+	
+</body>
+</html>
+
