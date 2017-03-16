@@ -30,8 +30,8 @@
 							и твоё<br> <span>тело скажет «Cпасибо!»</span>
 						</p>
 						<p class="db-five1">
-							<a href="#" class="button-1 db-podr1">Узнать подробнее</a><br>
-							<a href="#" class="db-tarif1">Выбрать тариф</a>
+							<a href="#how" class="button-1 db-podr1">Узнать подробнее</a><br>
+							<a href="#tariff" class="db-tarif1">Выбрать тариф</a>
 						</p>
 					</div>
 				</div>
@@ -75,7 +75,7 @@
 								<p class="db-five">
 									<a href="#how" class="button-1 db-podr">Узнать подробнее</a><br>
 									<a href="#tariff" class="db-tarif">Выбрать тариф</a>
-									<a href="#want"><img src="../img/header_price.png" alt="" class="db-price-five"></a>
+									<a href="#want" class="db-want"><img src="../img/header_price.png" alt="" class="db-price-five"></a>
 								</p>
 							</div>
 						</div>

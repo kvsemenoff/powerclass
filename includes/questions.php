@@ -110,7 +110,13 @@
 						<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
 						<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
 						<input class="button-1 dd-submit" type="submit" name="submit" value="оформить по телефону">
+
+						<!-- Hidden -->
 						<input class="tarif_name_hide" name="tarif" type="hidden" value="empty">
+						<input class="tarif_price" name="tarif_price" type="hidden" value="empty">
+						<input class="tarif_kalory" name="tarif_kalory" type="hidden" value="empty">
+						<!-- end hidden -->
+
 					</div>
 					<div class="dd-but_online">
 						<a class="button-2 online-replace" name="modal" href="#log-in-5">Оформить онлайн</a>
@@ -741,11 +747,41 @@
 		$('#log-in-2 .dd-bold-title_pop span .dd-kal').text(kalory);
 
 		$('.tarif_name_hide').val(tarif_name);
+		$('.tarif_price').val(price);
+		$('.tarif_kalory').val(kalory);
 	});
 
 
 </script>
+<script>
+	$('.ripplelink').each(function() {
+		var $this = $(this);
 
+		var ink, d, x, y;
+
+		setInterval(function() {
+			if($this.find(".ink").length === 0){
+				$this.prepend("<span class='ink'></span>");
+			}
+
+			ink = $this.find(".ink");
+			ink.removeClass("animate");
+
+			if(!ink.height() && !ink.width()){
+				d = Math.max($this.outerWidth(), $this.outerHeight());
+				ink.css({height: d, width: d});
+			}
+
+			x = Math.round(Math.random()*ink.width() - ink.width()/2);
+			y = Math.round(Math.random()*ink.height() - ink.height()/2);
+                // y = 0;
+                // x = e.pageX - $this.offset().left - ink.width()/2;
+                // y = e.pageY - $this.offset().top - ink.height()/2;
+
+                ink.css({top: y+'px', left: x+'px'}).addClass("animate");
+            }, 3000)
+	});
+</script>
 <script>
 	$('.checkbox-js').click(function(){
 		$('.dd-txt-radio-js').toggleClass('activeRed');

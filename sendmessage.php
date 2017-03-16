@@ -8,8 +8,11 @@ $checkbox_1 = $_POST['checkbox'];
 
 $kkalklient = $_POST['kkalklient'];
 $tarif = $_POST['tarif'];
+$tarif = $_POST['tarif'];
 $food = $_POST['food'];
 $days = $_POST['days'];
+$tarif_price = $_POST['tarif_price'];
+$tarif_calory = $_POST['tarif_kalory'];
 
 $city = $_POST['city'];
 $ylica = $_POST['ylica'];
@@ -37,6 +40,8 @@ $msg .= "<p><strong>Отмечен чекбокс:</strong> ".$checkbox_1."</p>\
 
 $msg .= "<p><strong>Каллории клиента:</strong> ".$kkalklient."</p>\r\n";
 $msg .= "<p><strong>Тариф:</strong> ".$tarif."</p>\r\n";
+$msg .= "<p><strong>Стоимость:</strong> ".$tarif_price."</p>\r\n";
+$msg .= "<p><strong>Кол-во калорий в выбранном тарифе:</strong> ".$tarif_calory."</p>\r\n";
 $msg .= "<p><strong>Еды в день:</strong> ".$food."</p>\r\n";
 $msg .= "<p><strong>Дней в неделю:</strong> ".$days."</p>\r\n";
 
