@@ -577,7 +577,15 @@
     max-width: 470px; } }
 @media only screen and (min-width: 768px) {
   .dfmenutxt {
-    width: 70%; } }
+    width: 70%; }
+
+  .dfbghow2 {
+    background-position: center 60%;
+    padding: 12% 0 12% 0 !important; }
+
+  .dfbghow3 {
+    background-position: center 60%;
+    padding: 12% 0 12% 0 !important; } }
 @media only screen and (min-width: 992px) {
   .dfbg1 {
     padding: 120px 0;
@@ -613,10 +621,14 @@
     background-image: url("../img/dfbg1.jpg"); }
 
   .dfbghow2 {
-    background-image: url("../img/dfbg2.jpg"); }
+    background-image: url("../img/dfbg2.jpg");
+    background-position: center center;
+    padding: 70px 0 50px 0 !important; }
 
   .dfbghow3 {
-    background-image: url("../img/dfbg3.jpg"); }
+    background-image: url("../img/dfbg3.jpg");
+    background-position: center center;
+    padding: 70px 0 50px 0 !important; }
 
   .dfcapbottom2 {
     margin-bottom: 50px; }
@@ -854,14 +866,6 @@
   .df3priem:hover {
     border: 2px solid #e53935;
     color: #e53935; }
-    .df3priem:hover .dfdots {
-      display: inline-block;
-      background-color: #e53935;
-      border: 1px solid  #e53935; }
-    .df3priem:hover .dfdots:last-child {
-      background-color: #fff; }
-    .df3priem:hover .dfdots:nth-child(2) {
-      background-color: #fff; }
 
   .df3priemactive {
     border: 2px solid #e53935;
@@ -898,9 +902,6 @@
   .df5priem:hover {
     border: 2px solid #e53935;
     color: #e53935; }
-    .df5priem:hover .dfdots {
-      background-color: #e53935;
-      border: 1px solid #e53935; }
 
   .df5priemactive {
     border: 2px solid #e53935;
