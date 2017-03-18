@@ -155,15 +155,16 @@
 
 @media only screen and (min-width : 992px) {
 	.db-tel:hover{
-	color:#ffe76a;
-}
+		color:#ffe76a;
+	}
 	.section_header_top1{
 		display: none;
 	}
 	.section_header_top{
-		background: url("../img/header_top.jpg")no-repeat center center;
+		background: url(../img/header_top.jpg) no-repeat top center;
+		background-size: cover;
 		font-family: 'Open Sans', sans-serif;
-		padding-bottom: 85px !important;
+		padding-bottom: 113px !important;
 		display: block;
 
 	}
