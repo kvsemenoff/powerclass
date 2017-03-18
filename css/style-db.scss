@@ -1,3 +1,6 @@
+.db-tel:hover{
+	color:#ffe76a !important;
+}
 .section_header_top{
 	display: none;
 }
@@ -151,6 +154,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.db-tel:hover{
+	color:#ffe76a;
+}
 	.section_header_top1{
 		display: none;
 	}
@@ -286,6 +292,11 @@
 				border: 2px solid white; 
 				margin-top: 30px;
 			}
+			.db-tarif:hover{
+				background:#262526 !important;
+				border: 2px solid #ffe76a;  
+			}
+
 		}
 		
 	}

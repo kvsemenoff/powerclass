@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="db-up_menu">
-						<img src="../img/buter.png" alt="img" class="db-burger"> <span class="db-span-span-one">Меню</span><a href="tel:+74951332967"<span class="db-span-span-two">+7 495 133 29 67</span></a>
+						<img src="../img/buter.png" alt="img" class="db-burger"> <span class="db-span-span-one">Меню</span><a href="tel:+74951332967"><span class="db-span-span-two db-tel">+7 495 133 29 67</span></a>
 						<div class="clearfix"></div>
 						<ul class="db-up_menu_menu">
 							<li><a href="#calc">подобрать питание</a></li>
@@ -76,7 +76,7 @@
 					</div>
 					<div class="col-md-6">
 						<p class="db-two">
-							<a href="#log-in-1" name="modal"><span>+7 (495) 133 29 67</span></a><br>
+							<a href="#log-in-1" name="modal"><span class="db-tel">+7 (495) 133 29 67</span></a><br>
 							<a href="#log-in-1" name="modal" class="db-link-one">Заказать звонок</a><br>
 							<a href="#" target="_blank" class="db-link-two"><img src="img/header_vk.png" alt="img"></a>
 							<a href="#" target="_blank"><img src="img/header_insta.png" alt="img"></a>
