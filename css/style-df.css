@@ -573,6 +573,22 @@
   color: black;
   text-align: center; }
 
+/*================hover on button*/
+.shtraf__btn--black {
+  -o-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s; }
+
+.shtraf__btn--black:hover {
+  color: #e53935;
+  border-color: #e53935; }
+  .shtraf__btn--black:hover span {
+    border-bottom-color: transparent; }
+
+.selectdisabled {
+  border: 2px solid #e53935 !important; }
+
 @media only screen and (min-width: 470px) {
   .dfweak {
     width: 15.67%; }

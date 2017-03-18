@@ -299,6 +299,7 @@
 		.btn-dots{
 			text-align: center;
 			margin-top: -12px;
+			padding-left: 15px;
 			i{
 				border-radius: 50%;
 				width: 9px;
@@ -487,7 +488,7 @@
 			font-weight: 400;
 			color: #222;
 			font-size: 14px;
-			padding: 0 10px 0 16px;
+			padding: 0 10px 3px 16px;
 		}
 		.input{
 			&--city{
@@ -588,7 +589,7 @@
 		background: #f4f4f4;
 	}
 	.input-mini.border-red{
-		border: 2px solid #e53935;
+		// border: 2px solid #e53935;
 		margin: 0 10px 10px;
 	}
 	.border-red{

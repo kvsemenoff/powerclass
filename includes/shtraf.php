@@ -21,7 +21,7 @@
 						<span class="descr">Выберите ваш пол</span>
 						<div class="btn-wrap">
 							<button class="shtraf__btn shtraf__btn--black" pol="5"><span>Мужской</span></button>
-							<button class="shtraf__btn shtraf__btn--red" pol="161">Женский</button>
+							<button class="shtraf__btn shtraf__btn--black" pol="161"><span>Женский</span></button>
 						</div>
 						<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
 					</div>
@@ -48,7 +48,7 @@
 						<span class="descr">Выберите вашу цель</span>
 						<div class="btn-wrap">
 							<button class="shtraf__btn shtraf__btn--black"><span>Сбросить вес</span></button>
-							<button class="shtraf__btn shtraf__btn--red">Поддержать форму</button>
+							<button class="shtraf__btn shtraf__btn--black"><span>Поддержать форму</span></button>
 							<button class="shtraf__btn shtraf__btn--black"><span>Набрать массу</span></button>
 						</div>
 						<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
@@ -59,7 +59,7 @@
 	</div>
 	<div class="shtraf-item" id="jstarif3">
 		<div class="top-line clearfix">
-			<div class="nav active"><a href="#">шаг 1</a></div>
+			<div class="nav active"><span>шаг 1</span></div>
 			<div class="nav active"><a href="#">< <i>назад к шагу 2</i></a></div>
 			<div class="nav active"><span>шаг 3</span></div>
 			<div class="nav"><span>шаг 4</span></div>
@@ -77,15 +77,15 @@
 						<div class="btn-wrap">
 							<div class="input-wrap">
 								<span>Возраст:</span>
-								<input type="number" placeholder="25"  min="12" max="99" class="input-number" id="jsage" style="width:88px">
+								<input type="number" value="25"  min="12" max="99" class="input-number" id="jsage" style="width:88px">
 							</div>
 							<div class="input-wrap">
 								<span>Рост:</span>
-								<input type="number" placeholder="175" min="50" max="300" class="input-number" style="width:88px" id="jsrost">
+								<input type="number" value="175" min="50" max="300" class="input-number" style="width:88px" id="jsrost">
 							</div>
 							<div class="input-wrap">
 								<span>Вес:</span>
-								<input type="number" placeholder="75" min="30" max="300" class="input-number" style="width:88px" id="jsmass">
+								<input type="number" value="75" min="30" max="300" class="input-number" style="width:88px" id="jsmass">
 							</div>
 							<button class="shtraf__btn shtraf__btn--black shtraf__btn--next">Далее</button>
 						</div>
@@ -97,8 +97,8 @@
 	</div>
 	<div class="shtraf-item" id="jstarif4">
 		<div class="top-line clearfix">
-			<div class="nav active"><a href="#">шаг 1</a></div>
-			<div class="nav active"><a href="#">шаг 2</a></div>
+			<div class="nav active"><span>шаг 1</span></div>
+			<div class="nav active"><span>шаг 2</span></div>
 			<div class="nav active"><a href="#">< <i>назад к шагу 3</i></a></div>
 			<div class="nav active"><span>шаг 4</span></div>
 			<div class="nav"><span>шаг 5</span></div>
@@ -115,7 +115,7 @@
 						<div class="btn-wrap">
 							<button activity="1.2" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Не занимаюсь спортом</span><i>сидячий образ</i></button>
 							<button activity="1.375" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Легкая активность</span><i>аэробные нагрузки 1-3 р/нед</i></button>
-							<button activity="1.55" class="shtraf__btn shtraf__btn--red shtraf__btn--big">Повышенная активность<i>интенсивные тренировки 3-5 р/нед</i></button>
+							<button activity="1.55" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Повышенная активность</span><i>интенсивные тренировки 3-5 р/нед</i></button>
 							<button activity="1.725" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Высокая активность</span><i>тяжелые тренировки 6-7 р/нед</i></button>
 							<button activity="1.9" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Экстремальная активность</span><i>тяжелые тренировки 2 раза в день</i></button>
 						</div>
@@ -127,9 +127,9 @@
 	</div>
 	<div class="shtraf-item" id="jstarif5">
 		<div class="top-line clearfix">
-			<div class="nav active"><a href="#">шаг 1</a></div>
-			<div class="nav active"><a href="#">шаг 2</a></div>
-			<div class="nav active"><a href="#">шаг 3</a></div>
+			<div class="nav active"><span>шаг 1</span></div>
+			<div class="nav active"><span>шаг 2</span></div>
+			<div class="nav active"><span>шаг 3</span></div>
 			<div class="nav active"><a href="#">< <i>назад к шагу 4</i></a></div>
 			<div class="nav active"><span>шаг 5</span></div>
 			<div class="nav"><span>шаг 6</span></div>
@@ -144,7 +144,8 @@
 						<span class="descr">Здоровое питание состоит из 5 приемов пищи в день. <br>Выберите свой распорядок.</span>
 						<div class="btn-wrap">
 							<div class="half">
-								<button id="jsfood3"  class="shtraf__btn shtraf__btn--red  shtraf__btn--eat" myfood="3">Готовлю завтрак и ужин самостоятельно<i>рассчитайте мне <b>3 приема</b> пищи, чтобы брать с собой</i></button>
+								<button id="jsfood3"  class="shtraf__btn  shtraf__btn--black shtraf__btn--eat" myfood="3">
+								<span>Готовлю завтрак и ужин самостоятельно</span><i>рассчитайте мне <b>3 приема</b> пищи, чтобы брать с собой</i></button>
 								<div class="btn-dots"><i class="empty"></i><i></i><i></i><i></i><i class="empty"></i></div>
 							</div>
 							<div class="half">
@@ -160,10 +161,10 @@
 	</div>
 	<div class="shtraf-item" id="jstarif6">
 		<div class="top-line clearfix">
-			<div class="nav active"><a href="#">шаг 1</a></div>
-			<div class="nav active"><a href="#">шаг 2</a></div>
-			<div class="nav active"><a href="#">шаг 3</a></div>
-			<div class="nav active"><a href="#">шаг 4</a></div>
+			<div class="nav active"><span>шаг 1</span></div>
+			<div class="nav active"><span>шаг 2</span></div>
+			<div class="nav active"><span>шаг 3</span></div>
+			<div class="nav active"><span>шаг 4</span></div>
 			<div class="nav active"><a href="#">< <i>назад к шагу 5</i></a></div>
 			<div class="nav active"><span>шаг 6</span></div>
 			<div class="nav"><span>шаг 7</span></div>
@@ -178,11 +179,27 @@
 						<div class="btn-wrap btn-wrap-mini">
 							<div class="half">
 								<button class="shtraf__btn shtraf__btn--black shtraf__btn--next" id="jsdays7" days="7"><span>Да</span></button>
-								<div class="btn-dots"><i></i><i></i><i></i><i></i><i></i></div>
+								<div class="btn-dots">
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+								</div>
 							</div>
 							<div class="half">
 								<button id="jsdays5" days="5" class="shtraf__btn shtraf__btn--black shtraf__btn--next"><span>Нет</span></button>
-								<div class="btn-dots"><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+								<div class="btn-dots">
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i></i>
+									<i class="empty"></i>
+									<i class="empty"></i>
+								</div>
 							</div>
 						</div>
 						<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
@@ -193,11 +210,11 @@
 	</div>
 	<div class="shtraf-item" id="jstarif7">
 		<div class="top-line clearfix">
-			<div class="nav active"><a href="#">шаг 1</a></div>
-			<div class="nav active"><a href="#">шаг 2</a></div>
-			<div class="nav active"><a href="#">шаг 3</a></div>
-			<div class="nav active"><a href="#">шаг 4</a></div>
-			<div class="nav active"><a href="#">шаг 5</a></div>
+			<div class="nav active"><span>шаг 1</span></div>
+			<div class="nav active"><span>шаг 2</span></div>
+			<div class="nav active"><span>шаг 3</span></div>
+			<div class="nav active"><span>шаг 4</span></div>
+			<div class="nav active"><span>шаг 5</span></div>
 			<div class="nav active"><a href="#">< <i>назад к шагу 6</i></a></div>
 			<div class="nav active"><span>шаг 7</span></div>
 		</div>
@@ -250,8 +267,7 @@
 
 									
 										<div class="input-block input-block--half">
-											<!-- <span><input class="button-1 dd-submit" type="submit" value="Заказать онлайн" placeholder="" 
-											id="jsonline" ></span> -->
+									
 
 											<button  class="ripplelink dd-submit ripplelink" type="button" id="jsonline"> Заказать онлайн</button>
 										</div>
@@ -267,11 +283,11 @@
 	</div>
 	<div class="shtraf-item" id="jstarif8">
 		<div class="top-line clearfix">
-			<div class="nav active"><a href="#">шаг 1</a></div>
-			<div class="nav active"><a href="#">шаг 2</a></div>
-			<div class="nav active"><a href="#">шаг 3</a></div>
-			<div class="nav active"><a href="#">шаг 4</a></div>
-			<div class="nav active"><a href="#">шаг 5</a></div>
+			<div class="nav active"><span>шаг 1</span></div>
+			<div class="nav active"><span>шаг 2</span></div>
+			<div class="nav active"><span>шаг 3</span></div>
+			<div class="nav active"><span>шаг 4</span></div>
+			<div class="nav active"><span>шаг 5</span></div>
 			<div class="nav active"><a href="#">< <i>назад к шагу 6</i></a></div>
 			<div class="nav active"><span>шаг 7</span></div>
 		</div>
@@ -321,7 +337,7 @@
 
 										<input type="hidden" name="uname" class="jsunameonline"> 
 										<input type="hidden" name="phone" class="jsphoneonline"> 
-<!-- phoneonline -->
+
 										<input type="hidden" name="kkalklient" class="jskkalklient"> 
 										<input type="hidden" name="tarif" class="jsnametarif"> 
 										<input type="hidden" name="food" class="jsklientfood"> 
@@ -340,13 +356,27 @@
 											<div class="choose">
 												<span>Время:</span>
 												<select>
+												  <option>19:00</option>
+												  <option>19:15</option>
+												  <option>19:30</option>
+												  <option>19:45</option>
+												  <option>20:00</option>
+												  <option>20:15</option>
+												  <option>20:30</option>
+												  <option>20:45</option>
+												  <option>21:00</option>
+												  <option>21:15</option>
 												  <option>21:30</option>
+												  <option>21:45</option>
+												  <option>22:00</option>
+												  <option>22:15</option>
 												  <option>22:30</option>
-												  <option>24:40</option>
+												  <option>22:45</option>
+												  <option>23:00</option>				 
 												</select>
 											</div>
 											<div class="about">
-												<a href="#">
+												<a >
 													<span class="about-in">О доставке
 														<div class="has-tooltip">
 															<p>Доставка осуществляется после Вашей оплаты заказа, по согласовыванию с Вами</p>
@@ -374,6 +404,16 @@
 	</div>
 
 
+
+
+
+
+
+
+
+
+
+
 <!-- =====================mobileversion========================= -->
 
 	<div class="shtraf-mini jsmob" id="jsmobversion">
@@ -381,16 +421,16 @@
 					<h2>Рассчитайте ваш персональный тариф</h2>
 					<div class="form-wrap">
 						<form action="#">
-							<div class="select-wrap border-red">
+							<div class="select-wrap jscheked">
 								<select class="jsselected1">
-									<option disabled>Выберите ваш пол</option>
+									<option selected="true" disabled="disabled">Выберите ваш пол</option>
 									<option polmob="5">Мужской</option>
 									<option polmob="161">Женский</option>
 								</select>
 							</div>
-							<div class="select-wrap">
+							<div class="select-wrap jscheked">
 								<select >
-									<option disabled>Выберите вашу цель</option>
+									<option selected="true" disabled="disabled">Выберите вашу цель</option>
 									<option>Сбросить вес</option>
 									<option>Поддержать форму</option>
 									<option>Набрать массу</option>
@@ -398,12 +438,14 @@
 							</div>
 							<div class="select-wrap clearfix">
 								<input type="number" value="" min="12" max="99" class="input-mini" placeholder="25" id="agemob">
+
 								<input type="number" value="" min="50" max="300" class="input-mini border-red" placeholder="175" id="rostmob">
+
 								<input type="number" value="" min="30" max="300" class="input-mini" placeholder="75" id="massmob">
 							</div>
-							<div class="select-wrap">
+							<div class="select-wrap jscheked">
 								<select class="jsselected2">
-									<option disabled>Уровень активности</option>
+									<option selected="true" disabled="disabled">Уровень активности</option>
 									<option activitymob="1.2">Не занимаюсь спортом</option>
 									<option activitymob="1.375">Легкая активность</option>
 									<option activitymob="1.55">Повышенная активность</option>
@@ -412,21 +454,21 @@
 								</select>
 								
 							</div>
-							<div class="select-wrap">
+							<div class="select-wrap jscheked">
 								<select class="jsselected3">
-									<option disabled>Выберите свой распорядок дня</option>
+									<option selected="true" disabled="disabled">Выберите свой распорядок дня</option>
 									<option myfoodmob="3">Готовлю самостоятельно</option>
 									<option myfoodmob="5">Не хочу готовить</option>
 								</select>
 							</div>
-							<div class="select-wrap">
+							<div class="select-wrap jscheked">
 								<select class="jsselected4">
-									<option disabled>Питание на выходных (Сб, Вс)?</option>
+									<option selected="true" disabled="disabled">Питание на выходных (Сб, Вс)?</option>
 									<option daysmob="7">Да</option>
 									<option daysmob="5">Нет</option>
 								</select>
 							</div>
-							<input class="button-1 dd-submit" id="jsrasschitat" type="submit" value="Рассчитать тариф">
+							<input class="ripplelink button-1 dd-submit " id="jsrasschitat" type="submit" value="Рассчитать тариф">
 							<a href="#log-in-7" name="modal" class="link">Полный прайс-лист</a>
 						</form>		
 					</div>
@@ -525,7 +567,19 @@
 					<input type="hidden" name="days" class="jsklientdaysmob"> 
 
 
-					<span class="about-in">О доставке</span>
+					<!-- <span class="about-in">О доставке</span> -->
+					<div class="about">
+						<a >
+							<span class="about-in">О доставке
+								<div class="has-tooltip">
+									<p>Доставка осуществляется после Вашей оплаты заказа, по согласовыванию с Вами</p>
+									<p>После оформления заказа с Вами обязательно свяжется оператор и уточнит более подробно условия доставки. В день доставки с Вами свяжется курьер и сообщит о точном времени приезда. Если у Вас нет возможности принять заказ в ранее оговоренное время, просьба сообщить об этом</p>
+								</div>
+							</span>
+						</a>
+					</div>
+			
+
 					<div class="choose-wrap clearfix">
 						<div class="choose">
 							<span>День 1-й доставки:</span>
@@ -538,9 +592,23 @@
 						<div class="choose">
 							<span>Время:</span>
 							<select>
+							  <option>19:00</option>
+							  <option>19:15</option>
+							  <option>19:30</option>
+							  <option>19:45</option>
+							  <option>20:00</option>
+							  <option>20:15</option>
+							  <option>20:30</option>
+							  <option>20:45</option>
+							  <option>21:00</option>
+							  <option>21:15</option>
 							  <option>21:30</option>
+							  <option>21:45</option>
+							  <option>22:00</option>
+							  <option>22:15</option>
 							  <option>22:30</option>
-							  <option>24:40</option>
+							  <option>22:45</option>
+							  <option>23:00</option>	
 							</select>
 						</div>
 					</div>

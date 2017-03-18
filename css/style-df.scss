@@ -706,6 +706,53 @@
     text-align: center;
     
 }
+
+
+
+
+
+
+/*================hover on button*/
+.shtraf__btn--black{
+	-o-transition:0.4s;
+	-moz-transition:0.4s;
+	-webkit-transition:0.4s;
+	transition:0.4s;
+}
+.shtraf__btn--black:hover{
+	color: #e53935;
+	border-color: #e53935;
+	span{
+		border-bottom-color: transparent;
+	}
+}
+// .select-wrap select{
+// 	-o-transition:0.4s;
+// 	-moz-transition:0.4s;
+// 	-webkit-transition:0.4s;
+// 	transition:0.4s;
+// }
+// .select-wrap{
+// 	select:hover{
+// 		border-color: #e53935;
+// 	}
+// }
+// .input-mini{
+// 	-o-transition:0.4s;
+// 	-moz-transition:0.4s;
+// 	-webkit-transition:0.4s;
+// 	transition:0.4s;
+// }
+// .input-mini:hover{
+// 	border-color:  #e53935;
+// }
+.selectdisabled{
+	// border-color: #e53935;
+	border: 2px solid #e53935 !important;
+}
+
+
+
 @media only screen and (min-width : 320px) {
 }
 

@@ -23,8 +23,8 @@ $(document).ready(function(){
 
         $('.dftabtop').hide();
         var tab = $(this).attr('href');
-        $('.dftabtop').not(tab).hide(20);
-        $(tab).show(10);
+        $('.dftabtop').not(tab).slideUp(200);
+        $(tab).slideDown(300);
 
        
       if ($('#jsfit').css('display')==='block') { 	    
