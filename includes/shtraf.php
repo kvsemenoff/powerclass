@@ -423,49 +423,49 @@
 						<form action="#">
 							<div class="select-wrap jscheked">
 								<select class="jsselected1">
-									<option selected="true" disabled="disabled">Выберите ваш пол</option>
+									<option selected="true" disabled="disabled" class="f1">Выберите ваш пол</option>
 									<option polmob="5">Мужской</option>
 									<option polmob="161">Женский</option>
 								</select>
 							</div>
 							<div class="select-wrap jscheked">
 								<select >
-									<option selected="true" disabled="disabled">Выберите вашу цель</option>
+									<option selected="true" disabled="disabled" class="f1">Выберите вашу цель</option>
 									<option>Сбросить вес</option>
 									<option>Поддержать форму</option>
 									<option>Набрать массу</option>
 								</select>
 							</div>
 							<div class="select-wrap clearfix">
-								<input type="number" value="" min="12" max="99" class="input-mini" placeholder="25" id="agemob">
+								<input type="number" value="" min="12" max="99" class="input-mini" placeholder="Возраст" id="agemob">
 
-								<input type="number" value="" min="50" max="300" class="input-mini border-red" placeholder="175" id="rostmob">
+								<input type="number" value="" min="50" max="300" class="input-mini border-red" placeholder="Рост" id="rostmob">
 
-								<input type="number" value="" min="30" max="300" class="input-mini" placeholder="75" id="massmob">
+								<input type="number" value="" min="30" max="300" class="input-mini" placeholder="Вес" id="massmob">
 							</div>
 							<div class="select-wrap jscheked">
 								<select class="jsselected2">
-									<option selected="true" disabled="disabled">Уровень активности</option>
+									<option selected="true" disabled="disabled" class="f1">Уровень активности</option>
 									<option activitymob="1.2">Не занимаюсь спортом</option>
 									<option activitymob="1.375">Легкая активность</option>
 									<option activitymob="1.55">Повышенная активность</option>
-									<option activitymob="1.725">Высокая оактивность</option>
+									<option activitymob="1.725">Высокая активность</option>
 									<option activitymob="1.9">Экстремальная активность</option>
 								</select>
 								
 							</div>
 							<div class="select-wrap jscheked">
 								<select class="jsselected3">
-									<option selected="true" disabled="disabled">Выберите свой распорядок дня</option>
-									<option myfoodmob="3">Готовлю самостоятельно</option>
-									<option myfoodmob="5">Не хочу готовить</option>
+									<option selected="true" disabled="disabled" class="f1">Выберите свой распорядок дня</option>
+									<option myfoodmob="3">Иногда есть время готовить</option>
+									<option myfoodmob="5">Совсем не успеваю готовить</option>
 								</select>
 							</div>
 							<div class="select-wrap jscheked">
 								<select class="jsselected4">
-									<option selected="true" disabled="disabled">Питание на выходных (Сб, Вс)?</option>
-									<option daysmob="7">Да</option>
-									<option daysmob="5">Нет</option>
+									<option selected="true" disabled="disabled" class="f1">Питание на выходных (Сб, Вс)?</option>
+									<option daysmob="7">Буду заказывать на всю неделю</option>
+									<option daysmob="5">Не буду заказывать</option>
 								</select>
 							</div>
 							<input class="ripplelink button-1 dd-submit " id="jsrasschitat" type="submit" value="Рассчитать тариф">
@@ -478,7 +478,7 @@
 
 	<div class="form-order jsmob" id="jsmobversion2">
 		
-			<span class="title">Рассчитайте ваш персональный тариф</span>
+		
 			<span class="subtitle">Ваша дневная норма: <i>3 472</i>ккал/день</span>
 			<div class="info clearfix">
 				<div class="half">

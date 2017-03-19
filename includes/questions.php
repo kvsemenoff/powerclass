@@ -240,7 +240,7 @@
 							</span>
 						</div>
 
-						<input class="dd-input dd-input_pop dd-pop_left_5" type="text" name="uname" placeholder="Москва" required>
+						<input class="dd-input dd-input_pop dd-pop_left_5" type="text" name="uname" value="Москва" required>
 						<input class="dd-input dd-input_pop dd-pop_right_5" type="text" placeholder="Улица..." required>
 						<div class="clearfix"></div>
 

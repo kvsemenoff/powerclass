@@ -207,7 +207,7 @@
 										<span><b>760</b> руб. в день</span>
 									</div>
 									<div class="block dd-kalory">
-										<span><b>840</b> ккал/день</span>
+										<span><b>1 020</b> ккал/день</span>
 									</div>
 									<div class="block block_much_1">
 										<span><b>3</b> – разовое питание</span>
@@ -230,7 +230,7 @@
 										<span><b>940</b> руб. в день</span>
 									</div>
 									<div class="block dd-kalory">
-										<span><b>1 400</b> ккал/день</span>
+										<span><b>1 700</b> ккал/день</span>
 									</div>
 									<div class="block block_much_1">
 										<span><b>5</b> – разовое питание</span>
@@ -253,7 +253,7 @@
 										<span><b>757</b> руб. в день</span>
 									</div>
 									<div class="block dd-kalory">
-										<span><b>840</b> ккал/день</span>
+										<span><b>1 020</b> ккал/день</span>
 									</div>
 									<div class="block block_much_1">
 										<span><b>3</b> – разовое питание</span>
@@ -276,7 +276,7 @@
 										<span><b>943</b> руб. в день</span>
 									</div>
 									<div class="block dd-kalory">
-										<span><b>1 400</b> ккал/день</span>
+										<span><b>1 700</b> ккал/день</span>
 									</div>
 									<div class="block block_much_1">
 										<span><b>5</b> – разовое питание</span>
@@ -375,7 +375,7 @@
 										<span><b>920</b> руб. в день</span>
 									</div>
 									<div class="block dd-kalory">
-										<span><b>840</b> ккал/день</span>
+										<span><b>1 500</b> ккал/день</span>
 									</div>
 									<div class="block block_much_1">
 										<span><b>3</b> – разовое питание</span>
@@ -398,7 +398,7 @@
 										<span><b>1 170</b> руб. в день</span>
 									</div>
 									<div class="block dd-kalory">
-										<span><b>1 400</b> ккал/день</span>
+										<span><b>2 500</b> ккал/день</span>
 									</div>
 									<div class="block block_much_1">
 										<span><b>5</b> – разовое питание</span>
@@ -421,7 +421,7 @@
 										<span><b>915</b> руб. в день</span>
 									</div>
 									<div class="block dd-kalory">
-										<span><b>840</b> ккал/день</span>
+										<span><b>1 500</b> ккал/день</span>
 									</div>
 									<div class="block block_much_1">
 										<span><b>3</b> – разовое питание</span>
@@ -444,7 +444,7 @@
 										<span><b>1 172</b> руб. в день</span>
 									</div>
 									<div class="block dd-kalory">
-										<span><b>1 400</b> ккал/день</span>
+										<span><b>2 500</b> ккал/день</span>
 									</div>
 									<div class="block block_much_1">
 										<span><b>5</b> – разовое питание</span>
@@ -543,7 +543,7 @@
 										<span><b>1 130</b> руб. в день</span>
 									</div>
 									<div class="block dd-kalory">
-										<span><b>840</b> ккал/день</span>
+										<span><b>2 100</b> ккал/день</span>
 									</div>
 									<div class="block block_much_1">
 										<span><b>3</b> – разовое питание</span>
@@ -566,7 +566,7 @@
 										<span><b>1 480</b> руб. в день</span>
 									</div>
 									<div class="block dd-kalory">
-										<span><b>1 400</b> ккал/день</span>
+										<span><b>3 500</b> ккал/день</span>
 									</div>
 									<div class="block block_much_1">
 										<span><b>5</b> – разовое питание</span>
@@ -585,11 +585,11 @@
 							<div class="col-md-3">
 								<div class="inner">
 									<div class="price block">
-										<span><i>9 910</i> руб.</span>
+										<span><i>7 910</i> руб.</span>
 										<span><b>1 130</b> руб. в день</span>
 									</div>
 									<div class="block dd-kalory">
-										<span><b>840</b> ккал/день</span>
+										<span><b>2 100</b> ккал/день</span>
 									</div>
 									<div class="block block_much_1">
 										<span><b>3</b> – разовое питание</span>
@@ -612,7 +612,7 @@
 										<span><b>1 472</b> руб. в день</span>
 									</div>
 									<div class="block dd-kalory">
-										<span><b>1 400</b> ккал/день</span>
+										<span><b>3 500</b> ккал/день</span>
 									</div>
 									<div class="block block_much_1">
 										<span><b>5</b> – разовое питание</span>

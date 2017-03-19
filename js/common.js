@@ -100,8 +100,14 @@ $(document).ready(function(){
     $('.tabs-content > .active').css('display','block');
     };
 });
+$('#tb3 span').click();
 
-
+     $('.individual').on('click', function(evt5){
+            evt5.preventDefault();  
+            $('html, body').animate({
+                scrollTop: $(".shtraf").offset().top - 0
+            }, 500);
+      });
 
  });
 

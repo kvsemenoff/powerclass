@@ -266,8 +266,9 @@
 
 .dfcallory {
   text-align: center;
-  max-width: 410px;
-  margin: 0 auto; }
+  max-width: 405px;
+  margin: 0 auto;
+  padding-left: 1%; }
 
 .dfcaloryesbox, .dfcaloryesbox2 {
   width: 22%;
@@ -298,6 +299,10 @@
     font-weight: 300;
     line-height: 8px; }
 
+.dfcaloryesbox2 {
+  float: left;
+  margin-right: 3%; }
+
 .dfborder:hover {
   border: 2px solid #e53935; }
   .dfborder:hover a {
@@ -319,7 +324,7 @@
 
 .df3or5 {
   text-align: center;
-  padding: 15px 0 17px 0;
+  padding: 15px 0 17px 10px;
   max-width: 425px;
   margin: 0 auto; }
   .df3or5 .df3 {
@@ -331,7 +336,8 @@
     width: 48%;
     background-color: #ededed;
     padding: 9px 0;
-    transition: 0.4s; }
+    transition: 0.4s;
+    float: left; }
   .df3or5 .df5 {
     color: #212121;
     font-size: 12px;
@@ -341,7 +347,8 @@
     width: 48%;
     background-color: #ededed;
     padding: 9px 0;
-    transition: 0.4s; }
+    transition: 0.4s;
+    float: left; }
   .df3or5 a:hover {
     background-color: #e53935;
     color: #fff; }
@@ -371,11 +378,12 @@
   border-radius: 3px;
   transition: 0.4s;
   padding: 3px 0;
-  width: 13.7%; }
+  width: 8%;
+  float: left;
+  margin-right: 7%; }
   .dfweak a {
     display: inline-block;
     color: #212121;
-    width: 38px;
     font-size: 18px;
     font-weight: 300;
     line-height: 18px;
@@ -386,10 +394,9 @@
     padding: 4px 6px;
     border-radius: 3px; }
 
-.dfweaks ul .dfweak:first-child {
-  width: auto; }
-.dfweaks ul .dfweak:last-child {
-  width: auto; }
+.dfweaks ul .dfweak:nth-child(7) {
+  width: auto;
+  margin-right: 0; }
 
 .dfblockmenu {
   padding: 17px 0 0px 0; }
@@ -419,7 +426,7 @@
   vertical-align: top;
   float: left;
   display: inline-block;
-  width: 62%;
+  width: 60%;
   height: 109px;
   padding: 9px 5px 9px 12px;
   position: relative; }
@@ -512,7 +519,7 @@
 .df-fit-block, .df-fitplus-block, .df-sport-block, .df-sportplus-block {
   display: none; }
 
-.dftabtop .dfmenuproducts {
+.dfmenuproducts {
   display: none; }
 
 .dftabmob, .dfblockmenu {
@@ -541,7 +548,7 @@
   display: none; }
 
 .disabledinputjs {
-  border: 1px solid red !important; }
+  border: 2px solid #e53935 !important; }
 
 #jsmobversion {
   display: block; }
@@ -590,12 +597,6 @@
   border: 2px solid #e53935 !important; }
 
 @media only screen and (min-width: 470px) {
-  .dfweak {
-    width: 15.67%; }
-
-  .dfcaloryesbox, .dfcaloryesbox2 {
-    width: 23%; }
-
   .dfcallory {
     max-width: 480px; }
 
@@ -607,7 +608,7 @@
     text-align: left; }
 
   .dfmenubox1, .dfitogo {
-    max-width: 470px; } }
+    max-width: 460px; } }
 @media only screen and (min-width: 768px) {
   .dfmenutxt {
     width: 70%; }

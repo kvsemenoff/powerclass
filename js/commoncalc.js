@@ -287,44 +287,20 @@ $('.nav a i').on("click", function(e){
 	
 
 	
-// var optionSelected = false;
-// 		$( '.jscheked option' ).each( function( i, el ) {
-// 		    var optionHTMLStr = el.outerHTML;
 
-// 		    if ( optionHTMLStr.indexOf( 'selected' ) > 0 ) {
-// 		        optionSelected = true;
-// 		        // return false;
-// 		        alert(1);	
-// 			$('.select-wrap select').addClass('selectdisabled');
-// 		}else{
-// 				// alert(2);
-// 				// $('.select-wrap select').removeClass('selectdisabled');
-// 			}	
-// 		});
 
 		
-	$('#jsrasschitat').hide();		
+	$('#jsrasschitat').attr('disabled', 'disabled');
+	$('.jscheked select').addClass('selectdisabled');	
 
 	$('.jscheked select').on('change', function() {
-
-		$('.jscheked select option:selected').each(function(index, el) {
-
-			// if ($(el).attr('disabled')==='disabled'){
-			if ($(el).attr('disabled')==='disabled'){
-				
-				$('.jscheked select').addClass('selectdisabled');	
-			
-				console.log($(el).attr('disabled'));
-				return false;
-			}	
-			else {				
-				$('#jsrasschitat').show();	
-				return true;					
-			}				
-
-		});	
+		$('.jscheked select').addClass('selectdisabled');	
+		if (!$('.f1').is(':selected')){				
+				$('.jscheked select').removeClass('selectdisabled');	
+			$('#jsrasschitat').removeAttr('disabled');	
+						
+		}				
 	});	
-
 
 
 
@@ -346,7 +322,10 @@ $('.nav a i').on("click", function(e){
 
 
 		
-				
+
+
+
+		
 
 			
 

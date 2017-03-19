@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){
-	$('.dfmenuproducts').hide();
+	$('.dfmenuproducts').css('display', 'none');
 
 
     $('.dfcaloryesbox a').on('click', function(e) {
@@ -21,10 +21,10 @@ $(document).ready(function(){
 
         }
 
-        $('.dftabtop').hide();
+        $('.dftabtop').css('display', 'none');
         var tab = $(this).attr('href');
-        $('.dftabtop').not(tab).slideUp(200);
-        $(tab).slideDown(300);
+        $('.dftabtop').css('display', 'none');
+        $(tab).css('display', 'block');
 
        
       if ($('#jsfit').css('display')==='block') { 	    
@@ -204,7 +204,9 @@ $(document).ready(function(){
     	evt1.preventDefault();    	 
     	
     	 if ($('.first a').hasClass('jsweakactive')) {
-    	 		return false;
+    	 		// return false;
+                $('.first a').removeClass('jsweakactive');
+                 $('.last a').addClass('jsweakactive');
     	 }else{
     	 	$(this).next('ul')
     	 		.find('.jsweakactive')
@@ -222,7 +224,9 @@ $(document).ready(function(){
     	evt2.preventDefault();     		
 
     	 if ($('.last a').hasClass('jsweakactive')) {
-    	 		return false;
+    	 		// return false;
+            $('.last a').removeClass('jsweakactive');
+            $('.first a').addClass('jsweakactive');
     	 }else{
     	 	 $(this).prev('ul')
     	 		.find('.jsweakactive')
@@ -244,8 +248,8 @@ $(document).ready(function(){
     	var attrlink2 = $(this);
     	var attrlink = $(this).attr('href');
   
-        $('.dfmenuproducts').not(attrlink).hide(20);
-        $(attrlink).show(10);
+        $('.dfmenuproducts').not(attrlink).css('display', 'none');
+        $(attrlink).css('display','block');
 
     });
      $('.jsweakactive').click();
@@ -304,8 +308,8 @@ $(document).ready(function(){
 
         $('.dftabmob').hide();
         var tab = $(this).attr('href');
-        $('.dftabmob').not(tab).hide(20);
-        $(tab).show(10);
+        $('.dftabmob').not(tab).css('display', 'none');
+        $(tab).css('display', 'block');
 
        
       	if ($('#js-fitmob').css('display')==='block') { 	    
@@ -365,7 +369,7 @@ $(document).ready(function(){
 
 
 
-        // , '.dfitogo .dfkkal' , '.dfweak a'
+       
 
     $('.dfweak a').on('click', function(e){
              var active = $(this).attr('href');
@@ -493,8 +497,8 @@ $(document).ready(function(){
     	var attrlink2 = $(this);
     	var attrlink3 = $(this).attr('href');
   
-        $('.dfblockmenu').not(attrlink3).hide(20);
-        $(attrlink3).show(10);
+        $('.dfblockmenu').not(attrlink3).css('display', 'none');
+        $(attrlink3).css('display', 'block');
 
     });
      $('.jsmobactive').click();
@@ -505,8 +509,12 @@ $(document).ready(function(){
      $('.df3').on('click', function(evt3){
      		evt3.preventDefault();
      		$('.df5active').removeClass('df5active');
-     		$('.dfblockmenu > .dfmenubox1:nth-child(1)').addClass('jsdisabled2');	
-     		$('.dfblockmenu > .dfmenubox1:nth-child(5)').addClass('jsdisabled2');
+     		// $('.dfblockmenu > .dfmenubox1:nth-child(1)').addClass('jsdisabled2');	
+     		// $('.dfblockmenu > .dfmenubox1:nth-child(5)').addClass('jsdisabled2');
+
+            $('.dfblockmenu > .dfmenubox1:nth-child(1)').hide();   
+            $('.dfblockmenu > .dfmenubox1:nth-child(5)').hide();
+
      		$(this).addClass('df3active');
 
              $('.jsmobactive').click();
@@ -516,7 +524,13 @@ $(document).ready(function(){
       $('.df5').on('click', function(evt4){
      		evt4.preventDefault();
      		$('.df3active').removeClass('df3active');
-     		$('.jsdisabled2').removeClass('jsdisabled2');	  
+
+
+     		// $('.jsdisabled2').removeClass('jsdisabled2');	
+
+               $('.dfblockmenu > .dfmenubox1:nth-child(1)').show();   
+            $('.dfblockmenu > .dfmenubox1:nth-child(5)').show();
+
      		$(this).addClass('df5active'); 
 
              $('.jsmobactive').click();  		
