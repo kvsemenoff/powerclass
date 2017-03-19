@@ -6,15 +6,18 @@
 					<h2>Остались вопросы?</h2>
 					<p>Оставьте ваш номер телефона и наш <span>менеджер свяжется с вами</span> <span>в течение <em class="first">15</em><em class="second">30</em> мин.</span></p>
 					<div class="form-wrap">
-						<form action="#">
+						<form class="form1" action="#" method="post">
 							<div class="input-wrap">
-								<input class="dd-input" type="text" value="" placeholder="Введите ваш телефон">	
+								<input class="dd-input phone" name="phone" type="text" value="" placeholder="Введите ваш телефон" required>	
 							</div>	
 							<input class="button-1 dd-submit ripplelink" type="submit" value="Перезвоните мне" placeholder="">
 						</form>		
 					</div>
 					<p>Или позвоните сами по номеру</p>
-					<span class="phone">+ <em class="first">7 499 133 29 56</em><em class="second">7 499 133 29 67</em></span>
+					<span class="phonede">
+					<a href="#log-in-1" name="modal"><span class="db-tel detel ">+7 (495) 133 29 67</span></a>
+
+					<em class="second">7 495 133 29 67</em></span>
 				</div>
 			</div>
 		</div>
@@ -156,7 +159,7 @@
 						</div>
 
 						<label class="dd-label">
-							<input class="checkbox checkbox-js" type="radio" value="Выбран тариф пробный день" name="checkbox">
+							<input class="checkbox checkbox-js" type="radio" value="Выбран тариф пробный день" name="checkbox" >
 							<span class="checkbox-custom"></span>
 							<span class="dd-txt-radio dd-txt-radio-js">Пробный день</span><br>
 							<span class="dd-grey-txt dd-grey-txt_2">(Четверг)</span>
@@ -170,8 +173,8 @@
 							<span class="label"></span>
 						</label>
 						<div class="clearfix"></div>
-						<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя">
-						<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
+						<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
+						<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" required>
 						<input class="button-1 dd-submit" type="submit" name="submit" value="Заказать питание">
 
 					</div>

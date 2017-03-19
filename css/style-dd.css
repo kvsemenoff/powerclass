@@ -135,7 +135,8 @@
   .window .form-wrap-main {
     background: #F4F4F4;
     border-radius: 3px;
-    padding: 15px; }
+    padding: 15px;
+    text-align: center; }
   .window .form-wrap-main_5 {
     width: 265px;
     padding-bottom: 74px; }
@@ -145,7 +146,7 @@
     background: url(../img/kres.png);
     position: absolute;
     top: 8px;
-    right: 8px;
+    right: 150px;
     cursor: pointer;
     transition: 0.5s;
     border-radius: 10px; }
@@ -613,6 +614,11 @@ div[data-val]:hover {
   top: 50px;
   left: 396px; }
 
+#log-in-1 .form-wrap-main {
+  text-align: left; }
+#log-in-1 .dd-close {
+  right: 8px; }
+
 @media only screen and (min-width: 320px) {
   .fl-left {
     float: left; }
@@ -646,6 +652,9 @@ div[data-val]:hover {
   .window_thanks {
     width: 450px !important; } }
 @media only screen and (min-width: 992px) {
+  .dd-close {
+    right: 8px !important; }
+
   .dd-payments {
     display: block; }
 
@@ -703,6 +712,9 @@ div[data-val]:hover {
 
   .form-wrap-main-2 {
     float: right; }
+
+  .form-wrap-main {
+    text-align: left; }
 
   .dd-el-1_inp {
     width: 312px;

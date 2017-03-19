@@ -1,5 +1,8 @@
 .questions, .dd-want-view {
-  background: url(../img/questions.jpg) top center/cover;
+  background-image: url("../img/questions.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 521px;
   padding: 83px 0 25px !important;
   font-family: 'Open Sans', arial, sans-serif; }
@@ -8,11 +11,7 @@
   .questions .second, .dd-want-view .second {
     display: none; }
   .questions .phone, .dd-want-view .phone {
-    font-size: 36px;
-    color: #212121;
-    font-weight: 700;
-    display: block;
-    margin-top: -8px; }
+    color: #212121; }
   .questions .input-wrap, .dd-want-view .input-wrap {
     display: inline-block;
     background: #fff;
@@ -116,7 +115,11 @@
 .tarif {
   font-family: 'Open Sans', arial, sans-serif;
   padding: 50px 0 60px;
-  background: #e9e9e9 url(../img/tarif.jpg) top center/cover; }
+  background-color: #e9e9e9;
+  background-image: url("../img/tarif.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
   .tarif__head {
     text-align: center;
     padding: 10px 0 40px; }
@@ -141,7 +144,8 @@
   display: none; }
 
 .shtraf {
-  font-family: 'Open Sans', arial, sans-serif; }
+  font-family: 'Open Sans', arial, sans-serif;
+  background-color: #fff; }
   .shtraf .nav {
     padding: 10px 0;
     font-size: 14px;
@@ -626,7 +630,7 @@
     line-height: 39px; } }
 @media only screen and (max-width: 1000px) {
   .second {
-    display: inline !important; }
+    display: inline-block; }
 
   .first {
     display: none; }
@@ -785,7 +789,7 @@
       font-size: 20px; }
 
   .testimonials {
-    background: none; }
+    background: #fff; }
     .testimonials__head {
       padding-bottom: 20px; }
     .testimonials .item {
@@ -817,6 +821,8 @@
         margin-right: 0;
         padding-right: 0;
         width: 100%; }
+        .questions .in .input-wrap .dd-input {
+          padding: 15px 30px 15px 30px; }
       .questions .in input {
         width: 277px;
         height: 48px;
@@ -831,7 +837,7 @@
       font-weight: 300; }
       .questions p span {
         display: inline-block; }
-    .questions .phone {
+    .questions .phonede {
       font-size: 30px;
       color: #fff; } }
 @media only screen and (max-width: 700px) {
