@@ -343,7 +343,11 @@
 	margin: 0 auto;
 	padding-left: 1%;
 }
-
+.dfmenudesktop{
+	.dfcallory{
+		padding-left: 0 !important;
+	}
+}
 .dfcaloryesbox, .dfcaloryesbox2{	
 	// width: 65px;
 	width: 22%;

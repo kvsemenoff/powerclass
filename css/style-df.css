@@ -279,6 +279,9 @@
   margin: 0 auto;
   padding-left: 1%; }
 
+.dfmenudesktop .dfcallory {
+  padding-left: 0 !important; }
+
 .dfcaloryesbox, .dfcaloryesbox2 {
   width: 22%;
   margin-right: 5px;

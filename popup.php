@@ -708,9 +708,9 @@
  //            return false;   
  //       }else{
   
-	// 	   // $('.jsunameonline').val(unamereq);
-	// 	   // $('.jsphoneonline').val(phonereq);
-	// 	   // $(this).parents('.shtraf-item').hide().next().show();
+	// 	   $('.jsunameonline').val(unamereq);
+	// 	   $('.jsphoneonline').val(phonereq);
+	// 	   $(this).parents('.shtraf-item').hide().next().show();
 	// 	   return true;
  //       }
  // });

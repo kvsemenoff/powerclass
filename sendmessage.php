@@ -13,8 +13,12 @@ $food = $_POST['food'];
 $days = $_POST['days'];
 $tarif_price = $_POST['tarif_price'];
 $tarif_calory = $_POST['tarif_kalory'];
+
 $how_much = $_POST['how_much'];
 $how_much_day = $_POST['how_much_day'];
+$daytest = $_POST['daytest'];
+
+
 
 $city = $_POST['city'];
 $ylica = $_POST['ylica'];
@@ -41,10 +45,15 @@ $msg .= "<p><strong>Телефон:</strong> ".$phone."</p>\r\n";
 $msg .= "<p><strong>Имя:</strong> ".$uname."</p>\r\n";
 $msg .= "<p><strong>Email:</strong> ".$email."</p>\r\n";
 $msg .= "<p><strong>Сообщение:</strong> ".$text."</p>\r\n";
+
 $msg .= "<p><strong>Выбрана радио кнопка:</strong> ".$checkbox_1."</p>\r\n";
 $msg .= "<p><strong>Отмечен чекбокс:</strong> ".$checkbox_2."</p>\r\n";
 $msg .= "<p><strong>День первой доставки:</strong> ".$what_day."</p>\r\n";
 $msg .= "<p><strong>Время первой доставки:</strong> ".$timepackage."</p>\r\n";
+
+$msg .= "<p><strong>Отмечен чекбокс:</strong> ".$checkbox_1."</p>\r\n";
+$msg .= "<p><strong>Пробный день:</strong> ".$daytest."</p>\r\n";
+
 
 $msg .= "<p><strong>Каллории клиента:</strong> ".$kkalklient."</p>\r\n";
 $msg .= "<p><strong>Тариф:</strong> ".$tarif."</p>\r\n";
