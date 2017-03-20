@@ -883,7 +883,7 @@
 
 
 		$('.online-replace').on('click', function(el){
-		// el.preventDefault();
+		el.preventDefault();
 		var unamereq = $(this).parents('#log-in-2').find('.unamejs').val();
 		var phonereq = $(this).parents('#log-in-2').find('.phonejs').val();
 
@@ -898,7 +898,17 @@
 			$('.online-replace').attr('name', 'modal');
 			$('#log-in-2').hide();
 			$('#log-in-5').show();
-
+			var id = $(this).attr('href');
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		$('#mask').fadeTo("slow",0.8); 
+		var winH = $(window).height();
+		var winW = $(window).width();
+		posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
+		$(id).css('top',  posTop+50);
+		$(id).css('left', winW/2-$(id).width()/2);
+		$(id).fadeIn(500); 	
 			// $('.jsunameonline').val(unamereq);
 			// $('.jsphoneonline').val(phonereq);
 			// $(this).parents('.shtraf-item').hide().next().show();
