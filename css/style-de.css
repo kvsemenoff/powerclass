@@ -15,10 +15,11 @@
   .questions .input-wrap, .dd-want-view .input-wrap {
     display: inline-block;
     background: #fff;
-    margin-right: -39px;
+    margin-right: -50px;
     padding-right: 28px;
     border-radius: 26px;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    width: 240px; }
     .questions .input-wrap input, .dd-want-view .input-wrap input {
       background: none;
       box-shadow: none;
@@ -775,8 +776,7 @@
     font-size: 14px;
     line-height: 18px; }
   .questions .in .button-1 {
-    font-size: 15px;
-    width: 170px; } }
+    font-size: 15px; } }
 @media (min-width: 770px) and (max-width: 1000px) {
   .questions .in .button-1 {
     font-size: 15px;
@@ -880,7 +880,7 @@
       color: #e53935;
       font-weight: 900;
       font-size: 18px;
-      display: inline-block;
+      display: inline;
       padding: 0 2px; }
   .form-order .info {
     padding: 18px 0 20px; }

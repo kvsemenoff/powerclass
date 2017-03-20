@@ -22,11 +22,12 @@
 	}
 	.input-wrap{
 		display: inline-block;
-    background: #fff;
-    margin-right: -39px;
-    padding-right: 28px;
-    border-radius: 26px;
-    margin-bottom: 15px;
+	    background: #fff;
+	    margin-right: -50px;
+	    padding-right: 28px;
+	    border-radius: 26px;
+	    margin-bottom: 15px;
+	    width: 240px;
     input{
     	background: none;
     	box-shadow: none;
@@ -979,7 +980,7 @@
 			}
 			.button-1{
 				font-size: 15px;
-				width: 170px;
+				// width: 170px;
 			}
 		}
 	}
@@ -1134,7 +1135,7 @@
 			color: #e53935;
 			font-weight: 900;
 			font-size: 18px;
-			display: inline-block;
+			display: inline;
 			padding: 0 2px;
 		}
 	}
