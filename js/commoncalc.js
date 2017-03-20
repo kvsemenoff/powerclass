@@ -1,4 +1,31 @@
 $(document).ready(function(){
+
+	$('#jsonline').on('click', function(e){
+		var unametoonline = $(this).parents('.jssubmit').find('.input-block').find('.nametosend').val();
+		var phonetoonline = $(this).parents('.jssubmit').find('.input-block').find('.phonetosend').val();
+
+		  if(unametoonline == "" ){		  
+	          $('.nametosend').focus();	         
+	          	return false;
+	          
+	      }else if(phonetoonline == ""){ 			
+	          $('.phonetosend').focus();
+	          	return false;			
+	      }else{
+	  //     	$('.jsunameonlinemob').val(unametoonline);
+			// $('.jsphoneonlinemob').val(phonetoonline);
+
+			$('.jsunameonline').val(unametoonline);
+			$('.jsphoneonline').val(phonetoonline);
+			$(this).parents('.shtraf-item').hide().next().show();
+			return true;
+	      }
+	});
+
+
+/////////////////////////////////////////
+
+
  var male="",
 	cel="", 
 	age="", 
@@ -8,7 +35,14 @@ $(document).ready(function(){
 	food="", 
 	days="";
 
-	$('.shtraf__btn, #jsonline').on('click', function(e){
+
+// #jsonline
+
+	
+
+
+
+	$('.shtraf__btn').on('click', function(e){
 
 		if ($('#jstarif1').css('display')==='block') {
 			male += $(this).attr('pol');
@@ -61,7 +95,7 @@ $(document).ready(function(){
 				$('.jskkalklient').val(itogo);
 
 
-				if (itogo <= 1400) {
+				if (itogo <= 1549) {
 					$('.end__tarif').text('Фит');
 					$('.jskkalday b').text('1400');
 					if (food==3 && days==5) {
@@ -80,8 +114,8 @@ $(document).ready(function(){
 						$('.end__price i em').text('836');
 					}
 				}
-				else if(itogo > 1400 && itogo <= 1700){
-					$('.end__tarif').text('Фит плюс');
+				else if(itogo > 1550 && itogo <= 2099){
+					$('.end__tarif').text('Фит Плюс');
 					$('.jskkalday b').text('1700');	
 					if (food==3 && days==5) {
 						$('.end__price span b').text('3800');
@@ -99,7 +133,7 @@ $(document).ready(function(){
 						$('.end__price i em').text('943');
 					}
 				}
-				else if(itogo > 1700 && itogo <= 2500){
+				else if(itogo > 2100 && itogo <= 2999){
 					$('.end__tarif').text('Спорт');	
 					$('.jskkalday b').text('2500');
 					if (food==3 && days==5) {
@@ -118,8 +152,8 @@ $(document).ready(function(){
 						$('.end__price i em').text('1172');
 					}
 				}
-				else if(itogo > 2500 && itogo <= 3500){
-					$('.end__tarif').text('Спорт плюс');
+				else if(itogo > 3000){
+					$('.end__tarif').text('Спорт Плюс');
 					$('.jskkalday b').text('3500');	
 					if (food==3 && days==5) {
 						$('.end__price span b').text('5650');
@@ -148,7 +182,7 @@ $(document).ready(function(){
 				
 
 
-				if (itogo <= 1400) {
+				if (itogo <= 1549) {
 					$('.end__tarif').text('Фит');
 					$('.jskkalday b').text('1400');
 					if (food==3 && days==5) {
@@ -167,7 +201,7 @@ $(document).ready(function(){
 						$('.end__price i em').text('836');
 					}
 				}
-				else if(itogo > 1400 && itogo <= 1700){
+				else if(itogo > 1550 && itogo <= 2099){
 					$('.end__tarif').text('Фит плюс');
 					$('.jskkalday b').text('1700');	
 					if (food==3 && days==5) {
@@ -186,7 +220,7 @@ $(document).ready(function(){
 						$('.end__price i em').text('943');
 					}
 				}
-				else if(itogo > 1700 && itogo <= 2500){
+				else if(itogo > 2100 && itogo <= 2999){
 					$('.end__tarif').text('Спорт');	
 					$('.jskkalday b').text('2500');
 					if (food==3 && days==5) {
@@ -205,7 +239,7 @@ $(document).ready(function(){
 						$('.end__price i em').text('1172');
 					}
 				}
-				else if(itogo > 2500 && itogo <= 3500){
+				else if(itogo > 3000){
 					$('.end__tarif').text('Спорт плюс');
 					$('.jskkalday b').text('3500');	
 					if (food==3 && days==5) {
@@ -229,18 +263,58 @@ $(document).ready(function(){
 
 	});
 
+
 	
-	$('.nav a i').on("click", function(){
+
+	
+
+
+		
+	$('#jsrasschitat').attr('disabled', 'disabled');
+	$('.jscheked select').addClass('selectdisabled');	
+
+	$('.jscheked select').on('change', function() {
+		$('.jscheked select').addClass('selectdisabled');	
+		if (!$('.f1').is(':selected')){				
+				$('.jscheked select').removeClass('selectdisabled');	
+			$('#jsrasschitat').removeAttr('disabled');	
+						
+		}				
+	});	
+
+
+$('.nav a i').on("click", function(e){
+		e.preventDefault();
+
+		itogo="";
+		food="";
+		days="";
+
+		if ($('#jstarif1').css('display')==='block') {
+			male = 0;
+			$('.jsitogo').text(" ");
+		}
+		else if($('#jstarif3').css('display')==='block'){
+			age =0;
+			rost =0;
+			mass =0;
+			$('.jsitogo').text(" ");
+		}
+		else if($('#jstarif4').css('display')==='block'){
+			activity =0;
+			$('.jsitogo').text(" ");
+
+		}
+		
 		$(this).parents('.shtraf-item').hide().prev().show();
 	});
-
-
-
 
 
 	//============================mobversion
 
 	$('#jsrasschitat').on('click', function(event) {
+		event.preventDefault();	
+
 		var malemob="",
 		celmob="", 
 		agemob="", 
@@ -250,7 +324,15 @@ $(document).ready(function(){
 		foodmob="", 
 		daysmob="";
 
-		event.preventDefault();
+
+		
+
+
+
+		
+
+			
+
 
 		malemob +=  $(this).prevAll('.select-wrap')
 				.find('.jsselected1')
@@ -296,7 +378,7 @@ $(document).ready(function(){
 		$('.subtitle i').text(Math.round(itogomob));
 		$('.jskkalklientmob').val(itogomob);
 
-				if (itogomob <= 1400) {
+				if (itogomob <= 1549) {
 					$('.jsmobtarif').text('Фит');
 					$('.jsmobkallday b').text('1400');
 					if (foodmob==3 && daysmob==5) {
@@ -315,8 +397,8 @@ $(document).ready(function(){
 						$('.jspricemobinday b').text('836');
 					}
 				}
-				else if(itogomob > 1400 && itogomob <= 1700){
-					$('.jsmobtarif').text('Фит плюс');
+				else if(itogomob > 1550 && itogomob <= 2099){
+					$('.jsmobtarif').text('Фит Плюс');
 					$('.jsmobkallday b').text('1700');	
 					if (foodmob==3 && daysmob==5) {
 						$('.jspricemobile i').text('3800');
@@ -334,7 +416,7 @@ $(document).ready(function(){
 						$('.jspricemobinday b').text('943');
 					}
 				}
-				else if(itogomob > 1700 && itogomob <= 2500){
+				else if(itogomob > 2100 && itogomob <= 2999){
 					$('.jsmobtarif').text('Спорт');	
 					$('.jsmobkallday b').text('2500');
 					if (foodmob==3 && daysmob==5) {
@@ -353,8 +435,8 @@ $(document).ready(function(){
 						$('.jspricemobinday b').text('1172');
 					}
 				}
-				else if(itogomob > 2500 && itogomob <= 3500){
-					$('.jsmobtarif').text('Спорт плюс');
+				else if(itogomob > 3000){
+					$('.jsmobtarif').text('Спорт Плюс');
 					$('.jsmobkallday b').text('3500');	
 					if (foodmob==3 && daysmob==5) {
 						$('.jspricemobile i').text('5650');
@@ -376,11 +458,11 @@ $(document).ready(function(){
 			}
 
 	else {		
-	var itogomob = (10 * +massmob + 6.25 * +rostmob - 5 * +agemob - 161) * +activitymob;	
+	 var itogomob = (10 * +massmob + 6.25 * +rostmob - 5 * +agemob - 161) * +activitymob;	
 		$('.subtitle i').text(Math.round(itogomob));
 		$('.jskkalklientmob').val(itogomob);
 
-				if (itogomob <= 1400) {
+				if (itogomob <= 1549) {
 					$('.jsmobtarif').text('Фит');
 					$('.jsmobkallday b').text('1400');
 					if (foodmob==3 && daysmob==5) {
@@ -399,7 +481,7 @@ $(document).ready(function(){
 						$('.jspricemobinday b').text('836');
 					}
 				}
-				else if(itogomob > 1400 && itogomob <= 1700){
+				else if(itogomob > 1550 && itogomob <= 2099){
 					$('.jsmobtarif').text('Фит плюс');
 					$('.jsmobkallday b').text('1700');	
 					if (foodmob==3 && daysmob==5) {
@@ -418,7 +500,7 @@ $(document).ready(function(){
 						$('.jspricemobinday b').text('943');
 					}
 				}
-				else if(itogomob > 1700 && itogomob <= 2500){
+				else if(itogomob > 2100 && itogomob <= 2999){
 					$('.jsmobtarif').text('Спорт');	
 					$('.jsmobkallday b').text('2500');
 					if (foodmob==3 && daysmob==5) {
@@ -437,7 +519,7 @@ $(document).ready(function(){
 						$('.jspricemobinday b').text('1172');
 					}
 				}
-				else if(itogomob > 2500 && itogomob <= 3500){
+				else if(itogomob > 3000){
 					$('.jsmobtarif').text('Спорт плюс');
 					$('.jsmobkallday b').text('3500');	
 					if (foodmob==3 && daysmob==5) {
@@ -475,13 +557,45 @@ $(document).ready(function(){
 		if (!$('#jsrasschitat').hasClass('disabledjs')) {
 			$(this).parents('.jsmob').hide().next().show();
 		}
-// console.log(malemob, agemob, rostmob, massmob, activitymob, foodmob, daysmob);							
+	
 
+								
+		
 	});
+
+
 
 	$('#jsnextmobwindow').on('click', function(e){
-		e.preventDefault();
-		$(this).parents('.jsmob').hide().next().show();
+		
+		var unametoonlinemob = $(this).parents('.jssubmit').find('.input-wrap').find('.nametosendmob').val();
+		var phonetoonlinemob = $(this).parents('.jssubmit').find('.input-wrap').find('.phonetosendmob').val();
+
+		 var sendtarfname = $(this).parents('#jsmobversion2')
+						        .find('.info')
+						        .find('.half')
+						        .find('.jsmobkallday')
+						        .find('b')
+						        .text();
+		$('.jsnametarifmob').val(sendtarfname);	
+
+
+		  if(unametoonlinemob == "" ){		  
+	        $('.nametosendmob').focus();	         
+	          	return false;
+	          
+	      }else if(phonetoonlinemob == ""){ 			
+	          $('.phonetosendmob').focus();
+	          	return false;			
+	      }else{
+
+			$('.jsunameonline').val(unametoonlinemob);
+			$('.jsphoneonline').val(phonetoonlinemob);
+			$(this).parents('.jsmob').hide().next().show();
+
+			return true;
+	      }
 	});
+
+	
 
 });

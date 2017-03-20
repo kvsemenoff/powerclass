@@ -24,12 +24,14 @@
 					<span class="dfborder"><a href="#js-sportplusmob">3 500</a></span>
 						<span>ккал/день</span>
 					</div>
+					<div class="clear"></div>
 				</div>
 
 				<div class="df3or5">
 					<a href="#" class="df3">3 ПРИЕМА</a>
 					<a href="#" class="df5 df5active">5 ПРИЕМОВ</a>
 					<span>Выберете количество приемов пищи </span>
+					<div class="clear"></div>
 				</div>
 
 				<div class="dfweaks">
@@ -41,7 +43,10 @@
 						<li class="dfweak"><a href="#" class="dfonelinkmob">Пт</a></li>
 						<li class="dfweak"><a href="#" class="dfonelinkmob">Сб</a></li>
 						<li class="dfweak"><a href="#" class="dfonelinkmob">Вс</a></li>
+
+						<div class="clear"></div>
 					</ul>
+
 				</div>
 
 
@@ -1538,7 +1543,7 @@
 				</div>
 
 				<div class="dfmenulink">
-					<a href="#" class="dflink ripplelink">хочу попробовать</a>
+					<a href="#log-in-3" name="modal" class="dflink ripplelink">хочу попробовать</a>
 				</div>
 			</div>
 		

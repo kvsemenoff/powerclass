@@ -13,7 +13,8 @@
 		 </div>
 	</div>
 </section>
-<section class="section dfbg2">
+<section class="section paralaxsection">
+	<div class="dfbg2">
 	<div class=" container">
 		<!-- <div class="dffourbox">
 			<div class="dfparalaxbox"><span>параллакс</span></div>
@@ -21,5 +22,6 @@
 			<div class="dfparalaxbox"><span>параллакс</span></div>
 			<div class="dfparalaxbox"><span>параллакс</span></div>
 		</div> -->
+	</div>
 	</div>
 </section>	

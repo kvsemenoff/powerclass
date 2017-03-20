@@ -6,6 +6,8 @@
 	<meta name="description" content="Уникальный сервис 5-разового правильного питания для мужчин и женщин с бесплатной доставкой по Москве" /> 
 	<meta name="keywords" content="powerclass, доставка питания, доставка здоровой еды, готовое питание, 5-ти разовое питание" />
 
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
 	<title>PowerClass | Правильное питание на неделю с доставкой по Москве</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />

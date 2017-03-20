@@ -1,4 +1,6 @@
+
 <div id="want"></div>
+<div class="dfbgwhite">
 <section class="section section_padding dd-want-view">
 	<div class=" container">
 		<div class="row">
@@ -8,11 +10,11 @@
 					<span class="descr">Попробуйте «пробный <em class="first">тариф</em><em class="second">день</em>» <b>всего за <i>1199 рублей.</i></b></span>
 					<p>Твой ПП рацион из 5 приемов пищи на 1 день Доставка по Москве бесплатно</p>
 					<div class="form-wrap">
-						<form action="#">
+						<form class="form1" action="#" method="post">
 							<div class="input-wrap">
-								<input class="dd-input" type="text" value="" placeholder="Введите ваш телефон">	
+								<input class="dd-input phone" name="phone" type="text" value="" placeholder="Введите ваш телефон" required>	
 							</div>	
-							<input class="button-1 dd-submit ripplelink" type="submit" value="Перезвоните мне" placeholder="">
+							<input class="button-1 dd-submit ripplelink" type="submit" value="ХОЧУ ПОПРОБОВАТЬ" placeholder="">
 						</form>		
 					</div>
 				</div>
@@ -20,3 +22,4 @@
 		</div>
 	</div>
 </section>
+</div>

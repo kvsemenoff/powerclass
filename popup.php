@@ -94,8 +94,8 @@
 						<span class="dd-grey-txt">5-разовое питание, на 5 дней</span><br>
 						<span class="dd-main-txt-2">Сумма заказа: <span>7 400 руб.</span></span>
 					</div>
-					<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
-					<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
+					<input class="dd-input dd-input_pop unamejs" type="text" name="uname" placeholder="Введите ваше имя" required>
+					<input class="dd-input dd-input_pop phone phonejs" name="phone" type="text" placeholder="Введите ваш телефон" >
 					<input class="button-1 dd-submit" type="submit" name="submit" value="оформить по телефону">
 				</div>
 				<div class="dd-but_online">
@@ -692,6 +692,30 @@
 		$('#log-in-5').show();
 	
 	});
+
+
+	// $('.online-replace').on('click', function(e){
+	// 	e.preventDefault();
+	// 	  var unamereq = $(this).parents('#log-in-2').find('.unamejs').val();
+	// 	  var phonereq = $(this).parents('#log-in-2').find('.phonejs').val();
+		 
+ //    if(unamereq == "" ){    
+ //           $('.unamejs').focus();          
+ //            return false;
+           
+ //       }else if(phonereq == ""){    
+ //           $('.phonejs').focus();
+ //            return false;   
+ //       }else{
+  
+	// 	   // $('.jsunameonline').val(unamereq);
+	// 	   // $('.jsphoneonline').val(phonereq);
+	// 	   // $(this).parents('.shtraf-item').hide().next().show();
+	// 	   return true;
+ //       }
+ // });
+
+
 </script>
 
 <script>

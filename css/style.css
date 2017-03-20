@@ -25,6 +25,7 @@ h2 {
   width: 255px;
   height: 68px;
   background-color: #8bc34a;
+  background-image: -webkit-linear-gradient(bottom, #ffdc52 0%, #ffea72 100%);
   background-image: linear-gradient(to top, #ffdc52 0%, #ffea72 100%);
   border-radius: 33px;
   box-shadow: 0 4px 0 #ecc345, inset 0 0 4px rgba(255, 221, 82, 0.17);
@@ -36,8 +37,13 @@ h2 {
   color: black;
   text-align: center; }
 
+.button-1:hover {
+  background: #fff2a5;
+  color: black; }
+
 .section_padding {
-  padding: 25px 0px; }
+  padding: 25px 0px;
+  background-color: #fff; }
 
 .dd-input {
   outline: none;
