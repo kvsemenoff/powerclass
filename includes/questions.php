@@ -254,9 +254,10 @@
 							<input class="dd-input dd-input_pop dd-pop_left_5" type="text" name="city" placeholder="Москва" required>
 							<input class="dd-input dd-input_pop dd-pop_right_5" type="text" name="ylica" placeholder="Улица..." required>
 
-							<input class="dd-input dd-input_pop dd-pop_left_5" type="text" name="uname" value="Москва" required>
-							<input class="dd-input dd-input_pop dd-pop_right_5" type="text" placeholder="Улица..." required>
-							<div class="clearfix"></div>
+							<!-- <input class="dd-input dd-input_pop dd-pop_left_5" type="text" name="uname"
+							placeholder="Дом..." required>
+							<input class="dd-input dd-input_pop dd-pop_right_5" type="text" placeholder="Подъезд..." required>
+							<div class="clearfix"></div> -->
 
 							<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" name="house" placeholder="Дом..." required>
 							<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" name="podezd" placeholder="Подъезд...">
@@ -273,8 +274,8 @@
 							<!-- end hidden -->
 							
 							<!-- hidden-input -->
-								<input type="hidden" value="unamereq">
-								<input type="hidden" value="phonereq">
+							<input class="dd-hid-name" type="hidden" name="uname" value="test">
+							<input class="dd-hid-phone" type="hidden" name="phone" value="test">
 							<!-- end hidden-input -->
 
 							<div class="clearfix"></div>
@@ -783,6 +784,7 @@
 		$('.tarif_kalory').val(kalory);
 		$('.how_much').val(much_1);
 		$('.how_much_day').val(much_2);
+		
 	});
 
 
@@ -884,14 +886,12 @@
 			location = "spasibo.php";
 		};
 
-
-
-
 		$('.online-replace').on('click', function(el){
 			el.preventDefault();
 			var unamereq = $(this).parents('#log-in-2').find('.unamejs').val();
 			var phonereq = $(this).parents('#log-in-2').find('.phonejs').val();
-
+			$('.dd-hid-name').val(unamereq);
+			$('.dd-hid-phone').val(phonereq);
 			if(unamereq == "" ){    
 				$('.unamejs').focus();          
 				return false;
