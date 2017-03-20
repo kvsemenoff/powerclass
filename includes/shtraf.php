@@ -77,15 +77,15 @@
 						<div class="btn-wrap">
 							<div class="input-wrap">
 								<span>Возраст:</span>
-								<input type="number" value="25"  min="12" max="99" class="input-number" id="jsage" style="width:88px">
+								<input type="number" value="25" placeholder="25" min="12" max="99" class="input-number" id="jsage" style="width:88px">
 							</div>
 							<div class="input-wrap">
 								<span>Рост:</span>
-								<input type="number" value="175" min="50" max="300" class="input-number" style="width:88px" id="jsrost">
+								<input type="number" value="175" placeholder="175" min="50" max="300" class="input-number" style="width:88px" id="jsrost">
 							</div>
 							<div class="input-wrap">
 								<span>Вес:</span>
-								<input type="number" value="75" min="30" max="300" class="input-number" style="width:88px" id="jsmass">
+								<input type="number" value="75" placeholder="75" min="30" max="300" class="input-number" style="width:88px" id="jsmass">
 							</div>
 							<button class="shtraf__btn shtraf__btn--black shtraf__btn--next">Далее</button>
 						</div>
@@ -465,7 +465,7 @@
 								<select class="jsselected4">
 									<option selected="true" disabled="disabled" class="f1">Питание на выходных (Сб, Вс)?</option>
 									<option daysmob="7">Буду заказывать на всю неделю</option>
-									<option daysmob="5">Не буду заказывать</option>
+									<option daysmob="5">Не буду заказывать, готовлю</option>
 								</select>
 							</div>
 							<input class="ripplelink button-1 dd-submit " id="jsrasschitat" type="submit" value="Рассчитать тариф">

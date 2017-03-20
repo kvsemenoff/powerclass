@@ -38,7 +38,31 @@ $(document).ready(function(){
 
 // #jsonline
 
-	
+	$('.nav a i').on("click", function(e){
+		e.preventDefault();
+
+		itogo="";
+		food="";
+		days="";
+
+		if ($('#jstarif1').css('display')==='block') {
+			male = 0;
+			$('.jsitogo').text(" ");
+		}
+		else if($('#jstarif4').css('display')==='block'){
+			age ="";
+			rost ="";
+			mass ="";
+			$('.jsitogo').text(" ");
+		}
+		else if($('#jstarif5').css('display')==='block'){
+			activity ="";
+			$('.jsitogo').text(" ");
+
+		}
+		
+		$(this).parents('.shtraf-item').hide().prev().show();
+	});
 
 
 
@@ -283,31 +307,7 @@ $(document).ready(function(){
 	});	
 
 
-$('.nav a i').on("click", function(e){
-		e.preventDefault();
 
-		itogo="";
-		food="";
-		days="";
-
-		if ($('#jstarif1').css('display')==='block') {
-			male = 0;
-			$('.jsitogo').text(" ");
-		}
-		else if($('#jstarif3').css('display')==='block'){
-			age =0;
-			rost =0;
-			mass =0;
-			$('.jsitogo').text(" ");
-		}
-		else if($('#jstarif4').css('display')==='block'){
-			activity =0;
-			$('.jsitogo').text(" ");
-
-		}
-		
-		$(this).parents('.shtraf-item').hide().prev().show();
-	});
 
 
 	//============================mobversion
