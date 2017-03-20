@@ -155,14 +155,14 @@
 							<span class="dd-title-2">
 								Заказать комплект питания
 							</span>
-							<span class="dd-bold-title_pop">Спорт плюс, <span>3 500 ккал/день</span></span><br>
+							<span class="dd-bold-title_pop"><b>Спорт плюс,</b> <span>3 500 ккал/день</span></span><br>
 						</div>
 
 						<label class="dd-label">
 							<input class="checkbox checkbox-js" type="radio" value="Выбран тариф пробный день" name="checkbox" >
 							<span class="checkbox-custom"></span>
 							<span class="dd-txt-radio dd-txt-radio-js">Пробный день</span><br>
-							<span class="dd-grey-txt dd-grey-txt_2">(Четверг)</span>
+							<span class="dd-grey-txt dd-grey-txt_2">(<i>Четверг</i>)</span>
 
 							<span class="label"></span>
 						</label>
@@ -176,6 +176,10 @@
 						<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
 						<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" required>
 						<input class="button-1 dd-submit" type="submit" name="submit" value="Заказать питание">
+
+						<input type="hidden" class="jsnametarifpop" name="tarif">
+						<input type="hidden" class="jskkalpop" name="tarif_kalory">
+						<input type="hidden" class="jsdayweekpop" name="daytest">
 
 					</div>
 

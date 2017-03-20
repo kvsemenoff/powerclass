@@ -1559,19 +1559,19 @@
 					<div class="dfcallory">
 						<div class="dfcaloryesbox dfhoverbox1 perviyosobiy">
 							<span class="dfborder "><a href="#jsfit"><em>Фит</em></a></span>
-							<span>1400 ккал/день</span>
+							<span class="jskaldaypopup">1400 ккал/день</span>
 						</div>
 						<div class="dfcaloryesbox dfhoverbox2">
 							<span class="dfborder"><a href="#jsfitplus"><em>Фит Плюс</em></a></span>
-							<span>1700 ккал/день</span>
+							<span class="jskaldaypopup">1700 ккал/день</span>
 						</div>
 						<div class="dfcaloryesbox dfhoverbox3 osobiy dfactivelink">
 							<span class="dfborder dfactivelinkmob"><a href="#jssport"><em>Спорт</em></a></span>
-							<span>2500 ккал/день</span>
+							<span class="jskaldaypopup">2500 ккал/день</span>
 						</div>
 						<div class="dfcaloryesbox dfhoverbox4">
 							<span class="dfborder"><a href="#jssportplus"><em>Спорт Плюс</em></a></span>
-							<span>3500 ккал/день</span>
+							<span class="jskaldaypopup">3500 ккал/день</span>
 						</div>
 
 						<div class="dfpriemi">
@@ -3540,3 +3540,20 @@
 </section>
 
 
+<script>
+	//отправка на попап и на почту
+
+	$('.dflink').on('click', function(){
+		var txttarif = $('.dfactivelinkmob a em').text();
+		$('.dd-bold-title_pop b').text(txttarif);
+		$('.jsnametarifpop').val(txttarif);
+
+		var txtdaykkal = $('.dfactivelinkmob').next('.jskaldaypopup').text();
+		$('.dd-bold-title_pop b').next('span').text(txtdaykkal);
+		$('.jskkalpop').val(txtdaykkal);
+
+		var txtdaytarif = $('.jsweakactive').text();
+		$('.dd-grey-txt_2 i').text(txtdaytarif);
+		$('.jsdayweekpop').val(txtdaytarif);
+	});
+</script>
