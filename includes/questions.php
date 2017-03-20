@@ -754,7 +754,7 @@
 		$('.dd-podskazka').css('display' , 'none');
 	});
 	$('.online-replace').click(function(e){
-		e.preventDefault();
+		// e.preventDefault();
 		// $('#log-in-2').css('display' , 'none');
 	});
 	$('.last-block .button-1').click(function(){
