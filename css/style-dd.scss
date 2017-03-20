@@ -3,6 +3,10 @@
 // }
 /* ховер для кнопки
 =====================*/
+#log-in-6{
+	left:50% !important;
+	transform: translateX(-59%)
+}
 .ripplelink{
 	text-align:center;
 	color:#fff;
@@ -685,7 +689,7 @@ div[data-val]:hover{
 	display: none;
 }
 .error-input{
-	border:1px solid #FB5151 !important;
+	border:2px solid #FB5151 !important;
 }
 .win_2{
 	top:50px;
@@ -752,7 +756,7 @@ div[data-val]:hover{
 
 @media only screen and (min-width : 992px) {
 	.dd-close{
-	
+
 		right: 8px !important;
 	}
 	.dd-payments{
