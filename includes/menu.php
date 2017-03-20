@@ -1544,7 +1544,7 @@
 				</div>
 
 				<div class="dfmenulink">
-					<a href="#log-in-3" name="modal" class="dflink ripplelink">хочу попробовать</a>
+					<a href="#log-in-3" name="modal" class="dflink jsdflinkmob ripplelink">хочу попробовать</a>
 				</div>
 			</div>
 		
@@ -3537,7 +3537,7 @@
 							<span class="dftxtitogo2"><b class="dfyglevodi">411 </b>Углеводы</span>
 							<span class="dftxtitogo2"><b class="dfkkalitogo">3 495 </b>Ккал</span> 
 						</div>
-						<a href="#log-in-3" name="modal" class="dflink ripplelink">хочу попробовать</a>
+						<a href="#log-in-3" name="modal" class="dflink jsdflink ripplelink">хочу попробовать</a>
 
 						<a href="#"  class="dflinktarif">Тарифы PowerClass</a>
 
@@ -3551,17 +3551,29 @@
 <script>
 	//отправка на попап и на почту
 
-	$('.dflink').on('click', function(){
-		var txttarif = $('.dfactivelinkmob a em').text();
-		$('.dd-bold-title_pop b').text(txttarif);
+	$('.jsdflink').on('click', function(){
+		var txttarif = $('.dfactivelinkmob a em').text();		
+		$('.dd-bold-title_pop b').text(txttarif);		
 		$('.jsnametarifpop').val(txttarif);
 
 		var txtdaykkal = $('.dfactivelinkmob').next('.jskaldaypopup').text();
 		$('.dd-bold-title_pop b').next('span').text(txtdaykkal);
 		$('.jskkalpop').val(txtdaykkal);
 
-		var txtdaytarif = $('.jsweakactive').text();
-		$('.dd-grey-txt_2 i').text(txtdaytarif);
+		var txtdaytarif = $('.jsweakactive').text();		
+		$('.dd-grey-txt_2 i').text(txtdaytarif);		
 		$('.jsdayweekpop').val(txtdaytarif);
 	});
+
+	$('.jsdflinkmob').on('click', function(){		
+		var txttarifmob = $('.dfactivelinkmob a').text();		
+		$('.dd-bold-title_pop b').text(txttarifmob);
+		$('.jsnametarifpop').val(txttarifmob);
+			
+		var txtdaytarifmob = $('.jsmobactive').text();		
+		$('.dd-grey-txt_2 i').text(txtdaytarifmob);
+		$('.jsdayweekpop').val(txtdaytarifmob);
+	});
+
+	
 </script>

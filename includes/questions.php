@@ -853,6 +853,7 @@
 	$('#mask, .an-exit__krest').click(function () {
 		$('#mask').hide();
 		$('.window').hide();
+		$('body').removeAttr('style');
 	});
 
 	$(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
