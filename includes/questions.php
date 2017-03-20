@@ -271,6 +271,11 @@
 							<input class="how_much" name="how_much" type="hidden" value="empty">
 							<input class="how_much_day" name="how_much_day" type="hidden" value="empty">
 							<!-- end hidden -->
+							
+							<!-- hidden-input -->
+								<input type="hidden" value="unamereq">
+								<input type="hidden" value="phonereq">
+							<!-- end hidden-input -->
 
 							<div class="clearfix"></div>
 						</div>
@@ -734,14 +739,14 @@
 
 
 	
-		$("#js-nav a").click(function(e){
-			e.preventDefault();
-			var currentBlock = $(this).attr("href");
-			currentBlockoffset = $(currentBlock).offset().top;
-			$("html, body").animate({
-				scrollTop: currentBlockoffset
-			}, 500);
-		});
+	$("#js-nav a").click(function(e){
+		e.preventDefault();
+		var currentBlock = $(this).attr("href");
+		currentBlockoffset = $(currentBlock).offset().top;
+		$("html, body").animate({
+			scrollTop: currentBlockoffset
+		}, 500);
+	});
 
 
 	$('.checkbox-js').click(function(){
@@ -883,36 +888,36 @@
 
 
 		$('.online-replace').on('click', function(el){
-		el.preventDefault();
-		var unamereq = $(this).parents('#log-in-2').find('.unamejs').val();
-		var phonereq = $(this).parents('#log-in-2').find('.phonejs').val();
+			el.preventDefault();
+			var unamereq = $(this).parents('#log-in-2').find('.unamejs').val();
+			var phonereq = $(this).parents('#log-in-2').find('.phonejs').val();
 
-		if(unamereq == "" ){    
-			$('.unamejs').focus();          
-			return false;
+			if(unamereq == "" ){    
+				$('.unamejs').focus();          
+				return false;
 
-		}else if(phonereq == ""){    
-			$('.phonejs').focus();
-			return false;   
-		}else{
-			$('.online-replace').attr('name', 'modal');
-			$('#log-in-2').hide();
-			$('#log-in-5').show();
-			var id = $(this).attr('href');
-		var maskHeight = $(document).height();
-		var maskWidth = $(window).width();
-		$('#mask').css({'width':maskWidth,'height':maskHeight});
-		$('#mask').fadeTo("slow",0.8); 
-		var winH = $(window).height();
-		var winW = $(window).width();
-		posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
-		$(id).css('top',  posTop+50);
-		$(id).css('left', winW/2-$(id).width()/2);
-		$(id).fadeIn(500); 	
+			}else if(phonereq == ""){    
+				$('.phonejs').focus();
+				return false;   
+			}else{
+				$('.online-replace').attr('name', 'modal');
+				$('#log-in-2').hide();
+				$('#log-in-5').show();
+				var id = $(this).attr('href');
+				var maskHeight = $(document).height();
+				var maskWidth = $(window).width();
+				$('#mask').css({'width':maskWidth,'height':maskHeight});
+				$('#mask').fadeTo("slow",0.8); 
+				var winH = $(window).height();
+				var winW = $(window).width();
+				posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
+				$(id).css('top',  posTop+50);
+				$(id).css('left', winW/2-$(id).width()/2);
+				$(id).fadeIn(500); 	
 			// $('.jsunameonline').val(unamereq);
 			// $('.jsphoneonline').val(phonereq);
 			// $(this).parents('.shtraf-item').hide().next().show();
 			return true;
 		}
 	});
-	</script>
+</script>
