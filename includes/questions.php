@@ -829,6 +829,7 @@
 
 <script>
 	$('a[name=modal]').click(function(e) {
+		$('body').css('overflow-y', 'hidden');
 		e.preventDefault();
 		var id = $(this).attr('href');
 		var maskHeight = $(document).height();
@@ -846,6 +847,7 @@
 		e.preventDefault();
 		$('#mask, .window').hide();
 		$('.window').hide();
+		$('body').removeAttr('style');
 	}); 
 
 	$('#mask, .an-exit__krest').click(function () {
