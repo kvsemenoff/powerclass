@@ -11,138 +11,138 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+	display: block; }
 
-ul {
-  list-style: none; }
-  
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; 
-}
-@font-face {
-  font-family: "OpenSans-Bold";
-  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot");
-  src: local("☺"), url("../fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "OpenSans-BoldItalic";
-  src: url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.eot");
-  src: local("☺"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.woff") format("woff"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.ttf") format("truetype"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "OpenSans-ExtraBold";
-  src: url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.eot");
-  src: local("☺"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.woff") format("woff"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.ttf") format("truetype"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "OpenSans-Italic";
-  src: url("../fonts/OpenSans-Italic/OpenSans-Italic.eot");
-  src: local("☺"), url("../fonts/OpenSans-Italic/OpenSans-Italic.woff") format("woff"), url("../fonts/OpenSans-Italic/OpenSans-Italic.ttf") format("truetype"), url("../fonts/OpenSans-Italic/OpenSans-Italic.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "OpenSans-Regular";
-  src: url("../fonts/OpenSans-Regular/OpenSans-Regular.eot");
-  src: local("☺"), url("../fonts/OpenSans-Regular/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular/OpenSans-Regular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "OpenSans-Semibold";
-  src: url("../fonts/OpenSans-Semibold/OpenSans-Semibold.eot");
-  src: local("☺"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.woff") format("woff"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf") format("truetype"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "OpenSans-SemiboldItalic";
-  src: url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.eot");
-  src: local("☺"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.woff") format("woff"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.ttf") format("truetype"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+	ul {
+		list-style: none; }
 
 
+		blockquote, q {
+			quotes: none; }
 
-.clear{
-	clear: both;
-}
-.center{
-	text-align: center;
-}
-h2{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 46px;
-}
-.podzagolovok{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
-	font-size: 26px;
-}
-.button-1{
-	display: inline-block;
-	width: 255px;
-	height: 68px;
-	background-color: #ffdc52;
-	background-image: -webkit-linear-gradient(bottom, #ffdc52 0%, #ffea72 100%);
-	background-image: linear-gradient(to top, #ffdc52 0%, #ffea72 100%);
-	border-radius: 33px;
-	box-shadow: 0 4px 0 #ecc345, inset 0 0 4px rgba(255, 221, 82, 0.17);
-	line-height: 66px;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	color:black;
-	text-align: center;
-}
-.button-1:hover{
-	background:#fff2a5;
-	color:black;
-}
-.section_padding{
-	padding: 25px 0px;
-	background-color: #fff;
-}
-.dd-input{
-	outline: none;
-	height: 53px;
-	background: #e6e6e6;
-	border-radius: 26px;
-	border:none;
-	border-top: 2px solid #CECECE;
-	padding-left: 26px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
-	font-size: 15px;
-}
-.dd-submit{
-	outline: none;
-	border:none;
-}
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: '';
+				content: none; 
+			}
+			@font-face {
+				font-family: "OpenSans-Bold";
+				src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot");
+				src: local("☺"), url("../fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
+				font-weight: normal;
+				font-style: normal; }
+
+				@font-face {
+					font-family: "OpenSans-BoldItalic";
+					src: url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.eot");
+					src: local("☺"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.woff") format("woff"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.ttf") format("truetype"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.svg") format("svg");
+					font-weight: normal;
+					font-style: normal; }
+
+					@font-face {
+						font-family: "OpenSans-ExtraBold";
+						src: url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.eot");
+						src: local("☺"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.woff") format("woff"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.ttf") format("truetype"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.svg") format("svg");
+						font-weight: normal;
+						font-style: normal; }
+
+						@font-face {
+							font-family: "OpenSans-Italic";
+							src: url("../fonts/OpenSans-Italic/OpenSans-Italic.eot");
+							src: local("☺"), url("../fonts/OpenSans-Italic/OpenSans-Italic.woff") format("woff"), url("../fonts/OpenSans-Italic/OpenSans-Italic.ttf") format("truetype"), url("../fonts/OpenSans-Italic/OpenSans-Italic.svg") format("svg");
+							font-weight: normal;
+							font-style: normal; }
+
+							@font-face {
+								font-family: "OpenSans-Regular";
+								src: url("../fonts/OpenSans-Regular/OpenSans-Regular.eot");
+								src: local("☺"), url("../fonts/OpenSans-Regular/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular/OpenSans-Regular.svg") format("svg");
+								font-weight: normal;
+								font-style: normal; }
+
+								@font-face {
+									font-family: "OpenSans-Semibold";
+									src: url("../fonts/OpenSans-Semibold/OpenSans-Semibold.eot");
+									src: local("☺"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.woff") format("woff"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf") format("truetype"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.svg") format("svg");
+									font-weight: normal;
+									font-style: normal; }
+
+									@font-face {
+										font-family: "OpenSans-SemiboldItalic";
+										src: url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.eot");
+										src: local("☺"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.woff") format("woff"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.ttf") format("truetype"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.svg") format("svg");
+										font-weight: normal;
+										font-style: normal; }
+
+
+
+										.clear{
+											clear: both;
+										}
+										.center{
+											text-align: center;
+										}
+										h2{
+											font-family: 'Open Sans', sans-serif;
+											font-weight: 300;
+											font-size: 46px;
+										}
+										.podzagolovok{
+											font-family: 'Open Sans', sans-serif;
+											font-weight: 500;
+											font-size: 26px;
+										}
+										.button-1{
+											display: inline-block;
+											width: 255px;
+											height: 68px;
+											background-color: #ffdc52;
+											background-image: -webkit-linear-gradient(bottom, #ffdc52 0%, #ffea72 100%);
+											background-image: linear-gradient(to top, #ffdc52 0%, #ffea72 100%);
+											border-radius: 33px;
+											box-shadow: 0 4px 0 #ecc345, inset 0 0 4px rgba(255, 221, 82, 0.17);
+											line-height: 66px;
+											text-transform: uppercase;
+											font-weight: 600;
+											font-family: 'Open Sans', sans-serif;
+											font-size: 18px;
+											color:black;
+											text-align: center;
+										}
+										.button-1:hover{
+											background:#fff2a5;
+											color:black;
+										}
+										.section_padding{
+											padding: 25px 0px;
+											background-color: #fff;
+										}
+										.dd-input{
+											outline: none;
+											height: 53px;
+											background: #e6e6e6;
+											border-radius: 26px;
+											border:none;
+											border-top: 2px solid #CECECE;
+											padding-left: 26px;
+											font-family: 'Open Sans', sans-serif;
+											font-weight: 500;
+											font-size: 15px;
+										}
+										.dd-submit{
+											outline: none;
+											border:none;
+										}
 // input:required{
 // 	border: 2px solid #FB5151;	
 // }
@@ -593,7 +593,10 @@ h2{
 /* попапы
 =====================================*/
 #mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000; width: 100%; height: 100%;  display:none; }
-
+// body, html {
+// 	height: 100%;
+// 	min-height: 100%;
+// }
 .window{ 
 	display: none;
 	position:absolute;
@@ -602,9 +605,17 @@ h2{
 	display:none;
 	z-index:9998; 
 	border:none;
-	// width: 260px;
+
+	// position: fixed;
+	// width: 100% !important;
+	// // height: auto !important;
+	// height: 1px;
+	// left:0 !important;  
+	// top:0 !important;
+	// background: #F4F4F4;
 
 	.form-wrap-main{
+		height: 100%;
 		background: #F4F4F4;
 		border-radius:3px;
 		padding: 15px;
@@ -612,8 +623,6 @@ h2{
 	}
 	.form-wrap-main_5{
 		width: 265px;
-		// padding-left: 74px;
-		// padding-right: 74px;
 		padding-bottom: 74px;
 	}
 	.dd-close{
@@ -1228,7 +1237,6 @@ div[data-val]:hover{
 
 @media only screen and (min-width : 992px) {
 	.dd-close{
-
 		right: 8px !important;
 	}
 	.dd-payments{
@@ -1434,17 +1442,17 @@ div[data-val]:hover{
 	}
 	.input-wrap{
 		display: inline-block;
-	    background: #fff;
-	    margin-right: -50px;
-	    padding-right: 28px;
-	    border-radius: 26px;
-	    margin-bottom: 15px;
-	    width: 240px;
-    input{
-    	background: none;
-    	box-shadow: none;
-    	border-top: none;
-    }
+		background: #fff;
+		margin-right: -50px;
+		padding-right: 28px;
+		border-radius: 26px;
+		margin-bottom: 15px;
+		width: 240px;
+		input{
+			background: none;
+			box-shadow: none;
+			border-top: none;
+		}
 	}
 }
 .in{
@@ -1569,12 +1577,12 @@ div[data-val]:hover{
 			color: #fff;
 		}
 		p{
-	    color: #7d7d7d;
-	    font-size: 26px;
-	    max-width: 686px;
-	    margin: 0 auto;
-	    line-height: 27px;
-	    padding: 25px 0 10px;
+			color: #7d7d7d;
+			font-size: 26px;
+			max-width: 686px;
+			margin: 0 auto;
+			line-height: 27px;
+			padding: 25px 0 10px;
 		}
 	}
 	.individual{
@@ -1896,19 +1904,19 @@ div[data-val]:hover{
 			background: url(../img/corner-tooltip.png);
 			width: 24px;
 			height: 35px;
-	    left: -6px;
-	    bottom: -14px;
+			left: -6px;
+			bottom: -14px;
 		}
 		&::after{
-	    display: none;
+			display: none;
 			content: "";
 			position: absolute;
 			background: url(../img/corner-tooltip.png);
 			width: 24px;
 			height: 35px;
-	    right: -6px;
-	    bottom: -14px;
-	    transform: scale(-1,1);
+			right: -6px;
+			bottom: -14px;
+			transform: scale(-1,1);
 		}
 	}
 	.delivery{
@@ -2224,7 +2232,7 @@ div[data-val]:hover{
 }
 @media only screen and (max-width : 1000px) {
 	.second{
-	display: inline-block ;
+		display: inline-block ;
 	}
 	.first{
 		display: none;
@@ -2342,7 +2350,7 @@ div[data-val]:hover{
 			display: block;
 		}
 		.inner{
-   	  background: rgba(0, 0, 0, 0.75);
+			background: rgba(0, 0, 0, 0.75);
 			padding: 15px;
 		}
 		.block{
@@ -2734,12 +2742,12 @@ div[data-val]:hover{
 	}
 	.end__pay {
 		padding: 10px 0;
-    .img-wrap{
-    	float: none;
-    	display: inline-block;
-    	margin-left: 7px;
-   	  padding: 0 0 5px 0px;
-    }
+		.img-wrap{
+			float: none;
+			display: inline-block;
+			margin-left: 7px;
+			padding: 0 0 5px 0px;
+		}
 	}
 }
 
@@ -2807,9 +2815,9 @@ div[data-val]:hover{
 	width: 100%;
 	height: 100% !important;	
 	background-image: url("../img/paralax1.jpg");	   
-    background-attachment: fixed;  
-    top:-1px;
-    left: 0; 
+	background-attachment: fixed;  
+	top:-1px;
+	left: 0; 
 	background-position:right 65% top 65%;	
 	position: fixed;
 	// background-size: 190%;		
@@ -3328,8 +3336,8 @@ div[data-val]:hover{
 	display: inline-block;
 	padding-right: 16px;
 	position: absolute;
-    bottom: 15px;
-    right: -7px;
+	bottom: 15px;
+	right: -7px;
 }
 
 
@@ -3465,8 +3473,8 @@ div[data-val]:hover{
 
 #jsonline{
 	display: inline-block;
-    width: 170px;
-    height: 53px;
+	width: 170px;
+	height: 53px;
     // background-color: #8bc34a;
     background-image: linear-gradient(to top, #ffdc52 0%, #ffea72 100%);
     border-radius: 33px;
@@ -3513,10 +3521,10 @@ div[data-val]:hover{
 
 .detel{
 	font-size: 26px;	
-    color: #343434;
-    font-weight: 600;
-    line-height: 29px;
-    display: none;
+	color: #343434;
+	font-weight: 600;
+	line-height: 29px;
+	display: none;
 }
 .telmob{
 	display: inline-block;
@@ -3526,7 +3534,7 @@ div[data-val]:hover{
 	text-align: center;	
 	display: block;	
 	&:hover{
-		    color: #ffe76a ;
+		color: #ffe76a ;
 	}
 }	
 @media only screen and (min-width : 320px) {
@@ -3553,7 +3561,7 @@ div[data-val]:hover{
 	}
 	.dfmenubox1, .dfitogo{
 		max-width: 460px;
-	
+
 	}
 	
 }
@@ -3568,7 +3576,7 @@ div[data-val]:hover{
 	}
 	.dfbghow3{
 		background-position: center 75%;
-   		padding: 7% 0 12% 0 !important;
+		padding: 7% 0 12% 0 !important;
 	}
 	
 	
@@ -3579,7 +3587,7 @@ div[data-val]:hover{
 
 @media only screen and (min-width : 992px) {
 	.detel{		
-	    display: inline-block;
+		display: inline-block;
 	}
 	.telmob{
 		display: none;
@@ -4018,7 +4026,7 @@ div[data-val]:hover{
 		min-height: 345px;	//330	
 		// margin-right: 15px;//3
 		margin-right: 3px;
-    	vertical-align: top;
+		vertical-align: top;
 
 	}
 	.dfmenuproducts .dfmenuproductbox:last-child{
@@ -4148,7 +4156,7 @@ div[data-val]:hover{
 		width: 100%;
 		text-align: left;
 		vertical-align: top;
-   		padding-top: 20px;
+		padding-top: 20px;
 	}
 	.dftxtitogo1{
 		font-size: 18px;
@@ -4170,7 +4178,7 @@ div[data-val]:hover{
 		margin-left: 25px;
 		border-bottom: 1px dashed #fff;
 		vertical-align: top;
-    	padding-top: 20px;
+		padding-top: 20px;
 		-o-transition:0.4s;
 		-moz-transition:0.4s;
 		-webkit-transition:0.4s;
