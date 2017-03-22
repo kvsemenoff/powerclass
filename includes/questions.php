@@ -883,16 +883,17 @@
 
 	$(".form1").submit(function() { 
 		var tel = $(this).find('input[name="phone"]');
-		var inppop = $(this).find('uname').val();
-		alert(inppop);
+		var inppop = $(this).find('input[name="uname"]');
+	
 		var empty = false;
+		if (inppop.val() == "") {
+			inppop.addClass('error-input');
+			inppop.focus();			
+		}
 		if (tel.val() == ""){
 			empty = true;
 		}
-		// if (inppop=="") {
-		// 	$('uname').addClass('error-input');
-		// 	$('.dd-input_pop').focus();			
-		// }
+		
 		if (empty == true){
 			tel.addClass("error-input");
 			tel.focus();
