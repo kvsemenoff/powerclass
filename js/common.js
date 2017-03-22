@@ -1,18 +1,10 @@
 
 
 $(document).ready(function(){
-   //  $(this).scroll(function(){
-   //      var $this = $(this), 
-   //      sT = $this.scrollTop(); 
-   //      if(sT > 0){
-   //          $('.db-menu').css("background", "black");
-   //      }
-   //      else{
-   //         $('.db-menu').css("background", "unset"); 
-   //     }
 
-   // });
-
+   if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+        window.roistatLeadHunterInited = true;
+    }
    $(".phone").mask("+7 (999) 999 - 99 - 99?");
 
    

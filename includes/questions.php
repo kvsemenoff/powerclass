@@ -788,6 +788,28 @@
 		
 	});
 
+	$('.jsmobv').on('click', function(e){
+		var kolvokal = $('.active').find('.tab-in').find('i').find('em').find('strong').text();
+		var nameprodm = $('.active').find('.tab-in').find('span').find('b').text();
+		var pricemob = $(this).parents('.price').find('span').find('i').text();
+		var much_1mob = $(this).parents('.inner').find('.right').find('.block:first')
+		.find('span b').text();
+		var much_2mob = $(this).parents('.inner').find('.right').find('.block:last')
+		.find('span b').text();
+
+		$('#log-in-2 .dd-price').text(pricemob);
+		$('#log-in-2 .dd-bold-title_pop .tarif_name').text(nameprodm);
+		$('#log-in-2 .dd-bold-title_pop span .dd-kal').text(kolvokal);
+		$('#log-in-2 .dd-grey-txt .dd-much_1').text(much_1mob);
+		$('#log-in-2 .dd-grey-txt .dd-much_2').text(much_2mob);
+
+		$('.tarif_name_hide').val(nameprodm);
+		$('.tarif_price').val(pricemob);
+		$('.tarif_kalory').val(kolvokal);
+		$('.how_much').val(much_1mob);
+		$('.how_much_day').val(much_2mob);
+
+	});
 
 </script>
 <script>
@@ -861,10 +883,16 @@
 
 	$(".form1").submit(function() { 
 		var tel = $(this).find('input[name="phone"]');
+		var inppop = $(this).find('uname').val();
+		alert(inppop);
 		var empty = false;
 		if (tel.val() == ""){
 			empty = true;
 		}
+		// if (inppop=="") {
+		// 	$('uname').addClass('error-input');
+		// 	$('.dd-input_pop').focus();			
+		// }
 		if (empty == true){
 			tel.addClass("error-input");
 			tel.focus();
@@ -897,13 +925,16 @@
 			$('.dd-hid-name').val(unamereq);
 			$('.dd-hid-phone').val(phonereq);
 			if(unamereq == "" ){    
-				$('.unamejs').focus();          
+				$('.unamejs').focus();  
+				$('.unamejs').addClass('disabledinputjs');	            
 				return false;
 
 			}else if(phonereq == ""){    
 				$('.phonejs').focus();
+				$('.phonejs').addClass('disabledinputjs');	 
 				return false;   
 			}else{
+				$('.disabledinputjs').removeClass('disabledinputjs');
 				$('.online-replace').attr('name', 'modal');
 				$('#log-in-2').hide();
 				$('#log-in-5').show();

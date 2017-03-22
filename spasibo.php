@@ -79,8 +79,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			color: #fff;
 		    font-family: OpenSansLight, sans-serif;
 		    font-size: 36px;
-		    margin-bottom: 76px;
+		   
 		    margin-top: 6px;
+		}
+		.ddspan{
+			font-family: OpenSansLight, sans-serif;
+			display: block;
+			text-align: center;
+			font-size: 22px;
+			color: #fff;
+			font-weight: 300;
+			 margin-bottom: 76px;
 		}
 		a{
 			background: 0 0;
@@ -142,6 +151,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<img src="img/logo.png" alt="PowerClass">
 			<h1>Спасибо за заявку</h1>
 			<p>наш менеджер свяжется с вами в ближайшее время</p>
+			<span class="ddspan">Мы работаем ежедневно, с 10:00 до 22:00</span>
 			<a href="/">Вернуться обратно</a>
 		</div>
 	</div>

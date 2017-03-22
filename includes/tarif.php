@@ -137,7 +137,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>3 450</i> руб.</span>
 									</div>
 								</div>
@@ -155,7 +155,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>4 200</i> руб.</span>
 									</div>
 								</div>
@@ -173,7 +173,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>4 802</i> руб.</span>
 									</div>
 								</div>
@@ -191,7 +191,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>5 852</i> руб.</span>
 									</div>
 								</div>
@@ -305,7 +305,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>3 800</i> руб.</span>
 									</div>
 								</div>
@@ -323,7 +323,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>4 700</i> руб.</span>
 									</div>
 								</div>
@@ -341,7 +341,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>5 300</i> руб.</span>
 									</div>
 								</div>
@@ -359,7 +359,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit  jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>6 600</i> руб.</span>
 									</div>
 								</div>
@@ -473,7 +473,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>4 600</i> руб.</span>
 									</div>
 								</div>
@@ -491,7 +491,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>5 850</i> руб.</span>
 									</div>
 								</div>
@@ -509,7 +509,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>6 405</i> руб.</span>
 									</div>
 								</div>
@@ -527,7 +527,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>8 204</i> руб.</span>
 									</div>
 								</div>
@@ -641,7 +641,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>5 650</i> руб.</span>
 									</div>
 								</div>
@@ -659,7 +659,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>7 400</i> руб.</span>
 									</div>
 								</div>
@@ -677,8 +677,8 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
-										<span><i>9 910</i> руб.</span>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<span><i>7 910</i> руб.</span>
 									</div>
 								</div>
 							</div>
@@ -695,7 +695,7 @@
 										</div>
 									</div>
 									<div class="block price">
-										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
+										<a class="button-1 dd-submit jsmobv ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 										<span><i>10 304</i> руб.</span>
 									</div>
 								</div>

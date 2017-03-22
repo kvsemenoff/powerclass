@@ -10,19 +10,19 @@
 				<h3 class="dfmenucap">Меню на эту неделю</h3>
 				<div class="dfcallory">
 					<div class="dfcaloryesbox2">
-					<span class="dfborder "><a href="#js-fitmob" class="dfactivelinkmob">1 400</a></span>
+					<span class="dfborder "><a href="#js-fitmob" class="dfactivelinkmob" tarif="Фит">1 400</a></span>
 						<span>ккал/день</span>
 					</div>
 					<div class="dfcaloryesbox2">
-					<span class="dfborder"><a href="#js-fitplusmob">1 700</a></span>
+					<span class="dfborder"><a href="#js-fitplusmob" tarif="Фит Плюс">1 700</a></span>
 						<span>ккал/день</span>
 					</div>
 					<div class="dfcaloryesbox2">
-					<span class="dfborder osobiymob"><a href="#js-sportmob">2 500</a></span>
+					<span class="dfborder osobiymob"><a href="#js-sportmob" tarif="Спорт">2 500</a></span>
 						<span>ккал/день</span>
 					</div>
 					<div class="dfcaloryesbox2">
-					<span class="dfborder"><a href="#js-sportplusmob">3 500</a></span>
+					<span class="dfborder"><a href="#js-sportplusmob" tarif="Спорт Плюс">3 500</a></span>
 						<span>ккал/день</span>
 					</div>
 					<div class="clear"></div>
@@ -37,13 +37,13 @@
 
 				<div class="dfweaks">
 					<ul>
-						<li class="dfweak "><a href="#" class="dfonelinkmob jsmobactive">Пн</a></li>
-						<li class="dfweak"><a href="#" class="dfonelinkmob">Вт</a></li>
-						<li class="dfweak"><a href="#" class="dfonelinkmob">Ср</a></li>
-						<li class="dfweak"><a href="#" class="dfonelinkmob">Чт</a></li>
-						<li class="dfweak"><a href="#" class="dfonelinkmob">Пт</a></li>
-						<li class="dfweak"><a href="#" class="dfonelinkmob">Сб</a></li>
-						<li class="dfweak"><a href="#" class="dfonelinkmob">Вс</a></li>
+						<li class="dfweak "><a href="#" class="dfonelinkmob jsmobactive" dayweek="Понедельник">Пн</a></li>
+						<li class="dfweak"><a href="#" class="dfonelinkmob" dayweek="Вторник">Вт</a></li>
+						<li class="dfweak"><a href="#" class="dfonelinkmob" dayweek="Среда">Ср</a></li>
+						<li class="dfweak"><a href="#" class="dfonelinkmob" dayweek="Четверг">Чт</a></li>
+						<li class="dfweak"><a href="#" class="dfonelinkmob" dayweek="Пятница">Пт</a></li>
+						<li class="dfweak"><a href="#" class="dfonelinkmob" dayweek="Суббота">Сб</a></li>
+						<li class="dfweak"><a href="#" class="dfonelinkmob" dayweek="Воскресенье">Вс</a></li>
 
 						<div class="clear"></div>
 					</ul>
@@ -3566,11 +3566,15 @@
 	});
 
 	$('.jsdflinkmob').on('click', function(){		
-		var txttarifmob = $('.dfactivelinkmob a').text();		
+		var txttarifmob = $('.dfactivelinkmob a').attr('tarif');		
 		$('.dd-bold-title_pop b').text(txttarifmob);
 		$('.jsnametarifpop').val(txttarifmob);
+
+		var txtdaykkal = $('.dfactivelinkmob a').text();	
+		$('.dd-bold-title_pop b').next('span').text(txtdaykkal);
+		$('.jskkalpop').val(txtdaykkal);
 			
-		var txtdaytarifmob = $('.jsmobactive').text();		
+		var txtdaytarifmob = $('.jsmobactive').attr('dayweek');		
 		$('.dd-grey-txt_2 i').text(txtdaytarifmob);
 		$('.jsdayweekpop').val(txtdaytarifmob);
 	});
