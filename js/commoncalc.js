@@ -6,15 +6,15 @@ $(document).ready(function(){
 
 		  if(unametoonline == "" ){		  
 	          $('.nametosend').focus();	         
+	          $('.nametosend').addClass('disabledinputjs');	         
 	          	return false;
 	          
 	      }else if(phonetoonline == ""){ 			
 	          $('.phonetosend').focus();
+	          $('.phonetosend').addClass('disabledinputjs');	  
 	          	return false;			
 	      }else{
-	  //     	$('.jsunameonlinemob').val(unametoonline);
-			// $('.jsphoneonlinemob').val(phonetoonline);
-
+	      	 $('.disabledinputjs').removeClass('disabledinputjs');	
 			$('.jsunameonline').val(unametoonline);
 			$('.jsphoneonline').val(phonetoonline);
 			$(this).parents('.shtraf-item').hide().next().show();
@@ -293,18 +293,14 @@ $(document).ready(function(){
 	
 
 
-		
-	$('#jsrasschitat').attr('disabled', 'disabled');
-	$('.jscheked select').addClass('selectdisabled');	
-
-	$('.jscheked select').on('change', function() {
-		$('.jscheked select').addClass('selectdisabled');	
-		if (!$('.f1').is(':selected')){				
-				$('.jscheked select').removeClass('selectdisabled');	
-			$('#jsrasschitat').removeAttr('disabled');	
-						
-		}				
-	});	
+function proverka(input) {
+    ch = input.value.replace(/[^\d]/);   
+    input.value = ch; 
+    
+};	
+$('.input-mini').keyup(function() {
+	proverka(this);		
+});
 
 
 
@@ -325,13 +321,19 @@ $(document).ready(function(){
 		daysmob="";
 
 
-		
-
-
-
-		
-
+		if ($('.f1').is(':selected')){	
+			$('#jsrasschitat').attr('disabled', 'disabled');		
+			$('.jscheked select').addClass('selectdisabled');
+		}
 			
+
+		$('.jscheked select').on('change', function() {		
+			if (!$('.f1').is(':selected')){			
+				$('.jscheked select').removeClass('selectdisabled');	
+				$('#jsrasschitat').removeAttr('disabled');							
+			}	
+			$(this).removeClass('selectdisabled');			
+		});		
 
 
 		malemob +=  $(this).prevAll('.select-wrap')
@@ -541,6 +543,8 @@ $(document).ready(function(){
 
 			}
 		// console.log(itogomob);
+			$('.input-mini').addClass('disabledinputjs');
+
 			if ($('#agemob').val() >= 99 || $('#agemob').val() <= 12) {
 				$('#agemob').addClass('disabledinputjs');
 				$(this).addClass('disabledjs');	
@@ -551,8 +555,12 @@ $(document).ready(function(){
 				$('#massmob').addClass('disabledinputjs');
 				$(this).addClass('disabledjs');		
 			}else{
+				$('.input-mini').removeClass('disabledinputjs');
 				$('#jsrasschitat').removeClass('disabledjs');
 			}
+
+
+
 
 		if (!$('#jsrasschitat').hasClass('disabledjs')) {
 			$(this).parents('.jsmob').hide().next().show();

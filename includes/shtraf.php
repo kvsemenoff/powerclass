@@ -113,7 +113,7 @@
 						<p>Стоимость питания будет рассчитана в соответствии с вашей потребностью в калориях и расписанием питания</p>
 						<span class="descr">Выберите вашу цель</span>
 						<div class="btn-wrap">
-							<button activity="1.2" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Не занимаюсь спортом</span><i>сидячий образ</i></button>
+							<button activity="1.2" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Не занимаюсь спортом</span><i>сидячий образ жизни</i></button>
 							<button activity="1.375" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Легкая активность</span><i>аэробные нагрузки 1-3 р/нед</i></button>
 							<button activity="1.55" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Повышенная активность</span><i>интенсивные тренировки 3-5 р/нед</i></button>
 							<button activity="1.725" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Высокая активность</span><i>тяжелые тренировки 6-7 р/нед</i></button>

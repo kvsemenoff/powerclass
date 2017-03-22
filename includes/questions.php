@@ -16,8 +16,9 @@
 					<p>Или позвоните сами по номеру</p>
 					<span class="phonede">
 						<a href="#log-in-1" name="modal"><span class="db-tel detel ">+7 (495) 133 29 67</span></a>
-
-						<em class="second">7 495 133 29 67</em></span>
+		
+						<!-- <em class="second">7 495 133 29 67</em></span> -->
+						<a href="tel:+74951332967"><span class="telmob">+7 495 133 29 67</span></a>
 					</div>
 				</div>
 			</div>

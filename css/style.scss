@@ -106,7 +106,7 @@ h2{
 	display: inline-block;
 	width: 255px;
 	height: 68px;
-	background-color: #8bc34a;
+	background-color: #ffdc52;
 	background-image: -webkit-linear-gradient(bottom, #ffdc52 0%, #ffea72 100%);
 	background-image: linear-gradient(to top, #ffdc52 0%, #ffea72 100%);
 	border-radius: 33px;
@@ -475,7 +475,7 @@ h2{
 }
 .ripplelink{
 	text-align:center;
-	color:#fff;
+	// color:#fff;
 	text-decoration:none;
 	position:relative;
 	overflow:hidden;
@@ -771,6 +771,7 @@ h2{
 		width: 100%;
 		height: 60px;
 		line-height: unset;
+		font-size: 16px;
 	}
 }
 .dd-title-2{
@@ -808,7 +809,7 @@ h2{
 	height: 59px;
 	width: 100%;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	line-height: 54px;
@@ -816,6 +817,9 @@ h2{
 	color: #212121;
 	margin-bottom: 25px;
 	margin-right: 28px;
+	&:hover{
+		background:#fff2a5;		
+	}
 }
 .dd-title-2_wrap{
 	padding-bottom: 15px;
@@ -1475,7 +1479,7 @@ div[data-val]:hover{
 		background: #e6e6e6;
 		border-top: 2px solid #cdcdcd;
 		border-radius: 26px 0 0 26px;
-		margin-right: -20px;
+		// margin-right: -20px;
 	}
 }
 .testimonials{
@@ -1578,6 +1582,10 @@ div[data-val]:hover{
 		font-size: 14px;
 		color: #707070;
 		text-decoration: underline;
+		&:hover{
+			text-decoration: none;
+			color:#ffe668;
+		}
 	}
 }
 .shtraf-mini{
@@ -1656,6 +1664,9 @@ div[data-val]:hover{
 		padding: 8px 0 0;
 		color: #8c8c8c;
 		font-size: 14px;
+		&:hover{
+			text-decoration: none;
+		}
 	}
 	.input-number{
 		border-radius: 24px;
@@ -2028,6 +2039,9 @@ div[data-val]:hover{
 		text-align: center;
 		padding: 15px 0;
 		text-decoration: underline;
+		&:hover{
+			text-decoration: none;
+		}
 	}
 	input::-webkit-input-placeholder {
 		color: #222;
@@ -2074,9 +2088,16 @@ div[data-val]:hover{
 		width: 100%;
 		line-height: 55px;
 		display: block;
-		margin: 0 auto;
+		margin: 0 auto;		
 		b{
 			border-bottom: 1px dashed #fff;
+		}
+		&:hover{
+			color: #ffe76b;
+			border-color: #ffe76b;
+			b{
+				border-bottom: 1px dashed transparent;
+			}
 		}
 	}
 	i{
@@ -2759,10 +2780,10 @@ div[data-val]:hover{
 		display: inline-block;
 		font-weight: 600;
 		// padding: 10px 25px;
-		padding: 25px 55px;
+		// padding: 25px 55px;
 		font-size:18px;
 		color: #272727;
-		line-height: 22px;
+		// line-height: 22px;
 		letter-spacing: 0.7px;
 		text-transform: uppercase;		
 		background-color: #fcc938;
@@ -2789,7 +2810,8 @@ div[data-val]:hover{
     left: 0; 
 	background-position:right 65% top 65%;	
 	position: fixed;
-	background-size: 190%;		
+	// background-size: 190%;		
+	background-size: cover;		
 	background-repeat: no-repeat;	
 }
 .dffourbox{
@@ -3352,7 +3374,11 @@ div[data-val]:hover{
 		background-color: #ffe15e;
 		border-bottom: 3px solid #ecc345;
 		border-radius: 35px;
-		letter-spacing: 0.6px
+		letter-spacing: 0.6px;
+		&:hover{
+			background:#fff2a5;
+			color:black;
+		}
 	}
 }
 
@@ -3439,7 +3465,7 @@ div[data-val]:hover{
 	display: inline-block;
     width: 170px;
     height: 53px;
-    background-color: #8bc34a;
+    // background-color: #8bc34a;
     background-image: linear-gradient(to top, #ffdc52 0%, #ffea72 100%);
     border-radius: 33px;
     box-shadow: 0 4px 0 #ecc345, inset 0 0 4px rgba(255, 221, 82, 0.17);
@@ -3450,7 +3476,9 @@ div[data-val]:hover{
     font-size: 13px;
     color: black;
     text-align: center;
-    
+    &:hover{
+    	background:#fff2a5;
+    }
 }
 
 
@@ -3483,11 +3511,22 @@ div[data-val]:hover{
 
 .detel{
 	font-size: 26px;	
-    color: #fff;
+    color: #343434;
     font-weight: 600;
     line-height: 29px;
+    display: none;
 }
-	
+.telmob{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	color: white;
+	text-align: center;	
+	display: block;	
+	&:hover{
+		    color: #ffe76a ;
+	}
+}	
 @media only screen and (min-width : 320px) {
 }
 
@@ -3537,6 +3576,15 @@ div[data-val]:hover{
 
 
 @media only screen and (min-width : 992px) {
+	.detel{		
+	    display: inline-block;
+	}
+	.telmob{
+		display: none;
+	}
+
+
+
 	.dfbg1{		
 		padding: 120px 0 ;
 		background-image: url("../img/girl1.png");
@@ -3810,27 +3858,27 @@ div[data-val]:hover{
 	}
 
 
-	.dfhoverbox1:hover{		
-		background-image: url("../img/hoveronbutton1.png");
-		background-repeat: no-repeat;
-		// background-position: top left -1.5%;
-		background-position: top 1px right 205%;		
-	}
-	.dfhoverbox2:hover{		
-		background-image: url("../img/hoveronbutton2.png");
-		background-repeat: no-repeat;
-		background-position: top center;
-	}
-	.dfhoverbox3:hover{		
-		background-image: url("../img/hoveronbutton2.png");
-		background-repeat: no-repeat;
-		background-position: top center;
-	}
-	.dfhoverbox4:hover{		
-		background-image: url("../img/hoveronbutton2.png");
-		background-repeat: no-repeat;
-		background-position: top center;
-	}
+	// .dfhoverbox1:hover{		
+	// 	background-image: url("../img/hoveronbutton1.png");
+	// 	background-repeat: no-repeat;
+	// 	// background-position: top left -1.5%;
+	// 	background-position: top 1px right 205%;		
+	// }
+	// .dfhoverbox2:hover{		
+	// 	background-image: url("../img/hoveronbutton2.png");
+	// 	background-repeat: no-repeat;
+	// 	background-position: top center;
+	// }
+	// .dfhoverbox3:hover{		
+	// 	background-image: url("../img/hoveronbutton2.png");
+	// 	background-repeat: no-repeat;
+	// 	background-position: top center;
+	// }
+	// .dfhoverbox4:hover{		
+	// 	background-image: url("../img/hoveronbutton2.png");
+	// 	background-repeat: no-repeat;
+	// 	background-position: top center;
+	// }
 
 
 
@@ -3867,7 +3915,7 @@ div[data-val]:hover{
 		font-size: 14px;
 		font-weight: 700;
 		line-height: 18px;
-		margin-right: -3px;
+		// margin-right: -3px;
 		.dfdots{
 			width: 7px;
 			height: 7px;
@@ -4169,7 +4217,8 @@ div[data-val]:hover{
 		display: inline-block; 		
 		padding: 12px 13px 3px 25px;		
 		border-radius: 25px 0 0 25px;		
-		text-align: left;		
+		text-align: left;
+		float: left;		
 	}
 	.df5priem{
 		display: inline-block; 
@@ -4177,6 +4226,7 @@ div[data-val]:hover{
 		border-radius: 0 25px 25px 0; 
 		text-align: left;		
 		margin-top: 0px;
+		float: left;
 	}
 }
 

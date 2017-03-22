@@ -96,7 +96,7 @@
 										<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
 									</div>
 									<div class="block last-block">
-										<span><b>Дни доставки</b>Ср, Вс</span>
+										<span><b>Дни доставки</b>Ср, Пт, Вс</span>
 										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 									</div>
 								</div>
@@ -264,7 +264,7 @@
 										<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
 									</div>
 									<div class="block last-block">
-										<span><b>Дни доставки</b>Ср, Вс</span>
+										<span><b>Дни доставки</b>Ср, Пт, Вс</span>
 										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 									</div>
 								</div>
@@ -432,7 +432,7 @@
 										<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
 									</div>
 									<div class="block last-block">
-										<span><b>Дни доставки</b>Ср, Вс</span>
+										<span><b>Дни доставки</b>Ср, Пт, Вс</span>
 										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 									</div>
 								</div>
@@ -600,7 +600,7 @@
 										<div class="de-dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
 									</div>
 									<div class="block last-block">
-										<span><b>Дни доставки</b>Ср, Вс</span>
+										<span><b>Дни доставки</b>Ср, Пт, Вс</span>
 										<a class="button-1 dd-submit ripplelink"  href="#log-in-2" name=modal>Заказать</a>
 									</div>
 								</div>
