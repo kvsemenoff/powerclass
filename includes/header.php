@@ -16,8 +16,10 @@
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-
-	<link rel="shortcut icon" href="favicon.ico" />
+	
+	<link rel="shortcut icon" href="/faviconn.ico" type="image/x-icon">
+	<link rel="icon" href="/faviconn.ico" type="image/x-icon">
+	
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
