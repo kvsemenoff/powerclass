@@ -473,7 +473,7 @@ h2{
 =====================*/
 #log-in-6{
 	left:50% !important;
-	transform: translateX(-59%)
+	transform: translateX(-59%);	
 }
 .ripplelink{
 	text-align:center;
@@ -1181,6 +1181,7 @@ div[data-val]:hover{
 	}
 }
 
+
 @media only screen and (min-width : 320px) {
 	.faq{
 		// width: 277px;
@@ -1233,6 +1234,11 @@ div[data-val]:hover{
 @media only screen and (min-width : 992px) {
 	.dd-close{
 		right: 8px !important;
+	}
+	#log-in-6{		
+		.dd-close{
+			right: -128px !important;
+		}
 	}
 	.dd-payments{
 		display: block;
@@ -4236,4 +4242,6 @@ div[data-val]:hover{
 }
 
 
-
+.roistat-lh-pulsator-phone{
+	z-index: 20!important;
+}
