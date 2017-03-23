@@ -387,7 +387,7 @@
 											</div>
 										</div>
 										<div class="end__pay clearfix">
-											<input class="button-1 dd-submit ripplelink" type="submit" value="Оплатить online" placeholder="">
+											<input class="button-1 dd-submit ripplelink yandex" type="submit" value="Оплатить online" placeholder="">
 											<div class="img-wrap">
 												<img src="img/end-img.jpg" alt="">
 											</div>
@@ -613,7 +613,7 @@
 						</div>
 					</div>
 					<div class="end__pay clearfix">
-						<input class="button-1 dd-submit ripplelink" type="submit" value="Оплатить online" placeholder="">
+						<input class="button-1 dd-submit ripplelink yandex" type="submit" value="Оплатить online" placeholder="">
 						<div class="img-wrap">
 							<img src="img/order-variant.jpg" alt="">
 						</div>
@@ -670,4 +670,7 @@
         location = "spasibo.php";
     };
 
+    // $('.yandex').on('click', function(){
+    // 	location.href = "https://kassa.yandex.ru/";
+    // });
 </script>

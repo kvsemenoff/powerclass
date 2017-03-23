@@ -760,10 +760,7 @@
 	$('.dd-dost_span').mouseleave(function(){
 		$('.dd-podskazka').css('display' , 'none');
 	});
-	$('.online-replace').click(function(e){
-		// e.preventDefault();
-		// $('#log-in-2').css('display' , 'none');
-	});
+	
 	$('.last-block .button-1').click(function(){
 		var price = $(this).parents('.inner').find('.price').find('i').text();
 		var much_1 = $(this).parents('.inner').find('.block_much_1 span b').text();
@@ -881,6 +878,9 @@
 
 	$(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
 
+	$('input[name=submit]').click(function(){
+		$('input[name="uname"]').addClass('error-input');
+	});
 	$(".form1").submit(function() { 
 		var tel = $(this).find('input[name="phone"]');
 		var inppop = $(this).find('input[name="uname"]');

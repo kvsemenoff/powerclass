@@ -78,8 +78,8 @@
 						<p class="db-two">
 							<a href="#log-in-1" name="modal"><span class="db-tel">+7 (495) 133 29 67</span></a><br>
 							<a href="#log-in-1" name="modal" class="db-link-one">Заказать звонок</a><br>
-							<a href="#" target="_blank" class="db-link-two"><img src="img/header_vk.png" alt="img"></a>
-							<a href="#" target="_blank"><img src="img/header_insta.png" alt="img"></a>
+							<a href="https://vk.com/powerclass" target="_blank" rel="noopener" class="db-link-two"><img src="img/header_vk.png" alt="img"></a>
+							<a href="https://www.instagram.com/powerclass/ " target="_blank" rel="noopener"><img src="img/header_insta.png" alt="img"></a>
 						</p>
 					</div>
 					<div class="col-md-12">
