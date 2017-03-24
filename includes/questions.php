@@ -232,9 +232,9 @@
 		</div>
 
 
-		<!-- Pop-5 оплата заказа с селектами -->
+		<!-- Pop-5 оплата заказа с селектами win_2-->
 		<!-- /////////////////////////// -->
-		<div id="log-in-5" class="window win_2">
+		<div id="log-in-5" class="window "> 
 
 			<div class="dd-form-wrap">
 
@@ -860,7 +860,10 @@
 		var winH = $(window).height();
 		var winW = $(window).width();
 		posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
-		// $(id).css('top',  posTop+50);
+		
+		  if(window.innerWidth > 990) {
+		       $(id).css('top',  posTop+50);
+		    }
 		// $(id).css('left', winW/2-$(id).width()/2);
 		$(id).fadeIn(500);
 
@@ -869,6 +872,7 @@
 			'position': 'fixed',
 			'width' : '100%',
 			'top': -posTop,
+			'padding-right': '17px',
  		});
  		$('.roistat-lh-pulsator-phone').css('display', 'none');
 	});
@@ -952,21 +956,22 @@
 				$('.online-replace').attr('name', 'modal');
 				$('#log-in-2').hide();
 				$('#log-in-5').show();
-				var id = $(this).attr('href');
-				var maskHeight = $(document).height();
-				var maskWidth = $(window).width();
-				$('#mask').css({'width':maskWidth,'height':maskHeight});
-				$('#mask').fadeTo("slow",0.8); 
-				var winH = $(window).height();
-				var winW = $(window).width();
-				posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
-				$(id).css('top',  posTop+50);
-				$(id).css('left', winW/2-$(id).width()/2);
-				$(id).fadeIn(500); 	
-			// $('.jsunameonline').val(unamereq);
-			// $('.jsphoneonline').val(phonereq);
-			// $(this).parents('.shtraf-item').hide().next().show();
-			return true;
+				
+				// var maskHeight = $(document).height();
+				// var maskWidth = $(window).width();
+				// $('#mask').css({'width':maskWidth,'height':maskHeight});
+				// $('#mask').fadeTo("slow",0.8); 
+				// var winH = $(window).height();
+				// var winW = $(window).width();
+				// var posTop2 = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
+				// // $(id).css('top',  posTop+50);
+				//  if(window.innerWidth > 990) {
+			 //       $('#log-in-5').css('top',  winH);
+			 //    }
+			
+				
+			
+				return true;
 		}
 	});
 </script>

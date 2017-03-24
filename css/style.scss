@@ -85,7 +85,10 @@ q:before, q:after {
   font-style: normal; }
 
 
-
+html, body{
+	height: 100%;
+	min-height: 100%;
+}
 .clear{
 	clear: both;
 }
@@ -596,7 +599,7 @@ h2{
 	position:absolute;
 	left:0;
 	top:0; 
-	z-index:900;
+	z-index:500;
 	background-color:#000;
 	width: 100%; 
 	height: 100%;
@@ -622,8 +625,11 @@ h2{
     z-index: 9950;
     display: none;
     overflow-y:scroll;
+    overflow-x:hidden;
     margin: 0 auto;
-    
+    height: 100%;
+    background: #F4F4F4;
+
 	// position: fixed;
 	// width: 100% !important;
 	// height: auto !important;
@@ -632,7 +638,7 @@ h2{
 
 
 	.form-wrap-main{
-		background: #F4F4F4;
+		
 		border-radius:3px;
 		padding: 15px;
 		text-align: center;
@@ -1189,10 +1195,9 @@ div[data-val]:hover{
 	border:2px solid #FB5151 !important;
 }
 .win_2{
-	top:50px;
-	left:396px;
+	// top:50px;
+	// left:396px;
 }
-
 #log-in-1{
 	.form-wrap-main{
 		text-align: left;
@@ -1201,8 +1206,30 @@ div[data-val]:hover{
 		right: 8px;
 	}
 }
+	#log-in-5{
+		position: fixed;
+		top:10%;
+		left:50%;
+		// right: 0;
+		// bottom: 0;
+		transform:translateX(-50%);
+		max-width: 340px;
+		width: 100%;
+	}
+
+#log-in-5::-webkit-scrollbar { width: 0; }
+#log-in-5 { -ms-overflow-style: none; }
+#log-in-5 { overflow: -moz-scrollbars-none; }
+
+.window::-webkit-scrollbar { width: 0; }
+.window { -ms-overflow-style: none; }
+.window { overflow: -moz-scrollbars-none; }
 
 
+.dd-but_online{
+	width: 312px;
+	margin: 0 auto;
+}
 @media only screen and (min-width : 320px) {
 	.faq{
 		// width: 277px;
@@ -1223,7 +1250,7 @@ div[data-val]:hover{
 	}
 	.window{ 
 		.form-wrap-main_5{
-			width: 300px;
+			width: 340px;
 		}
 	}
 }
@@ -1261,6 +1288,8 @@ div[data-val]:hover{
 			right: -128px !important;
 		}
 	}
+
+
 	.dd-payments{
 		display: block;
 	}
@@ -1428,6 +1457,9 @@ div[data-val]:hover{
 			font-size: 27px;
 		}
 	}
+	#log-in-5{
+		max-width: 805px;
+	}
 	.window{ 
 		.form-wrap-main_5{
 			width: 805px;
@@ -1437,6 +1469,35 @@ div[data-val]:hover{
 			padding-bottom: 74px;
 		}
 	}
+	.window{ 
+		display: none;
+		position:absolute;
+		left:0;  
+		top:0;
+		display:none;
+		z-index:990; 
+		border:none;
+		overflow: inherit;
+		height: auto;
+		
+
+		// position: fixed;
+	 //    top: 0;
+	 //    right: 0;
+	 //    bottom: 0;
+	 //    left: 0;
+	 //    z-index: 9950;
+	 //    display: none;
+	 //    overflow-y:scroll;
+	 //    margin: 0 auto;
+	    
+		// position: fixed;
+		// width: 100% !important;
+		// height: auto !important;
+		// left:0 !important;  
+		// top:0 !important;
+	}
+
 }
 
 
@@ -2449,7 +2510,10 @@ div[data-val]:hover{
 		.in{
 			.button-1{
 				font-size: 15px;
-				width: 170px;
+			    width: auto;
+			    line-height: normal;
+			    padding: 15px 10px;
+			    vertical-align: top;
 			}
 		}
 	}

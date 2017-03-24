@@ -77,6 +77,10 @@ q:before, q:after {
   src: local("тШ║"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.woff") format("woff"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.ttf") format("truetype"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
+html, body {
+  height: 100%;
+  min-height: 100%; }
+
 .clear {
   clear: both; }
 
@@ -503,7 +507,7 @@ h2 {
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 900;
+  z-index: 500;
   background-color: #000;
   width: 100%;
   height: 100%;
@@ -518,9 +522,11 @@ h2 {
   z-index: 9950;
   display: none;
   overflow-y: scroll;
-  margin: 0 auto; }
+  overflow-x: hidden;
+  margin: 0 auto;
+  height: 100%;
+  background: #F4F4F4; }
   .window .form-wrap-main {
-    background: #F4F4F4;
     border-radius: 3px;
     padding: 15px;
     text-align: center; }
@@ -1000,14 +1006,40 @@ div[data-val]:hover {
 .error-input {
   border: 2px solid #FB5151 !important; }
 
-.win_2 {
-  top: 50px;
-  left: 396px; }
-
 #log-in-1 .form-wrap-main {
   text-align: left; }
 #log-in-1 .dd-close {
   right: 8px; }
+
+#log-in-5 {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 340px;
+  width: 100%; }
+
+#log-in-5::-webkit-scrollbar {
+  width: 0; }
+
+#log-in-5 {
+  -ms-overflow-style: none; }
+
+#log-in-5 {
+  overflow: -moz-scrollbars-none; }
+
+.window::-webkit-scrollbar {
+  width: 0; }
+
+.window {
+  -ms-overflow-style: none; }
+
+.window {
+  overflow: -moz-scrollbars-none; }
+
+.dd-but_online {
+  width: 312px;
+  margin: 0 auto; }
 
 @media only screen and (min-width: 320px) {
   .fl-left {
@@ -1025,7 +1057,7 @@ div[data-val]:hover {
     margin: 0 auto; }
 
   .window .form-wrap-main_5 {
-    width: 300px; } }
+    width: 340px; } }
 .dd-select {
   padding-top: 6px; }
 
@@ -1208,12 +1240,26 @@ div[data-val]:hover {
   .dd-title_ma span {
     font-size: 27px; }
 
+  #log-in-5 {
+    max-width: 805px; }
+
   .window .form-wrap-main_5 {
     width: 805px;
     margin: 0 auto;
     padding-left: 74px;
     padding-right: 74px;
-    padding-bottom: 74px; } }
+    padding-bottom: 74px; }
+
+  .window {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 990;
+    border: none;
+    overflow: inherit;
+    height: auto; } }
 .questions, .dd-want-view {
   background-image: url("../img/questions.jpg");
   background-position: top center;
@@ -2007,7 +2053,10 @@ div[data-val]:hover {
 @media (min-width: 770px) and (max-width: 1000px) {
   .questions .in .button-1 {
     font-size: 15px;
-    width: 170px; } }
+    width: auto;
+    line-height: normal;
+    padding: 15px 10px;
+    vertical-align: top; } }
 @media only screen and (max-width: 770px) {
   .questions, .dd-want-view, .testimonials {
     padding: 35px 0 30px !important;
