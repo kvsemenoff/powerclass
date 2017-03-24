@@ -123,11 +123,11 @@
 							<input class="how_much_day" name="how_much_day" type="hidden" value="empty">
 							<!-- end hidden -->
 
-						</div>
 						<div class="dd-but_online">
-							<a class="button-2  online-replace" name="" href="#log-in-5">Оформить онлайн</a>
-							<!-- <input class="button-2  online-replace" name="modal" type="button" value="оформить онлайн"> -->
+							<a class="button-2  online-replace" name="" href="#log-in-5">Оформить онлайн</a>							
+						</div>	
 						</div>
+						
 						<div class="clearfix"></div>
 					</div>
 					<div class="clearfix"></div>

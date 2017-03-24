@@ -387,10 +387,6 @@ h2 {
     right: 137px !important; } }
 /* ╤Е╨╛╨▓╨╡╤А ╨┤╨╗╤П ╨║╨╜╨╛╨┐╨║╨╕
 =====================*/
-#log-in-6 {
-  left: 50% !important;
-  transform: translateX(-59%); }
-
 .ripplelink {
   text-align: center;
   text-decoration: none;
@@ -1014,8 +1010,6 @@ div[data-val]:hover {
 #log-in-5 {
   position: fixed;
   top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
   max-width: 340px;
   width: 100%; }
 
@@ -1036,10 +1030,6 @@ div[data-val]:hover {
 
 .window {
   overflow: -moz-scrollbars-none; }
-
-.dd-but_online {
-  width: 312px;
-  margin: 0 auto; }
 
 @media only screen and (min-width: 320px) {
   .fl-left {
@@ -1076,9 +1066,6 @@ div[data-val]:hover {
 @media only screen and (min-width: 992px) {
   .dd-close {
     right: 8px !important; }
-
-  #log-in-6 .dd-close {
-    right: -128px !important; }
 
   .dd-payments {
     display: block; }
@@ -1128,9 +1115,6 @@ div[data-val]:hover {
     padding-right: 28px;
     width: 336px !important; }
 
-  .dd-but_online {
-    padding-right: 28px; }
-
   .dd-img-2 {
     display: block;
     float: left; }
@@ -1150,7 +1134,7 @@ div[data-val]:hover {
     float: left; }
 
   .window {
-    width: 808px;
+    max-width: 945px;
     margin: 0 auto !important; }
 
   .dd-el_wrap {
@@ -1259,7 +1243,8 @@ div[data-val]:hover {
     z-index: 990;
     border: none;
     overflow: inherit;
-    height: auto; } }
+    height: auto;
+    bottom: unset; } }
 .questions, .dd-want-view {
   background-image: url("../img/questions.jpg");
   background-position: top center;

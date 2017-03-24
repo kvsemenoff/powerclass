@@ -475,8 +475,8 @@ h2{
 /* ховер для кнопки
 =====================*/
 #log-in-6{
-	left:50% !important;
-	transform: translateX(-59%);	
+	// left:50% !important;
+	// transform: translateX(-59%);	
 }
 .ripplelink{
 	text-align:center;
@@ -1209,10 +1209,10 @@ div[data-val]:hover{
 	#log-in-5{
 		position: fixed;
 		top:10%;
-		left:50%;
+		// left:50%;
 		// right: 0;
 		// bottom: 0;
-		transform:translateX(-50%);
+		// transform:translateX(-50%);
 		max-width: 340px;
 		width: 100%;
 	}
@@ -1226,10 +1226,10 @@ div[data-val]:hover{
 .window { overflow: -moz-scrollbars-none; }
 
 
-.dd-but_online{
-	width: 312px;
-	margin: 0 auto;
-}
+// .dd-but_online{
+// 	width: 330px;//312
+// 	margin: 0 auto;
+// }
 @media only screen and (min-width : 320px) {
 	.faq{
 		// width: 277px;
@@ -1285,7 +1285,7 @@ div[data-val]:hover{
 	}
 	#log-in-6{		
 		.dd-close{
-			right: -128px !important;
+			// right: -128px !important;
 		}
 	}
 
@@ -1340,7 +1340,7 @@ div[data-val]:hover{
 		width: 336px !important;
 	}
 	.dd-but_online{
-		padding-right: 28px;
+		// padding-right: 28px;
 	}
 	.dd-img-2{
 		display: block;
@@ -1361,7 +1361,7 @@ div[data-val]:hover{
 		float: left;
 	}
 	.window{
-		width: 808px;
+		max-width: 945px;//808
 		margin: 0 auto !important;
 	}
 	.dd-el_wrap{
@@ -1479,7 +1479,7 @@ div[data-val]:hover{
 		border:none;
 		overflow: inherit;
 		height: auto;
-		
+		bottom: unset;
 
 		// position: fixed;
 	 //    top: 0;
