@@ -47,9 +47,9 @@
 						<p>Стоимость питания будет рассчитана в соответствии с вашей потребностью в калориях и расписанием питания</p>
 						<span class="descr">Выберите вашу цель</span>
 						<div class="btn-wrap">
-							<button class="shtraf__btn shtraf__btn--black"><span>Сбросить вес</span></button>
-							<button class="shtraf__btn shtraf__btn--black"><span>Поддержать форму</span></button>
-							<button class="shtraf__btn shtraf__btn--black"><span>Набрать массу</span></button>
+							<button class="shtraf__btn shtraf__btn--black" cel="Сбросить вес"><span>Сбросить вес</span></button>
+							<button class="shtraf__btn shtraf__btn--black" cel="Поддержать форму"><span>Поддержать форму</span></button>
+							<button class="shtraf__btn shtraf__btn--black" cel="Набрать массу"><span>Набрать массу</span></button>
 						</div>
 						<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
 					</div>
@@ -257,6 +257,7 @@
 											<input class="button-1 dd-submit ripplelink" type="submit" value="Заказать по телефону" placeholder="">
 										</div>
 
+										<input type="hidden" name="cel" class="jsceljizni">	
 
 										<input type="hidden" name="kkalklient" class="jskkalklient"> 
 										<input type="hidden" name="tarif" class="jsnametarif"> 
@@ -335,17 +336,21 @@
 
 
 
-										<input type="hidden" name="uname" class="jsunameonline"> 
-										<input type="hidden" name="phone" class="jsphoneonline"> 
+								<input type="hidden" name="uname" class="jsunameonline"> 
+								<input type="hidden" name="phone" class="jsphoneonline"> 
 
-										<input type="hidden" name="kkalklient" class="jskkalklient"> 
-										<input type="hidden" name="tarif" class="jsnametarif"> 
-										<input type="hidden" name="food" class="jsklientfood"> 
-										<input type="hidden" name="days" class="jsklientdays"> 
+								<input type="hidden" name="cel" class="jsceljizni">	
+								<input type="hidden" name="daydostavki" class="jsdaydostavki"> 
+				 				<input type="hidden" name="timedostavki" class="jstimedostavki"> 	
+
+								<input type="hidden" name="kkalklient" class="jskkalklient"> 
+								<input type="hidden" name="tarif" class="jsnametarif"> 
+								<input type="hidden" name="food" class="jsklientfood"> 
+								<input type="hidden" name="days" class="jsklientdays"> 
 										
 
 										<div class="choose-wrap clearfix">
-											<div class="choose">
+											<div class="choose jsdayselected">
 												<span>День 1-й доставки:</span>
 												<select>
 												  <option>ВС</option>
@@ -353,7 +358,7 @@
 												  <option>ПТ</option>
 												</select>
 											</div>
-											<div class="choose">
+											<div class="choose jstimeselected">
 												<span>Время:</span>
 												<select>
 												  <option>19:00</option>
@@ -429,11 +434,11 @@
 								</select>
 							</div>
 							<div class="select-wrap jscheked">
-								<select >
+								<select class="jsceljizi">
 									<option selected="true" disabled="disabled" class="f1">Выберите вашу цель</option>
-									<option>Сбросить вес</option>
-									<option>Поддержать форму</option>
-									<option>Набрать массу</option>
+									<option celmob="Сбросить вес">Сбросить вес</option>
+									<option celmob="Поддержать форму">Поддержать форму</option>
+									<option celmob="Набрать массу">Набрать массу</option>
 								</select>
 							</div>
 							<div class="select-wrap clearfix">
@@ -506,7 +511,7 @@
 				</div>
 				<input class="button-1 dd-submit dd-submit-left ripplelink" type="submit" value="Заказать по телефону">
 
-				
+				<input type="hidden" name="cel" class="jsceljiznimob"> 
 				<input type="hidden" name="kkalklient" class="jskkalklientmob"> 
 				<input type="hidden" name="tarif" class="jsnametarifmob"> 
 				<input type="hidden" name="food" class="jsklientfoodmob"> 
@@ -555,7 +560,9 @@
 					<input type="hidden" name="uname" class="jsunameonline"> 
 					<input type="hidden" name="phone" class="jsphoneonline"> 
 
-					 
+					<input type="hidden" name="cel" class="jsceljiznimob"> 	
+				 	<input type="hidden" name="daydostavki" class="jsdaydostavki"> 
+				 	<input type="hidden" name="timedostavki" class="jstimedostavki"> 
 
 					<input type="hidden" name="kkalklient" class="jskkalklientmob"> 
 					<input type="hidden" name="tarif" class="jsnametarifmob"> 
@@ -577,7 +584,7 @@
 			
 
 					<div class="choose-wrap clearfix">
-						<div class="choose">
+						<div class="choose jsdayselectedmob">
 							<span>День 1-й доставки:</span>
 							<select>
 							  <option>ВС</option>
@@ -585,7 +592,7 @@
 							  <option>ПТ</option>
 							</select>
 						</div>
-						<div class="choose">
+						<div class="choose jstimeselectedmob">
 							<span>Время:</span>
 							<select>
 							  <option>19:00</option>
@@ -624,6 +631,11 @@
 
 
 <script>
+$('.jsdayselected select').change(function(event) {
+
+});
+
+
 	$('.jssubmit').submit(function(){
         var phone = $(this).find('input[name="phone"]');
 
@@ -639,6 +651,22 @@
 						        .find('.jsmobkallday b')
 						        .text();
 		$('.jsnametarifmob').val(sendnametarifmob);	
+
+
+		
+		if(window.innerWidth > 990) {
+		    var selected = $('.jsdayselected select option:selected').text();
+			$('.jsdaydostavki').val(selected);
+
+			var jstimeselected = $('.jstimeselected select option:selected').text();
+			$('.jstimedostavki').val(jstimeselected);
+	    }else{
+	    	 var selected = $('.jsdayselectedmob select option:selected').text();
+			$('.jsdaydostavki').val(selected);
+
+			var jstimeselected = $('.jstimeselectedmob select option:selected').text();
+			$('.jstimedostavki').val(jstimeselected);
+	    }
 
 
         if(phone.val() == ""){

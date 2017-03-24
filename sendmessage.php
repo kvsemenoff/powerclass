@@ -20,6 +20,8 @@ $how_much_day = $_POST['how_much_day'];
 $daytest = $_POST['daytest'];
 
 
+$daydostavki = $_POST['daydostavki'];
+$timedostavki = $_POST['timedostavki'];
 
 $city = $_POST['city'];
 $ylica = $_POST['ylica'];
@@ -31,6 +33,7 @@ $numberkv = $_POST['numberkv'];
 $what_day = $_POST['whatday'];
 $timepackage = $_POST['timepackage'];
 
+$celjizni = $_POST['cel'];
 
 
 // Формирование заголовка письма
@@ -96,6 +99,18 @@ if (!empty($food)){
 if (!empty($days)){
 	$msg .= "<p><strong>Дней в неделю:</strong> ".$days."</p>\r\n";
 }
+
+
+if (!empty($celjizni)){
+	$msg .= "<p><strong>Выбранная цель:</strong> ".$celjizni."</p>\r\n";
+}
+if (!empty($daydostavki)){
+	$msg .= "<p><strong>День доставки:</strong> ".$daydostavki."</p>\r\n";
+}
+if (!empty($timedostavki)){
+	$msg .= "<p><strong>Время доставки:</strong> ".$timedostavki."</p>\r\n";
+}
+
 
 
 if (!empty($city)){

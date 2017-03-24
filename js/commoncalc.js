@@ -71,6 +71,10 @@ $(document).ready(function(){
 		if ($('#jstarif1').css('display')==='block') {
 			male += $(this).attr('pol');
 		}
+		else if($('#jstarif2').css('display')==='block'){
+			cel += $(this).attr('cel');
+			$('.jsceljizni').val(cel);
+		}
 		else if($('#jstarif3').css('display')==='block'){
 
 			if ($('#jsage').val() >= 99 || $('#jsage').val() <= 12) {
@@ -337,11 +341,16 @@ $('.input-mini').keyup(function() {
 			$(this).removeClass('selectdisabled');			
 		});		
 
-
+	
 		malemob +=  $(this).prevAll('.select-wrap')
 				.find('.jsselected1')
 				.find('option:selected')
 				.attr('polmob');
+
+		celmob += $(this).prevAll('.select-wrap')
+					.find('.jsceljizi')
+					.find('option:selected')
+					.attr('celmob');
 
 		agemob +=  $(this).prevAll('.select-wrap')
 				.find('#agemob')				
@@ -375,6 +384,8 @@ $('.input-mini').keyup(function() {
 
 		$('.jsklientfoodmob').val(foodmob);		
 		$('.jsklientdaysmob').val(daysmob);
+
+		$('.jsceljiznimob').val(celmob);
 	
 	if (malemob==5) {
 		var itogomob = (10 * +massmob + 6.25 * +rostmob - 5 * +agemob + 5) * +activitymob;
