@@ -2,7 +2,10 @@
 $to = "powerclass17@gmail.com";
 $phone = $_POST['phone'];
 $email = $_POST['email'];
+
 $uname = $_POST['uname'];
+
+
 $text = $_POST['text'];
 $checkbox_1 = $_POST['checkbox'];
 $checkbox_2 = $_POST['checkbox2'];
@@ -41,6 +44,9 @@ $headers .= "Content-Type: text/html;charset=utf-8 \r\n";
 // Формирование тела письма
 $msg  = "<html><body>";
 $msg .= "<h2>Новое сообщение</h2>\r\n";
+
+
+
 $msg .= "<p><strong>Телефон:</strong> ".$phone."</p>\r\n";
 $msg .= "<p><strong>Имя:</strong> ".$uname."</p>\r\n";
 $msg .= "<p><strong>Email:</strong> ".$email."</p>\r\n";
