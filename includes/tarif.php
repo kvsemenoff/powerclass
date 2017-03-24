@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="tarif__head">
-					<h2>Тарифы</h2>
+					<h2>Тарифы на неделю</h2>
 					<p>Комплексы питания POWERCLASS идеально подходят как мужчинам, так и женщинам</p>
 				</div>
 				<div class="tabs-block">

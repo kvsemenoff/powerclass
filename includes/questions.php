@@ -8,7 +8,7 @@
 					<div class="form-wrap">
 						<form class="form1" action="#" method="post">
 							<div class="input-wrap">
-								<input class="dd-input phone" name="phone" type="text" value="" placeholder="Введите ваш телефон" required>	
+								<input class="dd-input phone" name="phone" pattern="[0-9]*" type="text" value="" placeholder="Введите ваш телефон" required>	
 							</div>	
 							<input class="button-1 dd-submit ripplelink" type="submit" value="Перезвоните мне" placeholder="">
 						</form>		
@@ -72,7 +72,7 @@
 
 							<div class="dd-el-1 dd-el-1_inp">
 								<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
-								<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
+								<input class="dd-input dd-input_pop phone" name="phone" pattern="[0-9]*" type="text" placeholder="Введите ваш телефон" >
 								<input class="button-1 dd-submit" type="submit" name="submit" value="перезвоните мне">
 							</div>
 							<div class="clearfix"></div>
@@ -112,7 +112,7 @@
 								<span class="dd-main-txt-2">Сумма заказа: <span><i class="dd-price">7 400</i> руб.</span></span>
 							</div>
 							<input class="dd-input dd-input_pop unamejs" type="text" name="uname" placeholder="Введите ваше имя" required>
-							<input class="dd-input dd-input_pop phone phonejs" name="phone" type="text" placeholder="Введите ваш телефон" >
+							<input class="dd-input dd-input_pop phone phonejs" name="phone" type="text" pattern="[0-9]*" placeholder="Введите ваш телефон" >
 							<input class="button-1 ripplelink dd-submit" type="submit" name="submit" value="оформить по телефону">
 
 							<!-- Hidden -->
@@ -178,7 +178,7 @@
 							</label>
 							<div class="clearfix"></div>
 							<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
-							<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" required>
+							<input class="dd-input dd-input_pop phone" name="phone" pattern="[0-9]*" type="text" placeholder="Введите ваш телефон" required>
 							<input class="button-1 dd-submit" type="submit" name="submit" value="Заказать питание">
 
 							<input type="hidden" class="jsnametarifpop" name="tarif">
@@ -218,7 +218,7 @@
 								</span>
 							</div>
 							<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя">
-							<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" >
+							<input class="dd-input dd-input_pop phone" name="phone" pattern="[0-9]*" type="text" placeholder="Введите ваш телефон" >
 							<input class="button-1 dd-submit" type="submit" name="submit" value="Заказать питание">
 
 						</div>
@@ -276,7 +276,7 @@
 							
 							<!-- hidden-input -->
 							<input class="dd-hid-name" type="hidden" name="uname" value="test">
-							<input class="dd-hid-phone" type="hidden" name="phone" value="test">
+							<input class="dd-hid-phone" type="hidden" name="phone"  value="test">
 							<!-- end hidden-input -->
 
 							<div class="clearfix"></div>
@@ -526,7 +526,7 @@
 					</div>
 					<div class="dd-form_input table_left">
 						<label>
-							<input class="phone dd-input dd-input_tr" type="text" name="phone" placeholder="Введите ваш телефон">
+							<input class="phone dd-input dd-input_tr" type="text" name="phone"  pattern="[0-9]*" placeholder="Введите ваш телефон">
 							<input class="button-1 dd-submit" type="submit" value="подобрать персональный тариф">
 						</label>
 					</div>
@@ -725,7 +725,7 @@
 			</div>
 			<div class="dd-form_input ">
 				<label>
-					<input class="phone dd-input dd-input_tr" type="text" name="phone" placeholder="Введите ваш телефон">
+					<input class="phone dd-input dd-input_tr" type="text" name="phone"  pattern="[0-9]*" placeholder="Введите ваш телефон">
 					<input class="button-1 dd-submit" type="submit" value="подобрать персональный тариф">
 				</label>
 			</div>

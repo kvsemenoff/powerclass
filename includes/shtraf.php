@@ -77,15 +77,15 @@
 						<div class="btn-wrap">
 							<div class="input-wrap">
 								<span>Возраст:</span>
-								<input type="number" value="25" placeholder="25" min="12" max="99" class="input-number" id="jsage" style="width:88px">
+								<input type="number" value="" pattern="[0-9]*" placeholder="25" min="12" max="99" class="input-number" id="jsage" style="width:88px">
 							</div>
 							<div class="input-wrap">
 								<span>Рост:</span>
-								<input type="number" value="175" placeholder="175" min="50" max="300" class="input-number" style="width:88px" id="jsrost">
+								<input type="number" value="" pattern="[0-9]*" placeholder="175" min="50" max="300" class="input-number" style="width:88px" id="jsrost">
 							</div>
 							<div class="input-wrap">
 								<span>Вес:</span>
-								<input type="number" value="75" placeholder="75" min="30" max="300" class="input-number" style="width:88px" id="jsmass">
+								<input type="number" value="" pattern="[0-9]*" placeholder="75" min="30" max="300" class="input-number" style="width:88px" id="jsmass">
 							</div>
 							<button class="shtraf__btn shtraf__btn--black shtraf__btn--next">Далее</button>
 						</div>
@@ -111,7 +111,7 @@
 					<div class="inner">
 						<h2>Рассчитайте ваш персональный тариф</h2>
 						<p>Стоимость питания будет рассчитана в соответствии с вашей потребностью в калориях и расписанием питания</p>
-						<span class="descr">Выберите вашу цель</span>
+						<span class="descr">Выберите уровень активности</span>
 						<div class="btn-wrap">
 							<button activity="1.2" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Не занимаюсь спортом</span><i>сидячий образ жизни</i></button>
 							<button activity="1.375" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Легкая активность</span><i>аэробные нагрузки 1-3 р/нед</i></button>
@@ -251,7 +251,7 @@
 											<input class="dd-input nametosend" name="uname" type="text" value="" placeholder="Введите ваше имя" required>	
 										</div>
 										<div class="input-block">
-											<input class="dd-input phone phonetosend" name="phone" type="text" value="" placeholder="Введите ваш телефон">		
+											<input class="dd-input phone phonetosend" name="phone" pattern="[0-9]*" type="text" value="" placeholder="Введите ваш телефон">		
 										</div>
 										<div class="input-block input-block--half">
 											<input class="button-1 dd-submit ripplelink" type="submit" value="Заказать по телефону" placeholder="">
@@ -437,11 +437,11 @@
 								</select>
 							</div>
 							<div class="select-wrap clearfix">
-								<input type="number" value="" min="12" max="99" class="input-mini" placeholder="Возраст" id="agemob">
+								<input type="number" value="" pattern="[0-9]*" min="12" max="99" class="input-mini" placeholder="Возраст" id="agemob">
 
-								<input type="number" value="" min="50" max="300" class="input-mini border-red" placeholder="Рост" id="rostmob">
+								<input type="number" value="" pattern="[0-9]*" min="50" max="300" class="input-mini border-red" placeholder="Рост" id="rostmob">
 
-								<input type="number" value="" min="30" max="300" class="input-mini" placeholder="Вес" id="massmob">
+								<input type="number" value="" pattern="[0-9]*" min="30" max="300" class="input-mini" placeholder="Вес" id="massmob">
 							</div>
 							<div class="select-wrap jscheked">
 								<select class="jsselected2">
@@ -502,7 +502,7 @@
 					<input type="text" class="nametosendmob" placeholder="Введите Ваше Имя" name="uname" required>
 				</div>
 				<div class="input-wrap">
-					<input type="text" placeholder="Введите Ваш Телефон" class="phone phonetosendmob" name="phone" required >
+					<input type="text" placeholder="Введите Ваш Телефон" class="phone phonetosendmob" name="phone" pattern="[0-9]*" required >
 				</div>
 				<input class="button-1 dd-submit dd-submit-left ripplelink" type="submit" value="Заказать по телефону">
 
@@ -512,9 +512,6 @@
 				<input type="hidden" name="food" class="jsklientfoodmob"> 
 				<input type="hidden" name="days" class="jsklientdaysmob"> 
 	
-
-			<!-- <a href="#"><input class="button-1 dd-submit" id="jsnextmobwindow" type="submit" value="Заказать онлайн" placeholder=""></a> -->
-
 			<button  class="button-1 dd-submit ripplelink" type="button" id="jsnextmobwindow"> Заказать онлайн</button>
 
 			</form>
@@ -532,8 +529,7 @@
 					<b class="jsmobtarif">Спорт Плюс</b>
 					<em class="jsmobkallday"><b>3 500</b> ккал/день</em>
 				</div>
-				<div class="half">
-					<!-- <span>5-разовое питание, <br> 7 дней</span> -->
+				<div class="half">					
 					<span class="jsrazdneymob"><b>5</b>-разовое питание, <br> <em>7</em> дней</span>
 					<i>Дни доставки:</i>
 					<i>Пн, Ср, Пт</i>
