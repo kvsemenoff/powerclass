@@ -323,9 +323,11 @@ $('.input-mini').keyup(function() {
 
 		if ($('.f1').is(':selected')){	
 			$('#jsrasschitat').attr('disabled', 'disabled');		
-			$('.jscheked select').addClass('selectdisabled');
+			// $('.jscheked select').addClass('selectdisabled');
+			$('.f1:selected').parent().addClass('selectdisabled');
+
 		}
-			
+		
 
 		$('.jscheked select').on('change', function() {		
 			if (!$('.f1').is(':selected')){			
