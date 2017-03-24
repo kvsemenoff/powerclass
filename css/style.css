@@ -503,20 +503,22 @@ h2 {
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 9000;
+  z-index: 900;
   background-color: #000;
   width: 100%;
   height: 100%;
   display: none; }
 
 .window {
-  display: none;
-  position: absolute;
-  left: 0;
+  position: fixed;
   top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9950;
   display: none;
-  z-index: 9998;
-  border: none; }
+  overflow-y: scroll;
+  margin: 0 auto; }
   .window .form-wrap-main {
     background: #F4F4F4;
     border-radius: 3px;
@@ -3173,8 +3175,8 @@ div[data-val]:hover {
     font-weight: 700;
     line-height: 18px; }
     .df3priem .dfdots {
-      width: 7px;
-      height: 7px;
+      width: 7.5px;
+      height: 7.5px;
       display: inline-block;
       background-color: #000;
       border: 1px solid #000;
@@ -3430,6 +3432,9 @@ div[data-val]:hover {
     border-radius: 25px 0 0 25px;
     text-align: left;
     float: left; }
+    .df3priem .dfdots:nth-child(2) {
+      background-color: #fff;
+      margin-left: 4px; }
 
   .df5priem {
     display: inline-block;
@@ -3440,5 +3445,8 @@ div[data-val]:hover {
     float: left; } }
 .roistat-lh-pulsator-phone {
   z-index: 20 !important; }
+
+@viewport {
+  user-zoom: fixed; }
 
 /*# sourceMappingURL=style.css.map */

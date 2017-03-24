@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name=”viewport” content=”user-scalable=no” />
 	<meta name="description" content="Уникальный сервис 5-разового правильного питания для мужчин и женщин с бесплатной доставкой по Москве" /> 
 	<meta name="keywords" content="powerclass, доставка питания, доставка здоровой еды, готовое питание, 5-ти разовое питание" />
 

@@ -592,17 +592,38 @@ h2{
 
 /* попапы
 =====================================*/
-#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000; width: 100%; height: 100%;  display:none; }
+#mask { 
+	position:absolute;
+	left:0;
+	top:0; 
+	z-index:900;
+	background-color:#000;
+	width: 100%; 
+	height: 100%;
+	display:none;
+
+
+}
 
 .window{ 
-	display: none;
-	position:absolute;
-	left:0;  
-	top:0;
-	display:none;
-	z-index:9998; 
-	border:none;
+	// display: none;
+	// position:absolute;
+	// left:0;  
+	// top:0;
+	// display:none;
+	// z-index:9998; 
+	// border:none;
 
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9950;
+    display: none;
+    overflow-y:scroll;
+    margin: 0 auto;
+    
 	// position: fixed;
 	// width: 100% !important;
 	// height: auto !important;
@@ -3916,8 +3937,8 @@ div[data-val]:hover{
 		line-height: 18px;
 		// margin-right: -3px;
 		.dfdots{
-			width: 7px;
-			height: 7px;
+			width: 7.5px;
+			height: 7.5px;
 			display: inline-block;
 			background-color: #000;
 			border: 1px solid #000;
@@ -3928,7 +3949,7 @@ div[data-val]:hover{
 			background-color: #fff;
 		}
 		.dfdots:nth-child(2){
-			background-color: #fff;
+			background-color: #fff;			
 		}
 	}
 	.df3priem:hover{
@@ -3952,20 +3973,16 @@ div[data-val]:hover{
 		}
 	}
 	.df5priem{
-		// display: inline-block; //
 		display: block;
 		border: 2px solid  #212121;		
-		// padding: 12px 14px 3px 15px; //
-		padding: 12px 10px 3px 10px;
-		// border-radius: 0 25px 25px 0; //25
-		border-radius: 25px;
-		// text-align: left;
+		padding: 12px 10px 3px 10px;		
+		border-radius: 25px;		
 		text-align: center;
 		color:  #212121;		
 		font-size: 14px;
 		font-weight: 700;
 		line-height: 18px;
-		margin-top: 5px;///
+		margin-top: 5px;
 		.dfdots{
 			width: 7px;
 			height: 7px;
@@ -4218,7 +4235,11 @@ div[data-val]:hover{
 		padding: 12px 13px 3px 25px;		
 		border-radius: 25px 0 0 25px;		
 		text-align: left;
-		float: left;		
+		float: left;	
+		.dfdots:nth-child(2){
+			background-color: #fff;		
+			margin-left: 4px;	
+		}	
 	}
 	.df5priem{
 		display: inline-block; 
@@ -4236,4 +4257,7 @@ div[data-val]:hover{
 
 .roistat-lh-pulsator-phone{
 	z-index: 20!important;
+}
+@viewport {
+  user-zoom: fixed;
 }

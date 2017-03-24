@@ -7,7 +7,7 @@
 	<div class="row">
 		
 			<div class="dfmenumobule">
-				<h3 class="dfmenucap">Меню на эту неделю</h3>
+				<h3 class="dfmenucap">Пример меню на 7 дней</h3>
 				<div class="dfcallory">
 					<div class="dfcaloryesbox2">
 					<span class="dfborder "><a href="#js-fitmob" class="dfactivelinkmob" tarif="Фит">1 400</a></span>
@@ -1561,7 +1561,7 @@
 	<div class="dfcontainer2">
 		
 				<div class="dfmenumobule">
-					<h3 class="dfmenucap">Меню на эту неделю</h3>
+					<h3 class="dfmenucap">Пример меню на 7 дней</h3>
 					<div class="dfcallory">
 						<div class="dfcaloryesbox dfhoverbox1 perviyosobiy">
 							<span class="dfborder "><a href="#jsfit"><em>Фит</em></a></span>
