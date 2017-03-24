@@ -1571,8 +1571,8 @@
 							<span class="dfborder"><a href="#jsfitplus"><em>Фит Плюс</em></a></span>
 							<span class="jskaldaypopup">1700 ккал/день</span>
 						</div>
-						<div class="dfcaloryesbox dfhoverbox3 osobiy dfactivelink">
-							<span class="dfborder dfactivelinkmob"><a href="#jssport"><em>Спорт</em></a></span>
+						<div class="dfcaloryesbox dfhoverbox3 dfactivelink2 osobiy">
+							<span class="dfborder dfactivelinkmob "><a href="#jssport"><em>Спорт</em></a></span>
 							<span class="jskaldaypopup">2500 ккал/день</span>
 						</div>
 						<div class="dfcaloryesbox dfhoverbox4">

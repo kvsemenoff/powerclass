@@ -12,7 +12,7 @@
 					<div class="form-wrap">
 						<form class="form1" action="#" method="post">
 							<div class="input-wrap">
-								<input class="dd-input phone" name="phone" pattern="[0-9]*" type="text" value="" placeholder="Введите ваш телефон" required>	
+								<input class="dd-input phone" name="phone" pattern="([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" type="text" value="" placeholder="Введите ваш телефон" required>	
 							</div>	
 							<input class="button-1 dd-submit ripplelink" type="submit" value="ХОЧУ ПОПРОБОВАТЬ" placeholder="">
 						</form>		

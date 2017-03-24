@@ -251,7 +251,7 @@
 											<input class="dd-input nametosend" name="uname" type="text" value="" placeholder="Введите ваше имя" required>	
 										</div>
 										<div class="input-block">
-											<input class="dd-input phone phonetosend" name="phone" pattern="[0-9]*" type="text" value="" placeholder="Введите ваш телефон">		
+											<input class="dd-input phone phonetosend" name="phone" pattern="([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" type="text" value="" placeholder="Введите ваш телефон">		
 										</div>
 										<div class="input-block input-block--half">
 											<input class="button-1 dd-submit ripplelink" type="submit" value="Заказать по телефону" placeholder="">
@@ -446,10 +446,10 @@
 							<div class="select-wrap jscheked">
 								<select class="jsselected2">
 									<option selected="true" disabled="disabled" class="f1">Уровень активности</option>
-									<option activitymob="1.2">Не занимаюсь спортом</option>
-									<option activitymob="1.375">Легкая активность</option>
+									<option activitymob="1.2">Сидячий образ жизни</option>
+									<option activitymob="1.375">Средняя активность</option>
 									<option activitymob="1.55">Повышенная активность</option>
-									<option activitymob="1.725">Высокая активность</option>
+									<option activitymob="1.725">Очень высокая активность</option>
 									<option activitymob="1.9">Экстремальная активность</option>
 								</select>
 								
@@ -502,7 +502,7 @@
 					<input type="text" class="nametosendmob" placeholder="Введите Ваше Имя" name="uname" required>
 				</div>
 				<div class="input-wrap">
-					<input type="text" placeholder="Введите Ваш Телефон" class="phone phonetosendmob" name="phone" pattern="[0-9]*" required >
+					<input type="text" placeholder="Введите Ваш Телефон" class="phone phonetosendmob" name="phone" pattern="([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" required >
 				</div>
 				<input class="button-1 dd-submit dd-submit-left ripplelink" type="submit" value="Заказать по телефону">
 

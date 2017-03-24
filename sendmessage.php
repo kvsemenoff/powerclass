@@ -1,12 +1,10 @@
 <?php
 $to = "powerclass17@gmail.com";
 $phone = $_POST['phone'];
-$email = $_POST['email'];
-
 $uname = $_POST['uname'];
 
 
-$text = $_POST['text'];
+
 $checkbox_1 = $_POST['checkbox'];
 $checkbox_2 = $_POST['checkbox2'];
 
@@ -45,38 +43,93 @@ $headers .= "Content-Type: text/html;charset=utf-8 \r\n";
 $msg  = "<html><body>";
 $msg .= "<h2>Новое сообщение</h2>\r\n";
 
+if (!empty($phone)){
+	$msg .= "<p><strong>Телефон:</strong> ".$phone."</p>\r\n";
+}
+if (!empty($uname)){
+	$msg .= "<p><strong>Имя:</strong> ".$uname."</p>\r\n";
+}
 
 
-$msg .= "<p><strong>Телефон:</strong> ".$phone."</p>\r\n";
-$msg .= "<p><strong>Имя:</strong> ".$uname."</p>\r\n";
-$msg .= "<p><strong>Email:</strong> ".$email."</p>\r\n";
-$msg .= "<p><strong>Сообщение:</strong> ".$text."</p>\r\n";
+if (!empty($checkbox_1)){
+	// $msg .= "<p><strong>Выбрана радио кнопка:</strong> ".$checkbox_1."</p>\r\n";
+}
+if (!empty($checkbox_2)){
+	$msg .= "<p><strong>Отмечен чекбокс:</strong> ".$checkbox_2."</p>\r\n";
+}
 
-$msg .= "<p><strong>Выбрана радио кнопка:</strong> ".$checkbox_1."</p>\r\n";
-$msg .= "<p><strong>Отмечен чекбокс:</strong> ".$checkbox_2."</p>\r\n";
-$msg .= "<p><strong>День первой доставки:</strong> ".$what_day."</p>\r\n";
-$msg .= "<p><strong>Время первой доставки:</strong> ".$timepackage."</p>\r\n";
+if (!empty($what_day)){
+	$msg .= "<p><strong>День первой доставки:</strong> ".$what_day."</p>\r\n";
+}
+if (!empty($timepackage)){
+	$msg .= "<p><strong>Время первой доставки:</strong> ".$timepackage."</p>\r\n";
+}
+if (!empty($checkbox_1)){
+	$msg .= "<p><strong>Отмечен чекбокс:</strong> ".$checkbox_1."</p>\r\n";
+}
+if (!empty($daytest)){
+	$msg .= "<p><strong>Пробный день:</strong> ".$daytest."</p>\r\n";
+}
 
-$msg .= "<p><strong>Отмечен чекбокс:</strong> ".$checkbox_1."</p>\r\n";
-$msg .= "<p><strong>Пробный день:</strong> ".$daytest."</p>\r\n";
+
+if (!empty($kkalklient)){
+	$msg .= "<p><strong>Каллории клиента:</strong> ".$kkalklient."</p>\r\n";
+}
+if (!empty($tarif)){
+	$msg .= "<p><strong>Тариф:</strong> ".$tarif."</p>\r\n";
+}
+if (!empty($tarif_price)){
+	$msg .= "<p><strong>Стоимость:</strong> ".$tarif_price."</p>\r\n";
+}
+if (!empty($tarif_calory)){
+	$msg .= "<p><strong>Кол-во калорий в выбранном тарифе:</strong> ".$tarif_calory."</p>\r\n";
+}
+if (!empty($how_much)){
+	$msg .= "<p><strong>Кол-во приемов пищи:</strong> ".$how_much."</p>\r\n";
+}
+if (!empty($how_much_day)){
+	$msg .= "<p><strong>Кол-во дней приема:</strong> ".$how_much_day."</p>\r\n";
+}
+if (!empty($food)){
+	$msg .= "<p><strong>Еды в день:</strong> ".$food."</p>\r\n";
+}
+if (!empty($days)){
+	$msg .= "<p><strong>Дней в неделю:</strong> ".$days."</p>\r\n";
+}
 
 
-$msg .= "<p><strong>Каллории клиента:</strong> ".$kkalklient."</p>\r\n";
-$msg .= "<p><strong>Тариф:</strong> ".$tarif."</p>\r\n";
-$msg .= "<p><strong>Стоимость:</strong> ".$tarif_price."</p>\r\n";
-$msg .= "<p><strong>Кол-во калорий в выбранном тарифе:</strong> ".$tarif_calory."</p>\r\n";
-$msg .= "<p><strong>Кол-во приемов пищи:</strong> ".$how_much."</p>\r\n";
-$msg .= "<p><strong>Кол-во дней приема:</strong> ".$how_much_day."</p>\r\n";
-$msg .= "<p><strong>Еды в день:</strong> ".$food."</p>\r\n";
-$msg .= "<p><strong>Дней в неделю:</strong> ".$days."</p>\r\n";
+if (!empty($city)){
+	$msg .= "<p><strong>Город:</strong> ".$city."</p>\r\n";
+}
+if (!empty($ylica)){
+	$msg .= "<p><strong>Улица:</strong> ".$ylica."</p>\r\n";
+}
+if (!empty($house)){
+	$msg .= "<p><strong>Дом:</strong> ".$house."</p>\r\n";
+}
+if (!empty($podezd)){
+	$msg .= "<p><strong>Подъезд:</strong> ".$podezd."</p>\r\n";
+}
+if (!empty($domofon)){
+	$msg .= "<p><strong>Домофон:</strong> ".$domofon."</p>\r\n";
+}
+if (!empty($etaj)){
+	$msg .= "<p><strong>Этаж:</strong> ".$etaj."</p>\r\n";
+}
+if (!empty($numberkv)){
+	$msg .= "<p><strong>Номер квартиры/офиса:</strong> ".$numberkv."</p>\r\n";
+}
 
-$msg .= "<p><strong>Город:</strong> ".$city."</p>\r\n";
-$msg .= "<p><strong>Улица:</strong> ".$ylica."</p>\r\n";
-$msg .= "<p><strong>Дом:</strong> ".$house."</p>\r\n";
-$msg .= "<p><strong>Подъезд:</strong> ".$podezd."</p>\r\n";
-$msg .= "<p><strong>Домофон:</strong> ".$domofon."</p>\r\n";
-$msg .= "<p><strong>Этаж:</strong> ".$etaj."</p>\r\n";
-$msg .= "<p><strong>Номер квартиры/офиса:</strong> ".$numberkv."</p>\r\n";
+
+
+
+
+
+
+
+
+
+
 
 
 $msg .= "</body></html>";

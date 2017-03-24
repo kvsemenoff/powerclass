@@ -3,7 +3,7 @@
 $(document).ready(function(){
 	$('.dfmenuproducts').css('display', 'none');
 
-
+   
     $('.dfcaloryesbox a').on('click', function(e) {
         e.preventDefault();
 
@@ -81,7 +81,7 @@ $(document).ready(function(){
         $('.jsweakactive').click();
     });
 
-    $('.osobiy a').click();
+     $('.osobiy a').click();
 
 
     // , '.dfitogo .dfkkal' , '.dfweak a'
