@@ -8,7 +8,7 @@
 					<div class="form-wrap">
 						<form class="form1" action="#" method="post">
 							<div class="input-wrap">
-								<input class="dd-input phone" name="phone" pattern="([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" type="text" value="" placeholder="Введите ваш телефон" required>	
+								<input class="dd-input phone" name="phone" type="text" value="" placeholder="Введите ваш телефон" required>	
 							</div>	
 							<input class="button-1 dd-submit ripplelink" type="submit" value="Перезвоните мне" placeholder="">
 						</form>		
@@ -72,8 +72,8 @@
 
 							<div class="dd-el-1 dd-el-1_inp">
 								<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
-								<input class="dd-input dd-input_pop phone" name="phone" pattern="([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" type="text" placeholder="Введите ваш телефон" >
-								<input class="button-1 dd-submit" type="submit" name="submit" value="перезвоните мне">
+								<input class="dd-input dd-input_pop phone" name="phone"  type="text" placeholder="Введите ваш телефон" >
+								<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="перезвоните мне">
 							</div>
 							<div class="clearfix"></div>
 
@@ -112,8 +112,8 @@
 								<span class="dd-main-txt-2">Сумма заказа: <span><i class="dd-price">7 400</i> руб.</span></span>
 							</div>
 							<input class="dd-input dd-input_pop unamejs" type="text" name="uname" placeholder="Введите ваше имя" required>
-							<input class="dd-input dd-input_pop phone phonejs" name="phone" type="text" pattern="([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Введите ваш телефон" >
-							<input class="button-1 ripplelink dd-submit" type="submit" name="submit" value="оформить по телефону">
+							<input class="dd-input dd-input_pop phone phonejs" name="phone" type="text" placeholder="Введите ваш телефон" >
+							<input class="button-1 ripplelink dd-submit ripplelink" type="submit" name="submit" value="оформить по телефону">
 
 							<!-- Hidden -->
 							<input class="tarif_name_hide" name="tarif" type="hidden" value="empty">
@@ -178,8 +178,8 @@
 							</label>
 							<div class="clearfix"></div>
 							<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
-							<input class="dd-input dd-input_pop phone" name="phone" pattern="([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" type="text" placeholder="Введите ваш телефон" required>
-							<input class="button-1 dd-submit" type="submit" name="submit" value="Заказать питание">
+							<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" required>
+							<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="Заказать питание">
 
 							<input type="hidden" class="jsnametarifpop" name="tarif">
 							<input type="hidden" class="jskkalpop" name="tarif_kalory">
@@ -217,9 +217,9 @@
 									скажет вам «Спасибо» 
 								</span>
 							</div>
-							<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя">
-							<input class="dd-input dd-input_pop phone" name="phone" pattern="([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" type="text" placeholder="Введите ваш телефон" >
-							<input class="button-1 dd-submit" type="submit" name="submit" value="Заказать питание">
+							<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
+							<input class="dd-input dd-input_pop phone" name="phone"  type="text" placeholder="Введите ваш телефон" >
+							<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="Заказать питание">
 
 						</div>
 
@@ -287,7 +287,7 @@
 						<div class="dd-select">
 
 							<label class="dd-select-box pt-label">
-								<input class="checkbox checkbox_2" type="checkbox" name="checkbox2" value="Нужен пропуск на территорию" checked>
+								<input class="checkbox checkbox_2" type="checkbox" name="checkbox2" value="Нужен пропуск на территорию">
 								<span class="checkbox-custom checkbox-custom_2"></span>
 								<span class="dd-chek">Нужен пропуск на территорию</span>
 								<span class="label"></span>
@@ -299,7 +299,7 @@
 									<span class="dd-chek line-height26">День 1-й доставки: </span>
 								</div>
 
-								<div  class="az-select floats">
+								<div  class="floats">
 									<select name="whatday" id="">
 										<option value="Воскресенье">Вс</option>
 										<option value="Понедельник">Пн</option>
@@ -316,7 +316,7 @@
 									<span class="dd-chek line-height26">Время: </span>
 								</div>
 
-								<div  class="az-select az-select_2 floats">
+								<div  class="floats">
 									<select name="timepackage" id="">
 										<option value="19:00">19:00</option>
 										<option value="19:15">19:15</option>
@@ -338,7 +338,7 @@
 							<div class="clearfix"></div>
 
 							<div class="dd-select-but">
-								<input class="button-1 dd-submit" type="submit" name="submit" value="Оплатить онлайн">
+								<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="Оплатить онлайн">
 							</div>
 
 							<div class="dd-dost">
@@ -526,8 +526,8 @@
 					</div>
 					<div class="dd-form_input table_left">
 						<label>
-							<input class="phone dd-input dd-input_tr" type="text" name="phone"  pattern="([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Введите ваш телефон">
-							<input class="button-1 dd-submit" type="submit" value="подобрать персональный тариф">
+							<input class="phone dd-input dd-input_tr" type="text" name="phone"   placeholder="Введите ваш телефон">
+							<input class="button-1 dd-submit ripplelink" type="submit" value="подобрать персональный тариф">
 						</label>
 					</div>
 					<div class="clearfix"></div>
@@ -725,8 +725,8 @@
 			</div>
 			<div class="dd-form_input ">
 				<label>
-					<input class="phone dd-input dd-input_tr" type="text" name="phone"  pattern="([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Введите ваш телефон">
-					<input class="button-1 dd-submit" type="submit" value="подобрать персональный тариф">
+					<input class="phone dd-input dd-input_tr" type="text" name="phone"   placeholder="Введите ваш телефон">
+					<input class="button-1 dd-submit ripplelink" type="submit" value="подобрать персональный тариф">
 				</label>
 			</div>
 			<div class="clearfix"></div>

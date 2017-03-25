@@ -26,9 +26,9 @@
 				<div class="db-div-two1">
 					<p class="db-two1">
 						<img src="img/header_logo.png" alt="img">
-						<span>
-							<a href="#"><img src="img/header_vk.png" alt="img"></a>
-							<a href="#"><img src="img/header_insta.png" alt="img"></a>
+						<span>							
+							<a href="https://vk.com/powerclass" target="_blank" rel="noopener" class="db-link-two"><img src="img/header_vk.png" alt="img"></a>
+							<a href="https://www.instagram.com/powerclass/ " target="_blank" rel="noopener"><img src="img/header_insta.png" alt="img"></a>
 						</span>
 					</p>
 					<div class="clearfix"></div>

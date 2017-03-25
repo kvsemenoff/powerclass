@@ -89,6 +89,15 @@ html, body{
 	height: 100%;
 	min-height: 100%;
 }
+// .dd-input:valid {
+
+// }
+.dd-input:focus:invalid{	
+	border:2px solid #e53935 !important;
+}
+// .dd-input:invalid {	}
+
+
 .clear{
 	clear: both;
 }
@@ -797,6 +806,7 @@ h2{
 		height: 47px;
 		background:#fff;
 		width: 100%;
+		border: none;
 		margin-bottom: 13px;
 		border-top: 2px solid #888888;
 	}
@@ -1074,7 +1084,7 @@ h2{
 }
 select{
     // height: 36px;
-    width: 100%;
+    // width: 100%;
     border: none;
     background: transparent;
     outline: none;
@@ -1084,8 +1094,10 @@ select{
     color: #e53935;
     font-size: 18px;
     cursor: pointer;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+    // -webkit-appearance: none;
+    // -moz-appearance: none;
+    width: auto;
+    -webkit-appearance: menulist-button;
 }
 select::-ms-expand {
 	display: none;
@@ -1516,6 +1528,7 @@ div[data-val]:hover{
 	.second{
 		display: none;
 	}
+
 	.phone{
 		// font-size: 36px;
 		color: #212121;
@@ -1937,6 +1950,7 @@ div[data-val]:hover{
 			font-size: 18px;
 			color: #e53935;
 			font-weight: 900;
+			line-height: 19px;
 			border: none;
 		}
 	}
@@ -2089,12 +2103,14 @@ div[data-val]:hover{
 		margin: 0 auto 10px;
 		width: 100%;
 		border-radius: 3px;
+		line-height: 18px;
 		padding: 0 14px;
 		color: #222;
 		font-size: 12px;
 		font-weight: 900;
 		height: 37px;
 		-webkit-appearance: menulist-button;
+		-moz-appearance: menulist-button;
 	}
 	.input-mini{
 		width: 85px;
@@ -2300,6 +2316,9 @@ div[data-val]:hover{
 		}
 	}
 }
+.seconddd{
+		display: none;
+	}
 @media only screen and (max-width : 1200px) {
 	.shtraf .end__item{
 		padding: 0 15px;
@@ -2314,8 +2333,8 @@ div[data-val]:hover{
 	}
 }
 @media only screen and (max-width : 1000px) {
-	.second{
-	display: inline-block ;
+	.seconddd{
+		display: inline-block;
 	}
 	.first{
 		display: none;
@@ -2680,13 +2699,18 @@ div[data-val]:hover{
 			font-weight: 900;
 			color: #212121;
 			font-size: 18px;
-			display: block;
+			// display: block;
 		}
 		em{
 			font-weight: 300;
 			font-size: 10px;
 			color: #212121;
 			display: block;
+			b{
+				font-size: 10px;
+				color: #212121;
+				font-weight: 300;
+			}
 		}
 		i{
 			font-weight: 300;
@@ -2821,6 +2845,7 @@ div[data-val]:hover{
 			margin-left: -5px;
 			width: auto;
 			-webkit-appearance: menulist-button;
+			-moz-appearance: menulist-button;
 		}
 	}
 	.choose:first-child{
@@ -3702,24 +3727,22 @@ div[data-val]:hover{
 		text-align: left;
 	}
 	
-	
 	.paralaxsection{
 		position: relative;	
 		width: 100%;		
-		height: 415px;		
-		// z-index: -1;
+		height: 415px;			
 	}
 	.dfbg2{	
 		width: 100%;		
 		height: 100% !important;	
-		background-image: url("../img/paralax1.jpg");	   
-	    background-attachment: fixed;  
-	    top:0px;
-	    left: 0; 	
-		position:absolute;		
-		background-position: center top 27%;
-		background-size: cover;
-		background-repeat: no-repeat;	
+		// background-image: url("../img/paralax1.jpg");	   
+	 //    background-attachment: fixed;  
+	 //    top:0px;
+	 //    left: 0; 	
+		// position:absolute;		
+		// background-position: center top 27%;
+		// background-size: cover;
+		// background-repeat: no-repeat;	
 	}	
 	.dfparalaxbox{		
 		margin-right: 45px;	
@@ -3983,26 +4006,29 @@ div[data-val]:hover{
 		}
 	}
 	.dfpriemi{		
-		max-width: 140px;
-		width: 100%;
-		display: inline-block;		
-		// margin-right: 20px;
-		padding-top: 15px;
+		// max-width: 140px;
+		// width: 100%;
+		display: inline-block;				
+		padding-top: 20px;
+		vertical-align: top;
 	}
 	.df3priem{		
-		display: block;
+		// display: block;
 		border: 2px solid #212121;		
-		padding: 12px 10px 3px 10px;		
-		border-radius: 25px;		
+		// padding: 12px 10px 3px 10px;		
+		// border-radius: 25px;		
 		text-align: center;
 		color: #212121;		
-		font-size: 14px;
+		font-size: 10px;//14
 		font-weight: 700;
 		line-height: 18px;
+		display: inline-block;	    
+	    padding: 12px 1px 3px 9px;
+	    border-radius: 25px 0 0 25px;
 		// margin-right: -3px;
 		.dfdots{
-			width: 7.5px;
-			height: 7.5px;
+			width: 7px;//7.5
+			height: 7px;
 			display: inline-block;
 			background-color: #000;
 			border: 1px solid #000;
@@ -4019,6 +4045,17 @@ div[data-val]:hover{
 	.df3priem:hover{
 		border: 2px solid #e53935;
 		color:  #e53935;
+		.dfdots{			
+			display: inline-block;
+			background-color: #e53935;
+			border: 1px solid  #e53935;
+		}		
+		.dfdots:last-child{
+			background-color: #fff;
+		}
+		.dfdots:nth-child(2){
+			background-color: #fff;
+		}
 		
 	}
 	.df3priemactive{
@@ -4037,16 +4074,20 @@ div[data-val]:hover{
 		}
 	}
 	.df5priem{
-		display: block;
+		// display: block;
+		display: inline-block;
 		border: 2px solid  #212121;		
-		padding: 12px 10px 3px 10px;		
-		border-radius: 25px;		
+		// padding: 12px 10px 3px 10px;		
+		// border-radius: 25px;		
+		padding: 12px 3px 3px 2px;
+   		border-radius: 0px 25px 25px 0;
 		text-align: center;
 		color:  #212121;		
-		font-size: 14px;
+		font-size: 10px;//14
 		font-weight: 700;
 		line-height: 18px;
-		margin-top: 5px;
+		margin-left: -2px;
+		// margin-top: 5px;
 		.dfdots{
 			width: 7px;
 			height: 7px;
@@ -4060,10 +4101,10 @@ div[data-val]:hover{
 	.df5priem:hover{
 		border: 2px solid #e53935;
 		color: #e53935;
-		// .dfdots{
-		// 	background-color: #e53935;
-		// 	border: 1px solid #e53935;
-		// }
+		.dfdots{
+			background-color: #e53935;
+			border: 1px solid #e53935;
+		}
 	}
 	.df5priemactive{
 		border: 2px solid #e53935;
@@ -4253,6 +4294,7 @@ div[data-val]:hover{
 		-moz-transition:0.4s;
 		-webkit-transition:0.4s;
 		transition:0.4s;
+		display: none;
 	}
 	.dflinktarif:hover{
 		border-bottom: 1px dashed transparent;
@@ -4297,23 +4339,51 @@ div[data-val]:hover{
 	.df3priem{
 		display: inline-block; 		
 		padding: 12px 13px 3px 25px;		
-		border-radius: 25px 0 0 25px;		
+		border-radius: 25px 0 0 25px;	
+		font-size: 14px;	
 		text-align: left;
 		float: left;	
 		.dfdots:nth-child(2){
 			background-color: #fff;		
 			margin-left: 4px;	
 		}	
-	}
+	}	
 	.df5priem{
 		display: inline-block; 
 		padding: 12px 14px 3px 15px; 
 		border-radius: 0 25px 25px 0; 
+		font-size: 14px;	
 		text-align: left;		
 		margin-top: 0px;
+		margin-left: 0px;
 		float: left;
 	}
-
+	.dflinktarif{
+		display: inline-block;
+	}
+	.paralaxsection{
+		position: relative;	
+		width: 100%;		
+		height: 415px;		
+		// z-index: -1;
+	}
+	.dfbg2{	
+		width: 100%;		
+		height: 100% !important;	
+		background-image: url("../img/paralax1.jpg");	   
+	    background-attachment: fixed;  
+	    top:0px;
+	    left: 0; 	
+		position:absolute;		
+		background-position: center top 27%;
+		background-size: cover;
+		background-repeat: no-repeat;	
+	}	
+	.dfparalaxbox{		
+		margin-right: 45px;	
+		margin-bottom: 0;
+		padding-top: 55px;
+	}
 
 	
 }
