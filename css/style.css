@@ -81,7 +81,7 @@ html, body {
   height: 100%;
   min-height: 100%; }
 
-.dd-input:focus:invalid {
+.dd-input:focus {
   border: 2px solid #e53935 !important; }
 
 .clear {
