@@ -7,8 +7,7 @@ $(document).ready(function(){
 		  if(unametoonline == "" ){		  
 	          $('.nametosend').focus();	         
 	          $('.nametosend').addClass('disabledinputjs');	         
-	          	return false;
-	          
+	          	return false;	          
 	      }else if(phonetoonline == ""){ 			
 	          $('.phonetosend').focus();
 	          $('.phonetosend').addClass('disabledinputjs');	  
@@ -22,7 +21,24 @@ $(document).ready(function(){
 	      }
 	});
 
+$('input[type=number]').focus(function(){
+	var idval = $(this).attr('id');
+	switch(idval){
+		case 'jsage' : $('#jsage').val('25');	
+		break;
+		case 'jsrost' : $('#jsrost').val('175');	
+		break;
+		case 'jsmass' : $('#jsmass').val('75');	
+		break;
 
+		case 'agemob' : $('#agemob').val('25');	
+		break;
+		case 'rostmob' : $('#rostmob').val('175');	
+		break;
+		case 'massmob' : $('#massmob').val('75');	
+		break;
+	}
+});
 /////////////////////////////////////////
 
 
@@ -326,10 +342,8 @@ $('.input-mini').keyup(function() {
 
 
 		if ($('.f1').is(':selected')){	
-			$('#jsrasschitat').attr('disabled', 'disabled');		
-			// $('.jscheked select').addClass('selectdisabled');
-			$('.f1:selected').parent().addClass('selectdisabled');
-
+			$('#jsrasschitat').attr('disabled', 'disabled');			
+			$('.f1:selected').parent().addClass('selectdisabled');			
 		}
 		
 
@@ -555,7 +569,7 @@ $('.input-mini').keyup(function() {
 				}
 
 			}
-		// console.log(itogomob);
+		
 			$('.input-mini').addClass('disabledinputjs');
 
 			if ($('#agemob').val() >= 99 || $('#agemob').val() <= 12) {
@@ -573,9 +587,7 @@ $('.input-mini').keyup(function() {
 			}
 
 
-
-
-		if (!$('#jsrasschitat').hasClass('disabledjs')) {
+		if (!$('#jsrasschitat').hasClass('disabledjs') && !$('.f1').is(':selected')) {
 			$(this).parents('.jsmob').hide().next().show();
 		}
 	
