@@ -15,6 +15,7 @@
 								<input class="dd-input phone" name="phone"  type="text" value="" placeholder="Введите ваш телефон" required>	
 							</div>	
 							<input class="button-1 dd-submit ripplelink" type="submit" value="ХОЧУ ПОПРОБОВАТЬ" placeholder="">
+							<input type="hidden" name="theme" value="Не хотите заказывать сразу на неделю">
 						</form>		
 					</div>
 				</div>

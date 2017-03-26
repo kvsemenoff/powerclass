@@ -11,12 +11,13 @@
 								<input class="dd-input phone" name="phone" type="text" value="" placeholder="Введите ваш телефон" required>	
 							</div>	
 							<input class="button-1 dd-submit ripplelink" type="submit" value="Перезвоните мне" placeholder="">
+							<input type="hidden" name="theme" value="Остались вопросы">
 						</form>		
 					</div>
 					<p>Или позвоните сами по номеру</p>
 					<span class="phonede">
 						<a href="#log-in-1" name="modal"><span class="db-tel detel ">+7 (495) 133 29 67</span></a>
-		
+
 						<!-- <em class="second">7 495 133 29 67</em></span> -->
 						<a href="tel:+74951332967"><span class="telmob">+7 495 133 29 67</span></a>
 					</div>
@@ -74,6 +75,7 @@
 								<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
 								<input class="dd-input dd-input_pop phone" name="phone"  type="text" placeholder="Введите ваш телефон" >
 								<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="перезвоните мне">
+								<input class="theme_m" type="hidden" name="theme" value="Заказать звонок" >
 							</div>
 							<div class="clearfix"></div>
 
@@ -121,11 +123,13 @@
 							<input class="tarif_kalory" name="tarif_kalory" type="hidden" value="empty">
 							<input class="how_much" name="how_much" type="hidden" value="empty">
 							<input class="how_much_day" name="how_much_day" type="hidden" value="empty">
+							<input class="theme_m" type="hidden" name="theme" value="empty">
+							<input type="hidden" name="theme" value="Заказать комплект питания">
 							<!-- end hidden -->
 
-						<div class="dd-but_online">
-							<a class="button-2  online-replace" name="" href="#log-in-5">Оформить онлайн</a>							
-						</div>	
+							<div class="dd-but_online">
+								<a class="button-2  online-replace" name="" href="#log-in-5">Оформить онлайн</a>							
+							</div>	
 						</div>
 						
 						<div class="clearfix"></div>
@@ -186,6 +190,8 @@
 							<input type="hidden" class="jsdayweekpop" name="daytest">
 							<input type="hidden" class="js3days" name="js3days">
 							<input type="hidden" class="js5days" name="js5days">
+							<input type="hidden" name="theme" value="Заказать комплект питания">
+
 
 						</div>
 
@@ -222,7 +228,7 @@
 							<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
 							<input class="dd-input dd-input_pop phone" name="phone"  type="text" placeholder="Введите ваш телефон" >
 							<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="Заказать питание">
-
+							<input type="hidden" name="theme" value="Начните питаться сбалансированной пищей 5 раз в день, и ваше тело скажет вам «Спасибо» ">
 						</div>
 
 						<div class="clearfix"></div>
@@ -274,6 +280,7 @@
 							<input class="tarif_kalory" name="tarif_kalory" type="hidden" value="empty">
 							<input class="how_much" name="how_much" type="hidden" value="empty">
 							<input class="how_much_day" name="how_much_day" type="hidden" value="empty">
+							<input type="hidden" name="theme" value="Точный адрес доставки">
 							<!-- end hidden -->
 							
 							<!-- hidden-input -->
@@ -374,7 +381,7 @@
 			<div class="dd-form-tariff">
 				<div class="dd-close"></div>
 				<div class="dd-title_tr">
-					<span class="dd-title_tr_sp"s>Тарифы PowerClass</span>
+					<span class="dd-title_tr_sp">Тарифы PowerClass</span>
 				</div>	
 				<table class="dd-table_pop">
 					<tr class="tr-title">
@@ -530,6 +537,7 @@
 						<label>
 							<input class="phone dd-input dd-input_tr" type="text" name="phone"   placeholder="Введите ваш телефон">
 							<input class="button-1 dd-submit ripplelink" type="submit" value="подобрать персональный тариф">
+							<input type="hidden" name="theme" value="Тарифы пауер класс">
 						</label>
 					</div>
 					<div class="clearfix"></div>
@@ -729,6 +737,7 @@
 				<label>
 					<input class="phone dd-input dd-input_tr" type="text" name="phone"   placeholder="Введите ваш телефон">
 					<input class="button-1 dd-submit ripplelink" type="submit" value="подобрать персональный тариф">
+					<input type="hidden" name="theme" value="Тарифы пауер класс">
 				</label>
 			</div>
 			<div class="clearfix"></div>
@@ -738,10 +747,6 @@
 
 
 <script>
-
-	
-
-
 	
 	$("#js-nav a").click(function(e){
 		e.preventDefault();
@@ -863,9 +868,9 @@
 		var winW = $(window).width();
 		posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
 		
-		  if(window.innerWidth > 990) {
-		       $(id).css('top',  posTop+50);
-		    }
+		if(window.innerWidth > 990) {
+			$(id).css('top',  posTop+50);
+		}
 		// $(id).css('left', winW/2-$(id).width()/2);
 		$(id).fadeIn(500);
 
@@ -875,8 +880,8 @@
 			'width' : '100%',
 			'top': -posTop,
 			'padding-right': '17px',
- 		});
- 		$('.roistat-lh-pulsator-phone').css('display', 'none');
+		});
+		$('.roistat-lh-pulsator-phone').css('display', 'none');
 	});
 	$('.window .dd-close').click(function (e) {
 		e.preventDefault();
@@ -957,8 +962,8 @@
 				$('.online-replace').attr('name', 'modal');
 				$('#log-in-2').hide();
 				$('#log-in-5').show();
-		
+
 				return true;
-		}
-	});
-</script>
+			}
+		});
+	</script>

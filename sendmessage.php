@@ -40,14 +40,14 @@ $celjizni = $_POST['cel'];
 
 
 // Формирование заголовка письма
-$subject  = "Новое сообщение";
+$subject  = $_POST['theme'];
 $headers  = "From: info@starlight.space" . "\r\n";
 $headers .= "Reply-To: info@starlight.space".  "\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html;charset=utf-8 \r\n";
 // Формирование тела письма
 $msg  = "<html><body>";
-$msg .= "<h2>Новое сообщение</h2>\r\n";
+$msg .= "<h2>Достигнута цель:</h2>".$subject."</p>\r\n";;
 
 if (!empty($phone)){
 	$msg .= "<p><strong>Телефон:</strong> ".$phone."</p>\r\n";
