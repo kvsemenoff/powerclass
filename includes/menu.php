@@ -1581,14 +1581,14 @@
 						</div>
 
 						<div class="dfpriemi">
-							<a href="#" class="df3priem">3 ПРИЕМА <br>
+							<a href="#" class="df3priem"><i>3 ПРИЕМА</i> <br>
 								<span class="dfdots"></span>
 								<span class="dfdots"></span>
 								<span class="dfdots"></span>
 								<span class="dfdots"></span>
 								<span class="dfdots"></span>
 							</a>
-							<a href="#" class="df5priem df5priemactive">5 ПРИЕМОВ <br>
+							<a href="#" class="df5priem df5priemactive"><i>5 ПРИЕМОВ</i> <br>
 								<span class="dfdots"></span>
 								<span class="dfdots"></span>
 								<span class="dfdots"></span>
@@ -3552,17 +3552,22 @@
 	//отправка на попап и на почту
 
 	$('.jsdflink').on('click', function(){
-		var txttarif = $('.dfactivelinkmob a em').text();		
+		var txttarif = $('.dfactivelinkmob a em').text();	//название тарифа	
 		$('.dd-bold-title_pop b').text(txttarif);		
 		$('.jsnametarifpop').val(txttarif);
 
-		var txtdaykkal = $('.dfactivelinkmob').next('.jskaldaypopup').text();
+		var txtdaykkal = $('.dfactivelinkmob').next('.jskaldaypopup').text();//ккал в тарифе
 		$('.dd-bold-title_pop b').next('span').text(txtdaykkal);
 		$('.jskkalpop').val(txtdaykkal);
 
-		var txtdaytarif = $('.jsweakactive').text();		
-		$('.dd-grey-txt_2 i').text(txtdaytarif);		
+		var txtdaytarif = $('.jsweakactive').text();//день недели
+		$('.dd-grey-txt_2 i').text(txtdaytarif);
 		$('.jsdayweekpop').val(txtdaytarif);
+		
+		var js5days = $('.df5priemactive i').text(); //количество приемов 
+		var js3days = $('.df3priemactive i').text();
+		$('.js5days').val(js5days);
+		$('.js3days').val(js3days);		
 	});
 
 	$('.jsdflinkmob').on('click', function(){		
@@ -3577,6 +3582,11 @@
 		var txtdaytarifmob = $('.jsmobactive').attr('dayweek');		
 		$('.dd-grey-txt_2 i').text(txtdaytarifmob);
 		$('.jsdayweekpop').val(txtdaytarifmob);
+
+		var js5daysmob = $('.df5active').text(); //количество приемов 
+		var js3daysmob = $('.df3active').text();
+		$('.js5days').val(js5daysmob);
+		$('.js3days').val(js3daysmob);	
 	});
 
 	

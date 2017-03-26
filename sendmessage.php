@@ -19,6 +19,9 @@ $how_much = $_POST['how_much'];
 $how_much_day = $_POST['how_much_day'];
 $daytest = $_POST['daytest'];
 
+$days3 = $_POST['js3days'];
+$days5 = $_POST['js5days'];
+
 
 $daydostavki = $_POST['daydostavki'];
 $timedostavki = $_POST['timedostavki'];
@@ -73,6 +76,15 @@ if (!empty($checkbox_1)){
 if (!empty($daytest)){
 	$msg .= "<p><strong>Пробный день:</strong> ".$daytest."</p>\r\n";
 }
+
+if (!empty($days3)){
+	$msg .= "<p><strong>Количество приемов:</strong> ".$days3."</p>\r\n";
+}
+if (!empty($days5)){
+	$msg .= "<p><strong>Количество приемов:</strong> ".$days5."</p>\r\n";
+}
+
+
 
 
 if (!empty($kkalklient)){

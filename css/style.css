@@ -3521,9 +3521,6 @@ div[data-val]:hover {
     margin-right: 45px;
     margin-bottom: 0;
     padding-top: 55px; } }
-.roistat-lh-pulsator-phone {
-  z-index: 20 !important; }
-
 @viewport {
   user-zoom: fixed; }
 

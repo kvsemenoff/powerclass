@@ -163,7 +163,7 @@
 							</div>
 
 							<label class="dd-label">
-								<input class="checkbox checkbox-js" type="radio" value="Выбран тариф пробный день" name="checkbox" >
+								<input class="checkbox checkbox-js jscheked" type="radio" value="Выбран тариф пробный день" name="checkbox" >
 								<span class="checkbox-custom"></span>
 								<span class="dd-txt-radio dd-txt-radio-js">Пробный день</span><br>
 								<span class="dd-grey-txt dd-grey-txt_2">(<i>Четверг</i>)</span>
@@ -184,6 +184,8 @@
 							<input type="hidden" class="jsnametarifpop" name="tarif">
 							<input type="hidden" class="jskkalpop" name="tarif_kalory">
 							<input type="hidden" class="jsdayweekpop" name="daytest">
+							<input type="hidden" class="js3days" name="js3days">
+							<input type="hidden" class="js5days" name="js5days">
 
 						</div>
 
@@ -901,7 +903,6 @@
 	$(".form1").submit(function() { 
 		var tel = $(this).find('input[name="phone"]');
 		var inppop = $(this).find('input[name="uname"]');
-	
 		var empty = false;
 		if (inppop.val() == "") {
 			inppop.addClass('error-input');

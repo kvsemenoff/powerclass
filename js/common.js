@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-   if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+   if(window.innerWidth <= 800) {
         window.roistatLeadHunterInited = true;
     }
    $(".phone").mask("+7 (999) 999 - 99 - 99?");
