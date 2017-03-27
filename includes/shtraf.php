@@ -692,12 +692,9 @@
  			});
 
  			function cleanTnanks(form){
- 				$('.js-window').hide();
-        // $('a[href=#thanks]').trigger('click');
-        location = "spasibo.php";
-    };
+		 		$('.js-window').hide();
+		        // $('a[href=#thanks]').trigger('click');
+		        location = "spasibo.php";
+		    };
 
-    // $('.yandex').on('click', function(){
-    // 	location.href = "https://kassa.yandex.ru/";
-    // });
 </script>

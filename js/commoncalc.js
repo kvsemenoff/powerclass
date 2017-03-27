@@ -21,6 +21,7 @@ $(document).ready(function(){
 	      }
 	});
 
+
 $('input[type=number]').focus(function(){
 	var idval = $(this).attr('id');
 	switch(idval){

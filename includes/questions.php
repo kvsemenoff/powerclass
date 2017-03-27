@@ -852,6 +852,11 @@
 	$('.dd-dost_span').hover(function(){
 		$('.dd-podskazka').toggleClass('blocked');
 	});
+
+	$('.jscheked').on('click', function(e){
+		var txtdaytarif = $('.dd-grey-txt_2 i').text();//день недели		
+		$('.jsdayweekpop').val(txtdaytarif);		
+	});
 </script>
 
 <script>
@@ -903,14 +908,14 @@
 	$(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
 
 	$('input[name=submit]').click(function(){
-		$('input[name="uname"]').addClass('error-input');
+		// $('input[name="uname"]').addClass('error-input');
 	});
 	$(".form1").submit(function() { 
 		var tel = $(this).find('input[name="phone"]');
 		var inppop = $(this).find('input[name="uname"]');
 		var empty = false;
 		if (inppop.val() == "") {
-			inppop.addClass('error-input');
+			// inppop.addClass('error-input');
 			inppop.focus();			
 		}
 		if (tel.val() == ""){
@@ -950,12 +955,12 @@
 			$('.dd-hid-phone').val(phonereq);
 			if(unamereq == "" ){    
 				$('.unamejs').focus();  
-				$('.unamejs').addClass('disabledinputjs');	            
+				// $('.unamejs').addClass('disabledinputjs');	            
 				return false;
 
 			}else if(phonereq == ""){    
 				$('.phonejs').focus();
-				$('.phonejs').addClass('disabledinputjs');	 
+				// $('.phonejs').addClass('disabledinputjs');	 
 				return false;   
 			}else{
 				$('.disabledinputjs').removeClass('disabledinputjs');

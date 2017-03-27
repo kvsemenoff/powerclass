@@ -3561,14 +3561,18 @@
 		$('.jskkalpop').val(txtdaykkal);
 
 		var txtdaytarif = $('.jsweakactive').text();//день недели
-		$('.dd-grey-txt_2 i').text(txtdaytarif);
-		$('.jsdayweekpop').val(txtdaytarif);
+		$('.dd-grey-txt_2 i').text(txtdaytarif);	
+		
+		// 	$('.jsdayweekpop').val(txtdaytarif);
+		
 		
 		var js5days = $('.df5priemactive i').text(); //количество приемов 
 		var js3days = $('.df3priemactive i').text();
 		$('.js5days').val(js5days);
 		$('.js3days').val(js3days);		
 	});
+
+	
 
 	$('.jsdflinkmob').on('click', function(){		
 		var txttarifmob = $('.dfactivelinkmob a').attr('tarif');		
@@ -3589,5 +3593,6 @@
 		$('.js3days').val(js3daysmob);	
 	});
 
-	
+
+
 </script>
