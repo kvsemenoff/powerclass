@@ -662,10 +662,10 @@ h2{
 		
 		border-radius:3px;
 		padding: 15px;
-		text-align: center;
+		text-align: left;
 	}
 	.form-wrap-main_5{
-		width: 265px;
+		// width: 265px;
 		padding-bottom: 74px;
 	}
 	.dd-close{
@@ -814,13 +814,16 @@ h2{
 }
 .dd-el-1{
 	padding-top: 40px;
-	.dd-input_pop{
-		height: 47px;
-		background:#fff;
-		width: 100%;
-		border: none;
-		margin-bottom: 13px;
-		border-top: 2px solid #888888;
+	.dd-input_pop{	
+	    height: 47px;
+	    background: #fff;
+	    // width: 45%;//100
+	    width: 100%;
+	    border: none;
+	  	border-top: 2px solid #888888;
+	  	margin-bottom: 14px;
+	    // margin: 0 5px 14px 5px;
+	    // border-radius: 10px;//26
 	}
 	.dd-submit{
 		width: 100%;
@@ -834,6 +837,8 @@ h2{
 	font-weight: 300;
 	color: #222;
 	font-size: 24px;
+	display: block;
+	text-align: center;
 }
 .dd-grey-txt{
 	font-size: 14px;
@@ -1236,13 +1241,18 @@ div[data-val]:hover{
 }
 	#log-in-5{
 		position: fixed;
-		top:10%;
-		// left:50%;
-		// right: 0;
-		// bottom: 0;
-		// transform:translateX(-50%);
-		max-width: 340px;
+		// top:10%;	
+		// max-width: 340px;
 		width: 100%;
+		.dd-close{
+			right: 46%;
+			transform:translateX(-70%);
+		}
+			.dd-input_pop{		   
+		    width: 45%;//100		    
+		    margin: 0 5px 14px 5px;
+		    border-radius: 10px;//26
+		}
 	}
 
 #log-in-5::-webkit-scrollbar { width: 0; }
@@ -1254,10 +1264,31 @@ div[data-val]:hover{
 .window { overflow: -moz-scrollbars-none; }
 
 
-// .dd-but_online{
-// 	width: 330px;//312
-// 	margin: 0 auto;
-// }
+
+.dd-payments{
+	padding-top: 35px;
+	display: block;
+	text-align: center;	
+}
+.dd-select-box{
+	display: inline-block;
+	margin: 0 60px 0 50px;
+}
+.dd-select-but{
+	padding-top: 10px;
+	display: inline-block;
+}
+.dd-dost{
+	display: none;	
+}
+.ddmobiledost{
+	display: inline-block;
+	padding: 10px 17%;
+}
+.pt-label{
+	padding-top: 3px;
+	display: none;
+}
 @media only screen and (min-width : 320px) {
 	.faq{
 		// width: 277px;
@@ -1278,7 +1309,7 @@ div[data-val]:hover{
 	}
 	.window{ 
 		.form-wrap-main_5{
-			width: 340px;
+			// width: 340px;
 		}
 	}
 }
@@ -1316,7 +1347,10 @@ div[data-val]:hover{
 			// right: -128px !important;
 		}
 	}
-
+	
+	.pt-label{
+		display: inline-block;
+	}
 
 	.dd-payments{
 		display: block;
@@ -1324,9 +1358,8 @@ div[data-val]:hover{
 	.dd-select-but, .dd-dost{
 		float: left;
 	}
-	.dd-dost{
-		padding-top: 53px;
-		padding-left: 27px;
+	.dd-dost{		
+		padding: 35px 0  0 35px;		
 	}
 	.dd-podskazka{
 		right: -317px;
@@ -1409,7 +1442,7 @@ div[data-val]:hover{
 		font-size: 14px !important;
 	}
 	.dd-inp-small_2{
-		width: 79px !important;
+		width: 90px !important;
 		float: left;
 	}
 	//////////////////////////
@@ -1490,10 +1523,12 @@ div[data-val]:hover{
 	}
 	#log-in-5{
 		max-width: 805px;
+		width: 100%;
+		top:10%;
 	}
 	.window{ 
 		.form-wrap-main_5{
-			width: 805px;
+			// width: 805px;
 			margin: 0 auto;
 			padding-left: 74px;
 			padding-right: 74px;
@@ -1511,23 +1546,48 @@ div[data-val]:hover{
 		overflow: inherit;
 		height: auto;
 		bottom: unset;
-
-		// position: fixed;
-	 //    top: 0;
-	 //    right: 0;
-	 //    bottom: 0;
-	 //    left: 0;
-	 //    z-index: 9950;
-	 //    display: none;
-	 //    overflow-y:scroll;
-	 //    margin: 0 auto;
-	    
-		// position: fixed;
-		// width: 100% !important;
-		// height: auto !important;
-		// left:0 !important;  
-		// top:0 !important;
 	}
+
+
+
+	#log-in-5 .dd-input_pop {
+	    width: 100%;
+	    margin:0 0px 14px 0;
+	    border-radius: 25px;	   
+	}
+ 	#log-in-5 .mr_inp{
+		margin:0 32px 14px 0;
+    }
+    #log-in-5 .ddlastchild{
+		margin: 0 0 0 0;
+    }
+
+	.dd-payments{		
+		text-align: left;	
+	}
+	.dd-select-box{
+		display: inline-block;
+		margin: 0 50px 0 3px;
+	}
+	.dd-select-box_last{
+		margin-right: 0;
+	}
+	.dd-select-but{
+		padding-top: 10px;
+		display: inline-block;
+	}
+	.dd-dost{
+		display: inline-block;	
+	}
+	.ddmobiledost{
+		display: none;
+		padding: 10px 17%;
+	}
+	.pt-label{
+		padding-top: 3px;
+		display: inline-block;
+	}
+	
 
 }
 

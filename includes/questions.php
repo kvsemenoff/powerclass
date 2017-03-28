@@ -293,7 +293,18 @@
 							<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" name="podezd" placeholder="Подъезд...">
 							<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" name="domofon" placeholder="Домофон...">
 							<input class="dd-input dd-input_pop dd-inp-small_2 mr_inp" type="text"  name="etaj"  placeholder="Этаж...">
-							<input class="dd-input dd-input_pop dd-inp-small " type="text" name="numberkv"  placeholder="Кв/Офис...">
+							<input class="dd-input dd-input_pop dd-inp-small ddlastchild" type="text" name="numberkv"  placeholder="Кв/Офис...">
+							<div class="dd-dost ddmobiledost">
+								<span class="dd-dost_span">О доставке</span>
+								<div class="dd-podskazka">
+									<div class="dd-p-span">
+										<span>Доставка осуществляется после Вашей оплаты заказа, по согласованию с Вами.
+											<br><br>
+											После оформления заказа с Вами обязательно свяжется оператор и уточнит более подробно условия доставки. В день доставки с Вами свяжется курьер и сообщит о точном времени приезда. Если у Вас нет возможности принять заказ в ранее оговоренное с время, просьба сообщить об этом.
+										</span>
+									</div>
+								</div>
+							</div>
 
 							<!-- Hidden -->
 							<input class="tarif_name_hide" name="tarif" type="hidden" value="empty">
@@ -338,6 +349,7 @@
 										<option value="Понедельник">Пн</option>
 										<option value="Среда">Ср</option>
 									</select>
+									<div class="clearfix"></div>
 								</div>
 
 								<div class="clearfix"></div>
@@ -366,7 +378,7 @@
 										<option value="23:00">23:00</option>
 									</select>
 								</div>
-
+								<div class="clearfix"></div>
 							</div>
 							<div class="clearfix"></div>
 

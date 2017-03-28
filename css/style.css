@@ -539,9 +539,8 @@ h2 {
   .window .form-wrap-main {
     border-radius: 3px;
     padding: 15px;
-    text-align: center; }
+    text-align: left; }
   .window .form-wrap-main_5 {
-    width: 265px;
     padding-bottom: 74px; }
   .window .dd-close {
     width: 32px;
@@ -660,8 +659,8 @@ h2 {
     background: #fff;
     width: 100%;
     border: none;
-    margin-bottom: 13px;
-    border-top: 2px solid #888888; }
+    border-top: 2px solid #888888;
+    margin-bottom: 14px; }
   .dd-el-1 .dd-submit {
     width: 100%;
     height: 60px;
@@ -672,7 +671,9 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #222;
-  font-size: 24px; }
+  font-size: 24px;
+  display: block;
+  text-align: center; }
 
 .dd-grey-txt {
   font-size: 14px;
@@ -1028,9 +1029,14 @@ div[data-val]:hover {
 
 #log-in-5 {
   position: fixed;
-  top: 10%;
-  max-width: 340px;
   width: 100%; }
+  #log-in-5 .dd-close {
+    right: 46%;
+    transform: translateX(-70%); }
+  #log-in-5 .dd-input_pop {
+    width: 45%;
+    margin: 0 5px 14px 5px;
+    border-radius: 10px; }
 
 #log-in-5::-webkit-scrollbar {
   width: 0; }
@@ -1050,6 +1056,30 @@ div[data-val]:hover {
 .window {
   overflow: -moz-scrollbars-none; }
 
+.dd-payments {
+  padding-top: 35px;
+  display: block;
+  text-align: center; }
+
+.dd-select-box {
+  display: inline-block;
+  margin: 0 60px 0 50px; }
+
+.dd-select-but {
+  padding-top: 10px;
+  display: inline-block; }
+
+.dd-dost {
+  display: none; }
+
+.ddmobiledost {
+  display: inline-block;
+  padding: 10px 17%; }
+
+.pt-label {
+  padding-top: 3px;
+  display: none; }
+
 @media only screen and (min-width: 320px) {
   .fl-left {
     float: left; }
@@ -1063,10 +1093,7 @@ div[data-val]:hover {
 
   .dd-el-1_txt {
     width: 310px;
-    margin: 0 auto; }
-
-  .window .form-wrap-main_5 {
-    width: 340px; } }
+    margin: 0 auto; } }
 .dd-select {
   padding-top: 6px; }
 
@@ -1086,6 +1113,9 @@ div[data-val]:hover {
   .dd-close {
     right: 8px !important; }
 
+  .pt-label {
+    display: inline-block; }
+
   .dd-payments {
     display: block; }
 
@@ -1093,8 +1123,7 @@ div[data-val]:hover {
     float: left; }
 
   .dd-dost {
-    padding-top: 53px;
-    padding-left: 27px; }
+    padding: 35px 0  0 35px; }
 
   .dd-podskazka {
     right: -317px;
@@ -1173,7 +1202,7 @@ div[data-val]:hover {
     font-size: 14px !important; }
 
   .dd-inp-small_2 {
-    width: 79px !important;
+    width: 90px !important;
     float: left; }
 
   .dd-akkordeon {
@@ -1247,10 +1276,11 @@ div[data-val]:hover {
     font-size: 27px; }
 
   #log-in-5 {
-    max-width: 805px; }
+    max-width: 805px;
+    width: 100%;
+    top: 10%; }
 
   .window .form-wrap-main_5 {
-    width: 805px;
     margin: 0 auto;
     padding-left: 74px;
     padding-right: 74px;
@@ -1266,7 +1296,43 @@ div[data-val]:hover {
     border: none;
     overflow: inherit;
     height: auto;
-    bottom: unset; } }
+    bottom: unset; }
+
+  #log-in-5 .dd-input_pop {
+    width: 100%;
+    margin: 0 0px 14px 0;
+    border-radius: 25px; }
+
+  #log-in-5 .mr_inp {
+    margin: 0 32px 14px 0; }
+
+  #log-in-5 .ddlastchild {
+    margin: 0 0 0 0; }
+
+  .dd-payments {
+    text-align: left; }
+
+  .dd-select-box {
+    display: inline-block;
+    margin: 0 50px 0 3px; }
+
+  .dd-select-box_last {
+    margin-right: 0; }
+
+  .dd-select-but {
+    padding-top: 10px;
+    display: inline-block; }
+
+  .dd-dost {
+    display: inline-block; }
+
+  .ddmobiledost {
+    display: none;
+    padding: 10px 17%; }
+
+  .pt-label {
+    padding-top: 3px;
+    display: inline-block; } }
 .questions, .dd-want-view {
   background-image: url("../img/questions.jpg");
   background-position: top center;
