@@ -959,6 +959,7 @@
 		var tel = $(this).find('input[name="phone"]');
 		var inppop = $(this).find('input[name="uname"]');
 		var empty = false;
+
 		if (inppop.val() == "") {
 			// inppop.addClass('error-input');
 			inppop.focus();			
@@ -1027,17 +1028,14 @@
 	   return jQuery(this).length;
 	}		
 	$(function() {		
-    if(!is_mobile()){    
-      if($('#user_phone').exists()){
-        
+    if(!is_mobile()){         
         $('.phone').each(function(){
           $(this).mask("+7(999)999-99-99");
         });
         $('.phone')                   
           .removeAttr('pattern')
           .removeAttr('title')
-          .attr({'placeholder':'(___) ___ __ __'});
-      }      
+          .attr({'placeholder':'+7(___) ___ __ __'});         
       }
 	});
 })( jQuery );

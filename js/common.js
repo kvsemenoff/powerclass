@@ -5,7 +5,7 @@ $(document).ready(function(){
    if(window.innerWidth <= 800) {
         window.roistatLeadHunterInited = true;
     }
-   $(".phone").mask("+7 (999) 999 - 99 - 99?");
+   // $(".phone").mask("+7 (999) 999 - 99 - 99?");
 
    
     $('.db-menu a, .db-up_menu_menu a, .db-want, .db-podr, .db-tarif, .db-podr1, .db-tarif1').on("click", function(e){
