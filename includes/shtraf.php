@@ -251,7 +251,7 @@
  													<input class="dd-input nametosend" name="uname" type="text" value="" placeholder="Введите ваше имя" required>	
  												</div>
  												<div class="input-block">
- 													<input class="dd-input phone phonetosend" name="phone" type="text" value="" placeholder="Введите ваш телефон">		
+ 													<input class="dd-input phone phonetosend" name="phone" type="text" value="" placeholder="Введите ваш телефон" pattern="[0-9_-]{10}">		
  												</div>
  												<div class="input-block input-block--half">
  													<input class="button-1 dd-submit ripplelink" type="submit" value="Заказать по телефону" placeholder="">
@@ -265,7 +265,8 @@
  												<input type="hidden" name="days" class="jsklientdays"> 
  												<input type="hidden" name="theme" value="Калькулятор калорий - заказать по телефону">
 
-
+ 												<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+ 												<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />
 
  												<div class="input-block input-block--half">
 
@@ -348,7 +349,9 @@
  												<input type="hidden" name="food" class="jsklientfood"> 
  												<input type="hidden" name="days" class="jsklientdays"> 
  												<input type="hidden" name="theme" value="Калькулятор калорий - заказать онлайн">
-
+												
+ 												<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+ 												<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />		
 
  												<div class="choose-wrap clearfix">
  													<div class="choose jsdayselected">
@@ -508,7 +511,7 @@
  							<input type="text" class="nametosendmob" placeholder="Введите Ваше Имя" name="uname" required>
  						</div>
  						<div class="input-wrap">
- 							<input type="text" placeholder="Введите Ваш Телефон" class="phone phonetosendmob" name="phone"  required >
+ 							<input type="text" placeholder="Введите Ваш Телефон" class="phone phonetosendmob" name="phone"  required pattern="[0-9_-]{10}">
  						</div>
  						<input class="button-1 dd-submit dd-submit-left ripplelink" type="submit" value="Заказать по телефону">
 
@@ -518,6 +521,9 @@
  						<input type="hidden" name="food" class="jsklientfoodmob"> 
  						<input type="hidden" name="days" class="jsklientdaysmob"> 
  						<input type="hidden" name="theme" value="Калькулятор калорий - заказать по телефону">
+
+ 						<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+ 						<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />	
 
  						<button  class="button-1 dd-submit ripplelink" type="button" id="jsnextmobwindow"> Заказать онлайн</button>
 
@@ -571,18 +577,18 @@
  						<input type="hidden" name="tarif" class="jsnametarifmob"> 
  						<input type="hidden" name="food" class="jsklientfoodmob"> 
  						<input type="hidden" name="days" class="jsklientdaysmob"> 
-
+						
+						<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+ 						<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />	
 
  						<!-- <span class="about-in">О доставке</span> -->
- 						<div class="about">
- 							<a >
- 								<span class="about-in">О доставке
- 									<div class="has-tooltip">
- 										<p>Доставка осуществляется после Вашей оплаты заказа, по согласовыванию с Вами</p>
- 										<p>После оформления заказа с Вами обязательно свяжется оператор и уточнит более подробно условия доставки. В день доставки с Вами свяжется курьер и сообщит о точном времени приезда. Если у Вас нет возможности принять заказ в ранее оговоренное время, просьба сообщить об этом</p>
- 									</div>
- 								</span>
- 							</a>
+ 						<div class="about2"> 							
+ 							<span class="about-in2">О доставке</span> 
+ 							<div class="has-tooltip2 dfshowtoggle">
+ 								<div class="dd-close"></div>
+ 								<p>Доставка осуществляется после Вашей оплаты заказа, по согласовыванию с Вами</p>
+ 								<p>После оформления заказа с Вами обязательно свяжется оператор и уточнит более подробно условия доставки. В день доставки с Вами свяжется курьер и сообщит о точном времени приезда. Если у Вас нет возможности принять заказ в ранее оговоренное время, просьба сообщить об этом</p>
+ 							</div>										
  						</div>
 
 
@@ -697,4 +703,11 @@
 		        location = "spasibo.php";
 		    };
 
+
+		 $('.about-in2').on('click', function(event) {
+		 	$('.dfshowtoggle').show(100);		 	
+		 });
+		 $('.dd-close').on('click', function(event) {
+		 	$('.dfshowtoggle').hide(100);		 	
+		 });
 </script>

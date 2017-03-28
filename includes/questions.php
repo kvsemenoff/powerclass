@@ -8,10 +8,18 @@
 					<div class="form-wrap">
 						<form class="form1" action="#" method="post">
 							<div class="input-wrap">
-								<input class="dd-input phone" name="phone" type="text" value="" placeholder="Введите ваш телефон" required>	
+								<input class="dd-input phone" name="phone" type="text" value="" placeholder="Введите ваш телефон" required pattern="[0-9_-]{10}">
 							</div>	
-							<input class="button-1 dd-submit ripplelink" type="submit" value="Перезвоните мне" placeholder="">
+							
+
+							<span class="ripplelink forinputripple">
+								<input class="button-1 dd-submit" type="submit" value="Перезвоните мне" placeholder="">
+							</span>						
+
 							<input type="hidden" name="theme" value="Остались вопросы">
+
+							<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+							<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />
 						</form>		
 					</div>
 					<p>Или позвоните сами по номеру</p>
@@ -73,9 +81,12 @@
 
 							<div class="dd-el-1 dd-el-1_inp">
 								<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
-								<input class="dd-input dd-input_pop phone" name="phone"  type="text" placeholder="Введите ваш телефон" >
+								<input class="dd-input dd-input_pop phone" name="phone"  type="text" placeholder="Введите ваш телефон" pattern="[0-9_-]{10}">
 								<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="перезвоните мне">
 								<input class="theme_m" type="hidden" name="theme" value="Заказать звонок" >
+
+								<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+							<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />
 							</div>
 							<div class="clearfix"></div>
 
@@ -114,7 +125,7 @@
 								<span class="dd-main-txt-2">Сумма заказа: <span><i class="dd-price">7 400</i> руб.</span></span>
 							</div>
 							<input class="dd-input dd-input_pop unamejs" type="text" name="uname" placeholder="Введите ваше имя" required>
-							<input class="dd-input dd-input_pop phone phonejs" name="phone" type="text" placeholder="Введите ваш телефон" >
+							<input class="dd-input dd-input_pop phone phonejs" name="phone" type="text" placeholder="Введите ваш телефон" pattern="[0-9_-]{10}">
 							<input class="button-1 ripplelink dd-submit ripplelink" type="submit" name="submit" value="оформить по телефону">
 
 							<!-- Hidden -->
@@ -125,6 +136,9 @@
 							<input class="how_much_day" name="how_much_day" type="hidden" value="empty">
 							<input class="theme_m" type="hidden" name="theme" value="empty">
 							<input type="hidden" name="theme" value="Заказать комплект питания">
+
+							<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+							<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />
 							<!-- end hidden -->
 
 							<div class="dd-but_online">
@@ -182,7 +196,7 @@
 							</label>
 							<div class="clearfix"></div>
 							<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
-							<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" required>
+							<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" required pattern="[0-9_-]{10}">
 							<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="Заказать питание">
 
 							<input type="hidden" class="jsnametarifpop" name="tarif">
@@ -191,7 +205,9 @@
 							<input type="hidden" class="js3days" name="js3days">
 							<input type="hidden" class="js5days" name="js5days">
 							<input type="hidden" name="theme" value="Заказать комплект питания">
-
+							
+							<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+							<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />
 
 						</div>
 
@@ -226,9 +242,14 @@
 								</span>
 							</div>
 							<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
-							<input class="dd-input dd-input_pop phone" name="phone"  type="text" placeholder="Введите ваш телефон" >
+							<input class="dd-input dd-input_pop phone" name="phone"  type="text" placeholder="Введите ваш телефон" pattern="[0-9_-]{10}">
 							<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="Заказать питание">
 							<input type="hidden" name="theme" value="Начните питаться сбалансированной пищей 5 раз в день, и ваше тело скажет вам «Спасибо» ">
+
+
+
+							<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+							<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />
 						</div>
 
 						<div class="clearfix"></div>
@@ -286,6 +307,9 @@
 							<!-- hidden-input -->
 							<input class="dd-hid-name" type="hidden" name="uname" value="test">
 							<input class="dd-hid-phone" type="hidden" name="phone"  value="test">
+
+							<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+							<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />
 							<!-- end hidden-input -->
 
 							<div class="clearfix"></div>
@@ -535,9 +559,13 @@
 					</div>
 					<div class="dd-form_input table_left">
 						<label>
-							<input class="phone dd-input dd-input_tr" type="text" name="phone"   placeholder="Введите ваш телефон">
+							<input class="phone dd-input dd-input_tr" type="text" name="phone"   placeholder="Введите ваш телефон" pattern="[0-9_-]{10}" >
 							<input class="button-1 dd-submit ripplelink" type="submit" value="подобрать персональный тариф">
 							<input type="hidden" name="theme" value="Тарифы пауер класс">
+
+							<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+							<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />
+
 						</label>
 					</div>
 					<div class="clearfix"></div>
@@ -735,10 +763,13 @@
 			</div>
 			<div class="dd-form_input ">
 				<label>
-					<input class="phone dd-input dd-input_tr" type="text" name="phone"   placeholder="Введите ваш телефон">
+					<input class="phone dd-input dd-input_tr" type="text" name="phone"   placeholder="Введите ваш телефон" pattern="[0-9_-]{10}">
 					<input class="button-1 dd-submit ripplelink" type="submit" value="подобрать персональный тариф">
 					<input type="hidden" name="theme" value="Тарифы пауер класс">
 				</label>
+
+				<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+				<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />
 			</div>
 			<div class="clearfix"></div>
 		</form>
@@ -887,6 +918,7 @@
 			'padding-right': '17px',
 		});
 		$('.roistat-lh-pulsator-phone').css('display', 'none');
+
 	});
 	$('.window .dd-close').click(function (e) {
 		e.preventDefault();
@@ -905,11 +937,12 @@
 		$('.roistat-lh-pulsator-phone').css('display', 'block');
 	});
 
-	$(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
+	// $(".phone").mask("+7(999)999-99-99?"); 
+	
+	   
 
-	$('input[name=submit]').click(function(){
-		// $('input[name="uname"]').addClass('error-input');
-	});
+
+	
 	$(".form1").submit(function() { 
 		var tel = $(this).find('input[name="phone"]');
 		var inppop = $(this).find('input[name="uname"]');
@@ -971,4 +1004,29 @@
 				return true;
 			}
 		});
+
+		   
+	</script>
+
+
+	<script>
+(function( $ ){	
+	jQuery.fn.exists = function() {
+	   return jQuery(this).length;
+	}		
+	$(function() {		
+    if(!is_mobile()){    
+      if($('#user_phone').exists()){
+        
+        $('.phone').each(function(){
+          $(this).mask("+7(999)999-99-99");
+        });
+        $('.phone')                   
+          .removeAttr('pattern')
+          .removeAttr('title')
+          .attr({'placeholder':'(___) ___ __ __'});
+      }      
+      }
+	});
+})( jQuery );
 	</script>

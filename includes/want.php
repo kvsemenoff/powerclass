@@ -12,10 +12,16 @@
 					<div class="form-wrap">
 						<form class="form1" action="#" method="post">
 							<div class="input-wrap">
-								<input class="dd-input phone" name="phone"  type="text" value="" placeholder="Введите ваш телефон" required>	
+								<input class="dd-input phone" name="phone"  type="text" value="" placeholder="Введите ваш телефон" required pattern="[0-9_-]{10}">	
 							</div>	
-							<input class="button-1 dd-submit ripplelink" type="submit" value="ХОЧУ ПОПРОБОВАТЬ" placeholder="">
+
+							<span class="ripplelink forinputripple">
+								<input class="button-1 dd-submit" type="submit" value="ХОЧУ ПОПРОБОВАТЬ" placeholder="">
+							</span>
+							
 							<input type="hidden" name="theme" value="Не хотите заказывать сразу на неделю">
+							<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
+							<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />
 						</form>		
 					</div>
 				</div>

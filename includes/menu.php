@@ -3585,7 +3585,7 @@
 			
 		var txtdaytarifmob = $('.jsmobactive').attr('dayweek');		
 		$('.dd-grey-txt_2 i').text(txtdaytarifmob);
-		$('.jsdayweekpop').val(txtdaytarifmob);
+		// $('.jsdayweekpop').val(txtdaytarifmob);
 
 		var js5daysmob = $('.df5active').text(); //количество приемов 
 		var js3daysmob = $('.df3active').text();

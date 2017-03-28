@@ -39,6 +39,9 @@ $timepackage = $_POST['timepackage'];
 $celjizni = $_POST['cel'];
 
 
+$source = $_POST['source'];
+$term = $_POST['term'];
+
 // Формирование заголовка письма
 $subject  = $_POST['theme'];
 $headers  = "From: info@starlight.space" . "\r\n";
@@ -148,15 +151,8 @@ if (!empty($numberkv)){
 }
 
 
-
-
-
-
-
-
-
-
-
+$msg .= "<p><strong>Источник:</strong> ".$source."</p>\r\n";
+$msg .= "<p><strong>Ключевое слово\фраза:</strong> ".$term."</p>\r\n";
 
 
 $msg .= "</body></html>";
