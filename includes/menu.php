@@ -3552,11 +3552,11 @@
 	//отправка на попап и на почту
 
 	$('.jsdflink').on('click', function(){
-		var txttarif = $('.dfactivelinkmob a em').text();	//название тарифа	
+		var txttarif = $('.dfactivelinkdesk a em').text();	//название тарифа	
 		$('.dd-bold-title_pop b').text(txttarif);		
 		$('.jsnametarifpop').val(txttarif);
 
-		var txtdaykkal = $('.dfactivelinkmob').next('.jskaldaypopup').text();//ккал в тарифе
+		var txtdaykkal = $('.dfactivelinkdesk').next('.jskaldaypopup').text();//ккал в тарифе
 		$('.dd-bold-title_pop b').next('span').text(txtdaykkal);
 		$('.jskkalpop').val(txtdaykkal);
 

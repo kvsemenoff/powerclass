@@ -10,7 +10,10 @@ $(document).ready(function(){
         var ind = $('.dfcaloryesbox a').index(this);
        
         $('.dfactivelink2').removeClass('dfactivelink2');
-        $('.dfactivelink').removeClass('dfactivelink');       	
+        $('.dfactivelink').removeClass('dfactivelink');    
+
+        $('.dfactivelinkdesk').removeClass('dfactivelinkdesk'); 
+        $(this).parent('.dfborder').addClass('dfactivelinkdesk');   	
 
         $(this).parents('.dfcaloryesbox').addClass('dfactivelink2');
 
