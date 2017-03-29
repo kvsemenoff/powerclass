@@ -903,8 +903,7 @@
 </script>
 
 <script>
-	$('a[name=modal]').click(function(e) {
-		// $('html,body').css('overflow-y', 'hidden');		
+	$('a[name=modal]').click(function(e) {		
 		e.preventDefault();
 		
 		var id = $(this).attr('href');
@@ -923,7 +922,7 @@
 		 $('#mask').fadeIn();
 		$(id).fadeIn(500);
 
-		$('html,body').css({
+		$('body').css({
 			'overflow' : 'hidden',
 			'position': 'fixed',
 			'width' : '100%',
@@ -937,7 +936,7 @@
 		e.preventDefault();
 		$('#mask, .window').hide();
 		$('.window').hide();
-		$('html,body').removeAttr('style');
+		$('body').removeAttr('style');
 		$( window ).scrollTop(posTop);
 		$('.roistat-lh-pulsator-phone').css('display', 'block');
 	}); 
@@ -945,12 +944,12 @@
 	$('#mask, .an-exit__krest').click(function () {
 		$('#mask').hide();
 		$('.window').hide();
-		$('html,body').removeAttr('style');	
+		$('body').removeAttr('style');	
 		$( window ).scrollTop(posTop);
 		$('.roistat-lh-pulsator-phone').css('display', 'block');
 	});
 
-	// $(".phone").mask("+7(999)999-99-99?"); 
+	// $(".phone").mask("+7(999)999-99-99?"); //маска для телефона в самом низу
 	
 	   
 
@@ -989,8 +988,7 @@
 	function cleanTnanks(form){
 		$('input[type="text"]').removeClass("error-input");
 		$("input[type=text], textarea").val("");
-		$('.window').hide();
-			// $('a[href=#thanks]').trigger('click');
+		$('.window').hide();			
 			location = "spasibo.php";
 		};
 
