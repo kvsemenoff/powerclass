@@ -12,7 +12,7 @@
 					<div class="form-wrap">
 						<form class="form1" action="#" method="post">
 							<div class="input-wrap">
-								<input class="dd-input phone" name="phone"  type="text" value="" placeholder="Введите ваш телефон" required pattern="[0-9_-]{10}">	
+								<input class="dd-input phone" name="phone"  type="tel" value="" placeholder="Введите ваш телефон" required >	
 							</div>	
 
 							<span class="ripplelink forinputripple">

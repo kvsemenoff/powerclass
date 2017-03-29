@@ -251,7 +251,7 @@
  													<input class="dd-input nametosend" name="uname" type="text" value="" placeholder="Введите ваше имя" required>	
  												</div>
  												<div class="input-block">
- 													<input class="dd-input phone phonetosend" name="phone" type="text" value="" placeholder="Введите ваш телефон" pattern="[0-9_-]{10}">		
+ 													<input class="dd-input phone phonetosend" name="phone" type="tel" value="" placeholder="Введите ваш телефон" required>		
  												</div>
  												<div class="input-block input-block--half">
  													<input class="button-1 dd-submit ripplelink" type="submit" value="Заказать по телефону" placeholder="">
@@ -511,7 +511,7 @@
  							<input type="text" class="nametosendmob" placeholder="Введите Ваше Имя" name="uname" required>
  						</div>
  						<div class="input-wrap">
- 							<input type="text" placeholder="Введите Ваш Телефон" class="phone phonetosendmob" name="phone"  required pattern="[0-9_-]{10}">
+ 							<input type="tel" placeholder="Введите Ваш Телефон" class="phone phonetosendmob" name="phone"  required>
  						</div>
  						<input class="button-1 dd-submit dd-submit-left ripplelink" type="submit" value="Заказать по телефону">
 

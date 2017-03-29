@@ -8,7 +8,7 @@
 					<div class="form-wrap">
 						<form class="form1" action="#" method="post">
 							<div class="input-wrap">
-								<input class="dd-input phone" name="phone" type="text" value="" placeholder="Введите ваш телефон" required pattern="[0-9_-]{10}">
+								<input class="dd-input phone" name="phone" type="tel" value="" placeholder="Введите ваш телефон" required >
 							</div>	
 							
 
@@ -81,7 +81,7 @@
 
 							<div class="dd-el-1 dd-el-1_inp">
 								<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
-								<input class="dd-input dd-input_pop phone" name="phone"  type="text" placeholder="Введите ваш телефон" pattern="[0-9_-]{10}">
+								<input class="dd-input dd-input_pop phone" name="phone"  type="tel" placeholder="Введите ваш телефон" required>
 								<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="перезвоните мне">
 								<input class="theme_m" type="hidden" name="theme" value="Заказать звонок" >
 
@@ -125,7 +125,7 @@
 								<span class="dd-main-txt-2">Сумма заказа: <span><i class="dd-price">7 400</i> руб.</span></span>
 							</div>
 							<input class="dd-input dd-input_pop unamejs" type="text" name="uname" placeholder="Введите ваше имя" required>
-							<input class="dd-input dd-input_pop phone phonejs" name="phone" type="text" placeholder="Введите ваш телефон" pattern="[0-9_-]{10}">
+							<input class="dd-input dd-input_pop phone phonejs" name="phone" type="tel" placeholder="Введите ваш телефон" required>
 							<input class="button-1 ripplelink dd-submit ripplelink" type="submit" name="submit" value="оформить по телефону">
 
 							<!-- Hidden -->
@@ -196,7 +196,7 @@
 							</label>
 							<div class="clearfix"></div>
 							<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
-							<input class="dd-input dd-input_pop phone" name="phone" type="text" placeholder="Введите ваш телефон" required pattern="[0-9_-]{10}">
+							<input class="dd-input dd-input_pop phone" name="phone" type="tel" placeholder="Введите ваш телефон" required >
 							<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="Заказать питание">
 
 							<input type="hidden" class="jsnametarifpop" name="tarif">
@@ -242,7 +242,7 @@
 								</span>
 							</div>
 							<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
-							<input class="dd-input dd-input_pop phone" name="phone"  type="text" placeholder="Введите ваш телефон" pattern="[0-9_-]{10}">
+							<input class="dd-input dd-input_pop phone" name="phone"  type="tel" placeholder="Введите ваш телефон" required>
 							<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="Заказать питание">
 							<input type="hidden" name="theme" value="Начните питаться сбалансированной пищей 5 раз в день, и ваше тело скажет вам «Спасибо» ">
 
@@ -571,7 +571,7 @@
 					</div>
 					<div class="dd-form_input table_left">
 						<label>
-							<input class="phone dd-input dd-input_tr" type="text" name="phone"   placeholder="Введите ваш телефон" pattern="[0-9_-]{10}" >
+							<input class="phone dd-input dd-input_tr" type="tel" name="phone"   placeholder="Введите ваш телефон"  required>
 							<input class="button-1 dd-submit ripplelink" type="submit" value="подобрать персональный тариф">
 							<input type="hidden" name="theme" value="Тарифы пауер класс">
 
@@ -775,7 +775,7 @@
 			</div>
 			<div class="dd-form_input ">
 				<label>
-					<input class="phone dd-input dd-input_tr" type="text" name="phone"   placeholder="Введите ваш телефон" pattern="[0-9_-]{10}">
+					<input class="phone dd-input dd-input_tr" type="tel" name="phone"   placeholder="Введите ваш телефон" required>
 					<input class="button-1 dd-submit ripplelink" type="submit" value="подобрать персональный тариф">
 					<input type="hidden" name="theme" value="Тарифы пауер класс">
 				</label>
@@ -949,7 +949,8 @@
 		$('.roistat-lh-pulsator-phone').css('display', 'block');
 	});
 
-	// $(".phone").mask("+7(999)999-99-99?"); //маска для телефона в самом низу
+	$(".phone").mask("+7(999)999-99-99?"); 
+	//маска для телефона в самом низу
 	
 	   
 
@@ -1018,24 +1019,4 @@
 		});
 
 		   
-	</script>
-
-
-	<script>
-(function( $ ){	
-	jQuery.fn.exists = function() {
-	   return jQuery(this).length;
-	}		
-	$(function() {		
-    if(!is_mobile()){         
-        $('.phone').each(function(){
-          $(this).mask("+7(999)999-99-99");
-        });
-        $('.phone')                   
-          .removeAttr('pattern')
-          .removeAttr('title')
-          .attr({'placeholder':'+7(___) ___ __ __'});         
-      }
-	});
-})( jQuery );
 	</script>
