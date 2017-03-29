@@ -910,8 +910,8 @@
 		var id = $(this).attr('href');
 		var maskHeight = $(document).height();
 		var maskWidth = $(window).width();
-		$('#mask').css({'width':maskWidth,'height':maskHeight});
-		$('#mask').fadeTo("slow",0.8); 
+		// $('#mask').css({'width':maskWidth,'height':maskHeight});
+		// $('#mask').fadeTo("slow",0.8); 
 		var winH = $(window).height();
 		var winW = $(window).width();
 		posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
@@ -920,9 +920,10 @@
 			$(id).css('top',  posTop+50);
 		}
 		// $(id).css('left', winW/2-$(id).width()/2);
+		 $('#mask').fadeIn();
 		$(id).fadeIn(500);
 
-		$('body').css({
+		$('html,body').css({
 			'overflow' : 'hidden',
 			'position': 'fixed',
 			'width' : '100%',
@@ -936,7 +937,7 @@
 		e.preventDefault();
 		$('#mask, .window').hide();
 		$('.window').hide();
-		$('body').removeAttr('style');
+		$('html,body').removeAttr('style');
 		$( window ).scrollTop(posTop);
 		$('.roistat-lh-pulsator-phone').css('display', 'block');
 	}); 
@@ -944,7 +945,7 @@
 	$('#mask, .an-exit__krest').click(function () {
 		$('#mask').hide();
 		$('.window').hide();
-		$('body').removeAttr('style');	
+		$('html,body').removeAttr('style');	
 		$( window ).scrollTop(posTop);
 		$('.roistat-lh-pulsator-phone').css('display', 'block');
 	});

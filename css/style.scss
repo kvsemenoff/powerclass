@@ -617,16 +617,23 @@ h2{
 /* попапы
 =====================================*/
 #mask { 
-	position:absolute;
-	left:0;
-	top:0; 
-	z-index:500;
-	background-color:#000;
-	width: 100%; 
-	height: 100%;
-	display:none;
-
-
+	// position:absolute;
+	// left:0;
+	// top:0; 
+	// z-index:500;
+	// background-color:#000;
+	// width: 100%; 
+	// height: 100%;
+	// display:none;
+	position: fixed;
+    background: #000;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+    display:none; 
 }
 
 .window{ 
