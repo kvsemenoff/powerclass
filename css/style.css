@@ -1829,8 +1829,8 @@ div[data-val]:hover {
     font-size: 12px;
     font-weight: 900;
     height: 37px;
-    -webkit-appearance: menulist-button;
-    -moz-appearance: menulist-button; }
+    -webkit-appearance: none;
+    -moz-appearance: none; }
   .shtraf-mini .input-mini {
     width: 85px;
     border: 2px solid #222;
@@ -2393,8 +2393,8 @@ div[data-val]:hover {
       font-size: 14px;
       margin-left: -5px;
       width: auto;
-      -webkit-appearance: menulist-button;
-      -moz-appearance: menulist-button; }
+      -webkit-appearance: none;
+      -moz-appearance: none; }
   .form-order .choose:first-child {
     padding-right: 25px; }
   .form-order .end__pay {
@@ -3063,7 +3063,7 @@ div[data-val]:hover {
   border: 1px solid #ededed;
   position: absolute;
   bottom: 60px;
-  right: 0px; }
+  right: -40px; }
   .has-tooltip2 p {
     font-family: 'Open Sans', arial, sans-serif;
     font-weight: 300;
