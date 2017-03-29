@@ -151,8 +151,14 @@ if (!empty($numberkv)){
 }
 
 
-$msg .= "<p><strong>Источник:</strong> ".$source."</p>\r\n";
-$msg .= "<p><strong>Ключевое слово\фраза:</strong> ".$term."</p>\r\n";
+if (!empty($source)){
+	$msg .= "<p><strong>Источник:</strong> ".$source."</p>\r\n";
+}
+if (!empty($term)){
+	$msg .= "<p><strong>Ключевое слово\фраза:</strong> ".$term."</p>\r\n";
+}
+
+
 
 
 $msg .= "</body></html>";
