@@ -366,11 +366,7 @@ $(document).ready(function(){
     
 
    
-    if($('.dfmenudesktop').css('display')==='block'){
-        $('.osobiy a').click();
-    }else{
-         $('.osobiymob a').click();
-    }
+
 
        
 
@@ -499,7 +495,7 @@ $(document).ready(function(){
         $(attrlink3).css('display', 'block');
 
     });
-     $('.jsmobactive').click();
+     // $('.jsmobactive').click();
 
 
 
@@ -529,6 +525,13 @@ $(document).ready(function(){
             $('.jsmobactive').click();  		
      });
 
+/*=================открытие на мобильном или на десктопе*/
 
+    if($('.dfmenudesktop').css('display')==='block'){
+        $('.osobiy a').click();
+    }else{
+         $('.osobiymob a').click();
+         $('.jsmobactive').click();
+    }
 
 });
