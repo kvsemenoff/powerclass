@@ -3,7 +3,7 @@
 $(document).ready(function(){
 	$('.dfmenuproducts').css('display', 'none');
 
-  
+   
     $('.dfcaloryesbox a').on('click', function(e) {
         e.preventDefault();
 
@@ -13,10 +13,12 @@ $(document).ready(function(){
         $('.dfactivelink').removeClass('dfactivelink');       	
 
         $(this).parents('.dfcaloryesbox').addClass('dfactivelink2');
-        	
-        if (ind===0) {//4
+
+        	//4
+        if (ind===0) {
         	$('.dfactivelink2').removeClass('dfactivelink2');
         	$('.perviyosobiy').addClass('dfactivelink');
+
         }
 
         $('.dftabtop').css('display', 'none');
@@ -80,8 +82,9 @@ $(document).ready(function(){
     });
 
      // $('.osobiy a').click();
-     
 
+
+   
 
     $('.dfdaysmenu a').on('click', function(e){
              var active = $(this).attr('href');
@@ -192,7 +195,7 @@ $(document).ready(function(){
              }
              
              $('.dfkkalitogo').text(number + " ");
-    });
+     });
 
 ////////////////////////////////////////////////////////
 
@@ -251,7 +254,7 @@ $(document).ready(function(){
     });
      // $('.jsweakactive').click();
 
-      // $('.dfactivelink2 a').click();
+
 
      
 
@@ -285,7 +288,9 @@ $(document).ready(function(){
 		    }, 500);
       });
 
-
+   if($('.dfmenudesktop').css('display')=='block'){       
+        $('.osobiy a').click();
+    }
 
 	//////////////////////mobileversion==========
 
@@ -362,19 +367,14 @@ $(document).ready(function(){
         $('.jsmobactive').click();
     });
 
-    
-    
+    $('.osobiymob a').click();
 
-   
 
 
        
 
     $('.dfweak a').on('click', function(e){
-             var active = $(this).attr('href');
-             // var days = $(this).text().toLowerCase();   
-            // $('.dfitogo .dfkkal').text(days+': ');    
-
+             var active = $(this).attr('href');           
             var belki = $(active).find('.dfmenubox1')
             .find('.dfmenutxt')
             .find('.dfcharmenu1')
@@ -482,11 +482,16 @@ $(document).ready(function(){
 
 ////////////////////////////////////////////////////////
 
+
+
+
+
      $('.dfweak a').on('click', function(evt){
     	evt.preventDefault();
 
     	$('.jsmobactive').removeClass('jsmobactive');
     	$(this).addClass('jsmobactive');
+
 
     	var attrlink2 = $(this);
     	var attrlink3 = $(this).attr('href');
@@ -495,43 +500,31 @@ $(document).ready(function(){
         $(attrlink3).css('display', 'block');
 
     });
-     // $('.jsmobactive').click();
+     $('.jsmobactive').click();
 
 
 
 
      $('.df3').on('click', function(evt3){
      		evt3.preventDefault();
-     		$('.df5active').removeClass('df5active');  		
+     		$('.df5active').removeClass('df5active');   		
 
             $('.dfblockmenu > .dfmenubox1:nth-child(1)').hide();   
             $('.dfblockmenu > .dfmenubox1:nth-child(5)').hide();
-
      		$(this).addClass('df3active');
-
-             $('.jsmobactive').click();
-
+            $('.jsmobactive').click();
      });
 
       $('.df5').on('click', function(evt4){
      		evt4.preventDefault();
      		$('.df3active').removeClass('df3active');
-     		// $('.jsdisabled2').removeClass('jsdisabled2');
-
             $('.dfblockmenu > .dfmenubox1:nth-child(1)').show();   
             $('.dfblockmenu > .dfmenubox1:nth-child(5)').show();
-     		$(this).addClass('df5active'); 
 
+     		$(this).addClass('df5active'); 
             $('.jsmobactive').click();  		
      });
 
-/*=================открытие на мобильном или на десктопе*/
 
-    if($('.dfmenudesktop').css('display')==='block'){
-        $('.osobiy a').click();
-    }else{
-         $('.osobiymob a').click();
-         $('.jsmobactive').click();
-    }
 
 });
