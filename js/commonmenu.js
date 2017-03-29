@@ -3,7 +3,7 @@
 $(document).ready(function(){
 	$('.dfmenuproducts').css('display', 'none');
 
-   
+  
     $('.dfcaloryesbox a').on('click', function(e) {
         e.preventDefault();
 
@@ -13,12 +13,10 @@ $(document).ready(function(){
         $('.dfactivelink').removeClass('dfactivelink');       	
 
         $(this).parents('.dfcaloryesbox').addClass('dfactivelink2');
-
-        	//4
-        if (ind===0) {
+        	
+        if (ind===0) {//4
         	$('.dfactivelink2').removeClass('dfactivelink2');
         	$('.perviyosobiy').addClass('dfactivelink');
-
         }
 
         $('.dftabtop').css('display', 'none');
@@ -81,10 +79,9 @@ $(document).ready(function(){
         $('.jsweakactive').click();
     });
 
-     $('.osobiy a').click();
+     // $('.osobiy a').click();
+     
 
-
-    // , '.dfitogo .dfkkal' , '.dfweak a'
 
     $('.dfdaysmenu a').on('click', function(e){
              var active = $(this).attr('href');
@@ -195,7 +192,7 @@ $(document).ready(function(){
              }
              
              $('.dfkkalitogo').text(number + " ");
-     });
+    });
 
 ////////////////////////////////////////////////////////
 
@@ -252,9 +249,9 @@ $(document).ready(function(){
         $(attrlink).css('display','block');
 
     });
-     $('.jsweakactive').click();
+     // $('.jsweakactive').click();
 
-
+      // $('.dfactivelink2 a').click();
 
      
 
@@ -365,9 +362,15 @@ $(document).ready(function(){
         $('.jsmobactive').click();
     });
 
-    $('.osobiymob a').click();
+    
+    
 
-
+   
+    if($('.dfmenudesktop').css('display')==='block'){
+        $('.osobiy a').click();
+    }else{
+         $('.osobiymob a').click();
+    }
 
        
 
@@ -483,16 +486,11 @@ $(document).ready(function(){
 
 ////////////////////////////////////////////////////////
 
-
-
-
-
      $('.dfweak a').on('click', function(evt){
     	evt.preventDefault();
 
     	$('.jsmobactive').removeClass('jsmobactive');
     	$(this).addClass('jsmobactive');
-
 
     	var attrlink2 = $(this);
     	var attrlink3 = $(this).attr('href');
@@ -508,9 +506,7 @@ $(document).ready(function(){
 
      $('.df3').on('click', function(evt3){
      		evt3.preventDefault();
-     		$('.df5active').removeClass('df5active');
-     		// $('.dfblockmenu > .dfmenubox1:nth-child(1)').addClass('jsdisabled2');	
-     		// $('.dfblockmenu > .dfmenubox1:nth-child(5)').addClass('jsdisabled2');
+     		$('.df5active').removeClass('df5active');  		
 
             $('.dfblockmenu > .dfmenubox1:nth-child(1)').hide();   
             $('.dfblockmenu > .dfmenubox1:nth-child(5)').hide();
@@ -524,16 +520,13 @@ $(document).ready(function(){
       $('.df5').on('click', function(evt4){
      		evt4.preventDefault();
      		$('.df3active').removeClass('df3active');
+     		// $('.jsdisabled2').removeClass('jsdisabled2');
 
-
-     		// $('.jsdisabled2').removeClass('jsdisabled2');	
-
-               $('.dfblockmenu > .dfmenubox1:nth-child(1)').show();   
+            $('.dfblockmenu > .dfmenubox1:nth-child(1)').show();   
             $('.dfblockmenu > .dfmenubox1:nth-child(5)').show();
-
      		$(this).addClass('df5active'); 
 
-             $('.jsmobactive').click();  		
+            $('.jsmobactive').click();  		
      });
 
 
