@@ -35,14 +35,5 @@
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SGBVVX"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-	<script src="libs/owl.carousel/owl.carousel.js"></script>
-	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/is.mobile.js"></script>
-
-	<script src="js/common.js"></script>
-	<script src="js/commonmenu.js"></script>
-	<script src="js/commoncalc.js"></script>
 	
