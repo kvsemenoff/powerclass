@@ -2,6 +2,329 @@
 
 $(document).ready(function(){
 
+  
+    
+    $("#js-nav a").click(function(e){
+        e.preventDefault();
+        var currentBlock = $(this).attr("href");
+        currentBlockoffset = $(currentBlock).offset().top;
+        $("html, body").animate({
+            scrollTop: currentBlockoffset
+        }, 500);
+    });
+
+
+    $('.checkbox-js').click(function(){
+        $('.dd-txt-radio-js').toggleClass('activeRed');
+    });
+
+
+
+    $('.dd-dost_span').hover(function(){
+        $('.dd-podskazka').css('display' , 'block');
+    });
+    $('.dd-dost_span').mouseleave(function(){
+        $('.dd-podskazka').css('display' , 'none');
+    });
+    $('.dd-kr').click(function(){
+        $('.dd-podskazka').css('display' , 'none');
+    });
+    
+
+
+    $('.last-block .button-1').click(function(){
+        var price = $(this).parents('.inner').find('.price').find('i').text();
+        var much_1 = $(this).parents('.inner').find('.block_much_1 span b').text();
+        var much_2 = $(this).parents('.inner').find('.block_much_2 span b').text();
+
+        var tarif_name = $(this).parents('.tabs-block').find('.active .tab-in span b').text();
+
+        // var kalory = $(this).parents('.tabs-block').find('.active .tab-in i em strong').text();
+        var kalory = $(this).parents('.inner').find('.dd-kalory span b').text();
+
+        $('#log-in-2 .dd-price').text(price);
+        $('#log-in-2 .dd-grey-txt .dd-much_1').text(much_1);
+        $('#log-in-2 .dd-grey-txt .dd-much_2').text(much_2);
+        $('#log-in-2 .dd-bold-title_pop .tarif_name').text(tarif_name);
+        $('#log-in-2 .dd-bold-title_pop span .dd-kal').text(kalory);
+
+        $('.tarif_name_hide').val(tarif_name);
+        $('.tarif_price').val(price);
+        $('.tarif_kalory').val(kalory);
+        $('.how_much').val(much_1);
+        $('.how_much_day').val(much_2);
+        
+    });
+
+    $('.jsmobv').on('click', function(e){
+        var kolvokal = $('.active').find('.tab-in').find('i').find('em').find('strong').text();
+        var nameprodm = $('.active').find('.tab-in').find('span').find('b').text();
+        var pricemob = $(this).parents('.price').find('span').find('i').text();
+        var much_1mob = $(this).parents('.inner').find('.right').find('.block:first')
+        .find('span b').text();
+        var much_2mob = $(this).parents('.inner').find('.right').find('.block:last')
+        .find('span b').text();
+
+        $('#log-in-2 .dd-price').text(pricemob);
+        $('#log-in-2 .dd-bold-title_pop .tarif_name').text(nameprodm);
+        $('#log-in-2 .dd-bold-title_pop span .dd-kal').text(kolvokal);
+        $('#log-in-2 .dd-grey-txt .dd-much_1').text(much_1mob);
+        $('#log-in-2 .dd-grey-txt .dd-much_2').text(much_2mob);
+
+        $('.tarif_name_hide').val(nameprodm);
+        $('.tarif_price').val(pricemob);
+        $('.tarif_kalory').val(kolvokal);
+        $('.how_much').val(much_1mob);
+        $('.how_much_day').val(much_2mob);
+
+    });
+
+
+    $('.ripplelink').each(function() {
+        var $this = $(this);
+
+        var ink, d, x, y;
+
+        setInterval(function() {
+            if($this.find(".ink").length === 0){
+                $this.prepend("<span class='ink'></span>");
+            }
+
+            ink = $this.find(".ink");
+            ink.removeClass("animate");
+
+            if(!ink.height() && !ink.width()){
+                d = Math.max($this.outerWidth(), $this.outerHeight());
+                ink.css({height: d, width: d});
+            }
+
+            x = Math.round(Math.random()*ink.width() - ink.width()/2);
+            y = Math.round(Math.random()*ink.height() - ink.height()/2);
+                // y = 0;
+                // x = e.pageX - $this.offset().left - ink.width()/2;
+                // y = e.pageY - $this.offset().top - ink.height()/2;
+
+                ink.css({top: y+'px', left: x+'px'}).addClass("animate");
+            }, 3000)
+    });
+
+    $('.checkbox-js').click(function(){
+        $('.dd-txt-radio-js').toggleClass('activeRed');
+    });
+    $('.dd-dost_span').hover(function(){
+        $('.dd-podskazka').toggleClass('blocked');
+    });
+
+    $('.jscheked').on('click', function(e){
+        var txtdaytarif = $('.dd-grey-txt_2 i').text();//день недели        
+        $('.jsdayweekpop').val(txtdaytarif);        
+    });
+
+    $('a[name=modal]').click(function(e) {      
+        e.preventDefault();
+        
+        var id = $(this).attr('href');
+        var maskHeight = $(document).height();
+        var maskWidth = $(window).width();
+        // $('#mask').css({'width':maskWidth,'height':maskHeight});
+        // $('#mask').fadeTo("slow",0.8); 
+        var winH = $(window).height();
+        var winW = $(window).width();
+        posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
+        
+        if(window.innerWidth > 990) {
+            $(id).css('top',  posTop+50);
+        }
+        // $(id).css('left', winW/2-$(id).width()/2);
+        $('#mask').fadeIn();
+        $(id).fadeIn(500);
+
+        $('body').css({
+            'overflow' : 'hidden',
+            'position': 'fixed',
+            'width' : '100%',
+            'top': -posTop,
+            'padding-right': '17px',
+        });
+        $('.roistat-lh-pulsator-phone').css('display', 'none');
+
+    });
+    $('.window .dd-close').click(function (e) {
+        e.preventDefault();
+        $('#mask, .window').hide();
+        $('.window').hide();
+        $('body').removeAttr('style');
+        $( window ).scrollTop(posTop);
+        $('.roistat-lh-pulsator-phone').css('display', 'block');
+    }); 
+
+    $('#mask, .an-exit__krest').click(function () {
+        $('#mask').hide();
+        $('.window').hide();
+        $('body').removeAttr('style');  
+        $( window ).scrollTop(posTop);
+        $('.roistat-lh-pulsator-phone').css('display', 'block');
+    });
+
+    $(".phone").mask("+7(999)999-99-99?"); 
+    //маска для телефона в самом низу
+    
+    
+
+
+    
+    $(".form1").submit(function() { 
+        var tel = $(this).find('input[name="phone"]');
+        var inppop = $(this).find('input[name="uname"]');
+        var empty = false;
+
+        if (inppop.val() == "") {
+            // inppop.addClass('error-input');
+            inppop.focus();         
+        }
+        if (tel.val() == ""){
+            empty = true;
+        }
+        
+        if (empty == true){
+            tel.addClass("error-input");
+            tel.focus();
+        }else{
+            var form_data = $(this).serialize(); 
+            $.ajax({
+                type: "POST", 
+                url: "/sendmessage.php", 
+                data: form_data,
+                success: function() {
+                    cleanTnanks(this);
+                }
+            });
+        }
+        return false;
+    });
+
+    function cleanTnanks(form){
+        $('input[type="text"]').removeClass("error-input");
+        $("input[type=text], textarea").val("");
+        $('.window').hide();            
+        location = "spasibo.php";
+    };
+
+    $('.online-replace').on('click', function(el){
+        el.preventDefault();
+        var unamereq = $(this).parents('#log-in-2').find('.unamejs').val();
+        var phonereq = $(this).parents('#log-in-2').find('.phonejs').val();
+        $('.dd-hid-name').val(unamereq);
+        $('.dd-hid-phone').val(phonereq);
+        if(unamereq == "" ){    
+            $('.unamejs').focus();  
+                // $('.unamejs').addClass('disabledinputjs');               
+                return false;
+
+            }else if(phonereq == ""){    
+                $('.phonejs').focus();
+                // $('.phonejs').addClass('disabledinputjs');    
+                return false;   
+            }else{
+                $('.disabledinputjs').removeClass('disabledinputjs');
+                $('.online-replace').attr('name', 'modal');
+
+                function send_form(form_id) {
+                    var form = $('#'+form_id);
+                    var msg   = form.serialize();
+                    $.ajax({
+                        type: 'POST',
+                        url: "/sendmessage.php", 
+                        data: msg,
+                        success: function(data) {              
+                        },
+                        error:  function(){             
+                        }
+                    });
+                }send_form('dd-first-messege');
+
+                $('#log-in-2').hide();
+                $('#log-in-5').show();
+
+                return true;
+            }
+        });
+
+    
+  /////////////////////////////////
+        $('.jsdayselected select').change(function(event) {
+
+            });
+
+
+            $('.jssubmit').submit(function(){
+                var phone = $(this).find('input[name="phone"]');
+
+                var sendnametarif = $(this).parents('.end ')
+                .find('.end__item')
+                .find('.jskkalday b')
+                .text();
+                $('.jsnametarif').val(sendnametarif);   
+
+                var sendnametarifmob = $(this).parents('#jsmobversion2')
+                .find('.info')
+                .find('.half')
+                .find('.jsmobkallday b')
+                .text();
+                $('.jsnametarifmob').val(sendnametarifmob); 
+
+
+
+                if(window.innerWidth > 990) {
+                    var selected = $('.jsdayselected select option:selected').text();
+                    $('.jsdaydostavki').val(selected);
+
+                    var jstimeselected = $('.jstimeselected select option:selected').text();
+                    $('.jstimedostavki').val(jstimeselected);
+                }else{
+                    var selected = $('.jsdayselectedmob select option:selected').text();
+                    $('.jsdaydostavki').val(selected);
+
+                    var jstimeselected = $('.jstimeselectedmob select option:selected').text();
+                    $('.jstimedostavki').val(jstimeselected);
+                }
+
+
+                if(phone.val() == ""){
+                    phone.focus();
+                    return false;
+                }
+
+                else{
+                    var form_data = $(this).serialize(); 
+                    $.ajax({
+                        type: "POST", 
+                        url: "/sendmessage.php", 
+                        data: form_data,
+                        success: function() {
+                            cleanTnanks(this);
+                        }
+                    });
+                }
+                yaCounter38724665.reachGoal ('g1'); 
+                ga('send', 'event', 'Form', 'SendForm');
+                return false;
+
+            });
+
+            function cleanTnanks(form){
+                $('.js-window').hide();
+                // $('a[href=#thanks]').trigger('click');
+                location = "spasibo.php";
+            };
+  ////////////////////////////////
+
+
+
+
+
+
+
    if(window.innerWidth <= 800) {
         window.roistatLeadHunterInited = true;
     }

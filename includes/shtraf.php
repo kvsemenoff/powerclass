@@ -640,71 +640,7 @@
 
 
  		<script>
- 			$('.jsdayselected select').change(function(event) {
-
- 			});
-
-
- 			$('.jssubmit').submit(function(){
- 				var phone = $(this).find('input[name="phone"]');
-
- 				var sendnametarif = $(this).parents('.end ')
- 				.find('.end__item')
- 				.find('.jskkalday b')
- 				.text();
- 				$('.jsnametarif').val(sendnametarif);	
-
- 				var sendnametarifmob = $(this).parents('#jsmobversion2')
- 				.find('.info')
- 				.find('.half')
- 				.find('.jsmobkallday b')
- 				.text();
- 				$('.jsnametarifmob').val(sendnametarifmob);	
-
-
-
- 				if(window.innerWidth > 990) {
- 					var selected = $('.jsdayselected select option:selected').text();
- 					$('.jsdaydostavki').val(selected);
-
- 					var jstimeselected = $('.jstimeselected select option:selected').text();
- 					$('.jstimedostavki').val(jstimeselected);
- 				}else{
- 					var selected = $('.jsdayselectedmob select option:selected').text();
- 					$('.jsdaydostavki').val(selected);
-
- 					var jstimeselected = $('.jstimeselectedmob select option:selected').text();
- 					$('.jstimedostavki').val(jstimeselected);
- 				}
-
-
- 				if(phone.val() == ""){
- 					phone.focus();
- 					return false;
- 				}
-
- 				else{
- 					var form_data = $(this).serialize(); 
- 					$.ajax({
- 						type: "POST", 
- 						url: "/sendmessage.php", 
- 						data: form_data,
- 						success: function() {
- 							cleanTnanks(this);
- 						}
- 					});
- 				}
- 				yaCounter38724665.reachGoal ('g1'); 
- 				ga('send', 'event', 'Form', 'SendForm');
- 				return false;
-
- 			});
-
- 			function cleanTnanks(form){
-		 		$('.js-window').hide();
-		        // $('a[href=#thanks]').trigger('click');
-		        location = "spasibo.php";
-		    };
+ 	
 
 
 
