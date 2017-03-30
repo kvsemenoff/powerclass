@@ -89,6 +89,10 @@ footer, header, hgroup, menu, nav, section {
 											height: 100%;
 											min-height: 100%;
 										}
+										body {
+									    overflow-y: scroll!important;
+									    padding-right: 0!important;
+										}
 // .dd-input:valid {
 
 // }
@@ -1635,11 +1639,12 @@ div[data-val]:hover{
 		display: inline-block;
 		background: #fff;
 		margin-right: -50px;
-		padding-right: 28px;
 		border-radius: 26px;
 		margin-bottom: 15px;
+		padding-right: 0;
 		width: 240px;
 		input{
+			width: 100%;
 			background: none;
 			box-shadow: none;
 			border-top: none;
