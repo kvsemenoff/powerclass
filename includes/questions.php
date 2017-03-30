@@ -305,8 +305,8 @@
 									</div>
 								</div> -->
 								<div class="about2">        
-									<a href="#littlepop" name="modal" class="about-in2">О доставке</a> 
-									<div class="has-tooltip2 dfshowtoggle window" id="littlepop">
+									<a href="#littlepop2" name="modal" class="about-in2">О доставке</a> 
+									<div class="has-tooltip2 dfshowtoggle window" id="littlepop2">
 										<div class="dd-close"></div>
 										<p>Доставка осуществляется после Вашей оплаты заказа, по согласовыванию с Вами</p>
 										<p>После оформления заказа с Вами обязательно свяжется оператор и уточнит более подробно условия доставки. В день доставки с Вами свяжется курьер и сообщит о точном времени приезда. Если у Вас нет возможности принять заказ в ранее оговоренное время, просьба сообщить об этом</p>
