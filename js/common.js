@@ -178,6 +178,11 @@ $(document).ready(function(){
         var inppop = $(this).find('input[name="uname"]');
         var empty = false;
 
+        // if('.tarif_name_hide').val() == 
+
+
+            
+
         if (inppop.val() == "") {
             // inppop.addClass('error-input');
             inppop.focus();         
