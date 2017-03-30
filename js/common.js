@@ -179,8 +179,8 @@ $(document).ready(function(){
         var empty = false;
 
         var target = $('.tarif_name_hide').val();
-        if(target=='фит'){
-            console.log('it_work');
+        if(target=='Фит'){
+            alert('it_work');
           
         }
 
