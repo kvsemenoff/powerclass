@@ -178,11 +178,7 @@ $(document).ready(function(){
         var inppop = $(this).find('input[name="uname"]');
         var empty = false;
 
-        var target = $('.tarif_name_hide').val();
-        if(target=='Фит'){
-            alert('it_work');
-          
-        }
+
 
 
 
@@ -208,7 +204,27 @@ $(document).ready(function(){
                     cleanTnanks(this);
                 }
             });
+
         }
+
+        var target = $('.tarif_name_hide').val();
+        if(target=='Фит'){
+            ga ('send', 'event', 'popup', 't1400_phone');
+            yaCounter38724665.reachGoal('t1400_phone');
+        }
+        else if(target=='Фит Плюс'){
+            ga ('send', 'event', 'popup', 't1700_phone');
+            yaCounter38724665.reachGoal('t1700_phone');
+        }
+        else if(target=='Спорт'){
+            ga ('send', 'event', 'popup', 't2500_phone');
+            yaCounter38724665.reachGoal('t2500_phone');
+        }
+        else if(target=='Спорт Плюс'){
+            ga ('send', 'event', 'popup', 't3500_phone');
+            yaCounter38724665.reachGoal('t3500_phone');
+        }
+        
         return false;
     });
 

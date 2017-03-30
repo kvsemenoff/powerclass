@@ -126,7 +126,7 @@
 							</div>
 							<input class="dd-input dd-input_pop unamejs" type="text" name="uname" placeholder="Введите ваше имя" required>
 							<input class="dd-input dd-input_pop phone phonejs" name="phone" type="tel" placeholder="Введите ваш телефон" required>
-							<input class="button-1 ripplelink dd-submit ripplelink" onclick="ga ('send', 'event', 'popup', 'podobrat_tarif'); yaCounter38724665.reachGoal('podobrat_tarif');" type="submit" name="submit" value="оформить по телефону">
+							<input class="button-1 ripplelink dd-submit ripplelink" type="submit" name="submit" value="оформить по телефону">
 
 							<!-- Hidden -->
 							<input class="tarif_name_hide" name="tarif" type="hidden" value="empty">
