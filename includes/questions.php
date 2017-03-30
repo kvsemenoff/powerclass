@@ -105,7 +105,7 @@
 
 			<div class="dd-form-wrap">
 
-				<form class="form1 dd-bg" action="#" method="post">
+				<form id="dd-first-message" class="form1 dd-bg" action="#" method="post">
 
 					<div class="dd-img-2">
 						<img src="img/bag.png" alt="">	
@@ -1031,6 +1031,21 @@
 			}else{
 				$('.disabledinputjs').removeClass('disabledinputjs');
 				$('.online-replace').attr('name', 'modal');
+
+				function send_form('dd-first-message') {
+					var form = $('#'+form_id);
+					var msg   = form.serialize();
+					$.ajax({
+						type: 'POST',
+						url: "/sendmessage.php", 
+						data: msg,
+						success: function(data) {              
+						},
+						error:  function(){             
+						}
+					});
+				}send_form('sendthisformmobile');
+
 				$('#log-in-2').hide();
 				$('#log-in-5').show();
 
