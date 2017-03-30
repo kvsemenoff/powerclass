@@ -492,6 +492,9 @@ $(document).ready(function(){
     $('.tabs-content > .active').css('display','block');
     };
 });
+
+ $("#form-collback").validate();
+
 $('#tb3 span').click();
 
      $('.individual').on('click', function(evt5){

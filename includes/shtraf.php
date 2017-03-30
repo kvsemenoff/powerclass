@@ -246,7 +246,7 @@
  									<div class="col-md-6 end__item">
  										<span class="end__title">Оставьте ваши контактные данные для уточнения адреса <br> и времени бесплатной доставки</span>
  										<div class="form-wrap">
- 											<form class="jssubmit" action="#" method="post" id="sendthisform">
+ 											<form class="jssubmit" action="#" method="post" id="sendthisform form-collback">
  												<div class="input-block">
  													<input class="dd-input nametosend" name="uname" type="text" value="" placeholder="Введите ваше имя" required>	
  												</div>
@@ -316,8 +316,8 @@
  										</div>
  									</div>
  									<div class="col-md-9 end__item delivery">
- 										<div class="form-wrap">
- 											<form class="jssubmit" action="#" method="post">	
+ 										<div class="form-wrap ">
+ 											<form class="jssubmit" action="#" method="post" id="form-collback">	
  												<span class="end__title">Введите адрес доставки:</span>
  												<input class="dd-input input--city" type="text" value="Москва" required name="city">
 
@@ -429,7 +429,7 @@
  				<div class="inner">
  					<h2>Рассчитайте ваш персональный тариф</h2>
  					<div class="form-wrap">
- 						<form action="#">
+ 						<form action="#" id="form-collback">
  							<div class="select-wrap jscheked">
  								<select class="jsselected1">
  									<option selected="true" disabled="disabled" class="f1">Выберите ваш пол</option>
@@ -506,7 +506,7 @@
  					</div>
  					<p>Оставьте ваши контактные данные для уточнения адреса и времени бесплатной доставки</p>
 
- 					<form class="jssubmit" action="#" method="post" id="sendthisformmobile">
+ 					<form class="jssubmit" action="#" method="post" id="sendthisformmobile form-collback">
  						<div class="input-wrap">
  							<input type="text" class="nametosendmob" placeholder="Введите Ваше Имя" name="uname" required>
  						</div>
@@ -553,7 +553,7 @@
  					</div>
  				</div>
 
- 				<form class="jssubmit" action="#" method="post">
+ 				<form class="jssubmit" action="#" method="post" id="form-collback">
  					<div class="address">
  						<span class="end__title">Введите адрес доставки:</span>
  						<input class="dd-input input--city" type="text" value="Москва" required name="city">
