@@ -694,7 +694,10 @@
  						}
  					});
  				}
+ 				yaCounter38724665.reachGoal ('g1'); 
+ 				ga('send', 'event', 'Form', 'SendForm');
  				return false;
+
  			});
 
  			function cleanTnanks(form){
