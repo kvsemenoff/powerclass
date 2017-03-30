@@ -250,35 +250,4 @@
 											</div>
 										</div>
 									</div>
-								</section>
-
-								<script>
-
-									$(".js-faq-tittle").click(function(e){
-										e.preventDefault();
-										var $this = $(this);
-
-										if( !$this.hasClass("dd-active")){
-											$(".js-faq-content").slideUp();
-											$(".js-faq-tittle").removeClass("dd-active");
-										}
-										$this.toggleClass("dd-active"); 
-										$this.next().slideToggle();
-									});
-									$(".js-faq-tittle:first").click();
-								</script>
-
-								<script>
-									$(".js-faq-tittle2").click(function(e){
-										e.preventDefault();
-										var $this = $(this);
-
-										if( !$this.hasClass("dd-active")){
-											$(".js-faq-content2").slideUp();
-											$(".js-faq-tittle2").removeClass("dd-active");
-										}
-										$this.toggleClass("dd-active"); 
-										$this.next().slideToggle();
-									});
-									$(".js-faq-tittle2:first").click();
-								</script>
+								</section>						
