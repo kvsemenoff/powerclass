@@ -11,84 +11,84 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+	display: block; }
 
-ul {
-  list-style: none; }
-  
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; 
-}
-@font-face {
-  font-family: "OpenSans-Bold";
-  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot");
-  src: local("☺"), url("../fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "OpenSans-BoldItalic";
-  src: url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.eot");
-  src: local("☺"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.woff") format("woff"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.ttf") format("truetype"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "OpenSans-ExtraBold";
-  src: url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.eot");
-  src: local("☺"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.woff") format("woff"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.ttf") format("truetype"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "OpenSans-Italic";
-  src: url("../fonts/OpenSans-Italic/OpenSans-Italic.eot");
-  src: local("☺"), url("../fonts/OpenSans-Italic/OpenSans-Italic.woff") format("woff"), url("../fonts/OpenSans-Italic/OpenSans-Italic.ttf") format("truetype"), url("../fonts/OpenSans-Italic/OpenSans-Italic.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "OpenSans-Regular";
-  src: url("../fonts/OpenSans-Regular/OpenSans-Regular.eot");
-  src: local("☺"), url("../fonts/OpenSans-Regular/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular/OpenSans-Regular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "OpenSans-Semibold";
-  src: url("../fonts/OpenSans-Semibold/OpenSans-Semibold.eot");
-  src: local("☺"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.woff") format("woff"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf") format("truetype"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "OpenSans-SemiboldItalic";
-  src: url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.eot");
-  src: local("☺"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.woff") format("woff"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.ttf") format("truetype"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+	ul {
+		list-style: none; }
 
 
-html, body{
-	height: 100%;
-	min-height: 100%;
-}
+		blockquote, q {
+			quotes: none; }
+
+			blockquote:before, blockquote:after,
+			q:before, q:after {
+				content: '';
+				content: none; 
+			}
+			@font-face {
+				font-family: "OpenSans-Bold";
+				src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot");
+				src: local("☺"), url("../fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
+				font-weight: normal;
+				font-style: normal; }
+
+				@font-face {
+					font-family: "OpenSans-BoldItalic";
+					src: url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.eot");
+					src: local("☺"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.woff") format("woff"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.ttf") format("truetype"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.svg") format("svg");
+					font-weight: normal;
+					font-style: normal; }
+
+					@font-face {
+						font-family: "OpenSans-ExtraBold";
+						src: url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.eot");
+						src: local("☺"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.woff") format("woff"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.ttf") format("truetype"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.svg") format("svg");
+						font-weight: normal;
+						font-style: normal; }
+
+						@font-face {
+							font-family: "OpenSans-Italic";
+							src: url("../fonts/OpenSans-Italic/OpenSans-Italic.eot");
+							src: local("☺"), url("../fonts/OpenSans-Italic/OpenSans-Italic.woff") format("woff"), url("../fonts/OpenSans-Italic/OpenSans-Italic.ttf") format("truetype"), url("../fonts/OpenSans-Italic/OpenSans-Italic.svg") format("svg");
+							font-weight: normal;
+							font-style: normal; }
+
+							@font-face {
+								font-family: "OpenSans-Regular";
+								src: url("../fonts/OpenSans-Regular/OpenSans-Regular.eot");
+								src: local("☺"), url("../fonts/OpenSans-Regular/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular/OpenSans-Regular.svg") format("svg");
+								font-weight: normal;
+								font-style: normal; }
+
+								@font-face {
+									font-family: "OpenSans-Semibold";
+									src: url("../fonts/OpenSans-Semibold/OpenSans-Semibold.eot");
+									src: local("☺"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.woff") format("woff"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf") format("truetype"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.svg") format("svg");
+									font-weight: normal;
+									font-style: normal; }
+
+									@font-face {
+										font-family: "OpenSans-SemiboldItalic";
+										src: url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.eot");
+										src: local("☺"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.woff") format("woff"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.ttf") format("truetype"), url("../fonts/OpenSans-SemiboldItalic/OpenSans-SemiboldItalic.svg") format("svg");
+										font-weight: normal;
+										font-style: normal; }
+
+
+										html, body{
+											height: 100%;
+											min-height: 100%;
+										}
 // .dd-input:valid {
 
 // }
@@ -170,10 +170,10 @@ h2{
 .forinputripple{
 	display: inline-block;
 	border-radius: 35px;    
-    padding: 0px 0 7px 0;
-    vertical-align: middle;
-    text-align: left !important;
-    width: 100%;
+	padding: 0px 0 7px 0;
+	vertical-align: middle;
+	text-align: left !important;
+	width: 100%;
 }
 
 .section_header_top1{
@@ -474,7 +474,7 @@ h2{
 		
 	}
 	.forinputripple{		
-	    width: auto;
+		width: auto;
 	}
 }
 
@@ -619,29 +619,29 @@ h2{
 #mask { 
 	// position:absolute;	
 	position: fixed;
-    background: #000;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
-    width: 100%;
-    height: 100%;
-    z-index: 500;
-    display:none; 
+	background: #000;
+	top: 0;
+	left: 0;
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+	z-index: 500;
+	display:none; 
 }
 
 .window{ 
 	position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 9950;
-    display: none;
-    overflow-y:scroll;
-    overflow-x:hidden;
-    margin: 0 auto;
-    height: 100%;
-    background: #F4F4F4;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9950;
+	display: none;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	margin: 0 auto;
+	height: 100%;
+	background: #F4F4F4;
 
 	.form-wrap-main{
 		
@@ -800,13 +800,13 @@ h2{
 .dd-el-1{
 	padding-top: 40px;
 	.dd-input_pop{	
-	    height: 47px;
-	    background: #fff;
+		height: 47px;
+		background: #fff;
 	    // width: 45%;//100
 	    width: 100%;
 	    border: none;
-	  	border-top: 2px solid #888888;
-	  	margin-bottom: 14px;
+	    border-top: 2px solid #888888;
+	    margin-bottom: 14px;
 	    // margin: 0 5px 14px 5px;
 	    // border-radius: 10px;//26
 	}
@@ -1103,7 +1103,7 @@ select{
     background-image: url("../img/treyg.png");
     background-repeat: no-repeat;
     background-position: right center;
-     padding-right: 17px;
+    padding-right: 17px;
     // -webkit-appearance: menulist-button;
 }
 select::-ms-expand {
@@ -1193,7 +1193,18 @@ div[data-val]:hover{
 	z-index: 9999;
 	.dd-p-span{
 		width: 256px;
-
+		position: relative;
+		.dd-kr{
+			position: absolute;
+			right: 10px;
+			top: -11px;
+			cursor:pointer;
+			span{
+				font-size: 19px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 700;
+			}
+		}
 		span{
 			font-size: 14px;
 			font-family: 'Open Sans', sans-serif;
@@ -1225,8 +1236,8 @@ div[data-val]:hover{
 		right: 8px;
 	}
 }
-	#log-in-5{
-		position: fixed;
+#log-in-5{
+	position: fixed;
 		// top:10%;	
 		// max-width: 340px;
 		width: 100%;
@@ -1234,50 +1245,50 @@ div[data-val]:hover{
 			right: 47%;
 			// transform:translateX(-70%);
 		}
-			.dd-input_pop{		   
+		.dd-input_pop{		   
 		    width: 45%;//100		    
 		    margin: 0 5px 14px 5px;
 		    border-radius: 10px;//26
 		}
 	}
 
-#log-in-5::-webkit-scrollbar { width: 0; }
-#log-in-5 { -ms-overflow-style: none; }
-#log-in-5 { overflow: -moz-scrollbars-none; }
+	#log-in-5::-webkit-scrollbar { width: 0; }
+	#log-in-5 { -ms-overflow-style: none; }
+	#log-in-5 { overflow: -moz-scrollbars-none; }
 
-.window::-webkit-scrollbar { width: 0; }
-.window { -ms-overflow-style: none; }
-.window { overflow: -moz-scrollbars-none; }
+	.window::-webkit-scrollbar { width: 0; }
+	.window { -ms-overflow-style: none; }
+	.window { overflow: -moz-scrollbars-none; }
 
 
 
-.dd-payments{
-	padding-top: 35px;
-	display: block;
-	text-align: center;	
-	overflow: hidden;
-}
-.dd-select-box{
-	display: inline-block;
-	margin: 0;
-}
-.dd-select-but{
-	padding-top: 10px;
-	display: inline-block;
-}
-.dd-dost{
-	display: none;	
-}
-.ddmobiledost{
-	display: inline-block;
-	padding: 10px 0 10px 11%;
-}
-.pt-label{
-	padding-top: 3px;
-	display: none;
-}
-@media only screen and (min-width : 320px) {
-	.faq{
+	.dd-payments{
+		padding-top: 35px;
+		display: block;
+		text-align: center;	
+		overflow: hidden;
+	}
+	.dd-select-box{
+		display: inline-block;
+		margin: 0;
+	}
+	.dd-select-but{
+		padding-top: 10px;
+		display: inline-block;
+	}
+	.dd-dost{
+		display: none;	
+	}
+	.ddmobiledost{
+		display: inline-block;
+		padding: 10px 0 10px 11%;
+	}
+	.pt-label{
+		padding-top: 3px;
+		display: none;
+	}
+	@media only screen and (min-width : 320px) {
+		.faq{
 		// width: 277px;
 	}
 	.fl-left{
@@ -1336,11 +1347,18 @@ div[data-val]:hover{
 }
 
 @media only screen and (min-width : 992px) {
-	.dd-close{
-		right: 8px !important;
+	.dd-podskazka{
+		.dd-p-span{
+			.dd-kr{
+				display: none;
+			}
+		}
 	}
-	#log-in-6{		
 		.dd-close{
+			right: 8px !important;
+		}
+		#log-in-6{		
+			.dd-close{
 			// right: -128px !important;
 		}
 	}
@@ -1549,16 +1567,16 @@ div[data-val]:hover{
 
 
 	#log-in-5 .dd-input_pop {
-	    width: 100%;
-	    margin:0 0px 14px 0;
-	    border-radius: 25px;	   
+		width: 100%;
+		margin:0 0px 14px 0;
+		border-radius: 25px;	   
 	}
- 	#log-in-5 .mr_inp{
+	#log-in-5 .mr_inp{
 		margin:0 32px 14px 0;
-    }
-    #log-in-5 .ddlastchild{
+	}
+	#log-in-5 .ddlastchild{
 		margin: 0 0 0 0;
-    }
+	}
 
 	.dd-payments{		
 		text-align: left;	
@@ -1615,17 +1633,17 @@ div[data-val]:hover{
 	}
 	.input-wrap{
 		display: inline-block;
-	    background: #fff;
-	    margin-right: -50px;
-	    padding-right: 28px;
-	    border-radius: 26px;
-	    margin-bottom: 15px;
-	    width: 240px;
-    input{
-    	background: none;
-    	box-shadow: none;
-    	border-top: none;
-    }
+		background: #fff;
+		margin-right: -50px;
+		padding-right: 28px;
+		border-radius: 26px;
+		margin-bottom: 15px;
+		width: 240px;
+		input{
+			background: none;
+			box-shadow: none;
+			border-top: none;
+		}
 	}
 }
 .in{
@@ -1750,12 +1768,12 @@ div[data-val]:hover{
 			color: #fff;
 		}
 		p{
-	    color: #7d7d7d;
-	    font-size: 26px;
-	    max-width: 686px;
-	    margin: 0 auto;
-	    line-height: 27px;
-	    padding: 25px 0 10px;
+			color: #7d7d7d;
+			font-size: 26px;
+			max-width: 686px;
+			margin: 0 auto;
+			line-height: 27px;
+			padding: 25px 0 10px;
 		}
 	}
 	.individual{
@@ -2032,9 +2050,9 @@ div[data-val]:hover{
 			line-height: 19px;
 			border: none;
 			background-image: url("../img/treyg.png");
-		    background-repeat: no-repeat;
-		    background-position: right center;
-		    padding-right: 17px;
+			background-repeat: no-repeat;
+			background-position: right center;
+			padding-right: 17px;
 		}
 	}
 	.about{
@@ -2084,19 +2102,19 @@ div[data-val]:hover{
 			background: url(../img/corner-tooltip.png);
 			width: 24px;
 			height: 35px;
-	    left: -6px;
-	    bottom: -14px;
+			left: -6px;
+			bottom: -14px;
 		}
 		&::after{
-	    display: none;
+			display: none;
 			content: "";
 			position: absolute;
 			background: url(../img/corner-tooltip.png);
 			width: 24px;
 			height: 35px;
-	    right: -6px;
-	    bottom: -14px;
-	    transform: scale(-1,1);
+			right: -6px;
+			bottom: -14px;
+			transform: scale(-1,1);
 		}
 	}
 	.delivery{
@@ -2402,8 +2420,8 @@ div[data-val]:hover{
 	}
 }
 .seconddd{
-		display: none;
-	}
+	display: none;
+}
 @media only screen and (max-width : 1200px) {
 	.shtraf .end__item{
 		padding: 0 15px;
@@ -2537,7 +2555,7 @@ div[data-val]:hover{
 			display: block;
 		}
 		.inner{
-   	  background: rgba(0, 0, 0, 0.75);
+			background: rgba(0, 0, 0, 0.75);
 			padding: 15px;
 		}
 		.block{
@@ -2614,10 +2632,10 @@ div[data-val]:hover{
 		.in{
 			.button-1{
 				font-size: 15px;
-			    width: auto;
-			    line-height: normal;
-			    padding: 15px 10px;
-			    vertical-align: top;
+				width: auto;
+				line-height: normal;
+				padding: 15px 10px;
+				vertical-align: top;
 			}
 		}
 	}
@@ -2940,12 +2958,12 @@ div[data-val]:hover{
 	}
 	.end__pay {
 		padding: 10px 0;
-    .img-wrap{
-    	float: none;
-    	display: inline-block;
-    	margin-left: 7px;
-   	  padding: 0 0 5px 0px;
-    }
+		.img-wrap{
+			float: none;
+			display: inline-block;
+			margin-left: 7px;
+			padding: 0 0 5px 0px;
+		}
 	}
 }
 
@@ -3536,8 +3554,8 @@ div[data-val]:hover{
 	display: inline-block;
 	padding-right: 16px;
 	position: absolute;
-    bottom: 15px;
-    right: -7px;
+	bottom: 15px;
+	right: -7px;
 }
 
 
@@ -3673,8 +3691,8 @@ div[data-val]:hover{
 
 #jsonline{
 	display: inline-block;
-    width: 170px;
-    height: 53px;
+	width: 170px;
+	height: 53px;
     // background-color: #8bc34a;
     background-image: linear-gradient(to top, #ffdc52 0%, #ffea72 100%);
     border-radius: 33px;
@@ -3722,10 +3740,10 @@ div[data-val]:hover{
 
 .detel{
 	font-size: 26px;	
-    color: #343434;
-    font-weight: 600;
-    line-height: 29px;
-    display: none;
+	color: #343434;
+	font-weight: 600;
+	line-height: 29px;
+	display: none;
 }
 .telmob{
 	display: inline-block;
@@ -3735,7 +3753,7 @@ div[data-val]:hover{
 	text-align: center;	
 	display: block;	
 	&:hover{
-		    color: #ffe76a ;
+		color: #ffe76a ;
 	}
 }	
 
@@ -3807,18 +3825,18 @@ div[data-val]:hover{
 }
 .has-tooltip2{
 	.dd-close{
-	width: 32px;
-	height: 32px;
-	background-image:url("../img/kres.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	position:absolute;
-	top:8px;
-	right:8px;
-	cursor: pointer;
-	transition: 0.5s;
-	border-radius:10px;
-}
+		width: 32px;
+		height: 32px;
+		background-image:url("../img/kres.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		position:absolute;
+		top:8px;
+		right:8px;
+		cursor: pointer;
+		transition: 0.5s;
+		border-radius:10px;
+	}
 }
 
 @media only screen and (min-width : 320px) {
@@ -3839,7 +3857,7 @@ div[data-val]:hover{
 	}
 	.dfmenubox1, .dfitogo{
 		max-width: 460px;
-	
+
 	}
 	.dfbg2{	
 		background-position:right 65% top 50%;		
@@ -3859,10 +3877,10 @@ div[data-val]:hover{
 	}
 	.dfbghow3{
 		background-position: center 75%;
-   		padding: 7% 0 12% 0 !important;
+		padding: 7% 0 12% 0 !important;
 	}
 	
-		.has-tooltip2{	
+	.has-tooltip2{	
 		// bottom: 60px;
 		// right: -270px;	
 		&::before{	
@@ -3879,7 +3897,7 @@ div[data-val]:hover{
 
 @media only screen and (min-width : 992px) {
 	.detel{		
-	    display: inline-block;
+		display: inline-block;
 	}
 	.telmob{
 		display: none;
@@ -4205,8 +4223,8 @@ div[data-val]:hover{
 		font-weight: 700;
 		line-height: 18px;
 		display: inline-block;	    
-	    padding: 12px 1px 3px 9px;
-	    border-radius: 25px 0 0 25px;
+		padding: 12px 1px 3px 9px;
+		border-radius: 25px 0 0 25px;
 		// margin-right: -3px;
 		.dfdots{
 			width: 7px;//7.5
@@ -4262,7 +4280,7 @@ div[data-val]:hover{
 		// padding: 12px 10px 3px 10px;		
 		// border-radius: 25px;		
 		padding: 12px 3px 3px 2px;
-   		border-radius: 0px 25px 25px 0;
+		border-radius: 0px 25px 25px 0;
 		text-align: center;
 		color:  #212121;		
 		font-size: 10px;//14
@@ -4319,7 +4337,7 @@ div[data-val]:hover{
 		min-height: 345px;	//330	
 		// margin-right: 15px;//3
 		margin-right: 3px;
-    	vertical-align: top;
+		vertical-align: top;
 
 	}
 	.dfmenuproducts .dfmenuproductbox:last-child{
@@ -4449,7 +4467,7 @@ div[data-val]:hover{
 		width: 100%;
 		text-align: left;
 		vertical-align: top;
-   		padding-top: 20px;
+		padding-top: 20px;
 	}
 	.dftxtitogo1{
 		font-size: 18px;
@@ -4471,7 +4489,7 @@ div[data-val]:hover{
 		margin-left: 25px;
 		border-bottom: 1px dashed #fff;
 		vertical-align: top;
-    	padding-top: 20px;
+		padding-top: 20px;
 		-o-transition:0.4s;
 		-moz-transition:0.4s;
 		-webkit-transition:0.4s;
@@ -4553,9 +4571,9 @@ div[data-val]:hover{
 		width: 100%;		
 		height: 100% !important;	
 		background-image: url("../img/paralax1.jpg");	   
-	    background-attachment: fixed;  
-	    top:0px;
-	    left: 0; 	
+		background-attachment: fixed;  
+		top:0px;
+		left: 0; 	
 		position:absolute;		
 		background-position: center top 27%;
 		background-size: cover;
@@ -4575,5 +4593,5 @@ div[data-val]:hover{
 // 	z-index: 20!important;
 // }
 @viewport {
-  user-zoom: fixed;
+	user-zoom: fixed;
 }

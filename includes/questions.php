@@ -295,23 +295,27 @@
 							<input class="dd-input dd-input_pop dd-inp-small_2 mr_inp" type="text"  name="etaj"  placeholder="Этаж...">
 							<input class="dd-input dd-input_pop dd-inp-small ddlastchild" type="text" name="numberkv"  placeholder="Кв/Офис...">
 							<div class="dd-dost ddmobiledost">
-							<!-- 	<span class="dd-dost_span">О доставке</span>
+								<span class="dd-dost_span">О доставке</span>
+
+
 								<div class="dd-podskazka">
 									<div class="dd-p-span">
+										<div class="dd-kr"><span>X</span></div>	
 										<span>Доставка осуществляется после Вашей оплаты заказа, по согласованию с Вами.
 											<br><br>
 											После оформления заказа с Вами обязательно свяжется оператор и уточнит более подробно условия доставки. В день доставки с Вами свяжется курьер и сообщит о точном времени приезда. Если у Вас нет возможности принять заказ в ранее оговоренное с время, просьба сообщить об этом.
 										</span>
 									</div>
-								</div> -->
-								<div class="about2">        
+								</div>
+							<!-- 	<div class="about2">        
 									<a href="#littlepop2" name="modal" class="about-in2">О доставке</a> 
+										<span class="dd-dost_span">О доставке</span>
 									<div class="has-tooltip2 dfshowtoggle window" id="littlepop2">
 										<div class="dd-close"></div>
 										<p>Доставка осуществляется после Вашей оплаты заказа, по согласовыванию с Вами</p>
 										<p>После оформления заказа с Вами обязательно свяжется оператор и уточнит более подробно условия доставки. В день доставки с Вами свяжется курьер и сообщит о точном времени приезда. Если у Вас нет возможности принять заказ в ранее оговоренное время, просьба сообщить об этом</p>
 									</div>          
-								</div>
+								</div> -->
 							</div>
 
 							<!-- Hidden -->
@@ -812,13 +816,21 @@
 	$('.checkbox-js').click(function(){
 		$('.dd-txt-radio-js').toggleClass('activeRed');
 	});
+
+
+
 	$('.dd-dost_span').hover(function(){
 		$('.dd-podskazka').css('display' , 'block');
 	});
 	$('.dd-dost_span').mouseleave(function(){
 		$('.dd-podskazka').css('display' , 'none');
 	});
+	$('.dd-kr').click(function(){
+		$('.dd-podskazka').css('display' , 'none');
+	});
 	
+
+
 	$('.last-block .button-1').click(function(){
 		var price = $(this).parents('.inner').find('.price').find('i').text();
 		var much_1 = $(this).parents('.inner').find('.block_much_1 span b').text();
