@@ -250,6 +250,35 @@ $(document).ready(function(){
             }
         });
 
+
+           
+
+    $(".js-faq-tittle").click(function(e){
+        e.preventDefault();
+        var $this = $(this);
+
+        if( !$this.hasClass("dd-active")){
+            $(".js-faq-content").slideUp();
+            $(".js-faq-tittle").removeClass("dd-active");
+        }
+        $this.toggleClass("dd-active"); 
+        $this.next().slideToggle();
+    });
+    $(".js-faq-tittle:first").click();
+    
+    $(".js-faq-tittle2").click(function(e){
+        e.preventDefault();
+        var $this = $(this);
+
+        if( !$this.hasClass("dd-active")){
+            $(".js-faq-content2").slideUp();
+            $(".js-faq-tittle2").removeClass("dd-active");
+        }
+        $this.toggleClass("dd-active"); 
+        $this.next().slideToggle();
+    });
+    $(".js-faq-tittle2:first").click();
+                             
     
   /////////////////////////////////
         $('.jsdayselected select').change(function(event) {
@@ -319,9 +348,52 @@ $(document).ready(function(){
             };
   ////////////////////////////////
 
+               //отправка на попап и на почту
+
+    $('.jsdflink').on('click', function(){
+        var txttarif = $('.dfactivelinkdesk a em').text();  //название тарифа   
+        $('.dd-bold-title_pop b').text(txttarif);       
+        $('.jsnametarifpop').val(txttarif);
+
+        var txtdaykkal = $('.dfactivelinkdesk').next('.jskaldaypopup').text();//ккал в тарифе
+        $('.dd-bold-title_pop b').next('span').text(txtdaykkal);
+        $('.jskkalpop').val(txtdaykkal);
+
+        var txtdaytarif = $('.jsweakactive').text();//день недели
+        $('.dd-grey-txt_2 i').text(txtdaytarif);    
+        
+        //  $('.jsdayweekpop').val(txtdaytarif);
+        
+        
+        var js5days = $('.df5priemactive i').text(); //количество приемов 
+        var js3days = $('.df3priemactive i').text();
+        $('.js5days').val(js5days);
+        $('.js3days').val(js3days);     
+    });
+
+    
+
+    $('.jsdflinkmob').on('click', function(){       
+        var txttarifmob = $('.dfactivelinkmob a').attr('tarif');        
+        $('.dd-bold-title_pop b').text(txttarifmob);
+        $('.jsnametarifpop').val(txttarifmob);
+
+        var txtdaykkal = $('.dfactivelinkmob a').text();    
+        $('.dd-bold-title_pop b').next('span').text(txtdaykkal);
+        $('.jskkalpop').val(txtdaykkal);
+            
+        var txtdaytarifmob = $('.jsmobactive').attr('dayweek');     
+        $('.dd-grey-txt_2 i').text(txtdaytarifmob);
+        // $('.jsdayweekpop').val(txtdaytarifmob);
+
+        var js5daysmob = $('.df5active').text(); //количество приемов 
+        var js3daysmob = $('.df3active').text();
+        $('.js5days').val(js5daysmob);
+        $('.js3days').val(js3daysmob);  
+    }); 
 
 
-
+////////////////////////////////////////////
 
 
 

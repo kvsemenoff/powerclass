@@ -636,13 +636,3 @@
 
  		</section>
 
-
-
-
- 		<script>
- 	
-
-
-
-		
-</script>
