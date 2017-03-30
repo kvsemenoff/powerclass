@@ -82,7 +82,7 @@
 							<div class="dd-el-1 dd-el-1_inp">
 								<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
 								<input class="dd-input dd-input_pop phone" name="phone"  type="tel" placeholder="Введите ваш телефон" required>
-								<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="перезвоните мне">
+								<input class="button-1 dd-submit ripplelink" onclick="ga (‘send’, ‘event’, ‘popup’, ‘obratny_zvonok_verh’); yaCounter38724665.reachGoal(‘obratny_zvonok_verh’);" type="submit" name="submit" value="перезвоните мне">
 								<input class="theme_m" type="hidden" name="theme" value="Заказать звонок" >
 
 								<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
@@ -584,7 +584,7 @@
 					<div class="dd-form_input table_left">
 						<label>
 							<input class="phone dd-input dd-input_tr" type="tel" name="phone"   placeholder="Введите ваш телефон"  required>
-							<input class="button-1 dd-submit ripplelink" type="submit" value="подобрать персональный тариф">
+							<input class="button-1 dd-submit ripplelink" onclick="ga (‘send’, ‘event’, ‘popup’, ‘podobrat_tarif’); yaCounter38724665.reachGoal(‘podobrat_tarif’);" type="submit" value="подобрать персональный тариф">
 							<input type="hidden" name="theme" value="Тарифы пауер класс">
 
 							<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
@@ -788,7 +788,7 @@
 			<div class="dd-form_input ">
 				<label>
 					<input class="phone dd-input dd-input_tr" type="tel" name="phone"   placeholder="Введите ваш телефон" required>
-					<input class="button-1 dd-submit ripplelink" type="submit" value="подобрать персональный тариф">
+					<input class="button-1 dd-submit ripplelink" onclick="ga (‘send’, ‘event’, ‘popup’, ‘podobrat_tarif’); yaCounter38724665.reachGoal(‘podobrat_tarif’);" type="submit" value="подобрать персональный тариф">
 					<input type="hidden" name="theme" value="Тарифы пауер класс">
 				</label>
 
