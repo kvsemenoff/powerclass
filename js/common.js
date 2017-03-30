@@ -2,8 +2,8 @@
 
 $(document).ready(function(){
 
-  
-    
+
+
     $("#js-nav a").click(function(e){
         e.preventDefault();
         var currentBlock = $(this).attr("href");
@@ -178,10 +178,14 @@ $(document).ready(function(){
         var inppop = $(this).find('input[name="uname"]');
         var empty = false;
 
-        // if('.tarif_name_hide').val() == 
+        var target = $('.tarif_name_hide').val();
+        if(target=='фит'){
+            console.log('it_work');
+          
+        }
 
 
-            
+
 
         if (inppop.val() == "") {
             // inppop.addClass('error-input');
@@ -256,7 +260,7 @@ $(document).ready(function(){
         });
 
 
-           
+
 
     $(".js-faq-tittle").click(function(e){
         e.preventDefault();
@@ -283,71 +287,71 @@ $(document).ready(function(){
         $this.next().slideToggle();
     });
     $(".js-faq-tittle2:first").click();
-                             
+
     
   /////////////////////////////////
-        $('.jsdayselected select').change(function(event) {
+  $('.jsdayselected select').change(function(event) {
 
-            });
-
-
-            $('.jssubmit').submit(function(){
-                var phone = $(this).find('input[name="phone"]');
-
-                var sendnametarif = $(this).parents('.end ')
-                .find('.end__item')
-                .find('.jskkalday b')
-                .text();
-                $('.jsnametarif').val(sendnametarif);   
-
-                var sendnametarifmob = $(this).parents('#jsmobversion2')
-                .find('.info')
-                .find('.half')
-                .find('.jsmobkallday b')
-                .text();
-                $('.jsnametarifmob').val(sendnametarifmob); 
+  });
 
 
+  $('.jssubmit').submit(function(){
+    var phone = $(this).find('input[name="phone"]');
 
-                if(window.innerWidth > 990) {
-                    var selected = $('.jsdayselected select option:selected').text();
-                    $('.jsdaydostavki').val(selected);
+    var sendnametarif = $(this).parents('.end ')
+    .find('.end__item')
+    .find('.jskkalday b')
+    .text();
+    $('.jsnametarif').val(sendnametarif);   
 
-                    var jstimeselected = $('.jstimeselected select option:selected').text();
-                    $('.jstimedostavki').val(jstimeselected);
-                }else{
-                    var selected = $('.jsdayselectedmob select option:selected').text();
-                    $('.jsdaydostavki').val(selected);
-
-                    var jstimeselected = $('.jstimeselectedmob select option:selected').text();
-                    $('.jstimedostavki').val(jstimeselected);
-                }
+    var sendnametarifmob = $(this).parents('#jsmobversion2')
+    .find('.info')
+    .find('.half')
+    .find('.jsmobkallday b')
+    .text();
+    $('.jsnametarifmob').val(sendnametarifmob); 
 
 
-                if(phone.val() == ""){
-                    phone.focus();
-                    return false;
-                }
 
-                else{
-                    var form_data = $(this).serialize(); 
-                    $.ajax({
-                        type: "POST", 
-                        url: "/sendmessage.php", 
-                        data: form_data,
-                        success: function() {
-                            cleanTnanks(this);
-                        }
-                    });
-                }
-                yaCounter38724665.reachGoal ('g1'); 
-                ga('send', 'event', 'Form', 'SendForm');
-                return false;
+    if(window.innerWidth > 990) {
+        var selected = $('.jsdayselected select option:selected').text();
+        $('.jsdaydostavki').val(selected);
 
-            });
+        var jstimeselected = $('.jstimeselected select option:selected').text();
+        $('.jstimedostavki').val(jstimeselected);
+    }else{
+        var selected = $('.jsdayselectedmob select option:selected').text();
+        $('.jsdaydostavki').val(selected);
 
-            function cleanTnanks(form){
-                $('.js-window').hide();
+        var jstimeselected = $('.jstimeselectedmob select option:selected').text();
+        $('.jstimedostavki').val(jstimeselected);
+    }
+
+
+    if(phone.val() == ""){
+        phone.focus();
+        return false;
+    }
+
+    else{
+        var form_data = $(this).serialize(); 
+        $.ajax({
+            type: "POST", 
+            url: "/sendmessage.php", 
+            data: form_data,
+            success: function() {
+                cleanTnanks(this);
+            }
+        });
+    }
+    yaCounter38724665.reachGoal ('g1'); 
+    ga('send', 'event', 'Form', 'SendForm');
+    return false;
+
+});
+
+  function cleanTnanks(form){
+    $('.js-window').hide();
                 // $('a[href=#thanks]').trigger('click');
                 location = "spasibo.php";
             };
@@ -355,7 +359,7 @@ $(document).ready(function(){
 
                //отправка на попап и на почту
 
-    $('.jsdflink').on('click', function(){
+               $('.jsdflink').on('click', function(){
         var txttarif = $('.dfactivelinkdesk a em').text();  //название тарифа   
         $('.dd-bold-title_pop b').text(txttarif);       
         $('.jsnametarifpop').val(txttarif);
@@ -376,19 +380,19 @@ $(document).ready(function(){
         $('.js3days').val(js3days);     
     });
 
-    
 
-    $('.jsdflinkmob').on('click', function(){       
-        var txttarifmob = $('.dfactivelinkmob a').attr('tarif');        
-        $('.dd-bold-title_pop b').text(txttarifmob);
-        $('.jsnametarifpop').val(txttarifmob);
 
-        var txtdaykkal = $('.dfactivelinkmob a').text();    
-        $('.dd-bold-title_pop b').next('span').text(txtdaykkal);
-        $('.jskkalpop').val(txtdaykkal);
-            
-        var txtdaytarifmob = $('.jsmobactive').attr('dayweek');     
-        $('.dd-grey-txt_2 i').text(txtdaytarifmob);
+               $('.jsdflinkmob').on('click', function(){       
+                var txttarifmob = $('.dfactivelinkmob a').attr('tarif');        
+                $('.dd-bold-title_pop b').text(txttarifmob);
+                $('.jsnametarifpop').val(txttarifmob);
+
+                var txtdaykkal = $('.dfactivelinkmob a').text();    
+                $('.dd-bold-title_pop b').next('span').text(txtdaykkal);
+                $('.jskkalpop').val(txtdaykkal);
+
+                var txtdaytarifmob = $('.jsmobactive').attr('dayweek');     
+                $('.dd-grey-txt_2 i').text(txtdaytarifmob);
         // $('.jsdayweekpop').val(txtdaytarifmob);
 
         var js5daysmob = $('.df5active').text(); //количество приемов 
@@ -402,83 +406,83 @@ $(document).ready(function(){
 
 
 
-   if(window.innerWidth <= 800) {
-        window.roistatLeadHunterInited = true;
-    }
+if(window.innerWidth <= 800) {
+    window.roistatLeadHunterInited = true;
+}
    // $(".phone").mask("+7 (999) 999 - 99 - 99?");
 
    
-    $('.db-menu a, .db-up_menu_menu a, .db-want, .db-podr, .db-tarif, .db-podr1, .db-tarif1').on("click", function(e){
-        e.preventDefault();
-        var $this = $(this), 
-        $href = $this.attr('href'),
-        $scrollTop = $($href).offset().top;
+   $('.db-menu a, .db-up_menu_menu a, .db-want, .db-podr, .db-tarif, .db-podr1, .db-tarif1').on("click", function(e){
+    e.preventDefault();
+    var $this = $(this), 
+    $href = $this.attr('href'),
+    $scrollTop = $($href).offset().top;
 
-        $('html, body').animate({
+    $('html, body').animate({
 
-            scrollTop: $scrollTop
-        },
-        1000
-        );
-    });
-
-    $('.db-burger').on("click", function(){
-        $('.db-up_menu_menu').slideToggle();
-    });
-    $('.az-select').each(function(){
-        var select = $(this);    
-        var option = select.find('select option');
-        var str = '<div class="az-options">';
-        select.find('option').each(function(){
-            str+= '<div data-val="' +$(this).val() + '">' + $(this).text() + '</div>'
-        });
-        str+= '</div>';
-        select.html(select.html() + str);
-
-        select.find('select').mousedown(function(){
-            return false;
-        });
-        select.mouseup(function(){
-            select.find('select').focus();
-        });
-        select.find('.az-options div[data-val]').click(function(){
-            select.find('select').val($(this).attr('data-val'));
-        });
-        select.find('select').focusout(function(){
-            if(!select.is(':hover')){
-                select.find('.az-options').slideUp(0);
-                select.removeClass('az-select-focus');
-            }
-        });
-    });
-
-    $(".az-select").click(function(){
-        $(this).find('.az-options').slideToggle(0);
-        $(this).toggleClass('az-select-focus');
-    });
-
-    $("#owl-slider").owlCarousel({
-        loop:true,
-        dots:true,
-        items:1,
-        mouseDrag:true,
-        touchDrag: true,
-        nav:true,
-        responsive:{
-          770:{
-            nav:false,
-            items:3
-        }
-    }
+        scrollTop: $scrollTop
+    },
+    1000
+    );
 });
 
-    $('.tabs-content > .tab-content').each(function(index){
-        if (index != 0) {
-            $(this).css('display','none');
-        };
+   $('.db-burger').on("click", function(){
+    $('.db-up_menu_menu').slideToggle();
+});
+   $('.az-select').each(function(){
+    var select = $(this);    
+    var option = select.find('select option');
+    var str = '<div class="az-options">';
+    select.find('option').each(function(){
+        str+= '<div data-val="' +$(this).val() + '">' + $(this).text() + '</div>'
     });
+    str+= '</div>';
+    select.html(select.html() + str);
 
-    $('.tab').click(function(){
+    select.find('select').mousedown(function(){
+        return false;
+    });
+    select.mouseup(function(){
+        select.find('select').focus();
+    });
+    select.find('.az-options div[data-val]').click(function(){
+        select.find('select').val($(this).attr('data-val'));
+    });
+    select.find('select').focusout(function(){
+        if(!select.is(':hover')){
+            select.find('.az-options').slideUp(0);
+            select.removeClass('az-select-focus');
+        }
+    });
+});
+
+   $(".az-select").click(function(){
+    $(this).find('.az-options').slideToggle(0);
+    $(this).toggleClass('az-select-focus');
+});
+
+   $("#owl-slider").owlCarousel({
+    loop:true,
+    dots:true,
+    items:1,
+    mouseDrag:true,
+    touchDrag: true,
+    nav:true,
+    responsive:{
+      770:{
+        nav:false,
+        items:3
+    }
+}
+});
+
+   $('.tabs-content > .tab-content').each(function(index){
+    if (index != 0) {
+        $(this).css('display','none');
+    };
+});
+
+   $('.tab').click(function(){
     $('.tab').removeClass('active');
     $('.tabs-content').find('div').removeClass('active');
     $('.tabs-content > .tab-content').css('display','none');
@@ -487,23 +491,23 @@ $(document).ready(function(){
     for (var i = 0; i < 4; i++) {
         if($('.tabs > .tab-' + i).hasClass('active')){
             $('.tabs-content > .tab-' + i).addClass('active');
-    };
-    
-    $('.tabs-content > .active').css('display','block');
+        };
+
+        $('.tabs-content > .active').css('display','block');
     };
 });
 
- $("#form-collback").validate();
+   $("#form-collback").validate();
 
-$('#tb3 span').click();
+   $('#tb3 span').click();
 
-     $('.individual').on('click', function(evt5){
-            evt5.preventDefault();  
-            $('html, body').animate({
-                scrollTop: $(".shtraf").offset().top - 0
-            }, 500);
-      });
+   $('.individual').on('click', function(evt5){
+    evt5.preventDefault();  
+    $('html, body').animate({
+        scrollTop: $(".shtraf").offset().top - 0
+    }, 500);
+});
 
- });
+});
 
 
