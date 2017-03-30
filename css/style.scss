@@ -1989,7 +1989,7 @@ div[data-val]:hover{
 		.input-block{
 			margin-bottom: 10px;
 			margin-right: 10px;
-			input[type="text"]{
+			input[type="text"], input[type="tel"]{
 				max-width: 386px;
 				width: 100%;
 			}

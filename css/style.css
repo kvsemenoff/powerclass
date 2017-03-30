@@ -1668,7 +1668,7 @@ div[data-val]:hover {
     .shtraf .end .input-block {
       margin-bottom: 10px;
       margin-right: 10px; }
-      .shtraf .end .input-block input[type="text"] {
+      .shtraf .end .input-block input[type="text"], .shtraf .end .input-block input[type="tel"] {
         max-width: 386px;
         width: 100%; }
       .shtraf .end .input-block input[type="submit"] {
