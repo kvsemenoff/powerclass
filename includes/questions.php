@@ -86,7 +86,7 @@
 								<input class="theme_m" type="hidden" name="theme" value="Заказать звонок" >
 
 								<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
-							<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />
+								<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />
 							</div>
 							<div class="clearfix"></div>
 
@@ -295,7 +295,7 @@
 							<input class="dd-input dd-input_pop dd-inp-small_2 mr_inp" type="text"  name="etaj"  placeholder="Этаж...">
 							<input class="dd-input dd-input_pop dd-inp-small ddlastchild" type="text" name="numberkv"  placeholder="Кв/Офис...">
 							<div class="dd-dost ddmobiledost">
-								<span class="dd-dost_span">О доставке</span>
+							<!-- 	<span class="dd-dost_span">О доставке</span>
 								<div class="dd-podskazka">
 									<div class="dd-p-span">
 										<span>Доставка осуществляется после Вашей оплаты заказа, по согласованию с Вами.
@@ -303,6 +303,14 @@
 											После оформления заказа с Вами обязательно свяжется оператор и уточнит более подробно условия доставки. В день доставки с Вами свяжется курьер и сообщит о точном времени приезда. Если у Вас нет возможности принять заказ в ранее оговоренное с время, просьба сообщить об этом.
 										</span>
 									</div>
+								</div> -->
+								<div class="about2">        
+									<a href="#littlepop" name="modal" class="about-in2">О доставке</a> 
+									<div class="has-tooltip2 dfshowtoggle window" id="littlepop">
+										<div class="dd-close"></div>
+										<p>Доставка осуществляется после Вашей оплаты заказа, по согласовыванию с Вами</p>
+										<p>После оформления заказа с Вами обязательно свяжется оператор и уточнит более подробно условия доставки. В день доставки с Вами свяжется курьер и сообщит о точном времени приезда. Если у Вас нет возможности принять заказ в ранее оговоренное время, просьба сообщить об этом</p>
+									</div>          
 								</div>
 							</div>
 
@@ -919,7 +927,7 @@
 			$(id).css('top',  posTop+50);
 		}
 		// $(id).css('left', winW/2-$(id).width()/2);
-		 $('#mask').fadeIn();
+		$('#mask').fadeIn();
 		$(id).fadeIn(500);
 
 		$('body').css({
@@ -952,7 +960,7 @@
 	$(".phone").mask("+7(999)999-99-99?"); 
 	//маска для телефона в самом низу
 	
-	   
+	
 
 
 	
@@ -990,17 +998,17 @@
 		$('input[type="text"]').removeClass("error-input");
 		$("input[type=text], textarea").val("");
 		$('.window').hide();			
-			location = "spasibo.php";
-		};
+		location = "spasibo.php";
+	};
 
-		$('.online-replace').on('click', function(el){
-			el.preventDefault();
-			var unamereq = $(this).parents('#log-in-2').find('.unamejs').val();
-			var phonereq = $(this).parents('#log-in-2').find('.phonejs').val();
-			$('.dd-hid-name').val(unamereq);
-			$('.dd-hid-phone').val(phonereq);
-			if(unamereq == "" ){    
-				$('.unamejs').focus();  
+	$('.online-replace').on('click', function(el){
+		el.preventDefault();
+		var unamereq = $(this).parents('#log-in-2').find('.unamejs').val();
+		var phonereq = $(this).parents('#log-in-2').find('.phonejs').val();
+		$('.dd-hid-name').val(unamereq);
+		$('.dd-hid-phone').val(phonereq);
+		if(unamereq == "" ){    
+			$('.unamejs').focus();  
 				// $('.unamejs').addClass('disabledinputjs');	            
 				return false;
 
@@ -1018,5 +1026,5 @@
 			}
 		});
 
-		   
+	
 	</script>
