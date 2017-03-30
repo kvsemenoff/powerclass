@@ -1,4 +1,5 @@
 AddDefaultCharset utf-8
+
 # сжатие text, html, javascript, css, xml:
 <ifModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript
@@ -17,6 +18,27 @@ ExpiresByType image/jpeg "access plus 4 weeks"
 ExpiresByType image/png "access plus 30 days"
 ExpiresByType image/gif "access plus 43829 minutes"
 ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+css/jquery.fancybox.css: http://vps-powerclass17.host4g.ru/libs/fancybox/jquery.fancybox.css
+css/owl.carousel.css: http://vps-powerclass17.host4g.ru/libs/owl.carousel/assets/owl.carousel.css
+css/style.css: http://vps-powerclass17.host4g.ru/css/style.css
+js/owl.carousel.js: http://vps-powerclass17.host4g.ru/libs/owl.carousel/owl.carousel.js
+js/common.js: http://vps-powerclass17.host4g.ru/js/common.js
+js/commonmenu.js: http://vps-powerclass17.host4g.ru/js/commonmenu.js
+js/commoncalc.js: http://vps-powerclass17.host4g.ru/js/commoncalc.js
+image/feedback-1.jpg: http://vps-powerclass17.host4g.ru/img/feedback-1.jpg
+image/feedback-2.jpg: http://vps-powerclass17.host4g.ru/img/feedback-2.jpg
+image/feedback-3.jpg: http://vps-powerclass17.host4g.ru/img/feedback-3.jpg
+image/db-button.png: http://vps-powerclass17.host4g.ru/img/db-button.png
+image/dfbg2.jpg: http://vps-powerclass17.host4g.ru/img/dfbg2.jpg
+image/dfbg3.jpg: http://vps-powerclass17.host4g.ru/img/dfbg3.jpg
+image/hoveronbutton2.png: http://vps-powerclass17.host4g.ru/img/hoveronbutton2.png
+image/questions.jpg: http://vps-powerclass17.host4g.ru/img/questions.jpg
+image/dm.jpg: http://vps-powerclass17.host4g.ru/img/dm.jpg
+image/list2.png: http://vps-powerclass17.host4g.ru/img/list2.png
+image/want.jpg: http://vps-powerclass17.host4g.ru/img/want.jpg
+image/prev.png: http://vps-powerclass17.host4g.ru/img/prev.png
+image/next.png: http://vps-powerclass17.host4g.ru/img/next.png
+
  
 # Включаем кэширование css, javascript и текстовых файлоф на одну неделю
 ExpiresByType text/css "access plus 604800 seconds"
