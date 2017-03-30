@@ -246,7 +246,7 @@
  									<div class="col-md-6 end__item">
  										<span class="end__title">Оставьте ваши контактные данные для уточнения адреса <br> и времени бесплатной доставки</span>
  										<div class="form-wrap">
- 											<form class="jssubmit" action="#" method="post">
+ 											<form class="jssubmit" action="#" method="post" id="sendthisform">
  												<div class="input-block">
  													<input class="dd-input nametosend" name="uname" type="text" value="" placeholder="Введите ваше имя" required>	
  												</div>
@@ -271,7 +271,7 @@
  												<div class="input-block input-block--half">
 
 
- 													<button  class="ripplelink dd-submit ripplelink" type="button" id="jsonline"> Заказать онлайн</button>
+ 													<button  class="ripplelink dd-submit ripplelink" type="button" id="jsonline" > Заказать онлайн</button>
  												</div>
  											</form>	
  										</div>
@@ -506,7 +506,7 @@
  					</div>
  					<p>Оставьте ваши контактные данные для уточнения адреса и времени бесплатной доставки</p>
 
- 					<form class="jssubmit" action="#" method="post">
+ 					<form class="jssubmit" action="#" method="post" id="sendthisformmobile">
  						<div class="input-wrap">
  							<input type="text" class="nametosendmob" placeholder="Введите Ваше Имя" name="uname" required>
  						</div>
@@ -704,10 +704,6 @@
 		    };
 
 
-		 // $('.about-in2').on('click', function(event) {
-		 // 	$('.dfshowtoggle').show(100);		 	
-		 // });
-		 // $('.dd-close').on('click', function(event) {
-		 // 	$('.dfshowtoggle').hide(100);		 	
-		 // });
+
+		
 </script>

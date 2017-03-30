@@ -13,14 +13,35 @@ $(document).ready(function(){
 	          $('.phonetosend').addClass('disabledinputjs');	  
 	          	return false;			
 	      }else{
-	      	 $('.disabledinputjs').removeClass('disabledinputjs');	
+
+	      	$('.disabledinputjs').removeClass('disabledinputjs');	
 			$('.jsunameonline').val(unametoonline);
 			$('.jsphoneonline').val(phonetoonline);
+
+			function send_form(form_id) {
+		    var form = $('#'+form_id);
+		    var msg   = form.serialize();
+		    $.ajax({
+		        type: 'POST',
+		       url: "/sendmessage.php", 
+		        data: msg,
+		        success: function(data) {		            
+		        },
+		        error:  function(){		           
+		        }
+		    });
+		}send_form('sendthisform');
+
 			$(this).parents('.shtraf-item').hide().next().show();
+
+			
+
 			return true;
 	      }
 	});
 
+
+			
 
 $('input[type=number]').focus(function(){
 	var idval = $(this).attr('id');
@@ -624,6 +645,21 @@ $('.input-mini').keyup(function() {
 
 			$('.jsunameonline').val(unametoonlinemob);
 			$('.jsphoneonline').val(phonetoonlinemob);
+
+			function send_form(form_id) {
+				var form = $('#'+form_id);
+				var msg   = form.serialize();
+				$.ajax({
+					type: 'POST',
+					url: "/sendmessage.php", 
+					data: msg,
+					success: function(data) {		            
+					},
+					error:  function(){		           
+					}
+				});
+			}send_form('sendthisformmobile');
+			
 			$(this).parents('.jsmob').hide().next().show();
 
 			return true;
