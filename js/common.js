@@ -178,11 +178,6 @@ $(document).ready(function(){
         var inppop = $(this).find('input[name="uname"]');
         var empty = false;
 
-
-
-
-
-
         if (inppop.val() == "") {
             // inppop.addClass('error-input');
             inppop.focus();         
@@ -195,6 +190,7 @@ $(document).ready(function(){
             tel.addClass("error-input");
             tel.focus();
         }else{
+            $("#formvalid").validate(); 
             var form_data = $(this).serialize(); 
             $.ajax({
                 type: "POST", 
@@ -349,6 +345,7 @@ $(document).ready(function(){
     }
 
     else{
+        $(".form-collback").validate(); 
         var form_data = $(this).serialize(); 
         $.ajax({
             type: "POST", 
@@ -397,17 +394,17 @@ $(document).ready(function(){
 
 
 
-               $('.jsdflinkmob').on('click', function(){       
-                var txttarifmob = $('.dfactivelinkmob a').attr('tarif');        
-                $('.dd-bold-title_pop b').text(txttarifmob);
-                $('.jsnametarifpop').val(txttarifmob);
+    $('.jsdflinkmob').on('click', function(){       
+        var txttarifmob = $('.dfactivelinkmob a').attr('tarif');        
+        $('.dd-bold-title_pop b').text(txttarifmob);
+        $('.jsnametarifpop').val(txttarifmob);
 
-                var txtdaykkal = $('.dfactivelinkmob a').text();    
-                $('.dd-bold-title_pop b').next('span').text(txtdaykkal);
-                $('.jskkalpop').val(txtdaykkal);
+        var txtdaykkal = $('.dfactivelinkmob a').text();    
+        $('.dd-bold-title_pop b').next('span').text(txtdaykkal);
+        $('.jskkalpop').val(txtdaykkal);
 
-                var txtdaytarifmob = $('.jsmobactive').attr('dayweek');     
-                $('.dd-grey-txt_2 i').text(txtdaytarifmob);
+        var txtdaytarifmob = $('.jsmobactive').attr('dayweek');     
+        $('.dd-grey-txt_2 i').text(txtdaytarifmob);
         // $('.jsdayweekpop').val(txtdaytarifmob);
 
         var js5daysmob = $('.df5active').text(); //количество приемов 
@@ -418,6 +415,8 @@ $(document).ready(function(){
 
 
 ////////////////////////////////////////////
+
+
 
 
 
@@ -512,7 +511,7 @@ if(window.innerWidth <= 800) {
     };
 });
 
-   $("#form-collback").validate();
+   
 
    $('#tb3 span').click();
 

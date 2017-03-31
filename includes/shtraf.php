@@ -246,7 +246,7 @@
  									<div class="col-md-6 end__item">
  										<span class="end__title">Оставьте ваши контактные данные для уточнения адреса <br> и времени бесплатной доставки</span>
  										<div class="form-wrap">
- 											<form class="jssubmit" action="#" method="post" id="sendthisform form-collback">
+ 										<form class="jssubmit" action="#" method="post" id="sendthisform">
  												<div class="input-block">
  													<input class="dd-input nametosend" name="uname" type="text" value="" placeholder="Введите ваше имя" required>	
  												</div>
@@ -317,7 +317,7 @@
  									</div>
  									<div class="col-md-9 end__item delivery">
  										<div class="form-wrap ">
- 											<form class="jssubmit" action="#" method="post" id="form-collback">	
+ 											<form class="jssubmit form-collback" action="#" method="post" >	
  												<span class="end__title">Введите адрес доставки:</span>
  												<input class="dd-input input--city" type="text" value="Москва" required name="city">
 
@@ -429,7 +429,7 @@
  				<div class="inner">
  					<h2>Рассчитайте ваш персональный тариф</h2>
  					<div class="form-wrap">
- 						<form action="#" id="form-collback">
+ 						<form action="#">
  							<div class="select-wrap jscheked">
  								<select class="jsselected1">
  									<option selected="true" disabled="disabled" class="f1">Выберите ваш пол</option>
@@ -506,7 +506,7 @@
  					</div>
  					<p>Оставьте ваши контактные данные для уточнения адреса и времени бесплатной доставки</p>
 
- 					<form class="jssubmit" action="#" method="post" id="sendthisformmobile form-collback">
+ 					<form class="jssubmit" action="#" method="post" id="sendthisformmobile">
  						<div class="input-wrap">
  							<input type="text" class="nametosendmob" placeholder="Введите Ваше Имя" name="uname" required>
  						</div>
@@ -532,9 +532,7 @@
  				</div>
 
  			</div>
- 			<div class="form-order jsmob" id="jsmobversion3">
-
- 				<span class="title">Рассчитайте ваш персональный тариф</span>
+ 			<div class="form-order jsmob" id="jsmobversion3"> 				
  				<span class="subtitle">Ваша дневная норма: <i>3 472</i>ккал/день</span>
  				<div class="info clearfix">
  					<div class="half">
@@ -553,7 +551,7 @@
  					</div>
  				</div>
 
- 				<form class="jssubmit" action="#" method="post" id="form-collback">
+ 				<form class="jssubmit form-collback" action="#" method="post">
  					<div class="address">
  						<span class="end__title">Введите адрес доставки:</span>
  						<input class="dd-input input--city" type="text" value="Москва" required name="city">
