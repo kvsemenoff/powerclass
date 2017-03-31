@@ -13,7 +13,7 @@
 							
 
 							<span class="ripplelink forinputripple">
-								<input class="button-1 dd-submit" type="submit" value="Перезвоните мне" placeholder="">
+								<input class="button-1 dd-submit" onclick="ga ('send', 'event', 'popup', 'obratny_zvonok_niz'); yaCounter38724665.reachGoal('obratny_zvonok_niz');" type="submit" value="Перезвоните мне" placeholder="">
 							</span>						
 
 							<input type="hidden" name="theme" value="Остались вопросы">
@@ -243,7 +243,7 @@
 							</div>
 							<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
 							<input class="dd-input dd-input_pop phone" name="phone"  type="tel" placeholder="Введите ваш телефон" required>
-							<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="Заказать питание">
+							<input class="button-1 dd-submit ripplelink" onclick="ga ('send', 'event', 'popup', 'begin_now'); yaCounter38724665.reachGoal('begin_now');" type="submit" name="submit" value="Заказать питание">
 							<input type="hidden" name="theme" value="Начните питаться сбалансированной пищей 5 раз в день, и ваше тело скажет вам «Спасибо» ">
 
 
@@ -419,7 +419,7 @@
 		</div>
 
 		<!-- Тарифы -->
-		<div id="log-in-6" class="window">
+
 
 			<div class="dd-form-tariff">
 				<div class="dd-close"></div>

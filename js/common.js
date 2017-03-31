@@ -202,6 +202,9 @@ $(document).ready(function(){
             });
 
         }
+
+        // Цели заказ по телефону    ...................
+
         var target = $('.tarif_name_hide').val();
         if(target=='Фит'){
             ga ('send', 'event', 'popup', 't1400_phone');
@@ -219,6 +222,45 @@ $(document).ready(function(){
             ga ('send', 'event', 'popup', 't3500_phone');
             yaCounter38724665.reachGoal('t3500_phone');
         }
+
+        /////////////////////////////////////////////////
+
+        // Цели онлайн оплата   .........................
+
+        if(target=='Фит'){
+            ga ('send', 'event', 'popup', 't1400_phone');
+            yaCounter38724665.reachGoal('t1400_phone');
+            if($('#log-in-5').css('display')==='block'){
+             ga ('send', 'event', 'popup', 't1400_online_oplata');
+             yaCounter38724665.reachGoal('t1400_online_oplata');
+         }
+     }
+     else if(target=='Фит Плюс'){
+        ga ('send', 'event', 'popup', 't1400_phone');
+        yaCounter38724665.reachGoal('t1400_phone');
+        if($('#log-in-5').css('display')==='block'){
+           ga ('send', 'event', 'popup', 't1700_online_oplata');
+           yaCounter38724665.reachGoal('t1700_online_oplata');
+       }
+   }
+        else if(target=='Спорт'){
+        ga ('send', 'event', 'popup', 't1400_phone');
+        yaCounter38724665.reachGoal('t1400_phone');
+        if($('#log-in-5').css('display')==='block'){
+           ga ('send', 'event', 'popup', 't2500_online_oplata');
+           yaCounter38724665.reachGoal('t2500_online_oplata');
+       }
+   }
+        else if(target=='Спорт Плюс'){
+        ga ('send', 'event', 'popup', 't1400_phone');
+        yaCounter38724665.reachGoal('t1400_phone');
+        if($('#log-in-5').css('display')==='block'){
+           ga ('send', 'event', 'popup', 't3500_online_oplata');
+           yaCounter38724665.reachGoal('t3500_online_oplata');
+       }
+   }
+
+        /////////////////////////////////////////////////
         
         return false;
     });
@@ -266,6 +308,28 @@ $(document).ready(function(){
                 $('#log-in-2').hide();
                 $('#log-in-5').show();
 
+                // Цели кнопка перехода к онлайн оплате ....................
+
+                var target = $('.tarif_name_hide').val();
+                if(target=='Фит'){
+                    ga ('send', 'event', 'popup', 't1400_phone');
+                    yaCounter38724665.reachGoal('t1400_phone');
+                }
+                else if(target=='Фит Плюс'){
+                    ga ('send', 'event', 'popup', 't1700_phone');
+                    yaCounter38724665.reachGoal('t1700_phone');
+                }
+                else if(target=='Спорт'){
+                    ga ('send', 'event', 'popup', 't2500_phone');
+                    yaCounter38724665.reachGoal('t2500_phone');
+                }
+                else if(target=='Спорт Плюс'){
+                    ga ('send', 'event', 'popup', 't3500_phone');
+                    yaCounter38724665.reachGoal('t3500_phone');
+                }
+
+                //////////////////////////////////////////////////
+
                 return true;
             }
         });
@@ -285,7 +349,7 @@ $(document).ready(function(){
         $this.next().slideToggle();
     });
     $(".js-faq-tittle:first").click();
-    
+
     $(".js-faq-tittle2").click(function(e){
         e.preventDefault();
         var $this = $(this);
@@ -299,7 +363,7 @@ $(document).ready(function(){
     });
     $(".js-faq-tittle2:first").click();
 
-    
+
   /////////////////////////////////
   $('.jsdayselected select').change(function(event) {
 
@@ -394,17 +458,17 @@ $(document).ready(function(){
 
 
 
-    $('.jsdflinkmob').on('click', function(){       
-        var txttarifmob = $('.dfactivelinkmob a').attr('tarif');        
-        $('.dd-bold-title_pop b').text(txttarifmob);
-        $('.jsnametarifpop').val(txttarifmob);
+               $('.jsdflinkmob').on('click', function(){       
+                var txttarifmob = $('.dfactivelinkmob a').attr('tarif');        
+                $('.dd-bold-title_pop b').text(txttarifmob);
+                $('.jsnametarifpop').val(txttarifmob);
 
-        var txtdaykkal = $('.dfactivelinkmob a').text();    
-        $('.dd-bold-title_pop b').next('span').text(txtdaykkal);
-        $('.jskkalpop').val(txtdaykkal);
+                var txtdaykkal = $('.dfactivelinkmob a').text();    
+                $('.dd-bold-title_pop b').next('span').text(txtdaykkal);
+                $('.jskkalpop').val(txtdaykkal);
 
-        var txtdaytarifmob = $('.jsmobactive').attr('dayweek');     
-        $('.dd-grey-txt_2 i').text(txtdaytarifmob);
+                var txtdaytarifmob = $('.jsmobactive').attr('dayweek');     
+                $('.dd-grey-txt_2 i').text(txtdaytarifmob);
         // $('.jsdayweekpop').val(txtdaytarifmob);
 
         var js5daysmob = $('.df5active').text(); //количество приемов 
