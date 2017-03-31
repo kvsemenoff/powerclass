@@ -706,5 +706,6 @@
 				<a href="#" class="individual">Рассчитать индивидуальный тариф</a>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
