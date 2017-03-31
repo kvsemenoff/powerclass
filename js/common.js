@@ -206,7 +206,6 @@ $(document).ready(function(){
             });
 
         }
-
         var target = $('.tarif_name_hide').val();
         if(target=='Фит'){
             ga ('send', 'event', 'popup', 't1400_phone');
