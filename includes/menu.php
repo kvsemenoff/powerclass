@@ -1582,11 +1582,11 @@
 
 						<div class="dfpriemi">
 							<a href="#" class="df3priem"><i>3 ПРИЕМА</i> <br>
+								<span class="dfdots dfempty"></span>
 								<span class="dfdots"></span>
 								<span class="dfdots"></span>
 								<span class="dfdots"></span>
-								<span class="dfdots"></span>
-								<span class="dfdots"></span>
+								<span class="dfdots dfempty"></span>
 							</a>
 							<a href="#" class="df5priem df5priemactive"><i>5 ПРИЕМОВ</i> <br>
 								<span class="dfdots"></span>

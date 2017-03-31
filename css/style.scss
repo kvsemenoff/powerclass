@@ -4240,12 +4240,10 @@ div[data-val]:hover{
 			border-radius: 50%;
 			margin-right: 2px;
 		}		
-		.dfdots:last-child{
+		.dfempty{
 			background-color: #fff;
 		}
-		.dfdots:nth-child(2){
-			background-color: #fff;			
-		}
+		
 	}
 	.df3priem:hover{
 		border: 2px solid #e53935;
@@ -4255,12 +4253,10 @@ div[data-val]:hover{
 			background-color: #e53935;
 			border: 1px solid  #e53935;
 		}		
-		.dfdots:last-child{
+		.dfempty{
 			background-color: #fff;
 		}
-		.dfdots:nth-child(2){
-			background-color: #fff;
-		}
+		
 		
 	}
 	.df3priemactive{
@@ -4271,12 +4267,10 @@ div[data-val]:hover{
 			background-color: #e53935;
 			border: 1px solid  #e53935;
 		}		
-		.dfdots:last-child{
+		.dfempty{
 			background-color: #fff;
 		}
-		.dfdots:nth-child(2){
-			background-color: #fff;
-		}
+		
 	}
 	.df5priem{
 		// display: block;
