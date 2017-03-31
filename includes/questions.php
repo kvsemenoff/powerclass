@@ -267,7 +267,7 @@
 
 			<div class="dd-form-wrap">
 
-				<form class="form1" action="#" method="post" id="form-collback">
+				<form class="form1" action="#" method="post" id="formvalid">
 					<div class="form-wrap-main form-wrap-main_5">
 
 						<div class="dd-close"></div>
@@ -281,15 +281,10 @@
 							</div>
 
 
-							<input class="dd-input dd-input_pop dd-pop_left_5" type="text" name="city" placeholder="Москва">
-							<input class="dd-input dd-input_pop dd-pop_right_5" type="text" name="ylica" placeholder="Улица...">
+							<input class="dd-input dd-input_pop dd-pop_left_5" type="text" name="city" value="Москва" required>
+							<input class="dd-input dd-input_pop dd-pop_right_5" type="text" name="ylica" placeholder="Улица..." required>
+							<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" name="house" placeholder="Дом..." required>
 
-							<!-- <input class="dd-input dd-input_pop dd-pop_left_5" type="text" name="uname"
-							placeholder="Дом..." required>
-							<input class="dd-input dd-input_pop dd-pop_right_5" type="text" placeholder="Подъезд..." required>
-							<div class="clearfix"></div> -->
-
-							<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" name="house" placeholder="Дом...">
 							<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" name="podezd" placeholder="Подъезд...">
 							<input class="dd-input dd-input_pop dd-inp-small mr_inp" type="text" name="domofon" placeholder="Домофон...">
 							<input class="dd-input dd-input_pop dd-inp-small_2 mr_inp" type="text"  name="etaj"  placeholder="Этаж...">
