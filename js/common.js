@@ -3,7 +3,6 @@
 $(document).ready(function(){
 
 
-
     $("#js-nav a").click(function(e){
         e.preventDefault();
         var currentBlock = $(this).attr("href");
