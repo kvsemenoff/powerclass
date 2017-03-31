@@ -479,32 +479,32 @@ else if(target=='Спорт Плюс'){
                 yaCounter38724665.reachGoal('menu_monday');
                 roistatGoal.reach()
             }
-            else if(target=='Воскресенье'){
+            else if(txtdaytarif=='Воскресенье'){
                 ga ('send', 'event', 'popup', 'menu_sunday');
                 yaCounter38724665.reachGoal('menu_sunday');
                 roistatGoal.reach()
             }
-            else if(target=='Вторник'){
+            else if(txtdaytarif=='Вторник'){
                 ga ('send', 'event', 'popup', 'menu_tuesday');
                 yaCounter38724665.reachGoal('menu_tuesday');
                 roistatGoal.reach()
             }
-            else if(target=='Среда'){
+            else if(txtdaytarif=='Среда'){
                 ga ('send', 'event', 'popup', 'menu_wednesday');
                 yaCounter38724665.reachGoal('menu_wednesday');
                 roistatGoal.reach()
             }
-            else if(target=='Четверг'){
+            else if(txtdaytarif=='Четверг'){
                 ga ('send', 'event', 'popup', 'menu_thursday');
                 yaCounter38724665.reachGoal('menu_thursday');
                 roistatGoal.reach()
             }
-            else if(target=='Пятница'){
+            else if(txtdaytarif=='Пятница'){
                 ga ('send', 'event', 'popup', 'menu_friday');
                 yaCounter38724665.reachGoal('menu_friday');
                 roistatGoal.reach()
             }
-            else if(target=='Суббота'){
+            else if(txtdaytarif=='Суббота'){
                 ga ('send', 'event', 'popup', 'menu_saturday');
                 yaCounter38724665.reachGoal('menu_saturday');
                 roistatGoal.reach()
@@ -544,32 +544,32 @@ else if(target=='Спорт Плюс'){
                 yaCounter38724665.reachGoal('menu_monday');
                 roistatGoal.reach()
             }
-            else if(target=='Воскресенье'){
+            else if(txtdaytarifmob=='Воскресенье'){
                 ga ('send', 'event', 'popup', 'menu_sunday');
                 yaCounter38724665.reachGoal('menu_sunday');
                 roistatGoal.reach()
             }
-            else if(target=='Вторник'){
+            else if(txtdaytarifmob=='Вторник'){
                 ga ('send', 'event', 'popup', 'menu_tuesday');
                 yaCounter38724665.reachGoal('menu_tuesday');
                 roistatGoal.reach()
             }
-            else if(target=='Среда'){
+            else if(txtdaytarifmob=='Среда'){
                 ga ('send', 'event', 'popup', 'menu_wednesday');
                 yaCounter38724665.reachGoal('menu_wednesday');
                 roistatGoal.reach()
             }
-            else if(target=='Четверг'){
+            else if(txtdaytarifmob=='Четверг'){
                 ga ('send', 'event', 'popup', 'menu_thursday');
                 yaCounter38724665.reachGoal('menu_thursday');
                 roistatGoal.reach()
             }
-            else if(target=='Пятница'){
+            else if(txtdaytarifmob=='Пятница'){
                 ga ('send', 'event', 'popup', 'menu_friday');
                 yaCounter38724665.reachGoal('menu_friday');
                 roistatGoal.reach()
             }
-            else if(target=='Суббота'){
+            else if(txtdaytarifmob=='Суббота'){
                 ga ('send', 'event', 'popup', 'menu_saturday');
                 yaCounter38724665.reachGoal('menu_saturday');
                 roistatGoal.reach()
