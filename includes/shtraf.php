@@ -31,7 +31,7 @@
  		</div>
  		<div class="shtraf-item" id="jstarif2">
  			<div class="top-line clearfix">
- 				<div class="nav active"><a href="#">< <i>назад к шагу 1</i></a></div>
+ 				<div class="nav active"><a href="#"><i>назад к шагу 1</i></a></div>
  				<div class="nav active"><span>шаг 2</span></div>
  				<div class="nav"><span>шаг 3</span></div>
  				<div class="nav"><span>шаг 4</span></div>
@@ -60,7 +60,7 @@
  		<div class="shtraf-item" id="jstarif3">
  			<div class="top-line clearfix">
  				<div class="nav active"><span>шаг 1</span></div>
- 				<div class="nav active"><a href="#">< <i>назад к шагу 2</i></a></div>
+ 				<div class="nav active"><a href="#"><i>назад к шагу 2</i></a></div>
  				<div class="nav active"><span>шаг 3</span></div>
  				<div class="nav"><span>шаг 4</span></div>
  				<div class="nav"><span>шаг 5</span></div>
@@ -99,7 +99,7 @@
  			<div class="top-line clearfix">
  				<div class="nav active"><span>шаг 1</span></div>
  				<div class="nav active"><span>шаг 2</span></div>
- 				<div class="nav active"><a href="#">< <i>назад к шагу 3</i></a></div>
+ 				<div class="nav active"><a href="#"><i>назад к шагу 3</i></a></div>
  				<div class="nav active"><span>шаг 4</span></div>
  				<div class="nav"><span>шаг 5</span></div>
  				<div class="nav"><span>шаг 6</span></div>
@@ -113,11 +113,21 @@
  							<p>Стоимость питания будет рассчитана в соответствии с вашей потребностью в калориях и расписанием питания</p>
  							<span class="descr">Выберите уровень активности</span>
  							<div class="btn-wrap">
- 								<button activity="1.2" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Не занимаюсь спортом</span><i>сидячий образ жизни</i></button>
- 								<button activity="1.375" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Легкая активность</span><i>аэробные нагрузки 1-3 р/нед</i></button>
- 								<button activity="1.55" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Повышенная активность</span><i>интенсивные тренировки 3-5 р/нед</i></button>
- 								<button activity="1.725" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Высокая активность</span><i>тяжелые тренировки 6-7 р/нед</i></button>
- 								<button activity="1.9" class="shtraf__btn shtraf__btn--black shtraf__btn--big"><span>Экстремальная активность</span><i>тяжелые тренировки 2 раза в день</i></button>
+ 								<button activity="1.2" class="shtraf__btn shtraf__btn--black shtraf__btn--big">
+ 									<span>Не занимаюсь спортом</span><i>сидячий образ жизни</i>
+ 								</button>
+ 								<button activity="1.375" class="shtraf__btn shtraf__btn--black shtraf__btn--big">
+ 									<span>Легкая активность</span><i>аэробные нагрузки 1-3 р/нед</i>
+ 								</button>
+ 								<button activity="1.55" class="shtraf__btn shtraf__btn--black shtraf__btn--big">
+ 									<span>Повышенная активность</span><i>интенсивные тренировки 3-5 р/нед</i>
+ 								</button>
+ 								<button activity="1.725" class="shtraf__btn shtraf__btn--black shtraf__btn--big">
+ 									<span>Высокая активность</span><i>тяжелые тренировки 6-7 р/нед</i>
+ 								</button>
+ 								<button activity="1.9" class="shtraf__btn shtraf__btn--black shtraf__btn--big">
+ 									<span>Экстремальная активность</span><i>тяжелые тренировки 2 раза в день</i>
+ 								</button>
  							</div>
  							<a href="#log-in-6" name="modal" class="shtraf__link">Полный прайс-лист</a>
  						</div>
@@ -130,7 +140,7 @@
  				<div class="nav active"><span>шаг 1</span></div>
  				<div class="nav active"><span>шаг 2</span></div>
  				<div class="nav active"><span>шаг 3</span></div>
- 				<div class="nav active"><a href="#">< <i>назад к шагу 4</i></a></div>
+ 				<div class="nav active"><a href="#"><i>назад к шагу 4</i></a></div>
  				<div class="nav active"><span>шаг 5</span></div>
  				<div class="nav"><span>шаг 6</span></div>
  				<div class="nav"><span>шаг 7</span></div>
@@ -165,7 +175,7 @@
  					<div class="nav active"><span>шаг 2</span></div>
  					<div class="nav active"><span>шаг 3</span></div>
  					<div class="nav active"><span>шаг 4</span></div>
- 					<div class="nav active"><a href="#">< <i>назад к шагу 5</i></a></div>
+ 					<div class="nav active"><a href="#"><i>назад к шагу 5</i></a></div>
  					<div class="nav active"><span>шаг 6</span></div>
  					<div class="nav"><span>шаг 7</span></div>
  				</div>
@@ -215,7 +225,7 @@
  					<div class="nav active"><span>шаг 3</span></div>
  					<div class="nav active"><span>шаг 4</span></div>
  					<div class="nav active"><span>шаг 5</span></div>
- 					<div class="nav active"><a href="#">< <i>назад к шагу 6</i></a></div>
+ 					<div class="nav active"><a href="#"><i>назад к шагу 6</i></a></div>
  					<div class="nav active"><span>шаг 7</span></div>
  				</div>
  				<div class=" container">
@@ -290,7 +300,7 @@
  					<div class="nav active"><span>шаг 3</span></div>
  					<div class="nav active"><span>шаг 4</span></div>
  					<div class="nav active"><span>шаг 5</span></div>
- 					<div class="nav active"><a href="#">< <i>назад к шагу 6</i></a></div>
+ 					<div class="nav active"><a href="#"><i>назад к шагу 6</i></a></div>
  					<div class="nav active"><span>шаг 7</span></div>
  				</div>
  				<div class=" container">
@@ -396,7 +406,7 @@
  													</div>
  												</div>
  												<div class="end__pay clearfix">
- 													<input class="button-1 dd-submit ripplelink yandex" type="submit" value="Оплатить online" placeholder="">
+ 													<input class="button-1 dd-submit ripplelink yandex" type="submit" value="Оплатить online">
  													<div class="img-wrap">
  														<img src="img/end-img.jpg" alt="">
  													</div>
@@ -623,7 +633,7 @@
  							</div>
  						</div>
  						<div class="end__pay clearfix">
- 							<input class="button-1 dd-submit ripplelink yandex" type="submit" value="Оплатить online" placeholder="">
+ 							<input class="button-1 dd-submit ripplelink yandex" type="submit" value="Оплатить online">
  							<div class="img-wrap">
  								<img src="img/order-variant.jpg" alt="">
  							</div>
