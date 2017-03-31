@@ -264,7 +264,7 @@
  													<input class="dd-input phone phonetosend" name="phone" type="tel" value="" placeholder="Введите ваш телефон" required>		
  												</div>
  												<div class="input-block input-block--half">
- 													<input class="button-1 dd-submit ripplelink" type="submit" value="Заказать по телефону" placeholder="">
+ 													<input class="button-1 dd-submit ripplelink" onclick="ga ('send', 'event', 'form', 'oplata_online'); yaCounter38724665.reachGoal('oplata_online');roistatGoal.reach()" type="submit" value="Заказать по телефону" placeholder="">
  												</div>
 
  												<input type="hidden" name="cel" class="jsceljizni">	
@@ -281,7 +281,7 @@
  												<div class="input-block input-block--half">
 
 
- 													<button  class="ripplelink dd-submit ripplelink" type="button" id="jsonline" > Заказать онлайн</button>
+ 													<button  class="ripplelink dd-submit ripplelink" onclick="ga ('send', 'event', 'form', 'zakaz_online'); yaCounter38724665.reachGoal('zakaz_online');roistatGoal.reach()" type="button" id="jsonline" > Заказать онлайн</button>
  												</div>
  											</form>	
  										</div>
@@ -406,7 +406,7 @@
  													</div>
  												</div>
  												<div class="end__pay clearfix">
- 													<input class="button-1 dd-submit ripplelink yandex" type="submit" value="Оплатить online">
+ 													<input class="button-1 dd-submit ripplelink yandex" onclick="ga ('send', 'event', 'form', 'oplata_online'); yaCounter38724665.reachGoal('oplata_online');roistatGoal.reach()" type="submit" value="Оплатить online">
  													<div class="img-wrap">
  														<img src="img/end-img.jpg" alt="">
  													</div>
@@ -523,7 +523,7 @@
  						<div class="input-wrap">
  							<input type="tel" placeholder="Введите Ваш Телефон" class="phone phonetosendmob" name="phone"  required>
  						</div>
- 						<input class="button-1 dd-submit dd-submit-left ripplelink" type="submit" value="Заказать по телефону">
+ 						<input class="button-1 dd-submit dd-submit-left ripplelink" onclick="ga ('send', 'event', 'form', 'oplata_online'); yaCounter38724665.reachGoal('oplata_online');roistatGoal.reach()" type="submit" value="Заказать по телефону">
 
  						<input type="hidden" name="cel" class="jsceljiznimob"> 
  						<input type="hidden" name="kkalklient" class="jskkalklientmob"> 
@@ -535,7 +535,7 @@
  						<input type="hidden" name="source" class="source" value="<?php echo isset($_GET['utm_source']) ? $_GET['utm_source'] : '' ;?>" />
  						<input type="hidden" name="term" class="term" value="<?php echo isset($_GET['utm_term']) ? $_GET['utm_term'] : '' ;?>" />	
 
- 						<button  class="button-1 dd-submit ripplelink" type="button" id="jsnextmobwindow"> Заказать онлайн</button>
+ 						<button  class="button-1 dd-submit ripplelink" onclick="ga ('send', 'event', 'form', 'zakaz_online'); yaCounter38724665.reachGoal('zakaz_online');roistatGoal.reach()" type="button" id="jsnextmobwindow"> Заказать онлайн</button>
 
  					</form>
 
@@ -633,7 +633,7 @@
  							</div>
  						</div>
  						<div class="end__pay clearfix">
- 							<input class="button-1 dd-submit ripplelink yandex" type="submit" value="Оплатить online">
+ 							<input class="button-1 dd-submit ripplelink yandex" onclick="ga ('send', 'event', 'form', 'oplata_online'); yaCounter38724665.reachGoal('oplata_online');roistatGoal.reach()" type="submit" value="Оплатить online">
  							<div class="img-wrap">
  								<img src="img/order-variant.jpg" alt="">
  							</div>
