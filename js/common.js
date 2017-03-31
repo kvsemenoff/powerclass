@@ -243,22 +243,22 @@ $(document).ready(function(){
            yaCounter38724665.reachGoal('t1700_online_oplata');
        }
    }
-        else if(target=='Спорт'){
-        ga ('send', 'event', 'popup', 't1400_phone');
-        yaCounter38724665.reachGoal('t1400_phone');
-        if($('#log-in-5').css('display')==='block'){
-           ga ('send', 'event', 'popup', 't2500_online_oplata');
-           yaCounter38724665.reachGoal('t2500_online_oplata');
-       }
+   else if(target=='Спорт'){
+    ga ('send', 'event', 'popup', 't1400_phone');
+    yaCounter38724665.reachGoal('t1400_phone');
+    if($('#log-in-5').css('display')==='block'){
+       ga ('send', 'event', 'popup', 't2500_online_oplata');
+       yaCounter38724665.reachGoal('t2500_online_oplata');
    }
-        else if(target=='Спорт Плюс'){
-        ga ('send', 'event', 'popup', 't1400_phone');
-        yaCounter38724665.reachGoal('t1400_phone');
-        if($('#log-in-5').css('display')==='block'){
-           ga ('send', 'event', 'popup', 't3500_online_oplata');
-           yaCounter38724665.reachGoal('t3500_online_oplata');
-       }
+}
+else if(target=='Спорт Плюс'){
+    ga ('send', 'event', 'popup', 't1400_phone');
+    yaCounter38724665.reachGoal('t1400_phone');
+    if($('#log-in-5').css('display')==='block'){
+       ga ('send', 'event', 'popup', 't3500_online_oplata');
+       yaCounter38724665.reachGoal('t3500_online_oplata');
    }
+}
 
         /////////////////////////////////////////////////
         
@@ -392,6 +392,8 @@ $(document).ready(function(){
         var selected = $('.jsdayselected select option:selected').text();
         $('.jsdaydostavki').val(selected);
 
+
+
         var jstimeselected = $('.jstimeselected select option:selected').text();
         $('.jstimedostavki').val(jstimeselected);
     }else{
@@ -402,29 +404,51 @@ $(document).ready(function(){
         $('.jstimedostavki').val(jstimeselected);
     }
 
+                // Цели выбор дня недели ....................
 
-    if(phone.val() == ""){
-        phone.focus();
-        return false;
-    }
+                var target = $('.tarif_name_hide').val();
+                if(target=='Фит'){
+                    ga ('send', 'event', 'popup', 't1400_phone');
+                    yaCounter38724665.reachGoal('t1400_phone');
+                }
+                else if(target=='Фит Плюс'){
+                    ga ('send', 'event', 'popup', 't1700_phone');
+                    yaCounter38724665.reachGoal('t1700_phone');
+                }
+                else if(target=='Спорт'){
+                    ga ('send', 'event', 'popup', 't2500_phone');
+                    yaCounter38724665.reachGoal('t2500_phone');
+                }
+                else if(target=='Спорт Плюс'){
+                    ga ('send', 'event', 'popup', 't3500_phone');
+                    yaCounter38724665.reachGoal('t3500_phone');
+                }
 
-    else{
-        $(".form-collback").validate(); 
-        var form_data = $(this).serialize(); 
-        $.ajax({
-            type: "POST", 
-            url: "/sendmessage.php", 
-            data: form_data,
-            success: function() {
-                cleanTnanks(this);
-            }
-        });
-    }
-    yaCounter38724665.reachGoal ('g1'); 
-    ga('send', 'event', 'Form', 'SendForm');
-    return false;
+                //////////////////////////////////////////////////
 
-});
+
+                if(phone.val() == ""){
+                    phone.focus();
+                    return false;
+                }
+
+                else{
+                    $(".form-collback").validate(); 
+                    var form_data = $(this).serialize(); 
+                    $.ajax({
+                        type: "POST", 
+                        url: "/sendmessage.php", 
+                        data: form_data,
+                        success: function() {
+                            cleanTnanks(this);
+                        }
+                    });
+                }
+                yaCounter38724665.reachGoal ('g1'); 
+                ga('send', 'event', 'Form', 'SendForm');
+                return false;
+
+            });
 
   function cleanTnanks(form){
     $('.js-window').hide();
@@ -445,7 +469,48 @@ $(document).ready(function(){
         $('.jskkalpop').val(txtdaykkal);
 
         var txtdaytarif = $('.jsweakactive').text();//день недели
-        $('.dd-grey-txt_2 i').text(txtdaytarif);    
+        $('.dd-grey-txt_2 i').text(txtdaytarif);   
+
+             // Цели выбор дня недели ....................
+
+
+             if(txtdaytarif == 'Понедельник'){
+                ga ('send', 'event', 'popup', 'menu_monday');
+                yaCounter38724665.reachGoal('menu_monday');
+                roistatGoal.reach()
+            }
+            else if(target=='Воскресенье'){
+                ga ('send', 'event', 'popup', 'menu_sunday');
+                yaCounter38724665.reachGoal('menu_sunday');
+                roistatGoal.reach()
+            }
+            else if(target=='Вторник'){
+                ga ('send', 'event', 'popup', 'menu_tuesday');
+                yaCounter38724665.reachGoal('menu_tuesday');
+                roistatGoal.reach()
+            }
+            else if(target=='Среда'){
+                ga ('send', 'event', 'popup', 'menu_wednesday');
+                yaCounter38724665.reachGoal('menu_wednesday');
+                roistatGoal.reach()
+            }
+            else if(target=='Четверг'){
+                ga ('send', 'event', 'popup', 'menu_thursday');
+                yaCounter38724665.reachGoal('menu_thursday');
+                roistatGoal.reach()
+            }
+            else if(target=='Пятница'){
+                ga ('send', 'event', 'popup', 'menu_friday');
+                yaCounter38724665.reachGoal('menu_friday');
+                roistatGoal.reach()
+            }
+            else if(target=='Суббота'){
+                ga ('send', 'event', 'popup', 'menu_saturday');
+                yaCounter38724665.reachGoal('menu_saturday');
+                roistatGoal.reach()
+            }
+
+        ////////////////////////////////////////////////// 
         
         //  $('.jsdayweekpop').val(txtdaytarif);
         
@@ -470,6 +535,47 @@ $(document).ready(function(){
                 var txtdaytarifmob = $('.jsmobactive').attr('dayweek');     
                 $('.dd-grey-txt_2 i').text(txtdaytarifmob);
         // $('.jsdayweekpop').val(txtdaytarifmob);
+
+          // Цели выбор дня недели ....................
+
+
+             if(txtdaytarifmob == 'Понедельник'){
+                ga ('send', 'event', 'popup', 'menu_monday');
+                yaCounter38724665.reachGoal('menu_monday');
+                roistatGoal.reach()
+            }
+            else if(target=='Воскресенье'){
+                ga ('send', 'event', 'popup', 'menu_sunday');
+                yaCounter38724665.reachGoal('menu_sunday');
+                roistatGoal.reach()
+            }
+            else if(target=='Вторник'){
+                ga ('send', 'event', 'popup', 'menu_tuesday');
+                yaCounter38724665.reachGoal('menu_tuesday');
+                roistatGoal.reach()
+            }
+            else if(target=='Среда'){
+                ga ('send', 'event', 'popup', 'menu_wednesday');
+                yaCounter38724665.reachGoal('menu_wednesday');
+                roistatGoal.reach()
+            }
+            else if(target=='Четверг'){
+                ga ('send', 'event', 'popup', 'menu_thursday');
+                yaCounter38724665.reachGoal('menu_thursday');
+                roistatGoal.reach()
+            }
+            else if(target=='Пятница'){
+                ga ('send', 'event', 'popup', 'menu_friday');
+                yaCounter38724665.reachGoal('menu_friday');
+                roistatGoal.reach()
+            }
+            else if(target=='Суббота'){
+                ga ('send', 'event', 'popup', 'menu_saturday');
+                yaCounter38724665.reachGoal('menu_saturday');
+                roistatGoal.reach()
+            }
+
+        ////////////////////////////////////////////////// 
 
         var js5daysmob = $('.df5active').text(); //количество приемов 
         var js3daysmob = $('.df3active').text();
