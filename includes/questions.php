@@ -13,7 +13,7 @@
 							
 
 							<span class="ripplelink forinputripple">
-								<input class="button-1 dd-submit" onclick="ga ('send', 'event', 'popup', 'obratny_zvonok_niz'); yaCounter38724665.reachGoal('obratny_zvonok_niz');" type="submit" value="Перезвоните мне" placeholder="">
+								<input class="button-1 dd-submit" onclick="ga ('send', 'event', 'popup', 'obratny_zvonok_niz'); yaCounter38724665.reachGoal('obratny_zvonok_niz');roistatGoal.reach(is_need_callback: '1')" type="submit" value="Перезвоните мне" placeholder="">
 							</span>						
 
 							<input type="hidden" name="theme" value="Остались вопросы">
@@ -126,7 +126,7 @@
 							</div>
 							<input class="dd-input dd-input_pop unamejs" type="text" name="uname" placeholder="Введите ваше имя" required>
 							<input class="dd-input dd-input_pop phone phonejs" name="phone" type="tel" placeholder="Введите ваш телефон" required>
-							<input class="button-1 ripplelink dd-submit ripplelink" type="submit" name="submit" value="оформить по телефону">
+							<input class="button-1 ripplelink dd-submit ripplelink" onclick="roistatGoal.reach()" type="submit" name="submit" value="оформить по телефону">
 
 							<!-- Hidden -->
 							<input class="tarif_name_hide" name="tarif" type="hidden" value="empty">
@@ -197,7 +197,7 @@
 							<div class="clearfix"></div>
 							<input class="dd-input dd-input_pop" type="text" name="uname" placeholder="Введите ваше имя" required>
 							<input class="dd-input dd-input_pop phone" name="phone" type="tel" placeholder="Введите ваш телефон" required >
-							<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="Заказать питание">
+							<input class="button-1 dd-submit ripplelink" onclick="ga ('send', 'event', 'form', 'probnik'); yaCounter38724665.reachGoal('probnik');roistatGoal.reach()" type="submit" name="submit" value="Заказать питание">
 
 							<input type="hidden" class="jsnametarifpop" name="tarif">
 							<input type="hidden" class="jskkalpop" name="tarif_kalory">
@@ -390,7 +390,7 @@
 							<div class="clearfix"></div>
 
 							<div class="dd-select-but">
-								<input class="button-1 dd-submit ripplelink" type="submit" name="submit" value="Оплатить онлайн">
+								<input class="button-1 dd-submit ripplelink" onclick="roistatGoal.reach()" type="submit" name="submit" value="Оплатить онлайн">
 							</div>
 
 							<div class="dd-dost">
