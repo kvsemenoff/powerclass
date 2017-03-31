@@ -29,6 +29,22 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-5SGBVVX');</script>
 	<!-- End Google Tag Manager -->
+	<script>
+		window.onRoistatModuleLoaded = function () {
+		var hours = new Date().getHours();
+		if (hours > 22 || hours < 10) {
+		roistat.leadHunter.onBeforeSubmit = function(lead) {
+		lead.isNeedCallback = 0;
+		};
+		roistat.leadHunter.form.title = "Ночная скидка 500 рублей на первый заказ!»;
+		roistat.leadHunter.form.subTitle = "Оставьте ваш телефон, и мы перезвоним завтра,
+		чтобы помочь вам выбрать тариф";
+		roistat.leadHunter.form.thankYouText = "Спасибо за обращение. Мы работаем с 10ч до
+		22ч МСК. Питайтесь правильно вместе с PowerClass";
+		roistat.leadHunter.form.buttonText = "Получить скидку";
+		}
+		};
+	</script>
 </head>
 <body>
 	<!-- Google Tag Manager (noscript) -->
