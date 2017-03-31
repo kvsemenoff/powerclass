@@ -3516,7 +3516,7 @@
 						<div class="dfmenudateweak">
 							<a href="#" class="dfmenuprev"></a>
 							<ul>
-								<li class="dfdaysmenu first"><a href="#" class="dfoneclass jsweakactive">Понедельник  </a></li>
+								<li class="dfdaysmenu first"><a href="#" class="dfoneclass jsweakactive">Понедельник</a></li>
 								<li class="dfdaysmenu"><a href="#" class="dfoneclass">Вторник</a></li>
 								<li class="dfdaysmenu"><a href="#" class="dfoneclass">Среда</a></li>
 								<li class="dfdaysmenu"><a href="#" class="dfoneclass">Четверг</a></li>
