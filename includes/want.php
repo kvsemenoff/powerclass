@@ -16,7 +16,7 @@
 							</div>	
 
 							<span class="ripplelink forinputripple">
-								<input class="button-1 dd-submit" onclick="ga ('send', 'event', 'form', 'probnik'); yaCounter38724665.reachGoal('probnik');" type="submit" value="ХОЧУ ПОПРОБОВАТЬ" placeholder="">
+								<input class="button-1 dd-submit" onclick="ga ('send', 'event', 'form', 'probnik'); yaCounter38724665.reachGoal('probnik');roistatGoal.reach()" type="submit" value="ХОЧУ ПОПРОБОВАТЬ" placeholder="">
 							</span>
 							
 							<input type="hidden" name="theme" value="Не хотите заказывать сразу на неделю">
