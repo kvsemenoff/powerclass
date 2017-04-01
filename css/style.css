@@ -1923,7 +1923,8 @@ div[data-val]:hover {
       border-bottom: 1px dashed #fff; }
     .tab span:hover {
       color: #ffe76b;
-      border-color: #ffe76b; }
+      border-color: #ffe76b;
+      opacity: 1; }
       .tab span:hover b {
         border-bottom: 1px dashed transparent; }
   .tab i {
