@@ -403,7 +403,7 @@ else if(target=='Спорт Плюс'){
         $('.jstimedostavki').val(jstimeselected);
     }
 
-                // Цели выбор дня недели ....................
+                // Цели  ....................
 
                 var target = $('.tarif_name_hide').val();
                 if(target=='Фит'){

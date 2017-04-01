@@ -264,7 +264,7 @@
  													<input class="dd-input phone phonetosend" name="phone" type="tel" value="" placeholder="Введите ваш телефон" required>		
  												</div>
  												<div class="input-block input-block--half">
- 													<input class="button-1 dd-submit ripplelink" onclick="ga ('send', 'event', 'form', 'oplata_online'); yaCounter38724665.reachGoal('oplata_online');roistatGoal.reach()" type="submit" value="Заказать по телефону" placeholder="">
+ 													<input class="button-1 dd-submit ripplelink" onclick="ga ('send', 'event', 'form', 'calc_phone'); yaCounter38724665.reachGoal('calc_phone');roistatGoal.reach()" type="submit" value="Заказать по телефону" placeholder="">
  												</div>
 
  												<input type="hidden" name="cel" class="jsceljizni">	
@@ -523,7 +523,7 @@
  						<div class="input-wrap">
  							<input type="tel" placeholder="Введите Ваш Телефон" class="phone phonetosendmob" name="phone"  required>
  						</div>
- 						<input class="button-1 dd-submit dd-submit-left ripplelink" onclick="ga ('send', 'event', 'form', 'oplata_online'); yaCounter38724665.reachGoal('oplata_online');roistatGoal.reach()" type="submit" value="Заказать по телефону">
+ 						<input class="button-1 dd-submit dd-submit-left ripplelink" onclick="ga ('send', 'event', 'form', 'calc_phone'); yaCounter38724665.reachGoal('calc_phone');roistatGoal.reach()" type="submit" value="Заказать по телефону">
 
  						<input type="hidden" name="cel" class="jsceljiznimob"> 
  						<input type="hidden" name="kkalklient" class="jskkalklientmob"> 

@@ -13,7 +13,7 @@
 							
 
 							<span class="ripplelink forinputripple">
-								<input class="button-1 dd-submit" onclick="ga ('send', 'event', 'popup', 'obratny_zvonok_niz'); yaCounter38724665.reachGoal('obratny_zvonok_niz');roistatGoal.reach(is_need_callback: '1')" type="submit" value="Перезвоните мне" placeholder="">
+								<input class="button-1 dd-submit" onclick="ga ('send', 'event', 'popup', 'ostalis_voprosy'); yaCounter38724665.reachGoal('ostalis_voprosy');roistatGoal.reach(is_need_callback: '1')" type="submit" value="Перезвоните мне" placeholder="">
 							</span>						
 
 							<input type="hidden" name="theme" value="Остались вопросы">
