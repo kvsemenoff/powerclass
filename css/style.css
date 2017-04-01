@@ -1917,7 +1917,8 @@ div[data-val]:hover {
     width: 100%;
     line-height: 55px;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    opacity: 0.5; }
     .tab span b {
       border-bottom: 1px dashed #fff; }
     .tab span:hover {
@@ -1940,7 +1941,8 @@ div[data-val]:hover {
     display: block; }
   .tab.active span {
     color: #ffe76b;
-    border-color: #ffe76b; }
+    border-color: #ffe76b;
+    opacity: 1; }
     .tab.active span b {
       border: none; }
 
