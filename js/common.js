@@ -12,12 +12,9 @@ $(document).ready(function(){
         }, 500);
     });
 
-
     $('.checkbox-js').click(function(){
         $('.dd-txt-radio-js').toggleClass('activeRed');
     });
-
-
 
     $('.dd-dost_span').hover(function(){
         $('.dd-podskazka').css('display' , 'block');
@@ -166,10 +163,136 @@ $(document).ready(function(){
     });
 
     $(".phone").mask("+7(999)999-99-99?"); 
-    //маска для телефона в самом низу
-    
-    
+ 
+     ////////////////////////////////
 
+//отправка на попап и на почту(menuphp)
+
+    $('.jsdflink').on('click', function(){
+        var txttarif = $('.dfactivelinkdesk a em').text();  //название тарифа   
+        $('.dd-bold-title_pop b').text(txttarif);       
+        $('.jsnametarifpop').val(txttarif);
+
+        var txtdaykkal = $('.dfactivelinkdesk').next('.jskaldaypopup').text();//ккал в тарифе
+        $('.dd-bold-title_pop b').next('span').text(txtdaykkal);
+        $('.jskkalpop').val(txtdaykkal);
+
+        var txtdaytarif = $('.jsweakactive').text();//день недели
+        $('.dd-grey-txt_2 i').text(txtdaytarif);   
+
+             // Цели выбор дня недели ....................
+
+        if(txtdaytarif == 'Понедельник'){
+            ga ('send', 'event', 'popup', 'menu_monday');
+            yaCounter38724665.reachGoal('menu_monday');
+            roistatGoal.reach();
+        }
+        else if(txtdaytarif=='Воскресенье'){
+            ga ('send', 'event', 'popup', 'menu_sunday');
+            yaCounter38724665.reachGoal('menu_sunday');
+            roistatGoal.reach();
+        }
+        else if(txtdaytarif=='Вторник'){
+            ga ('send', 'event', 'popup', 'menu_tuesday');
+            yaCounter38724665.reachGoal('menu_tuesday');
+            roistatGoal.reach();
+        }
+        else if(txtdaytarif=='Среда'){
+            ga ('send', 'event', 'popup', 'menu_wednesday');
+            yaCounter38724665.reachGoal('menu_wednesday');
+            roistatGoal.reach();
+        }
+        else if(txtdaytarif=='Четверг'){
+            ga ('send', 'event', 'popup', 'menu_thursday');
+            yaCounter38724665.reachGoal('menu_thursday');
+            roistatGoal.reach();
+        }
+        else if(txtdaytarif=='Пятница'){
+            ga ('send', 'event', 'popup', 'menu_friday');
+            yaCounter38724665.reachGoal('menu_friday');
+            roistatGoal.reach();
+        }
+        else if(txtdaytarif=='Суббота'){
+            ga ('send', 'event', 'popup', 'menu_saturday');
+            yaCounter38724665.reachGoal('menu_saturday');
+            roistatGoal.reach();
+        }
+
+        //////////////////////////////////////////////////
+        
+        //  $('.jsdayweekpop').val(txtdaytarif);      
+        
+        var js5days = $('.df5priemactive i').text(); //количество приемов 
+        var js3days = $('.df3priemactive i').text();
+        $('.js5days').val(js5days);
+        $('.js3days').val(js3days);     
+    });
+
+ ///////////////////////mob version
+        
+
+    $('.jsdflinkmob').on('click', function(){       
+        var txttarifmob = $('.dfactivelinkmob a').attr('tarif');        
+        $('.dd-bold-title_pop b').text(txttarifmob);
+        $('.jsnametarifpop').val(txttarifmob);
+
+        var txtdaykkal = $('.dfactivelinkmob a').text();    
+        $('.dd-bold-title_pop b').next('span').text(txtdaykkal);
+        $('.jskkalpop').val(txtdaykkal);
+
+        var txtdaytarifmob = $('.jsmobactive').attr('dayweek');     
+        $('.dd-grey-txt_2 i').text(txtdaytarifmob);       
+
+          // Цели выбор дня недели ....................
+
+        if(txtdaytarifmob == 'Понедельник'){
+            ga ('send', 'event', 'popup', 'menu_monday');
+            yaCounter38724665.reachGoal('menu_monday');
+            roistatGoal.reach();
+        }
+        else if(txtdaytarifmob=='Воскресенье'){
+            ga ('send', 'event', 'popup', 'menu_sunday');
+            yaCounter38724665.reachGoal('menu_sunday');
+            roistatGoal.reach();           
+        }
+        else if(txtdaytarifmob=='Вторник'){
+            ga ('send', 'event', 'popup', 'menu_tuesday');
+            yaCounter38724665.reachGoal('menu_tuesday');
+            roistatGoal.reach();
+        }
+        else if(txtdaytarifmob=='Среда'){
+            ga ('send', 'event', 'popup', 'menu_wednesday');
+            yaCounter38724665.reachGoal('menu_wednesday');
+            roistatGoal.reach();
+        }
+        else if(txtdaytarifmob=='Четверг'){
+            ga ('send', 'event', 'popup', 'menu_thursday');
+            yaCounter38724665.reachGoal('menu_thursday');
+            roistatGoal.reach();
+        }
+        else if(txtdaytarifmob=='Пятница'){
+            ga ('send', 'event', 'popup', 'menu_friday');
+            yaCounter38724665.reachGoal('menu_friday');
+            roistatGoal.reach();
+        }
+        else if(txtdaytarifmob=='Суббота'){
+            ga ('send', 'event', 'popup', 'menu_saturday');
+            yaCounter38724665.reachGoal('menu_saturday');
+            roistatGoal.reach();
+        }
+
+        ////////////////////////////////////////////////// 
+
+        var js5daysmob = $('.df5active').text(); //количество приемов 
+        var js3daysmob = $('.df3active').text();
+        $('.js5days').val(js5daysmob);
+        $('.js3days').val(js3daysmob);  
+    }); 
+
+
+//////////////////////////end mob
+    
+//отправка на попап и на почту(menuphp)=====конец
 
     
     $(".form1").submit(function() { 
@@ -190,24 +313,15 @@ $(document).ready(function(){
             tel.focus();
         }else{
             $("#formvalid").validate(); 
-            var form_data = $(this).serialize(); 
-            $.ajax({
-                type: "POST", 
-                url: "/sendmessage.php", 
-                data: form_data,
-                success: function() {
-                    cleanTnanks(this);
-                }
-            });
 
-        }
 
-        // Цели заказ по телефону    ...................
+                    // Цели заказ по телефону    ...................
 
         var target = $('.tarif_name_hide').val();
         if(target=='Фит'){
             ga ('send', 'event', 'popup', 't1400_phone');
             yaCounter38724665.reachGoal('t1400_phone');
+            alert(1);
         }
         else if(target=='Фит Плюс'){
             ga ('send', 'event', 'popup', 't1700_phone');
@@ -226,40 +340,49 @@ $(document).ready(function(){
 
         // Цели онлайн оплата   .........................
 
-        if(target=='Фит'){
-            ga ('send', 'event', 'popup', 't1400_phone');
-            yaCounter38724665.reachGoal('t1400_phone');
+        if(target=='Фит'){           
             if($('#log-in-5').css('display')==='block'){
-             ga ('send', 'event', 'popup', 't1400_online_oplata');
-             yaCounter38724665.reachGoal('t1400_online_oplata');
-         }
-     }
-     else if(target=='Фит Плюс'){
-        ga ('send', 'event', 'popup', 't1400_phone');
-        yaCounter38724665.reachGoal('t1400_phone');
-        if($('#log-in-5').css('display')==='block'){
-           ga ('send', 'event', 'popup', 't1700_online_oplata');
-           yaCounter38724665.reachGoal('t1700_online_oplata');
-       }
-   }
-   else if(target=='Спорт'){
-    ga ('send', 'event', 'popup', 't1400_phone');
-    yaCounter38724665.reachGoal('t1400_phone');
-    if($('#log-in-5').css('display')==='block'){
-       ga ('send', 'event', 'popup', 't2500_online_oplata');
-       yaCounter38724665.reachGoal('t2500_online_oplata');
-   }
-}
-else if(target=='Спорт Плюс'){
-    ga ('send', 'event', 'popup', 't1400_phone');
-    yaCounter38724665.reachGoal('t1400_phone');
-    if($('#log-in-5').css('display')==='block'){
-       ga ('send', 'event', 'popup', 't3500_online_oplata');
-       yaCounter38724665.reachGoal('t3500_online_oplata');
-   }
-}
+                ga ('send', 'event', 'popup', 't1400_online_oplata');
+                yaCounter38724665.reachGoal('t1400_online_oplata');
+            }
+        }
+        else if(target=='Фит Плюс'){     
+            if($('#log-in-5').css('display')==='block'){
+               ga ('send', 'event', 'popup', 't1700_online_oplata');
+               yaCounter38724665.reachGoal('t1700_online_oplata');
+            }
+        }
+        else if(target=='Спорт'){   
+            if($('#log-in-5').css('display')==='block'){
+                ga ('send', 'event', 'popup', 't2500_online_oplata');
+                yaCounter38724665.reachGoal('t2500_online_oplata');
+            }
+        }
+        else if(target=='Спорт Плюс'){  
+            if($('#log-in-5').css('display')==='block'){
+               ga ('send', 'event', 'popup', 't3500_online_oplata');
+               yaCounter38724665.reachGoal('t3500_online_oplata');              
+            }
+        }
 
-        /////////////////////////////////////////////////
+        /////////////////////////////////////////////////    
+
+
+
+
+            var form_data = $(this).serialize(); 
+            $.ajax({
+                type: "POST", 
+                url: "/sendmessage.php", 
+                data: form_data,
+                success: function() {
+                    cleanTnanks(this);
+                }
+            });
+
+        }
+
+
         
         return false;
     });
@@ -290,23 +413,6 @@ else if(target=='Спорт Плюс'){
                 $('.disabledinputjs').removeClass('disabledinputjs');
                 $('.online-replace').attr('name', 'modal');
 
-                function send_form(form_id) {
-                    var form = $('#'+form_id);
-                    var msg   = form.serialize();
-                    $.ajax({
-                        type: 'POST',
-                        url: "/sendmessage.php", 
-                        data: msg,
-                        success: function(data) {              
-                        },
-                        error:  function(){             
-                        }
-                    });
-                }send_form('dd-first-messege');
-
-                $('#log-in-2').hide();
-                $('#log-in-5').show();
-
                 // Цели кнопка перехода к онлайн оплате ....................
 
                 var target = $('.tarif_name_hide').val();
@@ -328,6 +434,25 @@ else if(target=='Спорт Плюс'){
                 }
 
                 //////////////////////////////////////////////////
+
+                function send_form(form_id) {
+                    var form = $('#'+form_id);
+                    var msg   = form.serialize();
+                    $.ajax({
+                        type: 'POST',
+                        url: "/sendmessage.php", 
+                        data: msg,
+                        success: function(data) {              
+                        },
+                        error:  function(){             
+                        }
+                    });
+                }send_form('dd-first-messege');
+
+                $('#log-in-2').hide();
+                $('#log-in-5').show();
+
+                
 
                 return true;
             }
@@ -369,6 +494,11 @@ else if(target=='Спорт Плюс'){
   });
 
 
+ 
+
+
+///////////////////submit for shtrafphp
+
   $('.jssubmit').submit(function(){
     var phone = $(this).find('input[name="phone"]');
 
@@ -391,8 +521,6 @@ else if(target=='Спорт Плюс'){
         var selected = $('.jsdayselected select option:selected').text();
         $('.jsdaydostavki').val(selected);
 
-
-
         var jstimeselected = $('.jstimeselected select option:selected').text();
         $('.jstimedostavki').val(jstimeselected);
     }else{
@@ -402,29 +530,6 @@ else if(target=='Спорт Плюс'){
         var jstimeselected = $('.jstimeselectedmob select option:selected').text();
         $('.jstimedostavki').val(jstimeselected);
     }
-
-                // Цели  ....................
-
-                var target = $('.tarif_name_hide').val();
-                if(target=='Фит'){
-                    ga ('send', 'event', 'popup', 't1400_phone');
-                    yaCounter38724665.reachGoal('t1400_phone');
-                }
-                else if(target=='Фит Плюс'){
-                    ga ('send', 'event', 'popup', 't1700_phone');
-                    yaCounter38724665.reachGoal('t1700_phone');
-                }
-                else if(target=='Спорт'){
-                    ga ('send', 'event', 'popup', 't2500_phone');
-                    yaCounter38724665.reachGoal('t2500_phone');
-                }
-                else if(target=='Спорт Плюс'){
-                    ga ('send', 'event', 'popup', 't3500_phone');
-                    yaCounter38724665.reachGoal('t3500_phone');
-                }
-
-                //////////////////////////////////////////////////
-
 
                 if(phone.val() == ""){
                     phone.focus();
@@ -443,227 +548,91 @@ else if(target=='Спорт Плюс'){
                         }
                     });
                 }
-                yaCounter38724665.reachGoal ('g1'); 
-                ga('send', 'event', 'Form', 'SendForm');
+               
                 return false;
 
             });
 
-  function cleanTnanks(form){
-    $('.js-window').hide();
-                // $('a[href=#thanks]').trigger('click');
+            function cleanTnanks(form){
+                $('.js-window').hide();               
                 location = "spasibo.php";
             };
-  ////////////////////////////////
-
-               //отправка на попап и на почту
-
-               $('.jsdflink').on('click', function(){
-        var txttarif = $('.dfactivelinkdesk a em').text();  //название тарифа   
-        $('.dd-bold-title_pop b').text(txttarif);       
-        $('.jsnametarifpop').val(txttarif);
-
-        var txtdaykkal = $('.dfactivelinkdesk').next('.jskaldaypopup').text();//ккал в тарифе
-        $('.dd-bold-title_pop b').next('span').text(txtdaykkal);
-        $('.jskkalpop').val(txtdaykkal);
-
-        var txtdaytarif = $('.jsweakactive').text();//день недели
-        $('.dd-grey-txt_2 i').text(txtdaytarif);   
-
-             // Цели выбор дня недели ....................
 
 
-             if(txtdaytarif == 'Понедельник'){
-                ga ('send', 'event', 'popup', 'menu_monday');
-                yaCounter38724665.reachGoal('menu_monday');
-                roistatGoal.reach()
-            }
-            else if(txtdaytarif=='Воскресенье'){
-                ga ('send', 'event', 'popup', 'menu_sunday');
-                yaCounter38724665.reachGoal('menu_sunday');
-                roistatGoal.reach()
-            }
-            else if(txtdaytarif=='Вторник'){
-                ga ('send', 'event', 'popup', 'menu_tuesday');
-                yaCounter38724665.reachGoal('menu_tuesday');
-                roistatGoal.reach()
-            }
-            else if(txtdaytarif=='Среда'){
-                ga ('send', 'event', 'popup', 'menu_wednesday');
-                yaCounter38724665.reachGoal('menu_wednesday');
-                roistatGoal.reach()
-            }
-            else if(txtdaytarif=='Четверг'){
-                ga ('send', 'event', 'popup', 'menu_thursday');
-                yaCounter38724665.reachGoal('menu_thursday');
-                roistatGoal.reach()
-            }
-            else if(txtdaytarif=='Пятница'){
-                ga ('send', 'event', 'popup', 'menu_friday');
-                yaCounter38724665.reachGoal('menu_friday');
-                roistatGoal.reach()
-            }
-            else if(txtdaytarif=='Суббота'){
-                ga ('send', 'event', 'popup', 'menu_saturday');
-                yaCounter38724665.reachGoal('menu_saturday');
-                roistatGoal.reach()
-            }
-
-        ////////////////////////////////////////////////// 
-        
-        //  $('.jsdayweekpop').val(txtdaytarif);
-        
-        
-        var js5days = $('.df5priemactive i').text(); //количество приемов 
-        var js3days = $('.df3priemactive i').text();
-        $('.js5days').val(js5days);
-        $('.js3days').val(js3days);     
-    });
+ //////////////////////////////////////////////////
 
 
-
-               $('.jsdflinkmob').on('click', function(){       
-                var txttarifmob = $('.dfactivelinkmob a').attr('tarif');        
-                $('.dd-bold-title_pop b').text(txttarifmob);
-                $('.jsnametarifpop').val(txttarifmob);
-
-                var txtdaykkal = $('.dfactivelinkmob a').text();    
-                $('.dd-bold-title_pop b').next('span').text(txtdaykkal);
-                $('.jskkalpop').val(txtdaykkal);
-
-                var txtdaytarifmob = $('.jsmobactive').attr('dayweek');     
-                $('.dd-grey-txt_2 i').text(txtdaytarifmob);
-        // $('.jsdayweekpop').val(txtdaytarifmob);
-
-          // Цели выбор дня недели ....................
-
-
-             if(txtdaytarifmob == 'Понедельник'){
-                ga ('send', 'event', 'popup', 'menu_monday');
-                yaCounter38724665.reachGoal('menu_monday');
-                roistatGoal.reach()
-            }
-            else if(txtdaytarifmob=='Воскресенье'){
-                ga ('send', 'event', 'popup', 'menu_sunday');
-                yaCounter38724665.reachGoal('menu_sunday');
-                roistatGoal.reach()
-            }
-            else if(txtdaytarifmob=='Вторник'){
-                ga ('send', 'event', 'popup', 'menu_tuesday');
-                yaCounter38724665.reachGoal('menu_tuesday');
-                roistatGoal.reach()
-            }
-            else if(txtdaytarifmob=='Среда'){
-                ga ('send', 'event', 'popup', 'menu_wednesday');
-                yaCounter38724665.reachGoal('menu_wednesday');
-                roistatGoal.reach()
-            }
-            else if(txtdaytarifmob=='Четверг'){
-                ga ('send', 'event', 'popup', 'menu_thursday');
-                yaCounter38724665.reachGoal('menu_thursday');
-                roistatGoal.reach()
-            }
-            else if(txtdaytarifmob=='Пятница'){
-                ga ('send', 'event', 'popup', 'menu_friday');
-                yaCounter38724665.reachGoal('menu_friday');
-                roistatGoal.reach()
-            }
-            else if(txtdaytarifmob=='Суббота'){
-                ga ('send', 'event', 'popup', 'menu_saturday');
-                yaCounter38724665.reachGoal('menu_saturday');
-                roistatGoal.reach()
-            }
-
-        ////////////////////////////////////////////////// 
-
-        var js5daysmob = $('.df5active').text(); //количество приемов 
-        var js3daysmob = $('.df3active').text();
-        $('.js5days').val(js5daysmob);
-        $('.js3days').val(js3daysmob);  
-    }); 
-
-
-////////////////////////////////////////////
-
-
-
-
-
-if(window.innerWidth <= 800) {
-    window.roistatLeadHunterInited = true;
-}
-   // $(".phone").mask("+7 (999) 999 - 99 - 99?");
+    if(window.innerWidth <= 800) {
+        window.roistatLeadHunterInited = true;
+    }  
 
    
    $('.db-menu a, .db-up_menu_menu a, .db-want, .db-podr, .db-tarif, .db-podr1, .db-tarif1').on("click", function(e){
-    e.preventDefault();
-    var $this = $(this), 
-    $href = $this.attr('href'),
-    $scrollTop = $($href).offset().top;
+        e.preventDefault();
+        var $this = $(this), 
+        $href = $this.attr('href'),
+        $scrollTop = $($href).offset().top;
 
-    $('html, body').animate({
+        $('html, body').animate({
+            scrollTop: $scrollTop
+        },1000);
+    });
 
-        scrollTop: $scrollTop
-    },
-    1000
-    );
-});
-
-   $('.db-burger').on("click", function(){
-    $('.db-up_menu_menu').slideToggle();
-});
+    $('.db-burger').on("click", function(){
+        $('.db-up_menu_menu').slideToggle();
+    });
    $('.az-select').each(function(){
-    var select = $(this);    
-    var option = select.find('select option');
-    var str = '<div class="az-options">';
-    select.find('option').each(function(){
-        str+= '<div data-val="' +$(this).val() + '">' + $(this).text() + '</div>'
-    });
-    str+= '</div>';
-    select.html(select.html() + str);
+        var select = $(this);    
+        var option = select.find('select option');
+        var str = '<div class="az-options">';
+        select.find('option').each(function(){
+            str+= '<div data-val="' +$(this).val() + '">' + $(this).text() + '</div>'
+        });
+        str+= '</div>';
+        select.html(select.html() + str);
 
-    select.find('select').mousedown(function(){
-        return false;
+        select.find('select').mousedown(function(){
+            return false;
+        });
+        select.mouseup(function(){
+            select.find('select').focus();
+        });
+        select.find('.az-options div[data-val]').click(function(){
+            select.find('select').val($(this).attr('data-val'));
+        });
+        select.find('select').focusout(function(){
+            if(!select.is(':hover')){
+                select.find('.az-options').slideUp(0);
+                select.removeClass('az-select-focus');
+            }
+        });
     });
-    select.mouseup(function(){
-        select.find('select').focus();
-    });
-    select.find('.az-options div[data-val]').click(function(){
-        select.find('select').val($(this).attr('data-val'));
-    });
-    select.find('select').focusout(function(){
-        if(!select.is(':hover')){
-            select.find('.az-options').slideUp(0);
-            select.removeClass('az-select-focus');
-        }
-    });
-});
 
-   $(".az-select").click(function(){
-    $(this).find('.az-options').slideToggle(0);
-    $(this).toggleClass('az-select-focus');
-});
+    $(".az-select").click(function(){
+        $(this).find('.az-options').slideToggle(0);
+        $(this).toggleClass('az-select-focus');
+    });
 
    $("#owl-slider").owlCarousel({
-    loop:true,
-    dots:true,
-    items:1,
-    mouseDrag:true,
-    touchDrag: true,
-    nav:true,
-    responsive:{
-      770:{
-        nav:false,
-        items:3
-    }
-}
-});
+        loop:true,
+        dots:true,
+        items:1,
+        mouseDrag:true,
+        touchDrag: true,
+        nav:true,
+            responsive:{
+              770:{
+                nav:false,
+                items:3
+            }
+        }
+    });
 
-   $('.tabs-content > .tab-content').each(function(index){
-    if (index != 0) {
+    $('.tabs-content > .tab-content').each(function(index){
+        if (index != 0) {
         $(this).css('display','none');
-    };
-});
+        };
+    });
 
    $('.tab').click(function(){
     $('.tab').removeClass('active');

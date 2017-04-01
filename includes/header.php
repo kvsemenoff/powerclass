@@ -36,11 +36,9 @@
 		roistat.leadHunter.onBeforeSubmit = function(lead) {
 		lead.isNeedCallback = 0;
 		};
-		roistat.leadHunter.form.title = "Ночная скидка 500 рублей на первый заказ!»;
-		roistat.leadHunter.form.subTitle = "Оставьте ваш телефон, и мы перезвоним завтра,
-		чтобы помочь вам выбрать тариф";
-		roistat.leadHunter.form.thankYouText = "Спасибо за обращение. Мы работаем с 10ч до
-		22ч МСК. Питайтесь правильно вместе с PowerClass";
+		roistat.leadHunter.form.title = "Ночная скидка 500 рублей на первый заказ!";
+		roistat.leadHunter.form.subTitle = "Оставьте ваш телефон, и мы перезвоним завтра,		чтобы помочь вам выбрать тариф";
+		roistat.leadHunter.form.thankYouText = "Спасибо за обращение. Мы работаем с 10ч до		22ч МСК. Питайтесь правильно вместе с PowerClass";
 		roistat.leadHunter.form.buttonText = "Получить скидку";
 		}
 		};
