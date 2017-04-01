@@ -530,7 +530,7 @@
 						</td>
 
 						<td>
-							<span class="dd-table-title dd-table-title_red">1300 <span>руб/день</span></span><br>
+							<span class="dd-table-title dd-table-title_red">1130 <span>руб/день</span></span><br>
 							<span class="dd-price_td">7 910 руб.</span>
 						</td>
 
@@ -727,7 +727,7 @@
 					<span class="dd-days">Пн - Вс</span><br>
 					<span class="dd-days_2"><b>3</b> из <b>5</b></span><br>
 					<span class="dd-table-title dd-table-title_red">1130 <span>руб/день</span></span><br>
-					<span class="dd-price_td">9 910 руб.</span>
+					<span class="dd-price_td">7 910 руб.</span>
 				</td>
 				
 			</tr>
