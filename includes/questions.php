@@ -515,23 +515,23 @@
 						</td>
 
 						<td>
-							<span class="dd-table-title dd-table-title_red">840 <span>руб/день</span></span><br>
-							<span class="dd-price_td">4 200 руб.</span>
+							<span class="dd-table-title dd-table-title_red">686 <span>руб/день</span></span><br>
+							<span class="dd-price_td">4 802 руб.</span>
 						</td>
 
 						<td>
-							<span class="dd-table-title dd-table-title_red">940 <span>руб/день</span></span><br>
-							<span class="dd-price_td">4 700 руб.</span>
+							<span class="dd-table-title dd-table-title_red">757 <span>руб/день</span></span><br>
+							<span class="dd-price_td">5 300 руб.</span>
 						</td>
 
 						<td>
-							<span class="dd-table-title dd-table-title_red">1170 <span>руб/день</span></span><br>
-							<span class="dd-price_td">5 850 руб.</span>
+							<span class="dd-table-title dd-table-title_red">915 <span>руб/день</span></span><br>
+							<span class="dd-price_td">6 405 руб.</span>
 						</td>
 
 						<td>
-							<span class="dd-table-title dd-table-title_red">1480 <span>руб/день</span></span><br>
-							<span class="dd-price_td">7 400 руб.</span>
+							<span class="dd-table-title dd-table-title_red">1300 <span>руб/день</span></span><br>
+							<span class="dd-price_td">7 910 руб.</span>
 						</td>
 
 					</tr>
