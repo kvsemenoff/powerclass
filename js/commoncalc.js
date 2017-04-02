@@ -611,6 +611,10 @@ $('.input-mini').keyup(function() {
 
 		if (!$('#jsrasschitat').hasClass('disabledjs') && !$('.f1').is(':selected')) {
 			$(this).parents('.jsmob').hide().next().show();
+
+			$('html, body').animate({
+		        scrollTop: $(".subtitle").offset().top - 0
+		    }, 500);
 		}
 	
 
@@ -660,10 +664,14 @@ $('.input-mini').keyup(function() {
 				});
 			}send_form('sendthisformmobile');
 			
-			$(this).parents('.jsmob').hide().next().show();
+			$(this).parents('.jsmob').hide().next().show();	
+			$('html, body').animate({
+		        scrollTop: $("#jsmobversion3").offset().top - 0
+		    }, 500);
 
 			return true;
 	      }
+	      	
 	});
 
 	

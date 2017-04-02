@@ -17,7 +17,6 @@
 	<script src="libs/validation/jquery.validate.min.js"></script>
 	
 	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/is.mobile.js"></script>
 
 	<script src="js/commonmenu.js"></script>
 	<script src="js/commoncalc.js"></script>
