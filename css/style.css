@@ -1933,7 +1933,7 @@ div[data-val]:hover {
     padding: 8px 0;
     font-size: 14px;
     font-weight: 300;
-    color: #fff; }
+    color: #909091; }
 
 .tab.active {
   background: url(../img/tab-bg.png) no-repeat;
