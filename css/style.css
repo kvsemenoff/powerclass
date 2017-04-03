@@ -1847,8 +1847,9 @@ div[data-val]:hover {
     font-size: 12px;
     font-weight: 900;
     height: 37px;
-    -webkit-appearance: none;
-    -moz-appearance: none; }
+    -webkit-appearance: menulist-button;
+    -moz-appearance: menulist-button;
+    appearance: menulist-button; }
   .shtraf-mini .input-mini {
     width: 85px;
     border: 2px solid #222;

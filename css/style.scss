@@ -2215,10 +2215,11 @@ div[data-val]:hover{
 		font-size: 12px;
 		font-weight: 900;
 		height: 37px;
-		// -webkit-appearance: menulist-button;
-		// -moz-appearance: menulist-button;
-		-webkit-appearance: none;
-		-moz-appearance: none;
+		-webkit-appearance: menulist-button;
+		-moz-appearance: menulist-button;
+		 appearance: menulist-button;
+		// -webkit-appearance: none;
+		// -moz-appearance: none;
 	}
 	.input-mini{
 		width: 85px;

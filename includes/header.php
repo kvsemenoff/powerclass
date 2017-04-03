@@ -2,15 +2,10 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-<!-- 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name=”viewport” content=”user-scalable=no” /> -->
 	<meta name="description" content="Уникальный сервис 5-разового правильного питания для мужчин и женщин с бесплатной доставкой по Москве" /> 
 	<meta name="keywords" content="powerclass, доставка питания, доставка здоровой еды, готовое питание, 5-ти разовое питание" />
-
-	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">	
 	<title>PowerClass | Правильное питание на неделю с доставкой по Москве</title>
-
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
